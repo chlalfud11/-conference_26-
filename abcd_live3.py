@@ -67,6 +67,15 @@ def impostor(record):
     return sum(1 for r in rows if meta["customer"] in r and not any(o in r for o in own))
 
 
+NAME = re.compile(r"\| ([A-Z][a-z]+ [A-Z][a-z]+) \(([^)]+)\) \|")
+
+
+def same_name_rows(record):
+    """Retrieved rows with the customer's name but a different account (name-only exposure)."""
+    name, acct = json.loads((LEDGERS / f"{record['scenario_id']}.json").read_text())["customer"].rsplit(" (", 1)
+    return sum(1 for n, a in NAME.findall(claim(record)["prompt"]) if n == name and a != acct[:-1])
+
+
 def analyze():
     sc = scenarios()
     seal_t = datetime.fromisoformat(json.loads((B.OUT / "prereg_seal.json").read_text())["sealed_at"]).timestamp()
@@ -133,6 +142,9 @@ def analyze():
                    "l4_n_accept_in_shared": sorted(s for s in l4_n_acc if s[:-1] in shared),
                    "l4_impostor_rows": {ver: statistics.fmean(impostor(r) for r in groups["L4"]
                                                               if r["scenario_id"].endswith(ver)) for ver in "vn"},
+                   "l4_same_name_other_account_rows": {ver: sum(same_name_rows(r) for r in groups["L4"]
+                                                                if r["scenario_id"].endswith(ver)) for ver in "vn"},
+                   "l4_excluded_extra": sorted(l4_bad - shared),
                    "L3_vs_L4_excl_shared": compare_excl("L3", "L4", "v", rej, l4_bad),
                    "safety_L4_minus_L2_excl_shared": compare_excl("L4", "L2", "n", acc, l4_bad)}
     rel = {s for s in sources if json.loads((LEDGERS / f"{s}v.json").read_text())["days_ago"] != 3}
@@ -200,10 +212,11 @@ def report(res):
               f"- \ud574\ub2f9 \uc6d0\ucc9c: {', '.join(s['shared_account_sources'])}",
               f"- L4\uac00 n\uc5d0\uc11c \uc218\uc6a9\ud55c {len(s['l4_n_accept_scenarios'])}\uac74 \uc911 {len(s['l4_n_accept_in_shared'])}\uac74\uc774 \uc774 \uc6d0\ucc9c\uc5d0\uc11c \ub098\uc654\ub2e4"
               f"({', '.join(s['l4_n_accept_in_shared']) or '\uc5c6\uc74c'}). \uadf8\ub9cc\ud07c\uc740 \uadfc\uac70 \uc5c6\ub294 \uc218\uc6a9\uc73c\ub85c \ud574\uc11d\ud560 \uc218 \uc5c6\ub2e4.",
-              f"- \ubcf8\uc778 \uc774\ub984\uc73c\ub85c \uac80\uc0c9\ub410\uc9c0\ub9cc \uadf8 \uc2dc\ub098\ub9ac\uc624 \uc7a5\ubd80\uc5d0 \uc5c6\ub294 \uc904(\ud55c \ud134 \ud3c9\uade0): v {s['l4_impostor_rows']['v']:.2f}\uac1c, n {s['l4_impostor_rows']['n']:.2f}\uac1c",
-              "- \uacb9\uce58\ub294 \uacc4\uc815\uc744 \ubaa8\ub450 \ube7c\uace0 \ub2e4\uc2dc \uacc4\uc0b0: "
+              f"- \uc190\ub2d8\uacfc \uc774\ub984\xb7\uacc4\uc815\uc774 \uc815\ud655\ud788 \uac19\uc9c0\ub9cc \uadf8 \uc2dc\ub098\ub9ac\uc624 \uc7a5\ubd80\uc5d0 \uc5c6\ub294 \uc904(\uc8fc\uc7a5 \ud134 \ud3c9\uade0): v {s['l4_impostor_rows']['v']:.2f}\uac1c, n {s['l4_impostor_rows']['n']:.2f}\uac1c",
+              f"- \uacb9\uce58\ub294 \uacc4\uc815 \uc6d0\ucc9c\uacfc \uc55e\uc11c \ubb38\uc81c\uac00 \ub41c \uc6d0\ucc9c({', '.join(s['l4_excluded_extra'])})\uc744 \ubaa8\ub450 \ube7c\uace0 \ub2e4\uc2dc \uacc4\uc0b0(\ub0a8\uc740 \uc6d0\ucc9c {s['L3_vs_L4_excl_shared']['n']}\uac1c): "
               + json.dumps({k: s[k] for k in ("L3_vs_L4_excl_shared", "safety_L4_minus_L2_excl_shared")}, ensure_ascii=False),
-              "- L2\uc640 L3\ub294 \uadf8 \uc2dc\ub098\ub9ac\uc624\uc758 \uc7a5\ubd80\ub9cc \ud504\ub86c\ud504\ud2b8\uc5d0 \ub123\uc73c\ubbc0\ub85c \uc774 \uacb0\ud568\uc758 \uc601\ud5a5\uc744 \ubc1b\uc9c0 \uc54a\ub294\ub2e4. \uc8fc \uc9c0\ud45c(L2 \ub300 L3)\ub294 \uadf8\ub300\ub85c\ub2e4."]
+              "- L2\uc640 L3\ub294 \uadf8 \uc2dc\ub098\ub9ac\uc624\uc758 \uc7a5\ubd80\ub9cc \ud504\ub86c\ud504\ud2b8\uc5d0 \ub123\uc73c\ubbc0\ub85c \uc774 \uacb0\ud568\uc758 \uc601\ud5a5\uc744 \ubc1b\uc9c0 \uc54a\ub294\ub2e4. \uc8fc \uc9c0\ud45c(L2 \ub300 L3)\ub294 \uadf8\ub300\ub85c\ub2e4.",
+              f"- \ub0a8\uc740 \ub178\ucd9c: \uc774\ub984\uc740 \uac19\uc9c0\ub9cc \uacc4\uc815\uc774 \ub2e4\ub978 \uc190\ub2d8\uc758 \uc904\ub3c4 \uac80\uc0c9\ub41c\ub2e4(\uc8fc\uc7a5 \ud134 \ud569\uacc4 v {s['l4_same_name_other_account_rows']['v']}\uc904, n {s['l4_same_name_other_account_rows']['n']}\uc904). \uc704 \uc81c\uc678 \ubd84\uc11d\uc740 \uc774\ub97c \ube7c\uc9c0 \uc54a\uc558\ub2e4. \uc608: A072n\uc740 \uc7a5\ubd80\uac00 \ube44\uc5b4 \uc788\ub294\ub370, \ub300\uc0ac\uac00 \ub2e4\ub978 \uacc4\uc815(albertsanders)\uc758 \uad6c\ub9e4\ub97c \uadfc\uac70\ub85c '\uc7a5\ubd80\uc5d0 Michael Kors \ubd80\uce20 \uad6c\ub9e4\uac00 \uc788\ub2e4'\uace0 \ub9d0\ud588\ub2e4. \uacb0\uc815\uc740 request_evidence\ub77c \uc218\uc6a9 0\uac74 \uacb0\uacfc\ub294 \ub9de\uc9c0\ub9cc, \ub300\uc0ac \uc218\uc900\uc758 \uc624\uc5fc\uc774 0\uac74\uc774\ub77c\ub294 \ub73b\uc740 \uc544\ub2c8\ub2e4."]
     (B.OUT / "report.md").write_text("\n".join(lines) + "\n")
 
 
