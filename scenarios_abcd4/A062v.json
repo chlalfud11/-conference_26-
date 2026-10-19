@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A062v",
+ "customer": "Indira Hargrove (indirahargrove)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 6046,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "HI.  My name is Indira Hargrove.  My order ID is 8409534174.  I ordered this Tommy Hilfiger shirt for $74 9 days ago, and still have not received it.  What is the status of my order?",
+   "date": "2019-11-22"
+  }
+ ]
+}

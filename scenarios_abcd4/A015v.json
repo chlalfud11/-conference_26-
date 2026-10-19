@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A015v",
+ "customer": "Indira Ingersoll (indiraingersoll)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 5293,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Hey, can you help me? I have a promo code, but the darn thing says it's invalid!",
+   "date": "2019-11-28"
+  }
+ ]
+}

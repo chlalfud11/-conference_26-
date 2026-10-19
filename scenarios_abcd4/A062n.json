@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A062n",
+ "customer": "Parker Ingersoll (parkeringersoll)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 6046,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "HI.  My name is Parker Ingersoll.  My order ID is 0613150297.  I ordered this Tommy Hilfiger shirt for $74 9 days ago, and still have not received it.  What is the status of my order?",
+   "date": "2019-11-22"
+  }
+ ]
+}

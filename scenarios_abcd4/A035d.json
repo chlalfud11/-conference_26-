@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A035d",
+ "customer": "Emerson Okonkwo (emersonokonkwo)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3287,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "I got charged 178 dollars, while I only paid for 1 jeans. I got double charged.",
+   "date": "2019-11-28"
+  }
+ ]
+}

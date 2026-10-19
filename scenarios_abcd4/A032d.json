@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A032d",
+ "customer": "Parker Hargrove (parkerhargrove)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 7570,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "I wanna dispute my bill cause I was charged twice",
+   "date": "2019-11-28"
+  }
+ ]
+}

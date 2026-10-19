@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A004v",
+ "customer": "Tatum Montague (tatummontague)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 8959,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Hi I am having a problem with my promo code. I am trying to use it but it says it's invalid.",
+   "date": "2019-11-28"
+  }
+ ]
+}

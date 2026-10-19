@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A073d",
+ "customer": "Dakota Northcott (dakotanorthcott)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4465,
+  "flow": "order_issue",
+  "subflow": "status_mystery_fee"
+ },
+ "turns": [
+  {
+   "player": "Hi, so I bought these boots and I was checking on the order and it looks like I was charged an extra fee.  Can you check that for me?",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A042n",
+ "customer": "Vida Delacroix (vidadelacroix)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 410,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "I want to dispute my bill because I was charged twice",
+   "date": "2019-11-28"
+  }
+ ]
+}

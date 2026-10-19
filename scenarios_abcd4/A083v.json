@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A083v",
+ "customer": "Umar Pemberton (umarpemberton)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 10200,
+  "flow": "storewide_query",
+  "subflow": "policy_1"
+ },
+ "turns": [
+  {
+   "player": "I bought a lot of clothes for my wife and she's really picky, so I might have to return some of them",
+   "date": "2019-11-28"
+  }
+ ]
+}

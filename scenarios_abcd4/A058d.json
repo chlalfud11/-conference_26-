@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A058d",
+ "customer": "Reese Lindqvist (reeselindqvist)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 9195,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "I am looking for my order?  I ordered it 9 days ago and still haven't received it yet.",
+   "date": "2019-11-22"
+  }
+ ]
+}

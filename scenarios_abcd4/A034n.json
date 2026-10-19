@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A034n",
+ "customer": "Avery Bellweather (averybellweather)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3482,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Hi, I think I have been charged twice for an item I bought.",
+   "date": "2019-11-28"
+  }
+ ]
+}

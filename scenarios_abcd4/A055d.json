@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A055d",
+ "customer": "Reese Pemberton (reesepemberton)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4124,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "I ordered a package nine days ago and never received it. Could you please check on the shipping status?",
+   "date": "2019-11-22"
+  }
+ ]
+}

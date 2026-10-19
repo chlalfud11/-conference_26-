@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A082n",
+ "customer": "Cameron Hargrove (cameronhargrove)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 5558,
+  "flow": "order_issue",
+  "subflow": "manage_cancel"
+ },
+ "turns": [
+  {
+   "player": "I got this jacket for my wide. I thought that it loved great! But she's so picky. She hates it. Can you help me fix it?",
+   "date": "2019-11-28"
+  }
+ ]
+}

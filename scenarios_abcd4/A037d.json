@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A037d",
+ "customer": "Umar Kingsley (umarkingsley)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3441,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "I just got my bill, and I got charged twice for one of my items.",
+   "date": "2019-11-28"
+  }
+ ]
+}

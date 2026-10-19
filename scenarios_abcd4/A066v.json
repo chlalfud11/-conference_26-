@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A066v",
+ "customer": "Dakota Easterbrook (dakotaeasterbrook)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 985,
+  "flow": "product_defect",
+  "subflow": "return_size"
+ },
+ "turns": [
+  {
+   "player": "i bought this shirt for my boyfriend but he is apparently too fat",
+   "date": "2019-11-28"
+  }
+ ]
+}

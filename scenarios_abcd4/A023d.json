@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A023d",
+ "customer": "Umar Fairbanks (umarfairbanks)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 9398,
+  "flow": "purchase_dispute",
+  "subflow": "mistimed_billing_already_returned"
+ },
+ "turns": [
+  {
+   "player": "My name is Umar Fairbanks. I already returned this Calvin Klein shirt, but my billing statement shows that the charge never got reversed?",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "scenario_id": "A068v",
+ "customer": "Vida Hargrove (vidahargrove)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 7174,
+  "flow": "product_defect",
+  "subflow": "return_color"
+ },
+ "turns": [
+  {
+   "player": "Hello"
+  },
+  {
+   "player": "I bought these Calvin Klein boots in brown. I thought that the brown would look good, but I've changed my mind",
+   "date": "2019-11-28"
+  }
+ ]
+}

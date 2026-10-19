@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A067v",
+ "customer": "Vida Northcott (vidanorthcott)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 5493,
+  "flow": "product_defect",
+  "subflow": "refund_initiate"
+ },
+ "turns": [
+  {
+   "player": "I bought these Michael Kors boots from you. I though that they would be great, but just changed my mind. I don't want them anymore",
+   "date": "2019-11-28"
+  }
+ ]
+}

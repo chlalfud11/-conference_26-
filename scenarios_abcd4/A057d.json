@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A057d",
+ "customer": "Quinn Castellano (quinncastellano)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 6843,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hello, I ordered something a while ago and it never arrived and I was hoping to figure out what's going on.",
+   "date": "2019-11-28"
+  }
+ ]
+}

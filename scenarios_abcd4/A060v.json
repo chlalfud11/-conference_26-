@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A060v",
+ "customer": "Hayden Delacroix (haydendelacroix)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 695,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hi. I placed an order a while ago, but haven't received my package yet.",
+   "date": "2019-11-28"
+  }
+ ]
+}

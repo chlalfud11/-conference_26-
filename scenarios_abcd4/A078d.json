@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A078d",
+ "customer": "Umar Galloway (umargalloway)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 6097,
+  "flow": "product_defect",
+  "subflow": "refund_initiate"
+ },
+ "turns": [
+  {
+   "player": "Hi, I bought this Guess jacket and I think I want to return it",
+   "date": "2019-11-28"
+  }
+ ]
+}

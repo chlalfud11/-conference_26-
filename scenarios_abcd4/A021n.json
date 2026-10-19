@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A021n",
+ "customer": "Avery Northcott (averynorthcott)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4492,
+  "flow": "purchase_dispute",
+  "subflow": "mistimed_billing_already_returned"
+ },
+ "turns": [
+  {
+   "player": "Yes. I've already returned it. But the charge has not been reversed on my billing statement.",
+   "date": "2019-11-28"
+  }
+ ]
+}

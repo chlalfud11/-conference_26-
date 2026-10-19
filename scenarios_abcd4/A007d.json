@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A007d",
+ "customer": "Dakota Jaworski (dakotajaworski)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 7691,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Hi I am having trouble using my promo code its saying invalid when it's not",
+   "date": "2019-11-28"
+  }
+ ]
+}

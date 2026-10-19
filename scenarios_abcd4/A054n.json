@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A054n",
+ "customer": "Marlow Pemberton (marlowpemberton)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 10168,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "HI! I ordered a shirt on November 2019 but it never came",
+   "date": "2019-11-28"
+  }
+ ]
+}

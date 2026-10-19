@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A008n",
+ "customer": "Gray Galloway (graygalloway)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 9678,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "Hello. I have an issue with my promo code",
+   "date": "2019-11-28"
+  }
+ ]
+}

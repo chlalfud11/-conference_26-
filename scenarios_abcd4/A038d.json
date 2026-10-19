@@ -1,0 +1,22 @@
+{
+ "scenario_id": "A038d",
+ "customer": "Wren Easterbrook (wreneasterbrook)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 7841,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Hello!"
+  },
+  {
+   "player": "They acutally charged me twice",
+   "date": "2019-11-28"
+  }
+ ]
+}

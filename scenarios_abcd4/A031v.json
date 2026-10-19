@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A031v",
+ "customer": "Hayden Bellweather (haydenbellweather)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3133,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "HI there, I was charged twice for an item I bought",
+   "date": "2019-11-28"
+  }
+ ]
+}

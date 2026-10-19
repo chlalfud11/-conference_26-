@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A036d",
+ "customer": "Finley Jaworski (finleyjaworski)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 2608,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "i am very upset I got charged twice for the Michael Kors boots I just bought!",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A049d",
+ "customer": "Yuki Kingsley (yukikingsley)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 2980,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Hi.  My name is Yuki Kingsley.  My Order ID is 9777540290.  I recently purchased guess jeans for $89 but I was charged twice.  Can you fix this?",
+   "date": "2019-11-28"
+  }
+ ]
+}

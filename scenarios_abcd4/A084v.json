@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A084v",
+ "customer": "Yuki Easterbrook (yukieasterbrook)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4706,
+  "flow": "product_defect",
+  "subflow": "refund_initiate"
+ },
+ "turns": [
+  {
+   "player": "Hello. I bought an item with you guys. But after placing it, I realized I no longer need the item.",
+   "date": "2019-11-28"
+  }
+ ]
+}

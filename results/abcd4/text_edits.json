@@ -1,0 +1,77 @@
+[
+ {
+  "scenario_id": "A012v",
+  "original": "My name is Norman Bouchard, and my promo code keeps coming up invalid, i just got it two days ago!",
+  "edited": "My name is Emerson Northcott, and my promo code keeps coming up invalid, i just got it two days ago!"
+ },
+ {
+  "scenario_id": "A012n",
+  "original": "My name is Norman Bouchard, and my promo code keeps coming up invalid, i just got it two days ago!",
+  "edited": "My name is Umar Abernathy, and my promo code keeps coming up invalid, i just got it two days ago!"
+ },
+ {
+  "scenario_id": "A012d",
+  "original": "My name is Norman Bouchard, and my promo code keeps coming up invalid, i just got it two days ago!",
+  "edited": "My name is Reese Castellano, and my promo code keeps coming up invalid, i just got it two days ago!"
+ },
+ {
+  "scenario_id": "A023v",
+  "original": "My name is Rodriguez Domingo. I already returned this Calvin Klein shirt, but my billing statement shows that the charge never got reversed?",
+  "edited": "My name is Quinn Ingersoll. I already returned this Calvin Klein shirt, but my billing statement shows that the charge never got reversed?"
+ },
+ {
+  "scenario_id": "A023n",
+  "original": "My name is Rodriguez Domingo. I already returned this Calvin Klein shirt, but my billing statement shows that the charge never got reversed?",
+  "edited": "My name is Oakley Delacroix. I already returned this Calvin Klein shirt, but my billing statement shows that the charge never got reversed?"
+ },
+ {
+  "scenario_id": "A023d",
+  "original": "My name is Rodriguez Domingo. I already returned this Calvin Klein shirt, but my billing statement shows that the charge never got reversed?",
+  "edited": "My name is Umar Fairbanks. I already returned this Calvin Klein shirt, but my billing statement shows that the charge never got reversed?"
+ },
+ {
+  "scenario_id": "A040v",
+  "original": "Hi there. It's Alessandro Phoenix here. I received my bill today and see that I was charged twice a coat that I bought for my wife last month",
+  "edited": "Hi there. It's Emerson Castellano here. I received my bill today and see that I was charged twice a coat that I bought for my wife last month"
+ },
+ {
+  "scenario_id": "A040n",
+  "original": "Hi there. It's Alessandro Phoenix here. I received my bill today and see that I was charged twice a coat that I bought for my wife last month",
+  "edited": "Hi there. It's Quinn Pemberton here. I received my bill today and see that I was charged twice a coat that I bought for my wife last month"
+ },
+ {
+  "scenario_id": "A040d",
+  "original": "Hi there. It's Alessandro Phoenix here. I received my bill today and see that I was charged twice a coat that I bought for my wife last month",
+  "edited": "Hi there. It's Emerson Fairbanks here. I received my bill today and see that I was charged twice a coat that I bought for my wife last month"
+ },
+ {
+  "scenario_id": "A049v",
+  "original": "Hi.  My name is Joyce Wu.  My Order ID is 1495528470.  I recently purchased guess jeans for $89 but I was charged twice.  Can you fix this?",
+  "edited": "Hi.  My name is Sasha Ingersoll.  My Order ID is 1495528470.  I recently purchased guess jeans for $89 but I was charged twice.  Can you fix this?"
+ },
+ {
+  "scenario_id": "A049n",
+  "original": "Hi.  My name is Joyce Wu.  My Order ID is 1495528470.  I recently purchased guess jeans for $89 but I was charged twice.  Can you fix this?",
+  "edited": "Hi.  My name is Gray Kingsley.  My Order ID is 3932729940.  I recently purchased guess jeans for $89 but I was charged twice.  Can you fix this?"
+ },
+ {
+  "scenario_id": "A049d",
+  "original": "Hi.  My name is Joyce Wu.  My Order ID is 1495528470.  I recently purchased guess jeans for $89 but I was charged twice.  Can you fix this?",
+  "edited": "Hi.  My name is Yuki Kingsley.  My Order ID is 9777540290.  I recently purchased guess jeans for $89 but I was charged twice.  Can you fix this?"
+ },
+ {
+  "scenario_id": "A062v",
+  "original": "HI.  My name is Albert Sanders.  My order ID is 8409534174.  I ordered this Tommy Hilfiger shirt for $74 9 days ago, and still have not received it.  What is the status of my order?",
+  "edited": "HI.  My name is Indira Hargrove.  My order ID is 8409534174.  I ordered this Tommy Hilfiger shirt for $74 9 days ago, and still have not received it.  What is the status of my order?"
+ },
+ {
+  "scenario_id": "A062n",
+  "original": "HI.  My name is Albert Sanders.  My order ID is 8409534174.  I ordered this Tommy Hilfiger shirt for $74 9 days ago, and still have not received it.  What is the status of my order?",
+  "edited": "HI.  My name is Parker Ingersoll.  My order ID is 0613150297.  I ordered this Tommy Hilfiger shirt for $74 9 days ago, and still have not received it.  What is the status of my order?"
+ },
+ {
+  "scenario_id": "A062d",
+  "original": "HI.  My name is Albert Sanders.  My order ID is 8409534174.  I ordered this Tommy Hilfiger shirt for $74 9 days ago, and still have not received it.  What is the status of my order?",
+  "edited": "HI.  My name is Wren Pemberton.  My order ID is 7561607413.  I ordered this Tommy Hilfiger shirt for $74 9 days ago, and still have not received it.  What is the status of my order?"
+ }
+]

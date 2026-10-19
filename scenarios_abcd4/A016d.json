@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A016d",
+ "customer": "Indira Jaworski (indirajaworski)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 5065,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "I received a promo code 5 days ago and im trying to use It now but it being declared invalid",
+   "date": "2019-11-26"
+  }
+ ]
+}

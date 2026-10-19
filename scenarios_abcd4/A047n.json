@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A047n",
+ "customer": "Wren Lindqvist (wrenlindqvist)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 2744,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Hello there!  I am asking about my bill.  I think I got charged twice for my order and I want to make sure I only get charged one time.",
+   "date": "2019-11-28"
+  }
+ ]
+}

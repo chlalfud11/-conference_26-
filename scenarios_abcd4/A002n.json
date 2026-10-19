@@ -1,0 +1,22 @@
+{
+ "scenario_id": "A002n",
+ "customer": "Noor Lindqvist (noorlindqvist)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4467,
+  "flow": "storewide_query",
+  "subflow": "timing_4"
+ },
+ "turns": [
+  {
+   "player": "hello"
+  },
+  {
+   "player": "i have a promo code and wanto know when i could use it to buy stuff?",
+   "date": "2019-11-28"
+  }
+ ]
+}

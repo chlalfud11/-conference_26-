@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A019v",
+ "customer": "Finley Castellano (finleycastellano)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 1760,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "Hi, I'm trying to use my promo code but it says \"invalid\"",
+   "date": "2019-11-28"
+  }
+ ]
+}

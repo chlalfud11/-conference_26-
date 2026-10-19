@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A059n",
+ "customer": "Marlow Hargrove (marlowhargrove)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 176,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "I ordered something a while ago, but I haven't gotten the package yet",
+   "date": "2019-11-28"
+  }
+ ]
+}

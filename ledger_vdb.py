@@ -45,5 +45,29 @@ def search(query, version, k=5):
     return [{k2: v for k2, v in r.items() if k2 != "vec"} for r in scored[:k]]
 
 
+OUT4 = ROOT / "results" / "abcd4" / "ledger_vdb" / "store.json"
+
+
+def build4():
+    import abcd4_ledger
+    ledger, _ = abcd4_ledger.load()
+    rows = [{"id": f"L{i}", "account": r["account"], "text": abcd4_ledger.render(r)} for i, r in enumerate(ledger)]
+    texts = [r["text"] for r in rows]
+    vecs = [unit(v) for i in range(0, len(texts), 32) for v in llm.embed(texts[i:i + 32])]
+    for r, v in zip(rows, vecs):
+        r["vec"] = v
+    OUT4.parent.mkdir(parents=True, exist_ok=True)
+    OUT4.write_text(json.dumps(rows))
+    print("shop", len(rows), len(vecs[0]))
+
+
+def search4(query, k=5):
+    if "shop" not in _CACHE:
+        _CACHE["shop"] = json.loads(OUT4.read_text())
+    q = unit(llm.embed([query])[0])
+    scored = sorted(_CACHE["shop"], key=lambda r: -sum(a * b for a, b in zip(q, r["vec"])))
+    return [{k2: v for k2, v in r.items() if k2 != "vec"} for r in scored[:k]]
+
+
 if __name__ == "__main__":
-    {"build": build}[sys.argv[1]]()
+    {"build": build, "build4": build4}[sys.argv[1]]()

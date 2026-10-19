@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A025n",
+ "customer": "Marlow Galloway (marlowgalloway)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3962,
+  "flow": "purchase_dispute",
+  "subflow": "mistimed_billing_already_returned"
+ },
+ "turns": [
+  {
+   "player": "I already returned the product, but I still didn't got my money back.",
+   "date": "2019-11-28"
+  }
+ ]
+}

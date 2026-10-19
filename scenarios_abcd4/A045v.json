@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A045v",
+ "customer": "Hayden Abernathy (haydenabernathy)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 2164,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "i have been charged twice for something that i brought. i would like to dispute this.",
+   "date": "2019-11-28"
+  }
+ ]
+}

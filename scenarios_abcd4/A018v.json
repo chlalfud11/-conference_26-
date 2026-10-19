@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A018v",
+ "customer": "Jules Bellweather (julesbellweather)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 6398,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "I trying to use my promo code but I am getting an invalid error",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A011n",
+ "customer": "Quinn Montague (quinnmontague)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 5925,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Hello. I have a big issue with my promo code. I really, really want the discount! I never see deals like this",
+   "date": "2019-11-28"
+  }
+ ]
+}

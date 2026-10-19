@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A028v",
+ "customer": "Noor Easterbrook (nooreasterbrook)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 9299,
+  "flow": "purchase_dispute",
+  "subflow": "mistimed_billing_already_returned"
+ },
+ "turns": [
+  {
+   "player": "I already returned.",
+   "date": "2019-11-28"
+  }
+ ]
+}

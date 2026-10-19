@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A072n",
+ "customer": "Oakley Galloway (oakleygalloway)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3949,
+  "flow": "product_defect",
+  "subflow": "refund_initiate"
+ },
+ "turns": [
+  {
+   "player": "i bought these boots but changed my mind on them",
+   "date": "2019-11-28"
+  }
+ ]
+}

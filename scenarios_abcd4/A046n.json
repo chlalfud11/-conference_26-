@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A046n",
+ "customer": "Umar Lindqvist (umarlindqvist)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 2422,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Yes, I ordered some jeans the other day, and it looks like I was charged twice on my bill.",
+   "date": "2019-11-28"
+  }
+ ]
+}

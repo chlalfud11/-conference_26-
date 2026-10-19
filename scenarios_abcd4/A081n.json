@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A081n",
+ "customer": "Dakota Kingsley (dakotakingsley)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 10035,
+  "flow": "product_defect",
+  "subflow": "return_size"
+ },
+ "turns": [
+  {
+   "player": "I bought the wrong size and need to return an item",
+   "date": "2019-11-28"
+  }
+ ]
+}

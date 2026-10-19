@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A001n",
+ "customer": "Noor Delacroix (noordelacroix)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 748,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "Hello! I received a promo code 8 days ago for these jeans I want to order and I can't get it to work. Can you help?",
+   "date": "2019-11-23"
+  }
+ ]
+}

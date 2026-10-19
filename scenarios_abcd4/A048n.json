@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A048n",
+ "customer": "Parker Kingsley (parkerkingsley)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 1744,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "I was charged twice for something I bought.",
+   "date": "2019-11-28"
+  }
+ ]
+}

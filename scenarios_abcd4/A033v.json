@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A033v",
+ "customer": "Finley Galloway (finleygalloway)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 5936,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "and it looks like you guys charged me twice!",
+   "date": "2019-11-28"
+  }
+ ]
+}

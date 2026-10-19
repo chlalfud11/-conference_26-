@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A040d",
+ "customer": "Emerson Fairbanks (emersonfairbanks)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 118,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Hi there. It's Emerson Fairbanks here. I received my bill today and see that I was charged twice a coat that I bought for my wife last month",
+   "date": "2019-11-01"
+  }
+ ]
+}

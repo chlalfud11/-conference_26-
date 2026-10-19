@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A079d",
+ "customer": "Yuki Castellano (yukicastellano)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 1025,
+  "flow": "purchase_dispute",
+  "subflow": "bad_price_competitor"
+ },
+ "turns": [
+  {
+   "player": "Hi I bought this Guess shirt which was an awesome buy. However, what I thought was an awesome deal ended up being closer to a rip off, as my local Target has something cheaper",
+   "date": "2019-11-28"
+  }
+ ]
+}

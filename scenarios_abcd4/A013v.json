@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A013v",
+ "customer": "Chloe Zhang (czhang48)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4543,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "Hi! My promo code is saying it is invalid.  I just got it 2 days ago",
+   "date": "2019-11-29"
+  }
+ ]
+}

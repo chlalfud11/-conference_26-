@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A063v",
+ "customer": "Cameron Northcott (cameronnorthcott)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 6907,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "I ordered this jacket a long time ago and my package never arrived. What is going on???",
+   "date": "2019-11-28"
+  }
+ ]
+}

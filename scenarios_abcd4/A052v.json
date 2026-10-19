@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A052v",
+ "customer": "Kai Okonkwo (kaiokonkwo)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4265,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "I'm starting to get concerned about an item I ordered 9 days ago that still hasn't arrived",
+   "date": "2019-11-22"
+  }
+ ]
+}

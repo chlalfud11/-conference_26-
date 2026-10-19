@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A017d",
+ "customer": "Hayden Ingersoll (haydeningersoll)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 9078,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "I received a promo code 5 days ago and I am trying to use it today and it's keeps telling me it's invalid",
+   "date": "2019-11-26"
+  }
+ ]
+}

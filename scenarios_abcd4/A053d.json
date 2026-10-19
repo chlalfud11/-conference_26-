@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A053d",
+ "customer": "Oakley Pemberton (oakleypemberton)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 5156,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hi, I placed an order 9 days ago and I still haven't received my package. I was wondering if you could resend it.",
+   "date": "2019-11-22"
+  }
+ ]
+}

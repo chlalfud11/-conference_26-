@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A051v",
+ "customer": "Finley Hargrove (finleyhargrove)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 450,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "I ordered this jacket over a month ago and I still haven't received it.",
+   "date": "2019-11-01"
+  }
+ ]
+}

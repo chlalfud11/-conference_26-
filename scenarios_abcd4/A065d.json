@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A065d",
+ "customer": "Quinn Fairbanks (quinnfairbanks)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3656,
+  "flow": "single_item_query",
+  "subflow": "jacket_how_1"
+ },
+ "turns": [
+  {
+   "player": "Well, I bought a Michael Kors jacket and spilled wine all over it! Do you know how to remove a stain from that jacket?",
+   "date": "2019-11-28"
+  }
+ ]
+}

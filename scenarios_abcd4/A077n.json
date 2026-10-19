@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A077n",
+ "customer": "Gray Delacroix (graydelacroix)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3166,
+  "flow": "product_defect",
+  "subflow": "return_size"
+ },
+ "turns": [
+  {
+   "player": "Hi, I purchased a jacket to go skiing and it is the wrong size.  What steps do I need to take to return it?",
+   "date": "2019-11-28"
+  }
+ ]
+}

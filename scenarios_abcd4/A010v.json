@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A010v",
+ "customer": "Lennox Fairbanks (lennoxfairbanks)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 2583,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "i got a promo code only 2 days ago but it's coming up as invalid when I try to use it...what's happening?",
+   "date": "2019-11-29"
+  }
+ ]
+}

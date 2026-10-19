@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A070v",
+ "customer": "Lennox Ingersoll (lennoxingersoll)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 1361,
+  "flow": "order_issue",
+  "subflow": "manage_cancel"
+ },
+ "turns": [
+  {
+   "player": "I bought a couple of items for my wife but I would like to remove one item from the order since my wife did not like it",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A056n",
+ "customer": "Noor Pemberton (noorpemberton)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4007,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hi! I ordered a Guess T-shirt but it never came. Can you check the shipping status and where it is now?",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A050v",
+ "customer": "Parker Galloway (parkergalloway)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 7284,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hi. I wanted to check the shipping status of my order. I ordered it nine days ago, and haven't received it.",
+   "date": "2019-11-22"
+  }
+ ]
+}

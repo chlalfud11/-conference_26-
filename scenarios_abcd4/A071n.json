@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A071n",
+ "customer": "Hayden Northcott (haydennorthcott)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3715,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "I purchased the jacket once, but I was billed for it twice.",
+   "date": "2019-11-28"
+  }
+ ]
+}

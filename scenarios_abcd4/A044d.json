@@ -1,0 +1,22 @@
+{
+ "scenario_id": "A044d",
+ "customer": "Parker Okonkwo (parkerokonkwo)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 1160,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Hi"
+  },
+  {
+   "player": "I was charged twice for a purchase and I don't know why",
+   "date": "2019-11-28"
+  }
+ ]
+}

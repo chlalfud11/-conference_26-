@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A012d",
+ "customer": "Reese Castellano (reesecastellano)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 590,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "My name is Reese Castellano, and my promo code keeps coming up invalid, i just got it two days ago!",
+   "date": "2019-11-29"
+  }
+ ]
+}

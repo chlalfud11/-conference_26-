@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A080v",
+ "customer": "Lennox Jaworski (lennoxjaworski)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 7437,
+  "flow": "product_defect",
+  "subflow": "return_color"
+ },
+ "turns": [
+  {
+   "player": "Hi, I would like to return an item. I thought I purchased a navy blue jacket, but I received a black one.",
+   "date": "2019-11-28"
+  }
+ ]
+}

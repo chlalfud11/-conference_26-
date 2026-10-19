@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A005v",
+ "customer": "Sanya Afzal (sanyaafzal659)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 7067,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "My promo code won't work. It keeps saying that it's invalid.",
+   "date": "2019-11-28"
+  }
+ ]
+}

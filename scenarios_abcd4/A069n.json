@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A069n",
+ "customer": "Parker Easterbrook (parkereasterbrook)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 625,
+  "flow": "product_defect",
+  "subflow": "return_color"
+ },
+ "turns": [
+  {
+   "player": "Hi, I need some help with a return item as I bought the wrong color.",
+   "date": "2019-11-28"
+  }
+ ]
+}

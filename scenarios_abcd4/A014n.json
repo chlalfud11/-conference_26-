@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A014n",
+ "customer": "Reese Montague (reesemontague)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3961,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "I received a promo code just two days ago, and when I try to use it, it's already telling me that it's invalid.",
+   "date": "2019-11-29"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A075d",
+ "customer": "Avery Montague (averymontague)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 6715,
+  "flow": "purchase_dispute",
+  "subflow": "bad_price_yesterday"
+ },
+ "turns": [
+  {
+   "player": "Hello... I bought a pair of boots yesterday but today... the boots are having a 50% discount..",
+   "date": "2019-11-30"
+  }
+ ]
+}

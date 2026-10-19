@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A009n",
+ "customer": "Finley Delacroix (finleydelacroix)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 5968,
+  "flow": "storewide_query",
+  "subflow": "timing_4"
+ },
+ "turns": [
+  {
+   "player": "I am thinking of making a purchase, but I need to know if my promo code can be used.",
+   "date": "2019-11-28"
+  }
+ ]
+}

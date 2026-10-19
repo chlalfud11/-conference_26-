@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A076v",
+ "customer": "Wren Abernathy (wrenabernathy)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 4572,
+  "flow": "product_defect",
+  "subflow": "return_stain"
+ },
+ "turns": [
+  {
+   "player": "I purchased a pair of jeans for $64. When they arrived, they did have a stain on them. I need some information on how to go about returning them",
+   "date": "2019-11-28"
+  }
+ ]
+}

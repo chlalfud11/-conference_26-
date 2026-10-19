@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A020v",
+ "customer": "Gray Okonkwo (grayokonkwo)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 7041,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Hi! I received a promo code nine days ago, but when I try to enter it, I get a message saying it is invalid.",
+   "date": "2019-11-22"
+  }
+ ]
+}

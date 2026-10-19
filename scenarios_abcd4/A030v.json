@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A030v",
+ "customer": "Cameron Jaworski (cameronjaworski)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "train",
+  "convo_id": 3722,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "I just got my bill and I was charged twice for something I bought",
+   "date": "2019-11-28"
+  }
+ ]
+}
