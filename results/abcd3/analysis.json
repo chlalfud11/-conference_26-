@@ -147,6 +147,80 @@
    "L2": 0.0,
    "diff": 0.025974025974025976,
    "p": 0.5020248987550623
+  },
+  "shared_account_sources": [
+   "A002",
+   "A009",
+   "A030",
+   "A031",
+   "A032",
+   "A033",
+   "A034",
+   "A035",
+   "A036",
+   "A037",
+   "A038",
+   "A039",
+   "A040",
+   "A041",
+   "A042",
+   "A043",
+   "A045",
+   "A046",
+   "A047",
+   "A048",
+   "A049",
+   "A065",
+   "A070",
+   "A071",
+   "A073",
+   "A082",
+   "A083"
+  ],
+  "shared_accounts": [
+   "Albert Sanders (albertsanders)",
+   "Alessandro Phoenix (alessandrophoenix)",
+   "Chloe Zhang (chloezhang)",
+   "Crystal Minh (crystalminh)",
+   "David Williams (davidwilliams)",
+   "Joyce Wu (joycewu)",
+   "Norman Bouchard (normanbouchard)",
+   "Rodriguez Domingo (rodriguezdomingo)",
+   "Sanya Afzal (sanyaafzal)"
+  ],
+  "l4_n_accept_scenarios": [
+   "A065n",
+   "A065n",
+   "A065n",
+   "A083n",
+   "A083n",
+   "A083n"
+  ],
+  "l4_n_accept_in_shared": [
+   "A065n",
+   "A065n",
+   "A065n",
+   "A083n",
+   "A083n",
+   "A083n"
+  ],
+  "l4_impostor_rows": {
+   "v": 0.7976190476190477,
+   "n": 0.5833333333333334
+  },
+  "L3_vs_L4_excl_shared": {
+   "n": 54,
+   "L3": 0.5925925925925926,
+   "L4": 0.7777777777777778,
+   "diff": -0.18518518518518517,
+   "p": 0.005749712514374282
+  },
+  "safety_L4_minus_L2_excl_shared": {
+   "n": 54,
+   "L4": 0.0,
+   "L2": 0.0,
+   "diff": 0.0,
+   "p": 1.0
   }
  }
 }

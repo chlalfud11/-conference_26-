@@ -55,6 +55,18 @@ def hit(record):
             "foreign_rows": foreign, "rows_shown": other}
 
 
+ROW = re.compile(r"^ *\d{4}-\d{2}-\d{2} \|.*$", re.M)
+
+
+def impostor(record):
+    """Retrieved rows carrying this customer's name that its own ledger does not hold."""
+    meta = json.loads((LEDGERS / f"{record['scenario_id']}.json").read_text())
+    own = [r.strip() for r in meta["rows"]]
+    text = claim(record)["prompt"].replace("\\n", "\n")
+    rows = [r.strip() for r in ROW.findall(text)]
+    return sum(1 for r in rows if meta["customer"] in r and not any(o in r for o in own))
+
+
 def analyze():
     sc = scenarios()
     seal_t = datetime.fromisoformat(json.loads((B.OUT / "prereg_seal.json").read_text())["sealed_at"]).timestamp()
@@ -106,10 +118,23 @@ def analyze():
                 "diff": statistics.fmean(diffs), "p": sign_flip(diffs)}
 
     date_bad, l4_turn_leak = {"A040"}, {"A002", "A003", "A038", "A041", "A044", "A068"}
+    cust = {s: json.loads((LEDGERS / f"{s}v.json").read_text())["customer"] for s in sources}
+    shared = {s for s in sources if sum(1 for t in sources if cust[t] == cust[s]) > 1}
+    l4_bad = date_bad | l4_turn_leak | shared
+    l4_n_acc = sorted(r["scenario_id"] for r in groups["L4"]
+                      if r["scenario_id"].endswith("n") and acc(claim(r)))
     sensitivity = {"excluded_date_misparse": sorted(date_bad), "excluded_l4_earlier_turn_query": sorted(l4_turn_leak),
                    "primary_L2_vs_L3": compare_excl("L2", "L3", "v", rej, date_bad),
                    "L3_vs_L4": compare_excl("L3", "L4", "v", rej, date_bad | l4_turn_leak),
-                   "safety_L4_minus_L2": compare_excl("L4", "L2", "n", acc, date_bad | l4_turn_leak)}
+                   "safety_L4_minus_L2": compare_excl("L4", "L2", "n", acc, date_bad | l4_turn_leak),
+                   "shared_account_sources": sorted(shared),
+                   "shared_accounts": sorted({cust[s] for s in shared}),
+                   "l4_n_accept_scenarios": l4_n_acc,
+                   "l4_n_accept_in_shared": sorted(s for s in l4_n_acc if s[:-1] in shared),
+                   "l4_impostor_rows": {ver: statistics.fmean(impostor(r) for r in groups["L4"]
+                                                              if r["scenario_id"].endswith(ver)) for ver in "vn"},
+                   "L3_vs_L4_excl_shared": compare_excl("L3", "L4", "v", rej, l4_bad),
+                   "safety_L4_minus_L2_excl_shared": compare_excl("L4", "L2", "n", acc, l4_bad)}
     rel = {s for s in sources if json.loads((LEDGERS / f"{s}v.json").read_text())["days_ago"] != 3}
     by_date = {k: {"rel_date_sources_accept": f"{sum(acc(claim(r)) for r in groups[k] if r['scenario_id'][:-1] in rel and r['scenario_id'].endswith('v'))}"
                    f"/{sum(1 for r in groups[k] if r['scenario_id'][:-1] in rel and r['scenario_id'].endswith('v'))}"}
@@ -134,6 +159,8 @@ def analyze():
 
 def report(res):
     pct = lambda x: f"{x:.1%}"
+    pp = lambda x: f"{x * 100:.1f}%p"
+    pv = lambda x: f"{x:.4f}" if x >= 1e-4 else f"{x:.2e}"
     p, a = res["primary_overrejection_L2_vs_L3"], res["secondary_L3_vs_L4"]
     r = res["retrieval"]
     lines = ["# \uc7a5\ubd80 v3(\uc624\ub298 \ub0a0\uc9dc) + \ubca1\ud130DB \uc2e4\ud5d8 \uacb0\uacfc", "",
@@ -143,10 +170,10 @@ def report(res):
              f"| L2 \uc7a5\ubd80 v2 + \uc9c0\uc2dc \uc218\uc815 | {pct(p['L2'])} |",
              f"| L3 \uc624\ub298 \ub0a0\uc9dc + \ub0a0\uc9dc \ub9de\ucda4 \uc7a5\ubd80(\uc804\uccb4 \uc81c\uacf5) | {pct(p['L3'])} |",
              f"| L4 \uac19\uc740 \uc7a5\ubd80\ub97c \ubca1\ud130DB \uac80\uc0c9 \uc0c1\uc704 5\uc904\ub9cc \uc81c\uacf5 | {pct(a['L4'])} |", "",
-             f"- \uc8fc \uc9c0\ud45c L2 \ub300 L3: \ucc28\uc774 {pct(p['diff'])}, 95% CI [{pct(p['ci95'][0])}, {pct(p['ci95'][1])}], p = {p['p']:.4f}",
-             f"- L3 \ub300 L4: \ucc28\uc774 {pct(a['diff'])}, Holm p = {res['holm']['L3_vs_L4']:.4f}", "",
+             f"- \uc8fc \uc9c0\ud45c L2 \ub300 L3: \ucc28\uc774 {pp(p['diff'])}, 95% CI [{pp(p['ci95'][0])}, {pp(p['ci95'][1])}], p = {pv(p['p'])}",
+             f"- L3 \ub300 L4: \ucc28\uc774 {pp(a['diff'])}, Holm p = {pv(res['holm']['L3_vs_L4'])}", "",
              "## \uc548\uc804 \uc810\uac80 (\uae30\ub85d \uc5c6\ub294 \uc8fc\uc7a5 \uc218\uc6a9 \uc99d\uac00)", "",
-             f"- L3 \u2212 L2: {pct(res['safety_L3_minus_L2']['diff'])} (CI \uc0c1\ud55c {pct(res['safety_L3_minus_L2']['ci95'][1])}), L4 \u2212 L2: {pct(res['safety_L4_minus_L2']['diff'])} (CI \uc0c1\ud55c {pct(res['safety_L4_minus_L2']['ci95'][1])}). \ud1b5\uacfc: {res['safety_ok']}", "",
+             f"- L3 \u2212 L2: {pp(res['safety_L3_minus_L2']['diff'])} (CI \uc0c1\ud55c {pp(res['safety_L3_minus_L2']['ci95'][1])}), L4 \u2212 L2: {pp(res['safety_L4_minus_L2']['diff'])} (CI \uc0c1\ud55c {pp(res['safety_L4_minus_L2']['ci95'][1])}). \ud1b5\uacfc: {res['safety_ok']}", "",
              "## \ubca1\ud130DB \uac80\uc0c9 \ud488\uc9c8 (L4)", "",
              f"- \uae30\ub85d \uc788\uc74c(v): \uc8fc\uc7a5\uc744 \ub4b7\ubc1b\uce68\ud558\ub294 \uc904\uc774 \uc0c1\uc704 5\uac1c\uc5d0 \ub4e0 \ube44\uc728 {pct(r['v']['claim_row_hit_rate'])}, \uc190\ub2d8 \ubcf8\uc778 \uc904\uc774 \ubaa8\ub450 \ub4e0 \ube44\uc728 {pct(r['v']['all_own_rows_rate'])}, \ub2e4\ub978 \uc190\ub2d8 \uc904 \ud3c9\uade0 {r['v']['mean_foreign_rows']:.2f}\uac1c",
              f"- \uae30\ub85d \uc5c6\uc74c(n): \ub2e4\ub978 \uc190\ub2d8 \uc904 \ud3c9\uade0 {r['n']['mean_foreign_rows']:.2f}\uac1c", "",
@@ -161,7 +188,22 @@ def report(res):
               "- \ub0a0\uc9dc \ud30c\uc2f1 \uc624\ub958 1\uac74: A040\uc740 '\uc624\ub298 \uccad\uad6c\uc11c\ub97c \ubc1b\uc558\ub294\ub370 \uc9c0\ub09c\ub2ec\uc5d0 \uc0b0 \ucf54\ud2b8\uac00 \ub450 \ubc88 \uccad\uad6c'\ub77c\ub294 \ub9d0\uc5d0\uc11c 'today'\ub97c \uc7a1\uc544 \uad6c\ub9e4\uc77c\uc744 \uc624\ub298\ub85c \uc801\uc5c8\ub2e4(\uc62c\ubc14\ub978 \uac12\uc740 \uc57d 30\uc77c \uc804).",
               "- L4 \uac80\uc0c9 \uc9c8\uc758 \ubb38\uc81c: \uc778\uc0ac \ud134\uc774 \uc788\ub294 6\uac1c \uc6d0\ucc9c(36\ud68c \uc2e4\ud589)\uc5d0\uc11c \uccab \ud134\uc758 \uac80\uc0c9\uc5d0\ub3c4 \ub9c8\uc9c0\ub9c9 \ud134 \ubb38\uc7a5\uc744 \uc37c\ub2e4. \uc8fc\uc7a5 \ud134 \uc790\uccb4\uc758 \uac80\uc0c9\uc740 \uc62c\ubc14\ub974\uc9c0\ub9cc, \uc9c1\uc804 \ud134 \ub300\uc0ac\uac00 \ubbf8\ub798 \uc815\ubcf4\uc5d0 \uc601\ud5a5\ubc1b\uc558\uc744 \uc218 \uc788\ub2e4.",
               "- \uac80\uc0c9 \uc801\uc911\ub960 \uc9c0\ud45c\ub97c \uace0\ucce4\ub2e4: \uc608\uc804\uc5d0\ub294 \ub9c8\uc9c0\ub9c9 \uc904\uc744 \uae30\uc900\uc73c\ub85c \ud588\uc73c\ub098, \uc8fc\uc7a5 \uc720\ud615\ubcc4\ub85c \ub4b7\ubc1b\uce68\ud558\ub294 \uc904(\uc8fc\ubb38/\uc911\ubcf5 \uccad\uad6c/\ubc18\ud488/\ud504\ub85c\ubaa8)\uc744 \uae30\uc900\uc73c\ub85c \ubc14\uafe8\ub2e4(\uc704 \ud45c\uc758 \uc801\uc911\ub960\uc740 \uace0\uce5c \uac12).",
-              "- \uc81c\uc678 \ud6c4 \ubbfc\uac10\ub3c4: " + json.dumps(res["sensitivity_post_hoc"], ensure_ascii=False)]
+              "- \uc81c\uc678 \ud6c4 \ubbfc\uac10\ub3c4: " + json.dumps({k: v for k, v in res["sensitivity_post_hoc"].items()
+                                                  if k.startswith(("primary", "L3_vs_L4", "safety", "excluded"))},
+                                                 ensure_ascii=False)]
+    s = res["sensitivity_post_hoc"]
+    lines += ["", "## L4 \ubca1\ud130DB \uc870\uac74\uc758 \uc124\uacc4 \uacb0\ud568 (\uac8c\uc774\ud2b8 \uac80\ud1a0 \uc9c0\uc801, \uc0ac\ud6c4)", "",
+              f"- \uac19\uc740 \uc190\ub2d8 \uc774\ub984\xb7\uacc4\uc815\uc774 \uc5ec\ub7ec \uc6d0\ucc9c\uc5d0 \ub098\ub258\uc5b4 \ub4e4\uc5b4\uac00 \uc788\ub2e4(\uacc4\uc815 {len(s['shared_accounts'])}\uac1c, \uc6d0\ucc9c {len(s['shared_account_sources'])}\uac1c). "
+              "\ubca1\ud130DB\ub294 84\uba85 \uc804\uc6d0\uc758 \uc904\uc744 \ud55c \uc800\uc7a5\uc18c\uc5d0 \ub2f4\uc73c\ubbc0\ub85c, \uc774\ub7f0 \uc6d0\ucc9c\uc5d0\uc11c\ub294 \uae30\ub85d \uc5c6\uc74c(n) \uc870\uac74\uc5d0\uc11c\ub3c4 "
+              "\uac19\uc740 \uacc4\uc815\uc73c\ub85c \uc800\uc7a5\ub41c \ub2e4\ub978 \uc6d0\ucc9c\uc758 \uc904\uc774 \uac80\uc0c9\ub3fc \uc190\ub2d8 \ubcf8\uc778 \uae30\ub85d\ucc98\ub7fc \ubcf4\uc778\ub2e4. "
+              "\uc989 L4\uc758 n \uc870\uac74\uc740 '\ub4b7\ubc1b\uce68\ud558\ub294 \uae30\ub85d\uc774 \uc5c6\ub2e4'\uac00 \ubcf4\uc7a5\ub418\uc9c0 \uc54a\ub294\ub2e4.",
+              f"- \ud574\ub2f9 \uc6d0\ucc9c: {', '.join(s['shared_account_sources'])}",
+              f"- L4\uac00 n\uc5d0\uc11c \uc218\uc6a9\ud55c {len(s['l4_n_accept_scenarios'])}\uac74 \uc911 {len(s['l4_n_accept_in_shared'])}\uac74\uc774 \uc774 \uc6d0\ucc9c\uc5d0\uc11c \ub098\uc654\ub2e4"
+              f"({', '.join(s['l4_n_accept_in_shared']) or '\uc5c6\uc74c'}). \uadf8\ub9cc\ud07c\uc740 \uadfc\uac70 \uc5c6\ub294 \uc218\uc6a9\uc73c\ub85c \ud574\uc11d\ud560 \uc218 \uc5c6\ub2e4.",
+              f"- \ubcf8\uc778 \uc774\ub984\uc73c\ub85c \uac80\uc0c9\ub410\uc9c0\ub9cc \uadf8 \uc2dc\ub098\ub9ac\uc624 \uc7a5\ubd80\uc5d0 \uc5c6\ub294 \uc904(\ud55c \ud134 \ud3c9\uade0): v {s['l4_impostor_rows']['v']:.2f}\uac1c, n {s['l4_impostor_rows']['n']:.2f}\uac1c",
+              "- \uacb9\uce58\ub294 \uacc4\uc815\uc744 \ubaa8\ub450 \ube7c\uace0 \ub2e4\uc2dc \uacc4\uc0b0: "
+              + json.dumps({k: s[k] for k in ("L3_vs_L4_excl_shared", "safety_L4_minus_L2_excl_shared")}, ensure_ascii=False),
+              "- L2\uc640 L3\ub294 \uadf8 \uc2dc\ub098\ub9ac\uc624\uc758 \uc7a5\ubd80\ub9cc \ud504\ub86c\ud504\ud2b8\uc5d0 \ub123\uc73c\ubbc0\ub85c \uc774 \uacb0\ud568\uc758 \uc601\ud5a5\uc744 \ubc1b\uc9c0 \uc54a\ub294\ub2e4. \uc8fc \uc9c0\ud45c(L2 \ub300 L3)\ub294 \uadf8\ub300\ub85c\ub2e4."]
     (B.OUT / "report.md").write_text("\n".join(lines) + "\n")
 
 
