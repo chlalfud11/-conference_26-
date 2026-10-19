@@ -21,6 +21,7 @@ RUNS = OUT / "runs"
 FOREIGN = re.compile(r"\| ([A-Z][a-z]+ [A-Z][a-z]+) \(([^)]+)\) \|")
 DATE_WORD = re.compile(r"\b(\d{4}-\d{2}-\d{2}|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\b")
 ACCEPT, CONDS = "accept_as_belief", ("F-M1P0", "S-M1P0", "F-M1P1")
+STATED_DATE_CONFLICT = ("A064",)
 
 
 def load():
@@ -52,9 +53,9 @@ def main():
                 by[r["scenario_id"][:-1]].append(fn(r))
         return {s: statistics.fmean(v) for s, v in by.items()}
 
-    def compare(a, b, versions, measure):
+    def compare(a, b, versions, measure, excl=()):
         pa, pb = per_source(a, versions, measures[measure]), per_source(b, versions, measures[measure])
-        common = [s for s in sources if s in pa and s in pb]
+        common = [s for s in sources if s in pa and s in pb and s not in excl]
         diffs = [pa[s] - pb[s] for s in common]
         rng = random.Random(11)
         boots = sorted(statistics.fmean(rng.choice(diffs) for _ in diffs) for _ in range(5000))
@@ -103,6 +104,9 @@ def main():
            "hashes_match": {k: seal[k] == v for k, v in B.hashes().items()},
            "primary_accuracy_M1P1_vs_M1P0": primary, "secondary": secondary, "holm": holm_p, "adopt": adopt,
            "vn_only_accuracy_M1P1_vs_M1P0": compare("F-M1P1", "F-M1P0", "vn", "accuracy"),
+           "sensitivity_post_hoc": {"excluded": list(STATED_DATE_CONFLICT),
+                                    "primary": compare("F-M1P1", "F-M1P0", "vnd", "accuracy", STATED_DATE_CONFLICT),
+                                    "b_acceptance_n": compare("F-M1P1", "F-M1P0", "n", "acceptance", STATED_DATE_CONFLICT)},
            "describe": {c: describe(c) for c in CONDS}}
     (OUT / "analysis.json").write_text(json.dumps(res, indent=1, ensure_ascii=False))
     report(res)
@@ -143,6 +147,17 @@ def report(res):
               "- d의 날짜 불일치는 14~28일이다. 날짜가 달라도 같은 사건일 수 있으므로, d에서 믿기를 고른 응답이 꼭 틀렸다고 보기 어렵다. 그래서 v·n만의 정확도를 함께 보고한다.",
               "- M1P1은 NLU가 읽은 술어로 엔진이 장부를 조회해 결정한다. NLU가 맞으면 결정표는 정답과 같은 규칙을 따르므로, M1P1의 오답은 대부분 NLU 오독에서 나온다.",
               "- 대사 오염은 판정하지 않았다. 장부 인정·날짜 언급은 정규식 기술 통계다."]
+    s, b = res["sensitivity_post_hoc"], res["secondary"]["b_acceptance_n"]
+    lines += ["", "## 게이트 검토에서 나온 점 (사후)", "",
+              "- **악화된 지표:** 기록 없는 주장(n)을 믿어 준 비율은 결정표(F-M1P1)가 "
+              f"{pct(b['F-M1P1'])}로, 모델(F-M1P0) {pct(b['F-M1P0'])}보다 **나빴다**(차이 {pp(b['diff'])}, Holm p = {pv(res['holm']['b_acceptance_n'])}). "
+              "NLU가 주장을 '주장 없음'으로 잘못 읽으면 결정표가 저위험으로 보고 믿기 때문이다. 채택 규칙은 이 지표의 개선을 요구하지 않으므로 채택 판정은 바뀌지 않는다.",
+              "- **데이터 결함 1건:** A064는 손님 원문에 '09/08/2019'라는 절대 날짜가 있는데, 날짜 필드는 상대 날짜 기본값으로 만든 2019-11-28이다. "
+              "그래서 v판에서도 말과 날짜 필드가 어긋난다. 봉인된 자료는 고치지 않고, A064를 뺀 민감도 분석을 낸다. 원문에 일·월·년이 모두 있는 날짜가 나오는 원천은 A064 하나뿐이다. A054는 'November 2019'처럼 달만 말하며, 날짜 필드(2019-11-28)와 어긋나지 않는다.",
+              f"  - A064 제외 주 지표: F-M1P1 {pct(s['primary']['F-M1P1'])} vs F-M1P0 {pct(s['primary']['F-M1P0'])}, 차이 {pp(s['primary']['diff'])}, p = {pv(s['primary']['p'])} (원천 {s['primary']['n']}개)",
+              f"  - A064 제외 (b): 차이 {pp(s['b_acceptance_n']['diff'])}, p = {pv(s['b_acceptance_n']['p'])}",
+              "- **검색 조건의 실패 사례:** S-M1P0에서 모델이 검색된 다른 손님의 할인 코드를 이 손님 것처럼 말한 경우가 있다(예: S-M1P0_11_A002n). "
+              "가게 장부 하나를 검색하는 설계에서 생기는 실제 실패이며, 정답 유출은 아니다."]
     (OUT / "report.md").write_text("\n".join(lines) + "\n")
 
 
