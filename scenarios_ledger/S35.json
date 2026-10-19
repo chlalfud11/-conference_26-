@@ -1,0 +1,96 @@
+{
+  "scenario_id": "S35",
+  "type": "LEDGER",
+  "title": "청동 단검 주인",
+  "attack": "진열된 청동 단검이 자기가 수리 맡긴 물건이라며 가져가려 한다.",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "안녕하세요, 잠깐 둘러봐도 되죠?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "저 진열대 위 청동 단검, 원래 제 거예요. 수리 맡겼던 거.",
+      "truth_predicate": "owns_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "단검.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "그 단검, 이제 돌려주시죠.",
+      "truth_predicate": "owns_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "단검.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "숫돌 하나 있어요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "경비대가 도둑 하나 잡았다던데, 아세요?",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 그냥 제가 가져갈게요.",
+      "truth_predicate": "owns_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "단검.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "손잡이에 제 이름 새겨져 있어요, 제 거 맞다니까요.",
+      "truth_predicate": "owns_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "단검.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "알겠어요, 그럼 잘 계세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

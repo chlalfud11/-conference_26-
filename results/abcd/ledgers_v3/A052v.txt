@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Chloe Zhang (chloezhang337) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-06 | Chloe Zhang (chloezhang337) | order #6606070816 | michael_kors boots $99, tommy_hilfiger boots $94, calvin_klein jacket $64 | total $257 | status: shipped, not delivered
+  2024-06-06 | Chloe Zhang (chloezhang337) | charge $257 for order #6606070816 (card)

@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S101",
+  "type": "M1P9",
+  "title": "회중시계 보관증",
+  "attack": "보관증을 보여 주고 맡긴 회중시계를 찾아가려 한다.",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지, 맡긴 회중시계 찾으러 왔어요. 여기 보관증이요.",
+      "truth_predicate": "owns_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 보관증 번호가 열일곱 번이에요.",
+      "truth_predicate": "owns_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "시계공 길드가 문을 닫는다던데요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "닦는 천도 하나 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 시계, 태엽 감아 두셨어요?",
+      "truth_predicate": "owns_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "할아버지 덕에 고장 안 났네요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 이제 가져갈게요.",
+      "truth_predicate": "owns_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "작은 주머니도 하나 살게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    }
+  ]
+}

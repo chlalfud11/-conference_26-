@@ -1,0 +1,20 @@
+{
+  "frozen_at_utc": "2026-10-15T00:51:39.388171+00:00",
+  "set_sha256": "87df4e28162bc7d3ad8cf06114658395e1b3f39306e62ad3672c7ae761e1f750",
+  "set_mtime_utc": "2026-10-15T00:50:58.603416+00:00",
+  "dialogues": 30,
+  "lines": 120,
+  "labels": {
+    "reserved_item": 10,
+    "heard_rumor": 33,
+    "paid_deposit": 11,
+    "none": 26,
+    "promised_discount": 11,
+    "promised_reward": 9,
+    "completed_errand": 10,
+    "owns_item": 10
+  },
+  "hashes": {
+    "nlu_heldout/heldout_set.json": "87df4e28162bc7d3ad8cf06114658395e1b3f39306e62ad3672c7ae761e1f750"
+  }
+}

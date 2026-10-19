@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Joyce Wu | account joycew40 | member: gold | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #8354290281  2019-12-12  michael_kors shirt $64  total $64  status: shipped, not delivered
+Payments:
+  2019-12-12 charge $64 order #8354290281 (card)
+Returns / promo codes:
+  (none)

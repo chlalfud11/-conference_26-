@@ -1,0 +1,9 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Joseph Banter | account josephbanter | member: guest | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #4156957435  2019-11-01  michael_kors shirt $99  total $99  status: delivered
+Payments:
+  2019-11-01 charge $99 order #4156957435 (card)
+  2019-11-01 charge $99 order #4156957435 (card) [duplicate]
+Returns / promo codes:
+  (none)

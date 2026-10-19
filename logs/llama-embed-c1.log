@@ -1,0 +1,16 @@
+0.00.075.193 I srv  llama_server: initializing ...
+0.00.075.201 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.075.201 W srv  llama_server: embeddings enabled with n_batch (2048) > n_ubatch (512)
+0.00.075.202 W srv  llama_server: setting n_batch = n_ubatch = 512 to avoid assertion failure
+0.00.075.301 I srv  init_listene: The UI is disabled
+0.00.075.303 I srv  init_listene: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+0.00.075.359 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.077.067 I srv    load_model: loading model '/Users/miryeong/0/00 졸업논문/start/conference-paper/models/bge-m3-FP16.gguf'
+0.00.910.817 W load: model vocab missing newline token, using special_pad_id instead
+0.01.086.098 I cmn          init: llama threadpool init, n_threads = 4
+0.01.086.119 W init: embeddings required but some input tokens were not marked as outputs -> overriding
+0.01.104.626 W srv    load_model: speculative decoding not supported by this context
+0.01.104.629 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 8192, kv_unified = 'true'
+0.01.106.607 I srv  llama_server: model loaded
+0.01.106.612 I srv  llama_server: listening on http://127.0.0.1:8081
+2.42.313.433 I srv    operator(): operator(): cleaning up before exit...

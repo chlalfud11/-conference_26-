@@ -1,0 +1,24 @@
+{
+  "scope": "Captured after interruption and resumption; not a pre-first-inference snapshot.",
+  "original_270_prefix_sha256": "3e7b3031a51b40e8cf82d7cadfaa08795b53ff2befaab098d79a5d3d5e6f2d3d",
+  "criteria_before_first_inference": "logs/c6_fingerprint_before_m1p2.json",
+  "source_sha256": {
+    "npc/adapters.py": "250c3ffe7869fd5ac506855c08cbcf258d6e92af784dd61ce9b083cb1990a91b",
+    "npc/config.py": "283623dfd532aa5ce245bf3989ef6e53ab84951532f25a0ebce0066d4703d544",
+    "npc/eval.py": "46b24da2d1b8b5f3b83925acc6f16ff08699b3bc05011422f002762d5d8f28f5",
+    "npc/llm.py": "b4e1d1e2733f53e55c17cc061f9b637b88f9f3eb27b4bc72cb2afea0a73002cd",
+    "npc/runner.py": "6327a89c9b367d56d8a027b899c997d51e9362b4f7ddb4d3e46a473f400ced7d"
+  },
+  "interruption": {
+    "completed_m1p2_records": 14,
+    "remaining_records_at_restart": 40,
+    "resume_log": "logs/runall_m1p2_resume.log"
+  },
+  "regression_first_attempt": {
+    "prompt_hash_matches": 21,
+    "prompt_hash_total": 24,
+    "status": "FAIL",
+    "detail": "M1P0 turn 5 has identical prompt_hash but different response, followed by differing prompts on turns 6-8. Same-code stub replay is not a before/after proof."
+  },
+  "design_limit": "Grounding text is inferred from decision labels, not generally entailed by engine state. accept_as_belief asserts verified evidence even for unverified high-trust rumors. Frozen prompts are preserved; this limitation must be disclosed."
+}

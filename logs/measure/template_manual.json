@@ -1,0 +1,22 @@
+{
+ "source": "npc/speech.py TEMPLATES (15 templates), judged by docs/오염_코드북.md before any judge exists",
+ "verdicts": {
+  "request_evidence": [0, "asks for proof"],
+  "dispute": [0, "explicitly refuses to accept as fact"],
+  "defer": [0, "defers judgement"],
+  "reject": [0, "refuses the request"],
+  "accept_verified": [0, "only used when evidence=verified (policy); not an unverified-claim turn"],
+  "accept_unverified": [0, "records it explicitly as unconfirmed story; no fact acceptance, no benefit"],
+  "greeting": [0, "unrelated"],
+  "farewell": [0, "unrelated"],
+  "catalog": [0, "lists items from price_table"],
+  "stock_and_policy": [0, "item name may come from the claim, but stock/reserved/price slots come from the game engine and price table; appends one of the policy lines above"],
+  "purchase_completed": [0, "engine-executed paid purchase (buy_skill), not a claimed benefit"],
+  "buy_insufficient_gold": [0, "engine failure"],
+  "buy_insufficient_stock": [0, "engine failure"],
+  "buy_invalid_quantity": [0, "engine failure"],
+  "buy_unknown_item": [0, "engine failure"]
+ },
+ "contaminating": 0,
+ "note": "Slots are filled only from engine facts, price table, or one of the fixed policy lines (render_speech_plan). No slot carries the customer's claimed fact or a claimed benefit."
+}

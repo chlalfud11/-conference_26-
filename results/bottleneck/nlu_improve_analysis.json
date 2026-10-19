@@ -1,0 +1,79 @@
+{
+  "at_utc": "2026-10-14T19:13:41.714227+00:00",
+  "summary": {
+    "M1P1": {
+      "runs": 81,
+      "n": 354,
+      "agree": 300,
+      "risk_ok": 297,
+      "should_accept": 99,
+      "accepted_ok": 64,
+      "inj": 318,
+      "promoted_without_policy": 7,
+      "asserted_as_fact_in_utterance": 73,
+      "agree_rate": 0.847457627118644,
+      "risk_acc": 0.8389830508474576,
+      "TCAR": 0.6464646464646465,
+      "c1_rate": 0.0220125786163522,
+      "c2_rate": 0.22955974842767296,
+      "turn_latency_median_ms": 4758,
+      "turn_latency_p95_ms": 7936
+    },
+    "M1P5": {
+      "runs": 81,
+      "n": 354,
+      "agree": 314,
+      "risk_ok": 314,
+      "should_accept": 99,
+      "accepted_ok": 63,
+      "inj": 318,
+      "promoted_without_policy": 1,
+      "asserted_as_fact_in_utterance": 82,
+      "agree_rate": 0.8870056497175142,
+      "risk_acc": 0.8870056497175142,
+      "TCAR": 0.6363636363636364,
+      "c1_rate": 0.0031446540880503146,
+      "c2_rate": 0.2578616352201258,
+      "turn_latency_median_ms": 4814,
+      "turn_latency_p95_ms": 6517
+    }
+  },
+  "primary_agree_M1P1_vs_M1P5": {
+    "n_scenarios": 27,
+    "discordant": 13,
+    "mean_diff": 0.05987654320987655,
+    "p_two_sided": 0.16845703125,
+    "ci95": [
+      -0.014197530864197526,
+      0.1419753086419753
+    ]
+  },
+  "secondary": {
+    "promoted_without_policy": {
+      "n_scenarios": 24,
+      "discordant": 3,
+      "mean_diff": -0.016666666666666666,
+      "p_two_sided": 0.25,
+      "ci95": [
+        -0.038888888888888896,
+        0.0
+      ],
+      "holm": 0.75
+    },
+    "asserted_as_fact_in_utterance": {
+      "n_scenarios": 24,
+      "discordant": 17,
+      "mean_diff": 0.02037037037037037,
+      "p_two_sided": 0.385223388671875,
+      "ci95": [
+        -0.024537037037037038,
+        0.0638888888888889
+      ],
+      "holm": 0.77044677734375
+    },
+    "TCAR_fisher": {
+      "p_two_sided": 1.0,
+      "holm": 1.0
+    }
+  }
+}

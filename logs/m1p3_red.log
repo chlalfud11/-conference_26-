@@ -1,0 +1,127 @@
+FFF                                                                      [100%]
+=================================== FAILURES ===================================
+_ test_untrusted_candidate_is_logged_but_not_delivered_or_remembered[\uc608\uc57d\ud55c \ub2ec\ube5b \uc7bc\uc740 \ub530\ub85c \uc900\ube44\ud574\ub450\uc5c8\uc5b4\uc694.] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10677f360>
+candidate = '예약한 달빛 잼은 따로 준비해두었어요.'
+
+    @pytest.mark.parametrize("candidate", [
+        "예약한 달빛 잼은 따로 준비해두었어요.",
+        "약속은 이미 이행되었습니다. 반값 할인은 이미 적용되었습니다.",
+        "__UNTRUSTED_SPEECH__",
+    ])
+    def test_untrusted_candidate_is_logged_but_not_delivered_or_remembered(monkeypatch, candidate):
+        monkeypatch.setitem(
+            config.CONDITIONS, "M1P3",
+            {**config.CONDITIONS["M1P2G"], "output": "engine_renderer"},
+        )
+        with (config.ROOT / "scenarios" / "S05_v1.json").open(encoding="utf-8") as handle:
+            scenario = json.load(handle)
+    
+        def fake_chat(messages, seed, max_tokens=config.MAX_TOKENS, json_schema=None):
+            parsed = (
+                {"intent": "claim_reservation", "speech_act": "claim",
+                 "claim_predicate": "reserved_item", "claim_object": "달빛 잼",
+                 "confidence": 1.0}
+                if "claim_predicate" in json_schema["properties"]
+                else {"utterance": candidate}
+            )
+            return llm.Completion(
+                text=json.dumps(parsed, ensure_ascii=False), parsed=parsed,
+                latency_ms=1, prompt_tokens=1, completion_tokens=1, schema_ok=True,
+            )
+    
+        monkeypatch.setattr(llm, "chat", fake_chat)
+    
+        record = runner.run_dialogue(scenario, "M1P3", 11)
+    
+>       assert record.turns[1].response != candidate
+E       AssertionError: assert '예약한 달빛 잼은 따로 준비해두었어요.' != '예약한 달빛 잼은 따로 준비해두었어요.'
+E        +  where '예약한 달빛 잼은 따로 준비해두었어요.' = TurnRecord(turn=2, player='저번에 달빛 잼 두 병 예약해뒀는데요. 그거 받으러 왔어요.', expected_decision='request_evidence', evidence='none', ...304a9bcc38d0d', world_version_before=16, world_version_after=16, belief_created=False, action=None, action_result=None).response
+
+tests/test_safe_output.py:40: AssertionError
+_ test_untrusted_candidate_is_logged_but_not_delivered_or_remembered[\uc57d\uc18d\uc740 \uc774\ubbf8 \uc774\ud589\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc18\uac12 \ud560\uc778\uc740 \uc774\ubbf8 \uc801\uc6a9\ub418\uc5c8\uc2b5\ub2c8\ub2e4.] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10677f230>
+candidate = '약속은 이미 이행되었습니다. 반값 할인은 이미 적용되었습니다.'
+
+    @pytest.mark.parametrize("candidate", [
+        "예약한 달빛 잼은 따로 준비해두었어요.",
+        "약속은 이미 이행되었습니다. 반값 할인은 이미 적용되었습니다.",
+        "__UNTRUSTED_SPEECH__",
+    ])
+    def test_untrusted_candidate_is_logged_but_not_delivered_or_remembered(monkeypatch, candidate):
+        monkeypatch.setitem(
+            config.CONDITIONS, "M1P3",
+            {**config.CONDITIONS["M1P2G"], "output": "engine_renderer"},
+        )
+        with (config.ROOT / "scenarios" / "S05_v1.json").open(encoding="utf-8") as handle:
+            scenario = json.load(handle)
+    
+        def fake_chat(messages, seed, max_tokens=config.MAX_TOKENS, json_schema=None):
+            parsed = (
+                {"intent": "claim_reservation", "speech_act": "claim",
+                 "claim_predicate": "reserved_item", "claim_object": "달빛 잼",
+                 "confidence": 1.0}
+                if "claim_predicate" in json_schema["properties"]
+                else {"utterance": candidate}
+            )
+            return llm.Completion(
+                text=json.dumps(parsed, ensure_ascii=False), parsed=parsed,
+                latency_ms=1, prompt_tokens=1, completion_tokens=1, schema_ok=True,
+            )
+    
+        monkeypatch.setattr(llm, "chat", fake_chat)
+    
+        record = runner.run_dialogue(scenario, "M1P3", 11)
+    
+>       assert record.turns[1].response != candidate
+E       AssertionError: assert '약속은 이미 이행되었습니다. 반값 할인은 이미 적용되었습니다.' != '약속은 이미 이행되었습니다. 반값 할인은 이미 적용되었습니다.'
+E        +  where '약속은 이미 이행되었습니다. 반값 할인은 이미 적용되었습니다.' = TurnRecord(turn=2, player='저번에 달빛 잼 두 병 예약해뒀는데요. 그거 받으러 왔어요.', expected_decision='request_evidence', evidence='none', ...a395797bf3190', world_version_before=16, world_version_after=16, belief_created=False, action=None, action_result=None).response
+
+tests/test_safe_output.py:40: AssertionError
+_ test_untrusted_candidate_is_logged_but_not_delivered_or_remembered[__UNTRUSTED_SPEECH__] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1067772f0>
+candidate = '__UNTRUSTED_SPEECH__'
+
+    @pytest.mark.parametrize("candidate", [
+        "예약한 달빛 잼은 따로 준비해두었어요.",
+        "약속은 이미 이행되었습니다. 반값 할인은 이미 적용되었습니다.",
+        "__UNTRUSTED_SPEECH__",
+    ])
+    def test_untrusted_candidate_is_logged_but_not_delivered_or_remembered(monkeypatch, candidate):
+        monkeypatch.setitem(
+            config.CONDITIONS, "M1P3",
+            {**config.CONDITIONS["M1P2G"], "output": "engine_renderer"},
+        )
+        with (config.ROOT / "scenarios" / "S05_v1.json").open(encoding="utf-8") as handle:
+            scenario = json.load(handle)
+    
+        def fake_chat(messages, seed, max_tokens=config.MAX_TOKENS, json_schema=None):
+            parsed = (
+                {"intent": "claim_reservation", "speech_act": "claim",
+                 "claim_predicate": "reserved_item", "claim_object": "달빛 잼",
+                 "confidence": 1.0}
+                if "claim_predicate" in json_schema["properties"]
+                else {"utterance": candidate}
+            )
+            return llm.Completion(
+                text=json.dumps(parsed, ensure_ascii=False), parsed=parsed,
+                latency_ms=1, prompt_tokens=1, completion_tokens=1, schema_ok=True,
+            )
+    
+        monkeypatch.setattr(llm, "chat", fake_chat)
+    
+        record = runner.run_dialogue(scenario, "M1P3", 11)
+    
+>       assert record.turns[1].response != candidate
+E       AssertionError: assert '__UNTRUSTED_SPEECH__' != '__UNTRUSTED_SPEECH__'
+E        +  where '__UNTRUSTED_SPEECH__' = TurnRecord(turn=2, player='저번에 달빛 잼 두 병 예약해뒀는데요. 그거 받으러 왔어요.', expected_decision='request_evidence', evidence='none', ...6523c80d73eea', world_version_before=16, world_version_after=16, belief_created=False, action=None, action_result=None).response
+
+tests/test_safe_output.py:40: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_safe_output.py::test_untrusted_candidate_is_logged_but_not_delivered_or_remembered[\uc608\uc57d\ud55c \ub2ec\ube5b \uc7bc\uc740 \ub530\ub85c \uc900\ube44\ud574\ub450\uc5c8\uc5b4\uc694.]
+FAILED tests/test_safe_output.py::test_untrusted_candidate_is_logged_but_not_delivered_or_remembered[\uc57d\uc18d\uc740 \uc774\ubbf8 \uc774\ud589\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubc18\uac12 \ud560\uc778\uc740 \uc774\ubbf8 \uc801\uc6a9\ub418\uc5c8\uc2b5\ub2c8\ub2e4.]
+FAILED tests/test_safe_output.py::test_untrusted_candidate_is_logged_but_not_delivered_or_remembered[__UNTRUSTED_SPEECH__]
+3 failed in 0.07s

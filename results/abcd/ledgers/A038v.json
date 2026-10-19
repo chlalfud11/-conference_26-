@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A038v",
+ "predicate": "paid_deposit",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Chloe Zhang | account chloezhang | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#7664470835  2019-11-01  tommy_hilfiger jacket $99  total $99  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $99 order #7664470835 (card)",
+   "2019-11-01 charge $99 order #7664470835 (card) [duplicate]"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

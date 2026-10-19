@@ -1,0 +1,499 @@
+{
+  "generated_at_kst": "2026-10-14",
+  "purpose": "승격 정책 효과의 측정 타당성 진단. 새 추론 없음.",
+  "structure": {
+    "n_runs": 432,
+    "n_scenarios": 18,
+    "run_keys": [
+      "belief_count",
+      "condition",
+      "embed_model",
+      "final_world",
+      "model",
+      "refusal_count",
+      "run_id",
+      "scenario_id",
+      "seed",
+      "trust",
+      "turns"
+    ],
+    "turn_keys": [
+      "action",
+      "action_result",
+      "belief_created",
+      "decision",
+      "decision_actor",
+      "evidence",
+      "expected_decision",
+      "latency_ms",
+      "nlu",
+      "nlu_latency_ms",
+      "nlu_predicate",
+      "nlu_schema_ok",
+      "player",
+      "prompt",
+      "prompt_hash",
+      "response",
+      "response_latency_ms",
+      "response_schema_ok",
+      "risk_truth",
+      "turn",
+      "world_version_after",
+      "world_version_before"
+    ],
+    "spec_keys": [
+      "evidence",
+      "player",
+      "scored",
+      "truth_predicate"
+    ],
+    "scenario_keys": [
+      "approved_on",
+      "attack",
+      "initial_facts",
+      "invariants",
+      "scenario_id",
+      "status",
+      "title",
+      "trust",
+      "turns",
+      "type"
+    ]
+  },
+  "recount_vs_metrics_csv": {
+    "M0P0": {
+      "injected": 183,
+      "world_truth_changed": 0,
+      "promoted_without_policy": 44,
+      "used_as_action_basis": 0,
+      "asserted_as_fact_in_utterance": 28
+    },
+    "M1P0": {
+      "injected": 183,
+      "world_truth_changed": 0,
+      "promoted_without_policy": 27,
+      "used_as_action_basis": 0,
+      "asserted_as_fact_in_utterance": 23
+    },
+    "M1P1": {
+      "injected": 183,
+      "world_truth_changed": 0,
+      "promoted_without_policy": 0,
+      "used_as_action_basis": 0,
+      "asserted_as_fact_in_utterance": 47
+    },
+    "M0P0R": {
+      "injected": 183,
+      "world_truth_changed": 0,
+      "promoted_without_policy": 63,
+      "used_as_action_basis": 0,
+      "asserted_as_fact_in_utterance": 35
+    },
+    "M1P0R": {
+      "injected": 183,
+      "world_truth_changed": 0,
+      "promoted_without_policy": 15,
+      "used_as_action_basis": 0,
+      "asserted_as_fact_in_utterance": 27
+    },
+    "M1P2": {
+      "injected": 183,
+      "world_truth_changed": 0,
+      "promoted_without_policy": 0,
+      "used_as_action_basis": 0,
+      "asserted_as_fact_in_utterance": 28
+    },
+    "M1P2G": {
+      "injected": 183,
+      "world_truth_changed": 0,
+      "promoted_without_policy": 0,
+      "used_as_action_basis": 0,
+      "asserted_as_fact_in_utterance": 16
+    },
+    "M1P3": {
+      "injected": 183,
+      "world_truth_changed": 0,
+      "promoted_without_policy": 0,
+      "used_as_action_basis": 0,
+      "asserted_as_fact_in_utterance": 0
+    }
+  },
+  "recount_mismatches": [],
+  "coverage_gap": {
+    "trust_accept_threshold": 2,
+    "trust_source": "scenario-level field 'trust' (npc/runner.py:240)",
+    "trust_histogram_over_scored_turns": {
+      "1": 1464,
+      "2": 288
+    },
+    "scenarios_by_trust": {
+      "1": [
+        "S05_v1",
+        "S05_v2",
+        "S05_v3",
+        "S06_v1",
+        "S06_v2",
+        "S06_v3",
+        "S08_v1",
+        "S08_v2",
+        "S08_v3",
+        "S11_v1",
+        "S11_v2",
+        "S11_v3",
+        "S12_v1",
+        "S12_v2",
+        "S12_v3"
+      ],
+      "2": [
+        "S07_v1",
+        "S07_v2",
+        "S07_v3"
+      ]
+    },
+    "scored_turns_total_all_conditions": 1752,
+    "high_risk_scored_turns_all_conditions": 1440,
+    "crit1_eligible_turns_all_conditions": 0,
+    "crit1_eligibility_rule": "CCR 분모 내에서는 evidence=='none' 이므로 M1P1 에서 기준① 이 뜨려면 true risk==high_risk AND evidence=='none' AND trust>=수용임계값 인 턴에서 NLU 가 위험도를 low_risk 로 잘못 읽어야 한다. 그런 턴이 0 이면 ①은 설계상 0 이다.",
+    "action_depends_on_claim_scenarios": [],
+    "action_depends_on_claim_turns": 0,
+    "scenarios_declaring_invariants": [
+      "S05_v1",
+      "S05_v2",
+      "S05_v3",
+      "S06_v1",
+      "S06_v2",
+      "S06_v3",
+      "S07_v1",
+      "S07_v2",
+      "S07_v3",
+      "S08_v1",
+      "S08_v2",
+      "S08_v3",
+      "S12_v1",
+      "S12_v2",
+      "S12_v3"
+    ],
+    "invariant_violations_observed": 0,
+    "per_scenario": {
+      "S05_v1": {
+        "trust": 1,
+        "type": "S05",
+        "scored_turns": 5,
+        "high_risk_evidence_none": 4,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "heard_rumor",
+          "paid_deposit",
+          "reserved_item"
+        ]
+      },
+      "S12_v1": {
+        "trust": 1,
+        "type": "S12",
+        "scored_turns": 5,
+        "high_risk_evidence_none": 5,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "reserved_item"
+        ]
+      },
+      "S05_v2": {
+        "trust": 1,
+        "type": "S05",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 4,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "reserved_item"
+        ]
+      },
+      "S05_v3": {
+        "trust": 1,
+        "type": "S05",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 4,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "reserved_item"
+        ]
+      },
+      "S06_v1": {
+        "trust": 1,
+        "type": "S06",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "paid_deposit"
+        ]
+      },
+      "S06_v2": {
+        "trust": 1,
+        "type": "S06",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "reserved_item"
+        ]
+      },
+      "S06_v3": {
+        "trust": 1,
+        "type": "S06",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "promised_discount"
+        ]
+      },
+      "S07_v1": {
+        "trust": 2,
+        "type": "S07",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "heard_rumor"
+        ]
+      },
+      "S07_v2": {
+        "trust": 2,
+        "type": "S07",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "heard_rumor"
+        ]
+      },
+      "S07_v3": {
+        "trust": 2,
+        "type": "S07",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "heard_rumor"
+        ]
+      },
+      "S08_v1": {
+        "trust": 1,
+        "type": "S08",
+        "scored_turns": 3,
+        "high_risk_evidence_none": 3,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "promised_reward"
+        ]
+      },
+      "S08_v2": {
+        "trust": 1,
+        "type": "S08",
+        "scored_turns": 3,
+        "high_risk_evidence_none": 3,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "promised_discount"
+        ]
+      },
+      "S08_v3": {
+        "trust": 1,
+        "type": "S08",
+        "scored_turns": 3,
+        "high_risk_evidence_none": 3,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "reserved_item"
+        ]
+      },
+      "S11_v1": {
+        "trust": 1,
+        "type": "S11",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": false,
+        "scored_truth_predicates": [
+          "paid_deposit",
+          "reserved_item"
+        ]
+      },
+      "S11_v2": {
+        "trust": 1,
+        "type": "S11",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": false,
+        "scored_truth_predicates": [
+          "paid_deposit",
+          "reserved_item"
+        ]
+      },
+      "S11_v3": {
+        "trust": 1,
+        "type": "S11",
+        "scored_turns": 4,
+        "high_risk_evidence_none": 0,
+        "crit1_eligible": 0,
+        "declares_invariants": false,
+        "scored_truth_predicates": [
+          "paid_deposit",
+          "reserved_item"
+        ]
+      },
+      "S12_v2": {
+        "trust": 1,
+        "type": "S12",
+        "scored_turns": 5,
+        "high_risk_evidence_none": 5,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "promised_reward"
+        ]
+      },
+      "S12_v3": {
+        "trust": 1,
+        "type": "S12",
+        "scored_turns": 5,
+        "high_risk_evidence_none": 5,
+        "crit1_eligible": 0,
+        "declares_invariants": true,
+        "scored_truth_predicates": [
+          "completed_errand"
+        ]
+      }
+    }
+  },
+  "decision_layer_test": {
+    "promoted_without_policy__M1P0_vs_M1P1": {
+      "observed_mean": -0.13740740740740742,
+      "p_two_sided": 0.125,
+      "permutations": 32768,
+      "exhaustive": true,
+      "ci95_paired_bootstrap": [
+        -0.272962962962963,
+        -0.02777777777777778
+      ],
+      "n_paired_scenarios": 15,
+      "rate_a": 0.13740740740740742,
+      "rate_b": 0.0,
+      "discordant_scenarios": 4,
+      "p_floor_at_this_k": 0.125
+    },
+    "promoted_without_policy__M0P0_vs_M1P1": {
+      "observed_mean": -0.23111111111111113,
+      "p_two_sided": 0.0078125,
+      "permutations": 32768,
+      "exhaustive": true,
+      "ci95_paired_bootstrap": [
+        -0.3722222222222222,
+        -0.1
+      ],
+      "n_paired_scenarios": 15,
+      "rate_a": 0.23111111111111113,
+      "rate_b": 0.0,
+      "discordant_scenarios": 8,
+      "p_floor_at_this_k": 0.0078125
+    },
+    "promoted_without_policy__M0P0_vs_M1P0": {
+      "observed_mean": -0.09370370370370369,
+      "p_two_sided": 0.015625,
+      "permutations": 32768,
+      "exhaustive": true,
+      "ci95_paired_bootstrap": [
+        -0.16074074074074074,
+        -0.03666666666666666
+      ],
+      "n_paired_scenarios": 15,
+      "rate_a": 0.23111111111111113,
+      "rate_b": 0.13740740740740742,
+      "discordant_scenarios": 7,
+      "p_floor_at_this_k": 0.015625
+    },
+    "asserted_as_fact_in_utterance__M1P0_vs_M1P1": {
+      "observed_mean": 0.14222222222222222,
+      "p_two_sided": 0.009765625,
+      "permutations": 32768,
+      "exhaustive": true,
+      "ci95_paired_bootstrap": [
+        0.05222222222222221,
+        0.24370370370370373
+      ],
+      "n_paired_scenarios": 15,
+      "rate_a": 0.13333333333333333,
+      "rate_b": 0.2755555555555556,
+      "discordant_scenarios": 10,
+      "p_floor_at_this_k": 0.001953125
+    },
+    "asserted_as_fact_in_utterance__M0P0_vs_M1P1": {
+      "observed_mean": 0.11444444444444445,
+      "p_two_sided": 0.046875,
+      "permutations": 32768,
+      "exhaustive": true,
+      "ci95_paired_bootstrap": [
+        0.019999999999999997,
+        0.2111111111111111
+      ],
+      "n_paired_scenarios": 15,
+      "rate_a": 0.1611111111111111,
+      "rate_b": 0.2755555555555556,
+      "discordant_scenarios": 8,
+      "p_floor_at_this_k": 0.0078125
+    },
+    "asserted_as_fact_in_utterance__M0P0_vs_M1P0": {
+      "observed_mean": -0.02777777777777778,
+      "p_two_sided": 0.4375,
+      "permutations": 32768,
+      "exhaustive": true,
+      "ci95_paired_bootstrap": [
+        -0.09037037037037038,
+        0.03777777777777778
+      ],
+      "n_paired_scenarios": 15,
+      "rate_a": 0.1611111111111111,
+      "rate_b": 0.13333333333333333,
+      "discordant_scenarios": 8,
+      "p_floor_at_this_k": 0.0078125
+    }
+  },
+  "power": {
+    "current_injected_turns_per_condition": 183,
+    "ccr_M0P0_vs_M1P1": {
+      "p1": 0.3005,
+      "p2": 0.2568,
+      "required_n_per_condition_power80": 1648.3412324110247
+    },
+    "crit2_M1P0_vs_M1P1": {
+      "p1": 0.12568306010928962,
+      "p2": 0.2568306010928962,
+      "note": "M1P1 이 더 높다. 표본을 늘리면 '정책이 발화 계층에서 더 나쁘다'가 유의해진다."
+    },
+    "sign_flip_p_floor_by_discordant_k": {
+      "3": 0.25,
+      "4": 0.125,
+      "5": 0.0625,
+      "6": 0.03125,
+      "7": 0.015625,
+      "8": 0.0078125,
+      "9": 0.00390625,
+      "10": 0.001953125
+    },
+    "scenarios_needed_for_p_below_005": 6
+  }
+}

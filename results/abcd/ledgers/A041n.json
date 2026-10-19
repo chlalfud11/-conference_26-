@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A041n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Norman Bouchard | account normanbouchard | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#9633216940  2019-11-01  michael_kors shirt $64  total $64  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $64 order #9633216940 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

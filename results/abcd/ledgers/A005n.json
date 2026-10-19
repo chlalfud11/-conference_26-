@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A005n",
+ "predicate": "promised_discount",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Sanya Afzal | account sanyaafzal659 | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#5199180760  2019-11-01  guess jacket $64  total $64  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $64 order #5199180760 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

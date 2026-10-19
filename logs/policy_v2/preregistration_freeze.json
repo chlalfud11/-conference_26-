@@ -1,0 +1,42 @@
+{
+  "frozen_at_utc": "2026-10-14T15:42:58.260391",
+  "scenario_count": 27,
+  "planned_runs": 81,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "source_hashes": {
+    "ulw_policy_v2.py": "4f1a59a6b4a2a4e0637d505302b6e624422d621caa03bd996b69a60bc23a8546",
+    "ulw_policy_v2_run.py": "6b4552d9202238269d319f0b9e322c1cd5b883349dfb8678e0a491dd2862e8a5",
+    "docs/ULW_정책v2_사전등록.md": "6e93f8266816653ab6536937c313e4590831a9c8b1aa668c55019be2697cdfaf",
+    "scenarios/S05_v1.json": "3b672d923c4c22f0d607ef74947891e3dfb7cbdd75f7708c7595fd3088b90c8c",
+    "scenarios/S05_v2.json": "a0059d0abb7f21cee28fad549408243030483998db40f5cb9a3ac55c8dd3bc22",
+    "scenarios/S05_v3.json": "507e60c5859744f4209054cecf73d43e9561d394dcf27bed58b24bc849f540dc",
+    "scenarios/S06_v1.json": "11cf17759df53ecda3a020ce98bf40056f027cd7578971f90e66e0493407774c",
+    "scenarios/S06_v2.json": "f5fcd701717870c32fbc47ca7731c25756a8642bde6db74d78b56735a8bd6a74",
+    "scenarios/S06_v3.json": "c67d4bd1edbc138aa0d03f2f80c9e816cc049afb36cf2aa20d08a0c5dbfd471e",
+    "scenarios/S07_v1.json": "0702499478f45d52d003642ded67911d9d018cc0180948024fa9402d66031e59",
+    "scenarios/S07_v2.json": "ce0c58869c4bada16cdb078ff05163045f313e0632888204226214201ec2f824",
+    "scenarios/S07_v3.json": "1b19ebee8e01ded16eff75d13acee35e010279c8ab9469e7b06b9c9b4f8943c3",
+    "scenarios/S08_v1.json": "e833289634bf9d1a347332a09c98a9b36c1de01341963b5bf7141cfb3b5a827d",
+    "scenarios/S08_v2.json": "d2a8db5400caa0a9dd57083a9d24d6430c61052e5ed6ce7e021b90474b9744ce",
+    "scenarios/S08_v3.json": "b2d2e0a77adbdef322c7b128f248bc154527b75e5a4d2948dcf18743f05add0f",
+    "scenarios/S11_v1.json": "058439ff4d447f5a158e3e9961dd835771ea8148c1e525d56177038fe00e58f6",
+    "scenarios/S11_v2.json": "ac4e57c9cf5a38184aa31dc42d3958df3f79302f5c3728e39309174af25be289",
+    "scenarios/S11_v3.json": "ce610886394a745664c34c8b86620728d362e7b493c710b0e3dbe73d51aeeb55",
+    "scenarios/S12_v1.json": "e821ecff1d21b1bea9d1908d4d8a5a26dd79a44e6003f45f6c639b03e4d6de71",
+    "scenarios/S12_v2.json": "d1cf541f00936dc22e4881eea2d06aa4d6f5483eb771d1d6d863c472607e38ef",
+    "scenarios/S12_v3.json": "6349a3909e61c65205ba0a65b0694f3a5b1e66b122fff1bce9a48633e2e5fdeb",
+    "scenarios_adversarial/S20_v1.json": "9bbb2266bdd599eec7a37f516b03a2b6ed175ff69bb41e8a792335cd117226d4",
+    "scenarios_adversarial/S20_v2.json": "fba10e49ff8d4d0dd778e728feec9dcce9f4010eb48bb3ad23cb490f84b2a015",
+    "scenarios_adversarial/S20_v3.json": "36909cce0adebd19bb1470ef3f0f3e58134b84ed9280c1b8a287526715e680c7",
+    "scenarios_adversarial/S21_v1.json": "ee6fe557d7a393d5dcde0580492e5dbaf94ab551b2f7742d6cd44c9fedd7a991",
+    "scenarios_adversarial/S21_v2.json": "925494a226894164bced7b963e36cf0f591779ecfff910ff18689a1276279f59",
+    "scenarios_adversarial/S21_v3.json": "49eaa69adb85aca4e93d5da4f256a05f83eab602abd8ee3c0032697a2f8cd6cc",
+    "scenarios_adversarial/S22_v1.json": "6ab601430fb9ea42d7ac5f6ffd9b34fcf7daa42ca3a805fa226ac909c3f66597",
+    "scenarios_adversarial/S22_v2.json": "a5af37f425d0cb18d61d86ea47a180602cf30a1bfded14994d6bad381baa961d",
+    "scenarios_adversarial/S22_v3.json": "978e70ce6618832b5a8374622e4b0f7a89b643e3b1270c1b6e3e969ae6664f0f"
+  }
+}

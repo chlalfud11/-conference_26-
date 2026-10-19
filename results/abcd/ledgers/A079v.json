@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A079v",
+ "predicate": "owns_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Alessandro Phoenix | account alessandrop356 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#5865909589  2019-11-01  guess shirt $79  total $79  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $79 order #5865909589 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

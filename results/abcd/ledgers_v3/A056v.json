@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A056v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Alessandro Phoenix (ap761573)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Alessandro Phoenix (ap761573) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Alessandro Phoenix (ap761573) | order #4161155311 | guess shirt $74 | total $74 | status: shipped, not delivered",
+  "2024-06-12 | Alessandro Phoenix (ap761573) | charge $74 for order #4161155311 (card)"
+ ]
+}

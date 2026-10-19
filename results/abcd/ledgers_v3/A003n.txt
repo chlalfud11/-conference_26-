@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Rodriguez Domingo (rdomingo748) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-02 | Rodriguez Domingo (rdomingo748) | order #6840582919 | tommy_hilfiger jacket $54 | total $54 | status: delivered
+  2024-06-02 | Rodriguez Domingo (rdomingo748) | charge $54 for order #6840582919 (card)

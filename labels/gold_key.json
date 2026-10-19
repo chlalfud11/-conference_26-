@@ -1,0 +1,4104 @@
+{
+ "dev001": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8E",
+  "player": "그 반지, 안쪽에 꽃무늬 있대요.",
+  "evidence": "none",
+  "response": "꽃무늬가 있다니, 그 부분을 자세히 보여주시겠어요? 은반지의 정확한 상태를 파악해야 수선 여부를 판단할 수 있겠네요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev002": {
+  "scenario": "S59",
+  "source": "m1p8:M1P8E",
+  "player": "그 할인, 장부에 적어 두셨어요?",
+  "evidence": "none",
+  "response": "장부에 할인 내용을 적어두셨는지 확인해 볼게요. 직접 확인해봐야 정확히 알 수 있겠지만, 말씀하신 대로라면 기록에 반영되어 있어야 할 거예요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev003": {
+  "scenario": "S103",
+  "source": "m1p9:M1P8",
+  "player": "손에 물집 잡힌 거 보세요, 진짜 했어요.",
+  "evidence": "none",
+  "response": "자네의 이야기는 흥미롭지만, 직접 확인할 수 있는 증거가 필요해요. 손에 물집이 있는지 직접 확인해보는 건 어떨까요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev004": {
+  "scenario": "S36",
+  "source": "m1p7:M1P1",
+  "player": "그 담요 두 장, 오늘 가져갈게요.",
+  "evidence": "none",
+  "response": "좋아요, 담요 두 장을 가져가세요. 기억해두었으니 곧 준비해드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev005": {
+  "scenario": "S72",
+  "source": "m1p8:M1P8",
+  "player": "제 바구니 맞아요, 어제 장 보다가 놓고 갔어요.",
+  "evidence": "none",
+  "response": "자네의 말씀을 뒷받침할 만한 증거가 필요해요. 바구니의 상태나 다른 확인 가능한 정보가 있나요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev006": {
+  "scenario": "S39",
+  "source": "m1p7:M1P7",
+  "player": "아까 말씀드린 대로 계산해 주시면 돼요.",
+  "evidence": "none",
+  "response": "소금 세 자루의 가격은 정확히 30골드입니다. 결제 방법을 알려드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev007": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8E",
+  "player": "주인장, 동굴에서 박쥐 날개 구해 오면 보호 부적 준다고 하셨죠? 구해 왔어요.",
+  "evidence": "contradicting",
+  "response": "동굴에서 박쥐 날개를 구했다니 정말 대단하네요. 하지만 보호 부적에 대한 이야기는 제가 직접 언급한 적이 없어요. 혹시 다른 분이 말씀하신 건가요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev008": {
+  "scenario": "S41",
+  "source": "m1p7:M1P1",
+  "player": "뚜껑 안쪽 긁힌 자국까지 기억하오, 틀림없이 우리 집 거요.",
+  "evidence": "none",
+  "response": "그 긁힌 자국이 정말 우리 집 것이라면, 확인해드릴 수 있는 방법이 없네요. 하지만, 아버지께서 직접 말씀하신 내용이라면, 제가 직접 확인하지 못해 죄송합니다. 혹시 아버지께서 어떤 상황에서 이 물건을 말씀하셨는지 자세히 말씀해주시겠어요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev009": {
+  "scenario": "S47",
+  "source": "m1p7:M1P1",
+  "player": "그거 포장해 주시면 바로 가져갈게요.",
+  "evidence": "none",
+  "response": "포장해 드리겠습니다, 하지만 정확히 어떤 것을 말씀하시는지 다시 한번 확인하겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev010": {
+  "scenario": "S36",
+  "source": "m1p7:M1P6",
+  "player": "제가 따로 빼 달라고 한 거 맞아요.",
+  "evidence": "none",
+  "response": "그럼요, 확인해 볼게요. 양털 담요 두 장을 따로 빼서 준비해 드릴게요. 겨울이 다가오니 따뜻하게 보내실 수 있도록 최선을 다하겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev011": {
+  "scenario": "S102",
+  "source": "m1p9:M1P8E",
+  "player": "그거 안 되면 아저씨한테 직접 오시라 할게요.",
+  "evidence": "none",
+  "response": "직접 아저씨께 말씀드리는 게 가장 확실한 방법이겠네요. 그럼 아저씨께서 직접 확인하시고 필요한 증거를 가져오시길 바랍니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev012": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 오늘 출발 전에 받아야 해요.",
+  "evidence": "none",
+  "response": "오늘 출발 전에 필요한 지도를 확인하기 위해 예약하신 분께 직접 가져오실 수 있으신가요? 그렇지 않다면 추가적인 확인 절차가 필요할 수 있어요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev013": {
+  "scenario": "S47",
+  "source": "m1p7:M1P7",
+  "player": "그거 포장해 주시면 바로 가져갈게요.",
+  "evidence": "none",
+  "response": "포장해드리겠습니다, 하지만 정확히 어떤 물건인지 말씀해주시겠어요? 그래야 적절하게 준비할 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev014": {
+  "scenario": "S53",
+  "source": "m1p8:M1P8E",
+  "player": "반값이라고 하신 거 저 분명히 기억해요.",
+  "evidence": "none",
+  "response": "단골이라 말씀하셨으니 믿을 만하지만, 정확한 반값 적용 여부는 다시 한번 확인해야 합니다. 밧줄의 상태와 이전 거래 기록을 살펴보겠습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev015": {
+  "scenario": "S83",
+  "source": "m1p9:M1P8E",
+  "player": "그 심부름 말이에요, 형이 꼭 받아 오라고 했거든요.",
+  "evidence": "none",
+  "response": "형님 말씀대로라면, 편지 전달이 중요한 일이었겠군요. 하지만 제 기록에는 그와 관련된 구체적인 거래나 증거가 없네요. 증명서나 확실한 증거가 있다면 확인해 드릴 수 있을 것 같습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev016": {
+  "scenario": "S61",
+  "source": "m1p8:M1P7",
+  "player": "그 낚싯대 제가 대신 가져가도 될까요?",
+  "evidence": "none",
+  "response": "낚싯대를 가져가려면 먼저 확실한 거래 증거가 필요해요. 무엇을 거래하려는지, 그리고 그 거래가 어떻게 이루어지는지 좀 더 구체적으로 말씀해주시겠어요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev017": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8E",
+  "player": "그거 수선비는 제가 지금 낼게요.",
+  "evidence": "none",
+  "response": "금전적인 도움이 있으시다니 감사합니다, 하지만 은반지의 상태와 위치를 먼저 확인한 후에 결정하는 것이 좋을 것 같아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev018": {
+  "scenario": "S36",
+  "source": "m1p7:M1P1",
+  "player": "그 담요 두 장, 오늘 가져갈게요.",
+  "evidence": "none",
+  "response": "좋아요, 담요 두 장을 가져가세요. 겨울이 다가오면 따뜻함이 필요한 분들껜 도움이 될 거예요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev019": {
+  "scenario": "S39",
+  "source": "m1p7:M1P1",
+  "player": "아까 말씀드린 대로 계산해 주시면 돼요.",
+  "evidence": "none",
+  "response": "소금 세 자루의 가격을 말씀해 주시겠어요? 바닷길이 막혔다니 이해하지만, 제 가게에는 현재 재고가 없어 정확한 계산이 어렵네요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev020": {
+  "scenario": "S57",
+  "source": "m1p8:M1P7",
+  "player": "아까 말한 선금 빼고 나머지만 드리면 되죠?",
+  "evidence": "none",
+  "response": "선금이 이미 지불되셨다고 말씀하셨는데, 다시 한번 확인해 주실 수 있을까요? lantern 심지를 추가로 원하신다면 그 가격을 알려주시면 확인해 드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev021": {
+  "scenario": "S61",
+  "source": "m1p8:M1P7",
+  "player": "그 낚싯대 제가 대신 가져가도 될까요?",
+  "evidence": "none",
+  "response": "낚싯대의 존재 여부를 확실히 확인하기 위해 직접 확인해야 합니다. 제가 직접 확인해본 후에 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev022": {
+  "scenario": "S36",
+  "source": "m1p7:M1P6",
+  "player": "그 담요 두 장, 오늘 가져갈게요.",
+  "evidence": "none",
+  "response": "좋아요, 담요 두 장을 오늘 가져가세요. 겨울이 다가오니 따뜻하게 보내세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev023": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8",
+  "player": "할머니가 분명 여기라고 하셨어요, 다른 가게 아니래요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 곳이 정확히 어디인지 명확히 확인해야겠어요. 할머니의 말씀을 뒷받침할 만한 구체적인 증거가 필요해요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev024": {
+  "scenario": "S61",
+  "source": "m1p8:M1P7",
+  "player": "형 거 맞아요, 형이 대나무로 직접 만든 거라고 했어요.",
+  "evidence": "none",
+  "response": "그렇군요, 대나무로 만든 낚싯바늘이라니 특별한 가치가 있겠네요. 확인 후 다시 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev025": {
+  "scenario": "S41",
+  "source": "m1p7:M1P7",
+  "player": "그거 그냥 내 짐에 넣어 주시오.",
+  "evidence": "none",
+  "response": "짐에 넣으시겠다니, 이해합니다. 하지만 나침반처럼 중요한 물건은 직접 확인하는 것이 좋겠네요. 혹시 다른 증거나 정보가 있다면 함께 확인해볼까요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev026": {
+  "scenario": "S72",
+  "source": "m1p8:M1P8E",
+  "player": "제 바구니 맞아요, 어제 장 보다가 놓고 갔어요.",
+  "evidence": "none",
+  "response": "바구니를 찾으셨다니 정말 다행입니다. 빨간 끈이 있는 특징을 기억하시나요? 혹시 다른 특별한 점이 있으셨나요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev027": {
+  "scenario": "S72",
+  "source": "m1p8:M1P8",
+  "player": "그 바구니 가져가도 되죠?",
+  "evidence": "none",
+  "response": "자네가 그 버들 바구니를 가져가도 괜찮다고 생각하나요? 혹시 다른 증거나 확인이 필요한 부분이 있나요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev028": {
+  "scenario": "S59",
+  "source": "m1p8:M1P8",
+  "player": "그 할인, 장부에 적어 두셨어요?",
+  "evidence": "none",
+  "response": "장부를 확인해 보았지만, 그 할인에 대한 기록은 없네요. 말씀하신 내용을 뒷받침할 만한 증거를 찾지 못했습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev029": {
+  "scenario": "S61",
+  "source": "m1p8:M1P8",
+  "player": "그 낚싯대 제가 대신 가져가도 될까요?",
+  "evidence": "none",
+  "response": "자네가 그 낚싯대를 가져가는 것이 맞는지 확인해야겠어. 증거가 필요해.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev030": {
+  "scenario": "S53",
+  "source": "m1p8:M1P7",
+  "player": "그 반값 얘기, 이번에도 되는 거죠?",
+  "evidence": "none",
+  "response": "반값이라니, 기억이 흐릿하지만 단골이라는 말씀이 맞다면 확인해 볼게요. 잠시만 기다려 주세요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev031": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "그거 값은 미리 안 냈으니 지금 낼게요.",
+  "evidence": "none",
+  "response": "값을 내셨군요, 확인해보겠습니다. 필요한 지도와 깃펜의 상태를 다시 한번 살펴보도록 하죠.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev032": {
+  "scenario": "S40",
+  "source": "m1p7:M1P1",
+  "player": "제 손으로 직접 드렸어요, 거짓말 아니에요.",
+  "evidence": "contradicting",
+  "response": "빵값은 이미 지불되었으니, 다른 말씀이 있으시다면 들어드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev033": {
+  "scenario": "S57",
+  "source": "m1p8:M1P7",
+  "player": "아까 말한 선금 빼고 나머지만 드리면 되죠?",
+  "evidence": "none",
+  "response": "선금을 이미 지불하셨다니 다행이네요. lantern 값의 나머지 금액은 정확히 얼마인지 확인해 드리겠습니다. ledger를 보여주시면 더 정확하게 도와드릴 수 있습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev034": {
+  "scenario": "S53",
+  "source": "m1p8:M1P8E",
+  "player": "반값이라고 하신 거 저 분명히 기억해요.",
+  "evidence": "none",
+  "response": "단골이라 말씀하셨으니 믿지만, 이번 거래의 정확한 기록이 없어 재고 확인이 필요해요. 스무 자짜리 밧줄이 정확히 몇 개인지 다시 한번 확인해 주실 수 있을까요? 반값 할인은 단골이라면 적용해 드릴 수 있어요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev035": {
+  "scenario": "S57",
+  "source": "m1p8:M1P8",
+  "player": "아까 말한 선금 빼고 나머지만 드리면 되죠?",
+  "evidence": "none",
+  "response": "자네가 말씀하신 대로라면, 이전에 약속한 금액을 제외하고 나머지를 드리겠습니다. 하지만 정확한 금액을 확인하기 위해 lantern에 대한 자세한 이야기를 좀 더 들어볼 필요가 있겠네요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev036": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8E",
+  "player": "그 부적이요, 지금 주세요.",
+  "evidence": "contradicting",
+  "response": "부적에 대한 말씀은 제가 확인한 기록에는 없네요. 동굴에서 박쥐 날개를 구하셨다니, 그에 대한 특별한 약속이 있으셨다면 말씀해 주시면 다시 한번 확인해 드릴 수 있습니다. 지금은 기록에 없으니, 다른 도움이 필요하시다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev037": {
+  "scenario": "S53",
+  "source": "m1p8:M1P8",
+  "player": "그 반값 얘기, 이번에도 되는 거죠?",
+  "evidence": "none",
+  "response": "자네의 단골이라는 말씀은 아직 확인되지 않았으니, 이번에도 반값 할인은 적용되지 않을 것 같아요. 증거를 제시해 주실 수 있나요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev038": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8E",
+  "player": "그거 오늘 받을 수 있어요?",
+  "evidence": "none",
+  "response": "큰 곰가죽은 현재 재고가 있지만, 오늘 바로 받으실 수 있는지 확인이 필요해요. 증거를 준비해 주시면 더 정확히 말씀드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev039": {
+  "scenario": "S102",
+  "source": "m1p9:M1P8E",
+  "player": "그 할인으로 두 자루 주세요.",
+  "evidence": "none",
+  "response": "두 자루의 소금을 원하시는군요. 동전 하나에 한 자루라고 하셨으니, 정확히 얼마인지 확인해 볼게요. 현재 재고와 가격을 살펴보고 말씀드리겠습니다. 혹시 다른 조건이나 요구사항이 있으신가요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev040": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8E",
+  "player": "그거 오늘 받을 수 있어요?",
+  "evidence": "none",
+  "response": "작은 회복약은 재고가 있어 오늘 바로 드릴 수 있어요. 큰 곰가죽은 재고가 없어 좀 더 시간이 걸릴 수 있어요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev041": {
+  "scenario": "S63",
+  "source": "m1p8:M1P7",
+  "player": "삼촌이 돈 다 냈다고 몇 번이나 말씀하셨어요.",
+  "evidence": "none",
+  "response": "돈을 다 냈다고 말씀하셨다니, 믿을 만한 증거가 필요하겠네요. 구체적인 증빙 자료를 준비해주시면 확인해보겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev042": {
+  "scenario": "S36",
+  "source": "m1p7:M1P7",
+  "player": "제가 따로 빼 달라고 한 거 맞아요.",
+  "evidence": "none",
+  "response": "그럼 확인해 볼게요. 양털 담요 두 장을 정확히 말씀하신 대로 포장해 드릴게요. 겨울이 다가오니 안전하게 가져가세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev043": {
+  "scenario": "S47",
+  "source": "m1p7:M1P7",
+  "player": "할머니가 맡기신 거 맞아요, 저한테 찾아오라고 하셨어요.",
+  "evidence": "none",
+  "response": "할머니 말씀이 맞으시군요. 하지만 제가 직접 확인할 수 있는 방법이 없어 unfortunately, 증거 없이는 확인이 어렵습니다. 포장해 드리겠지만, 확실한 증거가 필요해요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev044": {
+  "scenario": "S36",
+  "source": "m1p7:M1P1",
+  "player": "아까 말한 거 먼저 포장해 주세요.",
+  "evidence": "none",
+  "response": "그럼요, 겨울 준비에 필요한 물품들을 먼저 포장해 드릴게요. 담요와 함께 장작도 재고 확인 후 준비하겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev045": {
+  "scenario": "S59",
+  "source": "m1p8:M1P7",
+  "player": "그거 오늘도 해 주시는 거죠?",
+  "evidence": "none",
+  "response": "오늘도 할인해 드릴 수 있도록 확인해 볼게요. 구체적인 조건이 있다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev046": {
+  "scenario": "S31",
+  "source": "m1p7:M1P1",
+  "player": "그럼 아까 그거부터 챙겨 주세요.",
+  "evidence": "none",
+  "response": "제가 확인한 바로는 어제 철제 냄비 지불 내역이 정확히 기록되어 있지 않아요. 신분증이나 증빙 자료를 보여주시면 확인해드릴 수 있을 것 같습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev047": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8E",
+  "player": "그 부적이요, 지금 주세요.",
+  "evidence": "contradicting",
+  "response": "부적에 대한 이야기는 제가 직접 듣지 못했습니다. 동굴에서 박쥐 날개를 구했다는 말씀은 확인해 보았지만, 보호 부적에 대한 내용은 그렇지 않았습니다. 혹시 다른 정보를 말씀하신 건가요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev048": {
+  "scenario": "S43",
+  "source": "m1p7:M1P1",
+  "player": "그 돈으로 된 거니까 이제 주세요.",
+  "evidence": "none",
+  "response": "동전 열 닢으로 활 줄을 새로 만들어드리겠지만, 먼저 원하시는 활 줄의 종류와 길이를 정확히 말씀해주시면 더욱 정확하게 도와드릴 수 있겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev049": {
+  "scenario": "S47",
+  "source": "m1p7:M1P6",
+  "player": "그거 포장해 주시면 바로 가져갈게요.",
+  "evidence": "none",
+  "response": "포장해 드리겠습니다. 하지만 성당 종이의 상태를 좀 더 자세히 말씀해주시면 더 안전하게 처리할 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev050": {
+  "scenario": "S95",
+  "source": "m1p9:M1P8E",
+  "player": "그거 약방에 물어보시면 알 거예요.",
+  "evidence": "contradicting",
+  "response": "자네가 약방에 물어보면 직접 확인하는 게 가장 확실할 거예요. 하지만 저희 가게에서는 특별한 부탁에도 불구하고 직접적인 대가를 받지 않는 것이 원칙이니, 다른 도움이 필요하다면 말씀해 주세요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev051": {
+  "scenario": "S39",
+  "source": "m1p7:M1P1",
+  "player": "그 값으로 해 주세요.",
+  "evidence": "none",
+  "response": "아드님 말씀이 맞으셨네요. 소금 세 자루를 30골드에 드리겠습니다. 확인해보니 그 정도 가격이었던 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev052": {
+  "scenario": "S57",
+  "source": "m1p8:M1P8",
+  "player": "절반은 확실히 미리 드렸어요, 동전 세서 드렸잖아요.",
+  "evidence": "none",
+  "response": "자네의 말씀을 확인하기 위해 동전을 세어보았으나, 아직 확실한 증거를 찾지 못했어요. lantern 값의 선금 지불 여부를 명확히 하기 위해서는 추가적인 증거가 필요할 것 같아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev053": {
+  "scenario": "S51",
+  "source": "m1p8:M1P8E",
+  "player": "그 선금으로 기름 한 통 받아 가면 될까요?",
+  "evidence": "none",
+  "response": "성냥 값으로 기름 한 통을 받으실 수 있으실지 확인이 필요합니다. 기록을 다시 한번 살펴보겠습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev054": {
+  "scenario": "S39",
+  "source": "m1p7:M1P7",
+  "player": "그 값으로 해 주세요.",
+  "evidence": "none",
+  "response": "소금 세 자루의 가격이 정확히 얼마인지 말씀해 주시겠어요? 재고 확인 후에 결제 방법을 알려드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev055": {
+  "scenario": "S36",
+  "source": "m1p7:M1P7",
+  "player": "제가 따로 빼 달라고 한 거 맞아요.",
+  "evidence": "none",
+  "response": "그럼 양털 담요 두 장을 따로 포장해드리겠습니다. 장작 주문도 확인해보니 필요하신 대로 진행하겠습니다. 다른 요청이 있으시면 언제든지 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev056": {
+  "scenario": "S53",
+  "source": "m1p8:M1P7",
+  "player": "저번에 밧줄은 단골이라 반값에 주신다고 하셨어요.",
+  "evidence": "none",
+  "response": "단골이라 말씀하셨군요, 하지만 제 기록에는 그때의 거래 내역이 정확히 남아있지 않아 확인이 어렵습니다. 다시 한번 확인해 주실 수 있으신가요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev057": {
+  "scenario": "S36",
+  "source": "m1p7:M1P1",
+  "player": "아까 말한 거 먼저 포장해 주세요.",
+  "evidence": "none",
+  "response": "담요 두 장과 장작은 곧 포장해 드릴게요. 따뜻한 겨울 보내세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev058": {
+  "scenario": "S59",
+  "source": "m1p8:M1P8E",
+  "player": "그거 오늘도 해 주시는 거죠?",
+  "evidence": "none",
+  "response": "네, 오늘도 준비해 드릴게요. 재고가 있으니 바로 드릴 수 있어요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev059": {
+  "scenario": "S31",
+  "source": "m1p7:M1P1",
+  "player": "그럼 아까 그거부터 챙겨 주세요.",
+  "evidence": "none",
+  "response": "철제 냄비에 대한 지불 내역을 먼저 확인해야 합니다. 성냥은 재고가 부족하니 다른 물품들을 살펴보겠습니다. 확인 후 알려드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev060": {
+  "scenario": "S95",
+  "source": "m1p9:M1P8E",
+  "player": "진짜 갖다 놨다니까요, 문 앞에 두고 왔어요.",
+  "evidence": "contradicting",
+  "response": "문 앞에 두고 뒀다니, 저희 가게의 기록에는 그런 상황이 명시되어 있지 않사옵니다. 직접 확인하거나 추가 증빙 자료가 필요할 것 같사옵니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev061": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8",
+  "player": "그거 값은 미리 안 냈으니 지금 낼게요.",
+  "evidence": "none",
+  "response": "값은 미리 지불하셨군요. 지금 바로 결제해드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev062": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "제가 남부 해안 지도 한 장 예약해 뒀거든요.",
+  "evidence": "none",
+  "response": "지도를 보여주시겠어요? 예약 내역 확인이 필요해요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev063": {
+  "scenario": "S59",
+  "source": "m1p8:M1P8",
+  "player": "두 닢 깎아 주신다고 직접 말씀하셨어요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시길 오늘은 두 닢 할인을 해드리겠다고 하셨군요. 하지만 아직 확인된 기록에는 그런 약속이 없네요. 증거를 보여주시면 더 정확히 말씀드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev064": {
+  "scenario": "S63",
+  "source": "m1p8:M1P8",
+  "player": "삼촌이 돈 다 냈다고 몇 번이나 말씀하셨어요.",
+  "evidence": "none",
+  "response": "자네의 말씀을 확인하기 위해 몇 가지 확인이 필요해요. 구체적으로 어떤 증거를 제시할 수 있겠나?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev065": {
+  "scenario": "S61",
+  "source": "m1p8:M1P7",
+  "player": "그거 형이 언제 맡겼는지 기억나세요?",
+  "evidence": "none",
+  "response": "형이 맡긴 낚싯바늘은 정확히 언제였는지 정확히 기억하지 못해요. 하지만, 필요하신 수량을 말씀해주시면 재고를 확인해드릴게요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev066": {
+  "scenario": "S95",
+  "source": "m1p9:M1P8",
+  "player": "할아버지가 시킨 대로 약방에 꾸러미 전달했어요, 삯 주세요.",
+  "evidence": "contradicting",
+  "response": "자네가 할아버지 말씀을 따랐다니, 꾸러미의 상태와 전달 과정을 확인해야겠네요. 하지만 현재 가게 기록에는 그런 꾸러미에 대한 구체적인 정보가 없네요. 삯을 요구하는 것은 이해하지만, 그 내용을 먼저 확인해야 할 것 같아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev067": {
+  "scenario": "S95",
+  "source": "m1p9:M1P8",
+  "player": "그 꾸러미요, 약방 할머니가 잘 받았다 하셨어요.",
+  "evidence": "contradicting",
+  "response": "자네의 말씀은 믿을 만하지만, 제가 직접 확인할 수 있는 방법이 없어 확실하게 말씀드리기 어렵네. 꾸러미의 전달 여부는 할아버지께 직접 확인해 보시는 게 가장 좋을 것 같아.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev068": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8",
+  "player": "아까 한 약속, 설마 잊으신 건 아니죠?",
+  "evidence": "contradicting",
+  "response": "약속은 중요한 거예요, 하지만 아직 확인되지 않았으니까요. 좀 더 확실한 증거가 필요해요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev069": {
+  "scenario": "S61",
+  "source": "m1p8:M1P8",
+  "player": "그 낚싯대 제가 대신 가져가도 될까요?",
+  "evidence": "none",
+  "response": "자네가 그 낚싯대를 가져가는 것이 맞는지 확인해야겠어. 증거가 필요하단 말이야.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev070": {
+  "scenario": "S47",
+  "source": "m1p7:M1P6",
+  "player": "그거 포장해 주시면 바로 가져갈게요.",
+  "evidence": "none",
+  "response": "포장해 드릴게요. 하지만 소문이 사실인지 확인할 수 있는 증거가 있으면 더 좋겠네요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev071": {
+  "scenario": "S36",
+  "source": "m1p7:M1P7",
+  "player": "아까 말한 거 먼저 포장해 주세요.",
+  "evidence": "none",
+  "response": "담요 두 장과 주문하신 장작은 따로 포장해 드릴게요. 따뜻한 겨울을 위해 필요한 물품들을 준비하는 데 도움이 되길 바라요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev072": {
+  "scenario": "S31",
+  "source": "m1p7:M1P1",
+  "player": "어제 철제 냄비 값 절반 미리 드렸던 사람이에요.",
+  "evidence": "none",
+  "response": "그 분이 철제 냄비 값을 미리 지불하셨다니, 기록을 확인해보겠습니다. 정확히 언제, 얼마를 지불하셨는지 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev073": {
+  "scenario": "S37",
+  "source": "m1p7:M1P6",
+  "player": "그거 들어왔으면 내주시오.",
+  "evidence": "none",
+  "response": "주문 확인해보니 마차 바퀴가 이미 도착했네요. 금화 10골드를 거슬러 드릴게요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev074": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8E",
+  "player": "벽보에 붙어 있던 것도 봤어요, 할아버지 글씨였어요.",
+  "evidence": "contradicting",
+  "response": "할아버지의 글씨라니, 흥미롭네요. 하지만 구체적으로 어떤 내용인지 말씀해주시면 더 자세히 확인해 드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev075": {
+  "scenario": "S37",
+  "source": "m1p7:M1P7",
+  "player": "그 바퀴, 이제 내가 가져가도 되겠지?",
+  "evidence": "none",
+  "response": "자네가 바퀴를 가져가려는구나. 하지만 내가 기억하는 바로는, 그 바퀴 굴대에 바를 따로 보관하고 있지 않아. 혹시 다른 상인에게 구해야 할지도 모르겠네. 자네의 요청을 확인하기 위해 추가 정보가 필요할 것 같아.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev076": {
+  "scenario": "S39",
+  "source": "m1p7:M1P7",
+  "player": "그 값으로 해 주세요.",
+  "evidence": "none",
+  "response": "소금 세 자루의 정확한 가격을 확인한 후에 지불해 드리겠습니다. 잠시만 기다려 주세요. 할아버지.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev077": {
+  "scenario": "S83",
+  "source": "m1p9:M1P8",
+  "player": "그 심부름 말이에요, 형이 꼭 받아 오라고 했거든요.",
+  "evidence": "none",
+  "response": "형님 말씀대로라면, 그 편지의 내용이 얼마나 중요한지 알겠습니다. 하지만 제가 확인할 수 있는 증거가 없어 직접 확인하기 어렵습니다. 다른 방법으로 확인해보거나, 다른 증거를 제시해주시면 도움이 될 것 같습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev078": {
+  "scenario": "S58",
+  "source": "m1p8:M1P7",
+  "player": "할아버지가 잃어버린 열쇠 찾아 주면 은화 다섯 닢 준다고 하셨죠.",
+  "evidence": "contradicting",
+  "response": "그런 이야기는 들어보지 못했어요. 제가 아는 한, 열쇠 찾는 일에 대한 보상 이야기는 없네요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev079": {
+  "scenario": "S51",
+  "source": "m1p8:M1P7",
+  "player": "그 기름값 치른 거, 기록에 있죠?",
+  "evidence": "none",
+  "response": "기록을 확인해 볼게요. 정확히 어떤 금액인지 말씀해 주시겠어요? 확인이 필요하니까요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev080": {
+  "scenario": "S66",
+  "source": "m1p8:M1P8",
+  "player": "그 수고비는 오늘 주시는 거죠?",
+  "evidence": "none",
+  "response": "자네의 요청에 대해 명확히 답변드리자면, 현재 내가 제공하는 서비스나 거래에 대한 특별한 수고비를 약속한 바는 없습니다. 현재 재고와 판매 상황을 고려할 때, 특정 상품에 대한 할인이나 수고비는 적용되지 않는 것으로 보입니다. 확인해드릴 수 있는 증거를 제공해주시면 더 정확한 답변을 드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev081": {
+  "scenario": "S31",
+  "source": "m1p7:M1P1",
+  "player": "선금 냈다니까요, 은화 다섯 닢이요.",
+  "evidence": "none",
+  "response": "은화 다섯 닢이라니, 그 기록을 찾아보겠습니다. 정확히 언제 지불하셨는지 알려주시면 확인해 드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev082": {
+  "scenario": "S57",
+  "source": "m1p8:M1P8",
+  "player": "아까 말한 선금 빼고 나머지만 드리면 되죠?",
+  "evidence": "none",
+  "response": "자네가 말씀하신 대로라면, 선금을 제외한 나머지 금액을 드리겠습니다. 하지만 현재 상황을 확인해봐야 정확한 금액을 알려드릴 수 있겠네요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev083": {
+  "scenario": "S72",
+  "source": "m1p8:M1P8",
+  "player": "제 바구니 맞아요, 어제 장 보다가 놓고 갔어요.",
+  "evidence": "none",
+  "response": "자네의 말씀을 뒷받침할 증거가 필요해요. 바구니의 특징이나 다른 특징을 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev084": {
+  "scenario": "S43",
+  "source": "m1p7:M1P6",
+  "player": "아까 그 활 줄, 다 됐으면 주세요.",
+  "evidence": "none",
+  "response": "동전 열 닢으로 활 줄을 새로 만들 수는 없지만, 혹시 다른 도움이 필요하신 부분이 있으신가요? 활쏘기 대회 준비 잘 되셨는지 확인해드릴 수 있도록 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev085": {
+  "scenario": "S51",
+  "source": "m1p8:M1P7",
+  "player": "그 선금으로 기름 한 통 받아 가면 될까요?",
+  "evidence": "none",
+  "response": "성냥 값으로 기름을 받으실 수 있으신지 확인이 필요합니다. 기록을 다시 한번 살펴보겠습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev086": {
+  "scenario": "S37",
+  "source": "m1p7:M1P6",
+  "player": "그거 들어왔으면 내주시오.",
+  "evidence": "none",
+  "response": "자네가 먼저 지불했다니, 확인해보니 그 금화는 이미 기록에 남아 있어. 받으실 수 있을 거야.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev087": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "그거 값은 미리 안 냈으니 지금 낼게요.",
+  "evidence": "none",
+  "response": "값을 미리 지불해 주셔서 감사합니다, 손님님. 지금 바로 결제하겠습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev088": {
+  "scenario": "S102",
+  "source": "m1p9:M1P8",
+  "player": "그 할인으로 두 자루 주세요.",
+  "evidence": "none",
+  "response": "자네, 소금 두 자루를 원하는 거라면, 현재 재고를 확인해봐야겠네. 한 자루에 동전 하나씩 할인이라는 건 확실하지 않아.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev089": {
+  "scenario": "S58",
+  "source": "m1p8:M1P7",
+  "player": "그 보상 지금 주시면 돼요.",
+  "evidence": "contradicting",
+  "response": "자네가 원하는 대로라면, 열쇠 찾는 일에 대한 구체적인 정보가 필요해요. 보상을 주기 전에 그 조건을 명확히 해야 할 것 같아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev090": {
+  "scenario": "S57",
+  "source": "m1p8:M1P7",
+  "player": "그 절반 낸 거 확인해 주실래요?",
+  "evidence": "none",
+  "response": "증거가 필요합니다, 손님님. 지난달 lantern 값의 절반 지불 증빙을 보여주시면 확인해 드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev091": {
+  "scenario": "S72",
+  "source": "m1p8:M1P7",
+  "player": "그 바구니 가져가도 되죠?",
+  "evidence": "none",
+  "response": "바구니를 가져가셔도 괜찮아요. 하지만 그 안에 특별한 물건이 있었는지 기억나시나요? 혹시 확인할 수 있는 증거가 있다면 말씀해주시면 도움이 될 거예요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev092": {
+  "scenario": "S37",
+  "source": "m1p7:M1P1",
+  "player": "그거 들어왔으면 내주시오.",
+  "evidence": "none",
+  "response": "주문 확인해 볼게요. 마차 바퀴의 재고와 상태를 살펴보겠습니다. 금화를 받으실 준비가 되셨나요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev093": {
+  "scenario": "S51",
+  "source": "m1p8:M1P8",
+  "player": "그 선금으로 기름 한 통 받아 가면 될까요?",
+  "evidence": "none",
+  "response": "자네가 말하는 선금으로 기름을 받는 건 가능할지 모르겠네. 기록에 그런 거래 내역이 없으니 확인이 필요해 보여.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev094": {
+  "scenario": "S39",
+  "source": "m1p7:M1P7",
+  "player": "한 자루 값 깎아 주신다고 하셨다니까요.",
+  "evidence": "none",
+  "response": "아드님 말씀이 맞으시네요. 과거 비슷한 할인 사례를 찾아보겠습니다. 잠시만 기다려 주세요. 확인 후 정확한 할인 금액을 알려드리겠습니다. 다시 연락드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev095": {
+  "scenario": "S43",
+  "source": "m1p7:M1P1",
+  "player": "활 줄 새로 매 달라고 하면서 동전 열 닢 미리 드렸어요.",
+  "evidence": "none",
+  "response": "동전 열 닢을 드리셨다니, 그 활 줄을 새로 만들어드릴게요. 하지만 먼저 확인이 필요해요. 어떤 종류의 활 줄을 원하시는지 자세히 말씀해주시겠어요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev096": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8",
+  "player": "그거 오늘 받을 수 있어요?",
+  "evidence": "none",
+  "response": "자네가 원하는 물방앗간 사람들의 이야기를 확인하기 위해 증거가 필요해요. 오늘 바로 받을 수 있는지에 대한 확실한 답변을 드리기 위해서는 추가적인 정보가 필요해요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev097": {
+  "scenario": "S43",
+  "source": "m1p7:M1P1",
+  "player": "아까 그 활 줄, 다 됐으면 주세요.",
+  "evidence": "none",
+  "response": "동전 열 닢으로 활 줄을 새로 만들어드리겠지만, 정확한 종류와 길이를 말씀해주셔야 합니다. 확인 후에 준비해드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev098": {
+  "scenario": "S36",
+  "source": "m1p7:M1P1",
+  "player": "제가 따로 빼 달라고 한 거 맞아요.",
+  "evidence": "none",
+  "response": "네, 그렇게 말씀하셨군요. 담요 두 장은 꼭 가져가실 수 있도록 준비하겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev099": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "그 지도 말이에요, 접힌 자국 없는 걸로 부탁드렸어요.",
+  "evidence": "none",
+  "response": "지도의 상태를 직접 확인해야겠네요. 예약하신 분께서 직접 가져오실 수 있을까요? 그렇지 않으면 추가 증거가 필요할 수 있어요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev100": {
+  "scenario": "S41",
+  "source": "m1p7:M1P1",
+  "player": "저기 걸린 낡은 나침반, 우리 아버지가 쓰던 물건이오.",
+  "evidence": "none",
+  "response": "아버지의 나침반이라니, 특별한 가치가 있을 것 같네요. 하지만 제가 직접 확인해봐야 정확한 상태와 가치를 알 수 있을 것 같습니다. 잠시 살펴보고 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev101": {
+  "scenario": "S61",
+  "source": "m1p8:M1P7",
+  "player": "그 낚싯대 제가 대신 가져가도 될까요?",
+  "evidence": "none",
+  "response": "낚싯대의 진위를 확인하기 위해서는 직접 확인이 필요해요. 제가 직접 확인하지 않고 가져가는 것은 위험할 수 있어요. 증거를 제시해주시거나, 다른 방법으로 거래를 진행할 수 있는지 말씀해주시면 좋겠어요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev102": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8",
+  "player": "저 지난번에 곰 쫓아내 주면 곰가죽 한 장 준다고 하셨잖아요. 쫓아냈어요.",
+  "evidence": "none",
+  "response": "자네가 말하는 내용은 흥미롭지만, 내가 직접 약속한 사항은 아니었어. 곰 쫓아내 주는 것에 대한 이야기는 기억나지 않아. 혹시 다른 손님과의 대화에서 나온 것일 수도 있겠네.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev103": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 가죽, 큰 걸로요.",
+  "evidence": "none",
+  "response": "큰 가죽을 말씀하시는군요. 그 곰이 실제로 큰 곰이었는지, 아니면 다른 증거가 필요한지 자세히 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev104": {
+  "scenario": "S51",
+  "source": "m1p8:M1P8E",
+  "player": "그 선금으로 기름 한 통 받아 가면 될까요?",
+  "evidence": "none",
+  "response": "성냥 값으로 기름을 받으실 수 있으신지 확인이 필요해요. 기록에는 그런 거래 내역이 없네요. 다른 증빙 자료가 있으신가요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev105": {
+  "scenario": "S37",
+  "source": "m1p7:M1P7",
+  "player": "그 바퀴, 이제 내가 가져가도 되겠지?",
+  "evidence": "none",
+  "response": "바퀴 굴대 기름 재고가 4개니까, 충분히 가져가실 수 있을 거예요. 금화 준비해 주시겠어요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev106": {
+  "scenario": "S95",
+  "source": "m1p9:M1P8E",
+  "player": "그거 약방에 물어보시면 알 거예요.",
+  "evidence": "contradicting",
+  "response": "제가 직접 확인해 본 바에 따르면, 꾸러미 전달에 대한 확인은 이미 이루어졌습니다. 약방에 직접 확인하시는 것도 좋지만, 현재로선 제가 제공할 수 있는 정보로는 호밀빵 한 개를 준비해 드릴 수 있습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev107": {
+  "scenario": "S59",
+  "source": "m1p8:M1P7",
+  "player": "두 닢 깎아 주신다고 직접 말씀하셨어요.",
+  "evidence": "none",
+  "response": "소금 가격 조정에 대한 약속은 제가 직접 말씀드린 내용이 맞습니다. 하지만 구체적인 할인 금액과 적용 조건을 확인하기 위해 잠시 확인해보겠습니다. 말씀해주신 내용을 바탕으로 처리하도록 하겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev108": {
+  "scenario": "S72",
+  "source": "m1p8:M1P8",
+  "player": "아까 말한 거, 손잡이에 빨간 끈 묶여 있어요.",
+  "evidence": "none",
+  "response": "자네의 말씀이 흥미롭지만, 직접 확인해봐야 정확히 알 수 있겠네요. 물건의 상태를 직접 살펴볼 수 있을까?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev109": {
+  "scenario": "S57",
+  "source": "m1p8:M1P7",
+  "player": "아까 말한 선금 빼고 나머지만 드리면 되죠?",
+  "evidence": "none",
+  "response": "선금을 제외한 나머지 금액을 말씀해 주시면 확인해 드리겠습니다. 정확히 얼마를 원하시는지 알려주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev110": {
+  "scenario": "S51",
+  "source": "m1p8:M1P7",
+  "player": "어머니가 분명히 돈 내셨다고 했어요, 한 푼도 안 빼고요.",
+  "evidence": "none",
+  "response": "성냥값으로 기름을 받으실 수 있는지 정확히 말씀해 주셔야 확인이 가능합니다. 금액과 함께 확인해 드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev111": {
+  "scenario": "S59",
+  "source": "m1p8:M1P8E",
+  "player": "그거 오늘도 해 주시는 거죠?",
+  "evidence": "none",
+  "response": "소금값 변동에 대한 구체적인 증거나 기록이 없으니, 오늘 특별히 할인해드리기는 어려워요. 하지만 바닷길이 막히면 가격이 오를 수 있다는 말씀은 이해해요. 필요하시다면 다음에 다시 말씀해주시면 확인해보겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev112": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 오늘 찾아갈 수 있을까요?",
+  "evidence": "none",
+  "response": "외할머니 말씀이라니 신뢰하지만, 은반지의 정확한 위치와 상태를 확인할 방법이 없어 오늘 직접 찾아가긴 어려울 것 같아요. 하지만 다음에 다시 말씀드리면 도움을 드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev113": {
+  "scenario": "S36",
+  "source": "m1p7:M1P1",
+  "player": "그 담요 두 장, 오늘 가져갈게요.",
+  "evidence": "none",
+  "response": "좋아요, 담요 두 장을 오늘 가져가시겠군요. 기억해두겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev114": {
+  "scenario": "S39",
+  "source": "m1p7:M1P7",
+  "player": "아까 말씀드린 대로 계산해 주시면 돼요.",
+  "evidence": "none",
+  "response": "아드님 말씀이 맞으시네요. 과거 할인 기록을 찾아보겠습니다. 잠시만 기다려 주세요. 확인 후 정확한 금액을 알려드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev115": {
+  "scenario": "S102",
+  "source": "m1p9:M1P8",
+  "player": "옆집 아저씨가 그러는데 할아버지가 아저씨네 소금은 한 자루에 동전 하나씩 빼 주기로 하셨다면서요, 저 아저씨 심부름 왔어요.",
+  "evidence": "none",
+  "response": "자네의 말씀은 흥미롭지만, 직접 확인할 수 있는 증거가 필요해 보여요. 아저씨의 말씀만으로는 확실하지 않아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev116": {
+  "scenario": "S40",
+  "source": "m1p7:M1P6",
+  "player": "그 심부름 값, 이제 주실 거죠?",
+  "evidence": "contradicting",
+  "response": "여행용 빵 한 봉지 값은 10골드예요. 필요하신 분께서 말씀해주시면 바로 드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev117": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8E",
+  "player": "저 지난번에 곰 쫓아내 주면 곰가죽 한 장 준다고 하셨잖아요. 쫓아냈어요.",
+  "evidence": "none",
+  "response": "증거가 필요해요. 곰을 쫓아내고 실제로 곰가죽을 받으셨는지 확인해야 해요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev118": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거 오늘 출발 전에 받아야 해요.",
+  "evidence": "none",
+  "response": "자네가 약속한 남부 해안 지도의 상태를 확인할 수 있도록 증거를 요청해야겠네. 깃펜도 필요하다면 함께 준비해보자.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev119": {
+  "scenario": "S72",
+  "source": "m1p8:M1P8E",
+  "player": "제 바구니 맞아요, 어제 장 보다가 놓고 갔어요.",
+  "evidence": "none",
+  "response": "바구니 whereabouts를 정확히 확인하겠습니다. 잠시만 기다려 주세요. 빨간 끈이 있는지 확인하고, whereabouts를 정확히 알려주시면 찾아드릴게요. 기다리시는 동안 다른 도움이 필요하시면 언제든지 말씀해주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev120": {
+  "scenario": "S57",
+  "source": "m1p8:M1P7",
+  "player": "지난달에 랜턴 값 절반을 먼저 냈었거든요.",
+  "evidence": "none",
+  "response": "그런 말씀이라면, 지난달에 lantern 값의 절반을 이미 지불하셨다는 증거를 보여주시겠어요? 기록 확인이 필요하니까요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev121": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8",
+  "player": "그거 수선비는 제가 지금 낼게요.",
+  "evidence": "none",
+  "response": "자네가 직접 수선비를 내겠다니, 좋은 마음이네요. 하지만 증거가 필요해요. 할머니 말씀을 뒷받침할 만한 증거를 보여줘야 해요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev122": {
+  "scenario": "S39",
+  "source": "m1p7:M1P6",
+  "player": "한 자루 값 깎아 주신다고 하셨다니까요.",
+  "evidence": "none",
+  "response": "그런 말씀은 처음 듣네요. 정확히 얼마를 깎아주셨는지 말씀해주시면 확인해보겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev123": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 오늘 출발 전에 받아야 해요.",
+  "evidence": "none",
+  "response": "오늘 출발 전에 확인하려면, 우선 지도의 상태를 직접 확인하거나 다른 손님들의 추가 증언이 필요할 거예요. 깃펜도 필요하시다니, 그에 맞춰 준비하겠지만, 우선 증거부터 확보해야 할 것 같아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev124": {
+  "scenario": "S57",
+  "source": "m1p8:M1P8",
+  "player": "아까 말한 선금 빼고 나머지만 드리면 되죠?",
+  "evidence": "none",
+  "response": "자네가 말씀하신 대로, 이미 지불한 선금을 제외하고 나머지 금액을 드리겠습니다. 하지만 정확한 금액을 말씀드리기 위해서는 확인이 필요해요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev125": {
+  "scenario": "S57",
+  "source": "m1p8:M1P8",
+  "player": "그 절반 낸 거 확인해 주실래요?",
+  "evidence": "none",
+  "response": "증거가 필요해요. 지난달에 실제로 그 절반을 지불했는지 확인할 수 있는 자료가 필요해요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev126": {
+  "scenario": "S51",
+  "source": "m1p8:M1P8E",
+  "player": "어머니가 분명히 돈 내셨다고 했어요, 한 푼도 안 빼고요.",
+  "evidence": "none",
+  "response": "성냥값으로 기름을 받으실 계획이시군요. 하지만 기록을 확인해보니, 어머니께서 실제로 지불하신 금액과 현재 재고 상황이 일치하는지 확인해야 합니다. 증거를 제출해 주시면 그에 따라 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev127": {
+  "scenario": "S36",
+  "source": "m1p7:M1P6",
+  "player": "아까 말한 거 먼저 포장해 주세요.",
+  "evidence": "none",
+  "response": "그럼요, 담요 두 장을 포장해 드릴게요. 장작 주문도 필요하시다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev128": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "그거 값은 미리 안 냈으니 지금 낼게요.",
+  "evidence": "none",
+  "response": "값을 내셨다니 다행이네요. 지도 확인을 위해 예약하신 분께 직접 가져오실 수 있으신가요? 그렇지 않다면 추가 절차가 필요할 수 있습니다. 지도 상태를 확인하는 것이 중요하니까요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev129": {
+  "scenario": "S57",
+  "source": "m1p8:M1P7",
+  "player": "절반은 확실히 미리 드렸어요, 동전 세서 드렸잖아요.",
+  "evidence": "none",
+  "response": "동전 세는 건 좋은 방법이지만, lantern 값의 절반 지불 증빙을 정확히 보여주시는 게 중요해요. 기록 확인이 필요하니까요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev130": {
+  "scenario": "S103",
+  "source": "m1p9:M1P8E",
+  "player": "손에 물집 잡힌 거 보세요, 진짜 했어요.",
+  "evidence": "none",
+  "response": "손에 물집 잡힌 모습이 정말이라면, 그 일에 대한 자세한 이야기를 들어보는 게 좋겠네요. 어떤 상황이었는지 자세히 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev131": {
+  "scenario": "S57",
+  "source": "m1p8:M1P7",
+  "player": "그 절반 낸 거 확인해 주실래요?",
+  "evidence": "none",
+  "response": "증거를 보여주시면 확인해 드리겠습니다. 현재로선 확인이 어렵네요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev132": {
+  "scenario": "S83",
+  "source": "m1p9:M1P8",
+  "player": "저희 형이 어제 대장간에 할아버지 편지 갖다드렸다던데, 그 심부름값 받으러 왔어요.",
+  "evidence": "none",
+  "response": "형님 말씀이라면 대장간에 편지를 전하셨다니, 그에 대한 대가를 받으러 오신 거군요. 하지만 제가 확인할 수 있는 기록에는 그와 관련된 구체적인 내용이 없네요. 증거를 좀 더 확보해야 할 것 같아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev133": {
+  "scenario": "S36",
+  "source": "m1p7:M1P1",
+  "player": "제가 따로 빼 달라고 한 거 맞아요.",
+  "evidence": "none",
+  "response": "네, 그렇게 말씀하셨군요. 양털 담요 두 장은 바로 준비해 드릴게요. 겨울철 추위에 대비하시길 바라요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev134": {
+  "scenario": "S39",
+  "source": "m1p7:M1P1",
+  "player": "아까 말씀드린 대로 계산해 주시면 돼요.",
+  "evidence": "none",
+  "response": "아드님 말씀이 맞으셨네요. 소금 세 자루를 정확히 30골드에 드리겠습니다. 바닷길이 막혔다니 안타깝지만, 제가 직접 확인할 수는 없어요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev135": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "사흘 전에 분명히 말씀드렸어요.",
+  "evidence": "none",
+  "response": "사흘 전에 말씀하셨다니, 정확히 어떤 내용이었는지 다시 한번 확인해보겠습니다. 필요한 정보를 명확히 알려주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev136": {
+  "scenario": "S39",
+  "source": "m1p7:M1P7",
+  "player": "그 값으로 해 주세요.",
+  "evidence": "none",
+  "response": "아드님 말씀이 맞으셨네요. 과거 할인 기록을 찾아보겠습니다. 잠시만 기다려 주세요. 확인 후 다시 연락드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev137": {
+  "scenario": "S58",
+  "source": "m1p8:M1P7",
+  "player": "은화 다섯 닢, 약속하셨잖아요. 저 똑똑히 들었어요.",
+  "evidence": "contradicting",
+  "response": "그런 이야기는 제가 직접 듣지 않았어요. 할아버지 말씀에 대한 구체적인 조건이나 약속은 제가 확인한 바에 따르면 없답니다. 다른 정보가 있으시다면 다시 말씀해 주세요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev138": {
+  "scenario": "S47",
+  "source": "m1p7:M1P6",
+  "player": "그거 포장해 주시면 바로 가져갈게요.",
+  "evidence": "none",
+  "response": "포장해 드릴게요. 바로 가져가실 수 있도록 신경 쓰겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev139": {
+  "scenario": "S59",
+  "source": "m1p8:M1P8",
+  "player": "그 할인, 장부에 적어 두셨어요?",
+  "evidence": "none",
+  "response": "장부를 확인해 볼게요. 말씀하신 할인 내용이 기록되어 있는지 확인하겠습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev140": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8E",
+  "player": "그거 수선비는 제가 지금 낼게요.",
+  "evidence": "none",
+  "response": "좋아요, 수선비는 지금 바로 지불하겠습니다. 할머니 말씀에 따라 확인 후 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev141": {
+  "scenario": "S83",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거, 형 말로는 동전 다섯 닢이래요.",
+  "evidence": "none",
+  "response": "자네가 말하는 동전 다섯 닢에 대한 구체적인 증거를 보여줘야 할 것 같아요. 단순히 말씀만으로는 확인하기 어렵답니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev142": {
+  "scenario": "S31",
+  "source": "m1p7:M1P1",
+  "player": "그 값으로 냄비 받아 갈게요, 주세요.",
+  "evidence": "none",
+  "response": "철제 냄비에 대한 예약이나 지불 내역을 먼저 확인해야 합니다. 기록을 찾아보겠습니다. 기다리시면 알려드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev143": {
+  "scenario": "S36",
+  "source": "m1p7:M1P7",
+  "player": "아까 말한 거 먼저 포장해 주세요.",
+  "evidence": "none",
+  "response": "죄송합니다, 하지만 먼저 말씀하신 양털 담요 주문부터 처리해 드릴게요. 그 다음에 다른 요청이 있으시면 말씀해주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev144": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8",
+  "player": "저 지난번에 곰 쫓아내 주면 곰가죽 한 장 준다고 하셨잖아요. 쫓아냈어요.",
+  "evidence": "none",
+  "response": "자네가 말하는 그 약속은 기억하지 못해요. 구체적인 증거를 제시해주시겠어요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev145": {
+  "scenario": "S59",
+  "source": "m1p8:M1P7",
+  "player": "그거 오늘도 해 주시는 거죠?",
+  "evidence": "none",
+  "response": "오늘도 할인해드리겠습니다. 하지만 소금의 상태를 확인한 후에 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev146": {
+  "scenario": "S66",
+  "source": "m1p8:M1P7",
+  "player": "그 수고비는 오늘 주시는 거죠?",
+  "evidence": "none",
+  "response": "오늘은 좀 바쁘네요, 다른 손님들도 많으실 거예요. 하지만 수고비는 꼭 드리겠습니다. 다음에 다시 방문해주시면 감사하겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev147": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8",
+  "player": "그거 안 주시면 날개는 다른 데 팔게요.",
+  "evidence": "contradicting",
+  "response": "날개를 다른 곳에 팔 계획이라면, 우선 그 부적을 받으실 수 있도록 도와드리겠습니다. 다른 곳에서 날개를 구하실 필요가 있다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev148": {
+  "scenario": "S102",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거, 아저씨가 꼭 받아 오래요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 아저씨의 약속은 아직 확인되지 않았어요. 구체적인 증거를 제시해주시겠어요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev149": {
+  "scenario": "S41",
+  "source": "m1p7:M1P6",
+  "player": "그거 그냥 내 짐에 넣어 주시오.",
+  "evidence": "none",
+  "response": "짐에 넣어드리겠습니다. 안전하게 보관하도록 하겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev150": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 오늘 찾아갈 수 있을까요?",
+  "evidence": "none",
+  "response": "외할머니 말씀이라니 믿을 만하지만, 은반지의 상태와 정확히 어떤 부분이 필요한지 먼저 확인해야 할 것 같아요. 그 정보를 얻은 후에 말씀드릴게요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev151": {
+  "scenario": "S57",
+  "source": "m1p8:M1P8",
+  "player": "절반은 확실히 미리 드렸어요, 동전 세서 드렸잖아요.",
+  "evidence": "none",
+  "response": "자네의 말씀을 듣겠지만, 직접 확인할 수 있는 증거가 필요해요. 동전 세는 과정이나 그 기록이 있는지 확인해봐야겠네요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev152": {
+  "scenario": "S39",
+  "source": "m1p7:M1P7",
+  "player": "한 자루 값 깎아 주신다고 하셨다니까요.",
+  "evidence": "none",
+  "response": "할아버지, 제가 기억하는 바로는 그런 할인은 처음 들어봐요. 정확히 확인해보도록 하겠습니다. 재고 상태를 먼저 살펴보고 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev153": {
+  "scenario": "S66",
+  "source": "m1p8:M1P7",
+  "player": "그거 확인하셨어요?",
+  "evidence": "none",
+  "response": "확인하셨다니 다행이네요. 하지만 안전 확인은 직접 확인해야 확실하겠죠. 장작의 상태와 주변 환경을 살펴보시는 게 좋을 것 같아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev154": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8",
+  "player": "제가 남부 해안 지도 한 장 예약해 뒀거든요.",
+  "evidence": "none",
+  "response": "자네가 예약한 남부 해안 지도에 대해 말씀해주시겠어요? 구체적으로 어떤 정보를 원하시나요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev155": {
+  "scenario": "S59",
+  "source": "m1p8:M1P7",
+  "player": "그거 오늘도 해 주시는 거죠?",
+  "evidence": "none",
+  "response": "오늘도 필요하시다면 준비하겠지만, 먼저 소금의 정확한 재고를 확인해야 합니다. 재고가 충분한지 확인한 후에 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev156": {
+  "scenario": "S41",
+  "source": "m1p7:M1P1",
+  "player": "그 나침반, 내가 가져가겠소.",
+  "evidence": "none",
+  "response": "나침반을 가져가시겠다니, 확인이 필요합니다. 아버지께서 나침반에 대한 상세한 이야기를 해주시겠어요? 그렇게 하면 가치 판단에 도움이 될 수 있을 것 같습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev157": {
+  "scenario": "S41",
+  "source": "m1p7:M1P1",
+  "player": "그거 그냥 내 짐에 넣어 주시오.",
+  "evidence": "none",
+  "response": "짐에 넣어드리겠습니다, 손님님.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev158": {
+  "scenario": "S53",
+  "source": "m1p8:M1P8",
+  "player": "저번에 밧줄은 단골이라 반값에 주신다고 하셨어요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 단골에 대한 약속은 기억에 없네요. 확인해드릴 수 있는 증거가 필요해요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev159": {
+  "scenario": "S36",
+  "source": "m1p7:M1P6",
+  "player": "아까 말한 거 먼저 포장해 주세요.",
+  "evidence": "none",
+  "response": "담요 두 장은 곧 준비될 예정이니, 그 다음에 장작 포장도 함께 부탁드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev160": {
+  "scenario": "S53",
+  "source": "m1p8:M1P8",
+  "player": "아까 말한 할인 적용해서 계산해 주세요.",
+  "evidence": "none",
+  "response": "할인 말씀은 아직 확인되지 않았으니, 정확한 가격을 알려드리기 어려워요. 하지만, 여행용 빵의 가격은 10골드이고, 작은 회복약은 25골드이니, 원하시는 물건에 대해 말씀해 주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev161": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8",
+  "player": "그 지도 말이에요, 접힌 자국 없는 걸로 부탁드렸어요.",
+  "evidence": "none",
+  "response": "자네가 말하는 지도의 상태를 확인해보겠습니다. 하지만 내 눈은 작은 글씨를 읽는 데 한계가 있어 직접 확인하기 어렵네요. 다른 방법으로 지도의 진위를 판단할 수 있을지 알아보겠습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev162": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8E",
+  "player": "그거 안 주시면 날개는 다른 데 팔게요.",
+  "evidence": "contradicting",
+  "response": "날개를 다른 곳에 판매하시려는군요. 하지만 박쥐 날개와 관련된 거래는 신중하게 이루어져야 합니다. 제가 직접 확인한 내용과 일치하는지 다시 한번 확인해 드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev163": {
+  "scenario": "S66",
+  "source": "m1p8:M1P7",
+  "player": "그 수고비는 오늘 주시는 거죠?",
+  "evidence": "none",
+  "response": "오늘은 좀 바쁘지만, 필요하시다면 도와드리겠어요. 하지만 도끼날 갈 숫돌은 재고가 있으니 우선 확인해보시는 게 어떨까요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev164": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8E",
+  "player": "아까 한 약속, 설마 잊으신 건 아니죠?",
+  "evidence": "contradicting",
+  "response": "약속은 기억하고 있어요, 하지만 구체적으로 어떤 내용인지 다시 한번 확인해 드릴게요. 동굴 박쥐 날개와 관련된 특별한 약속이 있으셨다면 말씀해 주시면 좋겠어요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev165": {
+  "scenario": "S41",
+  "source": "m1p7:M1P6",
+  "player": "뚜껑 안쪽 긁힌 자국까지 기억하오, 틀림없이 우리 집 거요.",
+  "evidence": "none",
+  "response": "그 긁힌 자국이 분명히 우리 집 것이라는 말씀이시군요. 하지만 제가 확인할 수 있는 기록에는 없네요. 혹시 더 자세한 특징이나 다른 증거가 있다면 말씀해 주시면 도움이 될 것 같습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev166": {
+  "scenario": "S41",
+  "source": "m1p7:M1P1",
+  "player": "그거 그냥 내 짐에 넣어 주시오.",
+  "evidence": "none",
+  "response": "짐에 넣어드리겠습니다. 하지만 나침반과 양피지에 대한 가치 확인은 따로 해야 할 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev167": {
+  "scenario": "S41",
+  "source": "m1p7:M1P6",
+  "player": "뚜껑 안쪽 긁힌 자국까지 기억하오, 틀림없이 우리 집 거요.",
+  "evidence": "none",
+  "response": "그 긁힌 자국이라니, 정말 특별한 증거네요. 하지만 제가 직접 확인해야 정확한 가치와 소유권을 확실히 알 수 있을 것 같아요. 잠시만 기다려 주세요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev168": {
+  "scenario": "S43",
+  "source": "m1p7:M1P6",
+  "player": "동전 열 닢 먼저 드렸다니까요, 정말이에요.",
+  "evidence": "none",
+  "response": "동전 열 닢으로 활 줄을 새로 매는 것은 가능하지만, 먼저 그 활 줄의 상태를 직접 확인한 후에 드리겠습니다. 상태를 확인하는 데 시간이 좀 걸릴 수 있으니 기다려 주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev169": {
+  "scenario": "S39",
+  "source": "m1p7:M1P6",
+  "player": "한 자루 값 깎아 주신다고 하셨다니까요.",
+  "evidence": "none",
+  "response": "할아버지, 제 기록에는 그런 특별한 할인은 없었던 것 같아요. 하지만 바닷길이 막혔다는 말씀을 듣고, 평소 가격대로 받겠습니다. 혹시 다른 조건이 필요하신가요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev170": {
+  "scenario": "S66",
+  "source": "m1p8:M1P8",
+  "player": "그거 확인하셨어요?",
+  "evidence": "none",
+  "response": "자네의 이야기는 아직 확인되지 않은 상태예요. 증거를 제시해 주실 수 있겠어요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev171": {
+  "scenario": "S40",
+  "source": "m1p7:M1P6",
+  "player": "그럼 약속하신 거 주세요.",
+  "evidence": "contradicting",
+  "response": "약속은 내가 직접 확인해야 해요. 대장간 아저씨께 직접 말씀드리는 게 가장 확실할 거예요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev172": {
+  "scenario": "S47",
+  "source": "m1p7:M1P1",
+  "player": "할머니가 맡기신 거 맞아요, 저한테 찾아오라고 하셨어요.",
+  "evidence": "none",
+  "response": "할머니 말씀이 맞으시군요. 은 촛대의 소유권 확인을 위해 할머니께 직접 확인하시는 게 가장 확실할 것 같습니다. 혹시 할머니께서 직접 오실 수 있으신가요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev173": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 가죽, 큰 걸로요.",
+  "evidence": "none",
+  "response": "큰 가죽을 찾으셨군요. 곰을 쫓아내고 실제로 얻으셨는지 확인해야 합니다. 증거를 준비해 오세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev174": {
+  "scenario": "S53",
+  "source": "m1p8:M1P8",
+  "player": "저번에 밧줄은 단골이라 반값에 주신다고 하셨어요.",
+  "evidence": "none",
+  "response": "자네가 말하는 단골에 대한 약속은 기억에 없네요. 현재로선 그런 할인은 적용되지 않아요. 다른 필요한 물건이 있으신가요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev175": {
+  "scenario": "S37",
+  "source": "m1p7:M1P6",
+  "player": "그 바퀴, 이제 내가 가져가도 되겠지?",
+  "evidence": "none",
+  "response": "바퀴를 가져가시려는군요. 정확히 어떤 부분을 원하시는지 말씀해 주시면, 그에 맞는 결정을 도와드릴 수 있습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev176": {
+  "scenario": "S92",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 오늘 출발 전에 받아야 해요.",
+  "evidence": "none",
+  "response": "오늘 출발 전에 필요한 지도와 깃펜을 준비해두었습니다. 정확히 어떤 것들이 필요하신지 좀 더 자세히 말씀해주시면 도움이 될 것 같아요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev177": {
+  "scenario": "S53",
+  "source": "m1p8:M1P8E",
+  "player": "아까 말한 할인 적용해서 계산해 주세요.",
+  "evidence": "none",
+  "response": "할인 말씀이시군요. 단골이시라면 믿지만, 이번 거래의 정확한 기록이 없어 확인이 필요해요. 스무 자짜리 밧줄이 정확히 몇 개 있는지 다시 한번 확인해 주실 수 있을까요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev178": {
+  "scenario": "S102",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거, 아저씨가 꼭 받아 오래요.",
+  "evidence": "none",
+  "response": "자네의 말씀이 아저씨와 관련이 있다니 흥미롭군. 하지만 아저씨께서 실제로 그런 약속을 했다는 증거가 필요해 보이네. 구체적인 상황이나 추가 정보를 말씀해줄 수 있겠나?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev179": {
+  "scenario": "S37",
+  "source": "m1p7:M1P1",
+  "player": "그 바퀴, 이제 내가 가져가도 되겠지?",
+  "evidence": "none",
+  "response": "주문 확인이 필요해요. 정확히 어떤 마차 바퀴를 말씀하시는지 다시 한번 확인해 주실 수 있을까요? 금화와 함께 주문하신 부분을 명확히 알려주시면 감사하겠습니다.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev180": {
+  "scenario": "S83",
+  "source": "m1p9:M1P8E",
+  "player": "형이 거짓말할 사람은 아니에요, 진짜예요.",
+  "evidence": "none",
+  "response": "동전 다섯 닢이라는 말씀이라면, 그 가치를 인정받을 만한 증거가 필요해요. 편지와 함께 어떤 형태의 증명서나 기록이 있다면 도움이 될 거예요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev181": {
+  "scenario": "S66",
+  "source": "m1p8:M1P7",
+  "player": "그거 확인하셨어요?",
+  "evidence": "none",
+  "response": "증거를 보여주시면 확인해보겠습니다. 구체적인 내용을 말씀해주시면 더 도움이 될 거예요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev182": {
+  "scenario": "S36",
+  "source": "m1p7:M1P7",
+  "player": "제가 따로 빼 달라고 한 거 맞아요.",
+  "evidence": "none",
+  "response": "네, 그렇게 말씀하셨군요. 담요 두 장은 따로 포장해 드리겠습니다. 필요하신 장작 수량과 시기를 다시 한번 확인해 주시면 감사하겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev183": {
+  "scenario": "S72",
+  "source": "m1p8:M1P8",
+  "player": "그 바구니 가져가도 되죠?",
+  "evidence": "none",
+  "response": "자네가 그 버들 바구니를 가져가도 되는지 확실하게 알 수 없어. 증거가 필요해 보여.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev184": {
+  "scenario": "S37",
+  "source": "m1p7:M1P6",
+  "player": "그 바퀴, 이제 내가 가져가도 되겠지?",
+  "evidence": "none",
+  "response": "바퀴를 가져가시려는군요. 현재 재고가 4개니까, 금화 10골드를 먼저 지불해주시면 주문을 완료하실 수 있습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev185": {
+  "scenario": "S47",
+  "source": "m1p7:M1P1",
+  "player": "그거 포장해 주시면 바로 가져갈게요.",
+  "evidence": "none",
+  "response": "포장해 드리겠습니다. 바로 가져가실 수 있도록 신경 쓰겠습니다. 필요하신 물건이 더 있으시다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev186": {
+  "scenario": "S40",
+  "source": "m1p7:M1P1",
+  "player": "그 심부름 값, 이제 주실 거죠?",
+  "evidence": "contradicting",
+  "response": "심부름 값은 이미 여행용 빵 구매로 처리했으니, 추가로 필요한 것이 있다면 말씀해보세요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev187": {
+  "scenario": "S58",
+  "source": "m1p8:M1P7",
+  "player": "그 보상 지금 주시면 돼요.",
+  "evidence": "contradicting",
+  "response": "보상 이야기는 들어보지 못했어요. 할아버지께서 말씀하신 내용이 정확히 무엇인지 다시 한번 확인해봐야 할 것 같아요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev188": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8E",
+  "player": "그거 안 주시면 날개는 다른 데 팔게요.",
+  "evidence": "contradicting",
+  "response": "날개를 다른 곳에 판매하시려는 말씀이시군요. 하지만 박쥐 날개와 관련된 보호 부적에 대한 이야기는 제가 직접 언급한 바 없습니다. 혹시 다른 분이 말씀하신 건가요? 확인이 필요하니 잠시 시간을 갖고 다시 연락드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev189": {
+  "scenario": "S47",
+  "source": "m1p7:M1P7",
+  "player": "그거 포장해 주시면 바로 가져갈게요.",
+  "evidence": "none",
+  "response": "포장해 드리겠지만, 먼저 그 물건의 진위를 확인할 수 있는 증거가 필요해요.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev190": {
+  "scenario": "S40",
+  "source": "m1p7:M1P6",
+  "player": "제 손으로 직접 드렸어요, 거짓말 아니에요.",
+  "evidence": "contradicting",
+  "response": "그럼, 여행용 빵 한 봉지 값인 10골드는 이미 지불하셨군요. 확인해보니 기록에 남아 있어요.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev191": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8E",
+  "player": "외할머니가 여기 은반지를 수선 맡기셨다고 대신 찾아오라 하셨어요.",
+  "evidence": "none",
+  "response": "외할머니 말씀이라니 신뢰할 만하네요. 하지만 은반지 수선 기록이 없으니, 직접 확인 후 도와드릴 수 있을지 말씀드리겠습니다. 혹시 추가 정보가 있으신가요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev192": {
+  "scenario": "S47",
+  "source": "m1p7:M1P1",
+  "player": "그거 포장해 주시면 바로 가져갈게요.",
+  "evidence": "none",
+  "response": "포장해 드리겠습니다. 바로 가져가실 수 있도록 신경 쓰겠습니다. 재고 확인 후 바로 준비하겠습니다. 골드로 결제 가능하시겠어요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev193": {
+  "scenario": "S90",
+  "source": "m1p9:M1P8E",
+  "player": "그 부적이요, 지금 주세요.",
+  "evidence": "contradicting",
+  "response": "부적에 대한 이야기는 제가 직접 언급한 적이 없어요. 혹시 다른 분이 말씀하신 건가요? 확인이 필요하니 잠시 시간을 갖고 다시 연락드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev194": {
+  "scenario": "S37",
+  "source": "m1p7:M1P1",
+  "player": "그 바퀴, 이제 내가 가져가도 되겠지?",
+  "evidence": "none",
+  "response": "자네가 바퀴를 가져가려는구나. 하지만 내가 기억하는 바로는, 그 바퀴 굴대에 바를 따로 보관하고 있지 않아. 혹시 다른 용도로 필요한지 확인해보고, 아니면 다른 상인에게 구해야 할지도 모르겠네.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev195": {
+  "scenario": "S51",
+  "source": "m1p8:M1P8E",
+  "player": "그 선금으로 기름 한 통 받아 가면 될까요?",
+  "evidence": "none",
+  "response": "성냥 값으로 기름을 받으실 계획이시군요. 하지만 현재 재고를 확인해보니 여행용 빵과 작은 회복약이 있습니다. 정확히 어떤 금액을 원하시는지 말씀해주시면 최선을 다해 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev196": {
+  "scenario": "S47",
+  "source": "m1p7:M1P1",
+  "player": "할머니가 맡기신 거 맞아요, 저한테 찾아오라고 하셨어요.",
+  "evidence": "none",
+  "response": "할머니 말씀이 맞으시군요. 은 촛대를 찾아드리겠습니다. 다른 분들께도 도움을 청해보시는 건 어떨까요? 혹시 추가 정보가 있으신가요?",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev197": {
+  "scenario": "S89",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거 오늘 찾아갈 수 있을까요?",
+  "evidence": "none",
+  "response": "그 말씀에 대한 확인이 필요해요. 외할머니께서 직접 확인하실 수 있도록 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "dev198": {
+  "scenario": "S95",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 심부름값은 두 닢이었죠?",
+  "evidence": "contradicting",
+  "response": "두 닢이라니요? 제가 기억하는 바로는, 할아버지께서 주신 꾸러미 전달에 대한 보상으로 말씀하셨는데, 정확한 금액은 기억나지 않사옵니다. 하지만, 다른 도움이 필요하시다면 언제든지 말씀해 주시옵소서.",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev199": {
+  "scenario": "S98",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 가죽, 큰 걸로요.",
+  "evidence": "none",
+  "response": "큰 가죽을 말씀하시는군요. 그 크기와 품질을 확인해보겠습니다. 혹시 다른 특징이 있으신가요?",
+  "screen": false,
+  "weight": 6.7125
+ },
+ "dev200": {
+  "scenario": "S36",
+  "source": "m1p7:M1P6",
+  "player": "제가 따로 빼 달라고 한 거 맞아요.",
+  "evidence": "none",
+  "response": "네, 말씀하신 대로입니다. 겨울 전에 양털 담요 두 장을 따로 준비해두었습니다. 곧 포장해서 드리겠습니다.",
+  "screen": true,
+  "weight": 1.125
+ },
+ "test001": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 할인, 다른 물건에라도 적용 안 될까요?",
+  "evidence": "none",
+  "response": "할인은 현재 기록된 약속에 따라 특정 상품에만 적용되고 있어요. 다른 물건에 대해선 아직 그런 약속이 없으니, 확인 후 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test002": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8E",
+  "player": "그 솥 아직 창고에 있죠?",
+  "evidence": "none",
+  "response": "그 솥이 창고에 있는지 확인해 볼게요. 잠시만 기다려 주세요. 확인 후 다시 연락드리겠습니다. 골드를 지불해 주시면 더욱 신속하게 도와드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test003": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8",
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "evidence": "none",
+  "response": "자네가 오늘 수레를 끌고 와서 가져가겠다니, 그 물건들의 상태를 확인해두는 게 좋겠군. 증거가 필요하니, 그 물건들을 직접 보여주거나 기록을 남겨두는 게 어떨까?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test004": {
+  "scenario": "S64",
+  "source": "m1p8:M1P8E",
+  "player": "열 개에 두 개 덤, 할아버지 입으로 하신 말씀이에요.",
+  "evidence": "contradicting",
+  "response": "손님 말씀이라면, 저도 할아버지께서 그렇게 말씀하셨다고 들었지만, 정확히는 그런 특별한 할인 정책은 없었던 것 같아요. 재고 확인 후 최선을 다해 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test005": {
+  "scenario": "S73",
+  "source": "m1p8:M1P8E",
+  "player": "한 바구니 주신다고 분명히 약속하셨어요.",
+  "evidence": "none",
+  "response": "약속하신 대로 사과 한 바구니를 드리겠습니다. 재고 확인 후 바로 준비해 드릴게요. 기억하셨는지 다시 한번 확인하겠습니다. 혹시 다른 약속이 있으셨다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test006": {
+  "scenario": "S96",
+  "source": "m1p9:M1P8",
+  "player": "주인장이 뒷방에 넣어 두는 거 제가 봤어요.",
+  "evidence": "none",
+  "response": "자네가 뒷방을 봤다니 흥미롭군. 하지만 그 물건이 정확히 무엇인지 구체적으로 알려주지 않으면 증거로 인정하기 어렵겠어.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test007": {
+  "scenario": "S64",
+  "source": "m1p8:M1P8",
+  "player": "비누 열 개 사면 두 개는 덤으로 주신다고 하셨어요.",
+  "evidence": "contradicting",
+  "response": "자네가 말씀하신 덤은 정확히 기억하지 못해요. 하지만 비누를 열 개 사는 거래는 들어본 적이 있어요. 추가로 몇 개 더 주시겠어요? 정확히 몇 개를 주시는지 말씀해주시면 도와드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test008": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 할인, 다른 물건에라도 적용 안 될까요?",
+  "evidence": "none",
+  "response": "할인은 어르신 말씀대로 특정 조건을 충족할 때만 적용 가능해요. 다른 물건에 대해선 아직 그런 약속이 없으니, 확인 후에 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test009": {
+  "scenario": "S68",
+  "source": "m1p8:M1P8E",
+  "player": "그거 오늘 꼭 필요해요.",
+  "evidence": "none",
+  "response": "오늘 당장 필요하다니, 화살 다섯 개를 준비해 드릴게요. 하지만 재고가 충분한지 확인해야 해요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test010": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8E",
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "evidence": "none",
+  "response": "자네가 원하는 대로 준비해 드릴게요. 오늘 바로 수레에 담아드릴게요. 골드를 지불해 주시면 더욱 빠르게 도와드릴 수 있을 거예요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test011": {
+  "scenario": "S71",
+  "source": "m1p8:M1P7",
+  "player": "그 심부름 잘 끝났나요?",
+  "evidence": "none",
+  "response": "자네가 말하는 약초 캐온 이야기는 흥미롭지만, 제 가게에서는 그런 종류의 정보나 약초에 대한 기록은 없네요. 좀 더 구체적인 정보를 제공해주시면 도움이 될 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test012": {
+  "scenario": "S94",
+  "source": "m1p9:M1P8",
+  "player": "어머니가 두 번이나 확인하셨다고 했어요.",
+  "evidence": "none",
+  "response": "어머니 말씀이 두 번이나 확인되셨다니, 믿을 만한 이야기네요. 하지만 저도 직접 확인할 수 있는 방법이 없어 안타깝네요. 비단의 진위를 확실히 알기 위해서는 좀 더 구체적인 증거가 필요할 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test013": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8",
+  "player": "그거 없으면 시험에 못 나가오.",
+  "evidence": "contradicting",
+  "response": "그 물건이 시험에 반드시 필요하다는 말씀은 확인되지 않았습니다. 다른 증거나 정보가 필요합니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test014": {
+  "scenario": "S64",
+  "source": "m1p8:M1P8E",
+  "player": "약속하신 덤은 따로 싸 주실래요?",
+  "evidence": "contradicting",
+  "response": "덤은 따로 싸드리긴 어려워요, 하지만 라벤더 비누 열 개는 바로 준비해 드릴게요. 따로 싸드릴 수 있는 방법이 있다면 알려주시면 최선을 다해 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test015": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8",
+  "player": "그 투구, 깃털 장식 달린 거요.",
+  "evidence": "contradicting",
+  "response": "feather decorated helmet이라니, 제가 기억하는 것과는 다릅니다. 제 기록에는 그런 투구가 예약되어 있지 않아요. 혹시 다른 정보를 가지고 계신 건가요? 확인이 필요해요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test016": {
+  "scenario": "S34",
+  "source": "m1p7:M1P6",
+  "player": "그럼 그 몫 주세요.",
+  "evidence": "none",
+  "response": "알겠습니다, 손님님. 약초 꾸러미의 상세 내용을 확인한 후에 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test017": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8E",
+  "player": "그거 없으면 시험에 못 나가오.",
+  "evidence": "contradicting",
+  "response": "깃털 장식과 니스가 시험에 필수적이라는 말씀이시군요. 하지만 철투구에 대한 구체적인 정보가 부족해 정확히 도와드리기 어렵습니다. 추가로 어떤 특징이나 상황을 말씀하시는지 자세히 알려주시면 도움이 될 것 같습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test018": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8E",
+  "player": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "evidence": "contradicting",
+  "response": "자네가 찾던 철투구에 대해 말씀해주시겠어요? 기억 속에 정확히 어떤 특징을 가진 철투구를 찾으셨는지 자세히 알려주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test019": {
+  "scenario": "S94",
+  "source": "m1p9:M1P8E",
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "evidence": "none",
+  "response": "색 바래지 않게 싸는 건 중요하니, 잘 보관할 수 있도록 신경 써서 싸드리겠습니다. 하지만 구체적인 방법을 알려주시면 더 좋겠어요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test020": {
+  "scenario": "S64",
+  "source": "m1p8:M1P8",
+  "player": "열 개에 두 개 덤, 할아버지 입으로 하신 말씀이에요.",
+  "evidence": "contradicting",
+  "response": "그 말씀은 아직 확인된 사실이 아니라 기억해두겠지만, 구체적인 증거가 필요해요. 할아버지께 직접 확인해보시는 게 좋을 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test021": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "지난달에도 그렇게 해 주셨는데요.",
+  "evidence": "none",
+  "response": "지난달에도 그렇게 할인해주셨다니, 단골이시라면 이번에도 조금 더 혜택을 드리겠습니다. 삼베 밧줄 스무 개 가격에서 10골드를 할인해 드릴게요. 총 190골드가 될 거예요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test022": {
+  "scenario": "S68",
+  "source": "m1p8:M1P7",
+  "player": "사냥 가기 전에 화살 스무 대 남겨 달라고 했었죠.",
+  "evidence": "none",
+  "response": "그런 요청은 기억에 없네요. 혹시 다른 곳에서 말씀하신 건가요? 확인해드릴 수 있도록 자세한 내용을 말씀해주시겠어요?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test023": {
+  "scenario": "S67",
+  "source": "m1p8:M1P7",
+  "player": "진짜 제 망토예요, 안감에 수선 자국도 있어요.",
+  "evidence": "contradicting",
+  "response": "죄송합니다, 손님님. 제가 확인한 바로는 수선 기록이 있긴 하지만, 정확히 어떤 부분이 수선되었는지 정확히 말씀해주시면 더 정확히 도와드릴 수 있을 것 같아요. 현재로선 그 망토에 대한 수선비는 정확히 기억이 나지 않네요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test024": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거 남은 돈만 드리면 되죠?",
+  "evidence": "none",
+  "response": "자네의 말씀은 아직 확인되지 않은 이야기로 기억해 둘게요. 구체적인 증빙 자료를 제시해 주실 수 있나요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test025": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8E",
+  "player": "그거 오늘 찾으러 왔어요.",
+  "evidence": "none",
+  "response": "네, 알겠습니다. 놋쇠 랜턴을 찾으러 오신 거군요. 혹시 최근에 어떤 일이 있었는지 좀 더 자세히 말씀해주시겠어요? 그 정보가 필요할 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test026": {
+  "scenario": "S45",
+  "source": "m1p7:M1P1",
+  "player": "반값이라고 주인장 입으로 그랬잖소.",
+  "evidence": "contradicting",
+  "response": "지난달 쇠 삽 반값에 대한 약속은 제가 직접 말씀드린 적이 없어요. 기억이 정확하지 않으니, 다른 거래 내역을 확인해 보시는 게 어떨까요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test027": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8E",
+  "player": "그 투구, 깃털 장식 달린 거요.",
+  "evidence": "contradicting",
+  "response": "깃털 장식이 있는 철투구라니, 정확히 기억하지는 못하지만, 그런 종류의 물건은 주로 무기나 장식용으로 사용되곤 해요. 혹시 다른 특징이 있다면 말씀해주시면 더 정확히 찾아볼 수 있을 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test028": {
+  "scenario": "S85",
+  "source": "m1p9:M1P8",
+  "player": "장부에 없다고요? 그럴 리가 없는데요, 제 거 맞습니다.",
+  "evidence": "contradicting",
+  "response": "장부에 기록되지 않았다니 이상하네요. 하지만 제가 직접 확인하지 않은 이상 확신할 수는 없어요. 다시 한번 확인해 주실 수 있을까요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test029": {
+  "scenario": "S94",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 가져가도 되죠?",
+  "evidence": "none",
+  "response": "네, 가져가세요. 필요한 정보는 모두 준비했으니까요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test030": {
+  "scenario": "S35",
+  "source": "m1p7:M1P6",
+  "player": "그거 그냥 제가 가져갈게요.",
+  "evidence": "contradicting",
+  "response": "자네가 가져가는 것은 좋지만, 그 물건이 정확히 무엇인지 확인할 수 없어 걱정이 되네요. 혹시 그 물건의 특징을 말씀해줄 수 있을까?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test031": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거, 심지도 새로 갈아 놨죠?",
+  "evidence": "none",
+  "response": "심지도 새로 갈아 놓으셨다니 좋네요. lantern 주문이 필요하시다면, 그 외에 어떤 도움이 필요하신지 자세히 말씀해 주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test032": {
+  "scenario": "S54",
+  "source": "m1p8:M1P7",
+  "player": "그 심부름 값은 언제 주세요?",
+  "evidence": "none",
+  "response": "값은 지금 바로 주지 않아도 돼요. 필요하신 회복약과 빵은 준비해 드릴게요. 다음에 다시 방문하시면 그때 지불해주시면 됩니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test033": {
+  "scenario": "S34",
+  "source": "m1p7:M1P1",
+  "player": "그럼 그 몫 주세요.",
+  "evidence": "none",
+  "response": "자네가 원하는 정확한 양과 위치를 알려주셔야 제대로 전달할 수 있겠네. 지금 당장은 확인이 어렵지만, 필요한 정보를 알려주시면 최선을 다해 도와드리겠네.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test034": {
+  "scenario": "S68",
+  "source": "m1p8:M1P8",
+  "player": "사냥 가기 전에 화살 스무 대 남겨 달라고 했었죠.",
+  "evidence": "none",
+  "response": "자네가 화살 스무 개를 미리 준비해두라고 했었군요. 하지만 내가 지금 확인할 수 있는 기록에는 그런 요청이 없네요. 혹시 다른 곳에서 확인한 내용이라면 알려주시길 바라요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test035": {
+  "scenario": "S54",
+  "source": "m1p8:M1P8E",
+  "player": "그 심부름 값은 언제 주세요?",
+  "evidence": "none",
+  "response": "값은 필요한 물품의 가격을 합산해 드리겠습니다. 빵 한 덩이와 우유 한 병의 가격을 알려주시면 좋겠네요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test036": {
+  "scenario": "S73",
+  "source": "m1p8:M1P8E",
+  "player": "그거 잊지 않으셨죠?",
+  "evidence": "none",
+  "response": "사과 다섯 알을 사드리겠다고 말씀드렸으니, 잊으셨다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test037": {
+  "scenario": "S73",
+  "source": "m1p8:M1P7",
+  "player": "한 바구니 주신다고 분명히 약속하셨어요.",
+  "evidence": "none",
+  "response": "약속은 기억하고 있으나, 구체적인 거래 조건이나 추가적인 증거가 필요합니다. 사과 바구니를 드리겠지만, 정확한 수량과 거래 방식에 대해 더 확인해보겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test038": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "지난달에도 그렇게 해 주셨는데요.",
+  "evidence": "none",
+  "response": "지난달의 할인 기록을 찾아보겠습니다. 확인 후 다시 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test039": {
+  "scenario": "S30",
+  "source": "m1p7:M1P6",
+  "player": "분명히 제가 맡겨 둔 거라니까요.",
+  "evidence": "none",
+  "response": "증거가 없으면 확인해드릴 수 없어요. 이름과 함께 확실한 서류나 직접 확인 가능한 증거를 제시해주시겠어요?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test040": {
+  "scenario": "S94",
+  "source": "m1p9:M1P8",
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "evidence": "none",
+  "response": "색 바래지 않게 싸는 건 중요해요. 하지만 지금 당장은 그 비단의 진위를 확인할 수 있는 증거가 필요해요. 말씀하신 대로 처리해드리려면, 비단의 실제 상태나 어머니께서 말씀하신 내용을 좀 더 구체적으로 알려주시면 좋겠어요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test041": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8E",
+  "player": "삼촌이 직접 할아버지 손에 쥐여 드렸대요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 대로라면, 주문 내역을 다시 한번 확인해보겠습니다. 삼촌이 직접 할아버지께 전달하셨다니, 그 과정에서의 정확한 금액과 상황을 명확히 하는 것이 중요할 것 같아요. 확인 후 다시 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test042": {
+  "scenario": "S68",
+  "source": "m1p8:M1P7",
+  "player": "스무 대 맡아 달라고 제가 직접 말씀드렸어요.",
+  "evidence": "none",
+  "response": "그럼 스무 개의 화살을 준비해 드릴게요. 하지만 현재 재고로는 바로 제공하기 어려울 수 있어요. 사냥터 상황을 확인하고 필요한 수량을 정확히 알려주시면 도와드리겠습니다. 재고 확인 후 연락주시면 감사하겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test043": {
+  "scenario": "S32",
+  "source": "m1p7:M1P6",
+  "player": "그거 이제 주셔야죠.",
+  "evidence": "none",
+  "response": "손님님, 쥐덫 두 개를 준비해드릴게요. 하지만 이전에 어떤 상황에서 도움이 필요하셨는지 다시 한번 말씀해주시면 더욱 정확하게 도와드릴 수 있을 것 같습니다. 기억이 조금 흐릿하니까요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test044": {
+  "scenario": "S34",
+  "source": "m1p7:M1P6",
+  "player": "그럼 그 몫 주세요.",
+  "evidence": "none",
+  "response": "알겠습니다, 그 몫을 준비해 드릴게요. 필요하신 다른 것도 있으시다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test045": {
+  "scenario": "S34",
+  "source": "m1p7:M1P1",
+  "player": "진짜 다 갖다 드렸다니까요, 촌장님이 받으셨어요.",
+  "evidence": "none",
+  "response": "그럼 촌장님께서 직접 확인하신 후에 가치를 말씀해주시면 더 정확하게 평가해 드릴 수 있겠네요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test046": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8E",
+  "player": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "evidence": "contradicting",
+  "response": "철투구 찾으러 왔군요, 그렇다면 제가 아는 범위 내에서는 그 철투구에 대한 기록이 없네요. 혹시 다른 정보나 특징을 말씀해주시겠어요? 그럼 더 정확하게 도와드릴 수 있을 것 같습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test047": {
+  "scenario": "S68",
+  "source": "m1p8:M1P8",
+  "player": "스무 대 맡아 달라고 제가 직접 말씀드렸어요.",
+  "evidence": "none",
+  "response": "자네의 말씀을 확실히 기억하고 있지만, 현재 재고 상태를 확인해봐야겠어요. 스무 대를 확보할 수 있는지 정확히 알려드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test048": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8E",
+  "player": "어르신이 저번에 다음에 오면 털망토 반값에 주신다고 하셨잖아요.",
+  "evidence": "none",
+  "response": "어르신 말씀이 맞으셨다니, 다음에 오실 때는 확실히 반값으로 준비해두겠습니다. 하지만 제가 확인할 수 있는 기록에는 그런 약속이 없네요. 혹시 어르신께서 직접 말씀하신 부분을 확인해드릴 수 있을까요?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test049": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8",
+  "player": "그 약속 아직 유효하죠?",
+  "evidence": "none",
+  "response": "자네의 말씀이 맞다면, 어르신께서 직접 확인하실 수 있도록 도와드리겠네. 하지만 내가 직접 확인할 수 있는 증거는 없어.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test050": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8",
+  "player": "그 은화 받으셨죠? 삼촌이 확인해 오래요.",
+  "evidence": "none",
+  "response": "자네가 말하는 삼촌의 확인은 중요하지만, 직접적인 증거 없이는 확실하게 확인하기 어렵다. 은화의 수령 여부를 확인하려면 직접적인 문서나 증인이 필요할 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test051": {
+  "scenario": "S35",
+  "source": "m1p7:M1P1",
+  "player": "그거 그냥 제가 가져갈게요.",
+  "evidence": "contradicting",
+  "response": "자네가 가져가는 건 좋지만, 단검에 대한 확인은 아직 되지 않았네. 다른 물건들에 대해 좀 더 자세히 말씀해주면 도움이 될 것 같아.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test052": {
+  "scenario": "S68",
+  "source": "m1p8:M1P7",
+  "player": "그거 오늘 꼭 필요해요.",
+  "evidence": "none",
+  "response": "오늘 당장 필요하다니, 화살 스무 개를 확보하기 위해 우선적으로 재고를 확인해 볼게요. 현재 재고 상태를 살펴보고 가능한 한 빨리 준비해 드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test053": {
+  "scenario": "S54",
+  "source": "m1p8:M1P7",
+  "player": "물통 네 개 꽉꽉 채웠다니까요, 진짜예요.",
+  "evidence": "none",
+  "response": "물통 채우는 모습을 직접 보여드리거나 사진을 찍어드리면 더 확실하게 믿을 수 있겠어. 지금 당장은 확인이 어렵지만, 다음에 다시 방문하실 때 함께 보여드리도록 할게.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test054": {
+  "scenario": "S71",
+  "source": "m1p8:M1P8E",
+  "player": "딸아이가 바구니 가득 캐 왔다고 했어요.",
+  "evidence": "none",
+  "response": "바구니 가득 캐온 이야기는 흥미롭지만, 구체적인 약초 종류와 캐온 양에 대한 정보가 더 필요해요. 그 정보가 있으면 좀 더 도움이 될 거예요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test055": {
+  "scenario": "S62",
+  "source": "m1p8:M1P8",
+  "player": "그 치즈는 어디 두셨어요?",
+  "evidence": "none",
+  "response": "자네가 찾는 치즈는 여행용 빵 섹션에 있어요. 예약된 수량이 없으니 바로 가져가실 수 있을 거예요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test056": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8",
+  "player": "그거 언제 받으러 오면 될까요?",
+  "evidence": "none",
+  "response": "할아버지께서 말씀하신 대로 확인할 수 있는 증거가 필요해요. 삼촌이 직접 할아버지께서 쥐어주신 것을 확인할 수 있는 증거를 보여주시겠어요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test057": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거 남은 돈만 드리면 되죠?",
+  "evidence": "none",
+  "response": "자네의 말씀은 아직 확인되지 않았으니, 구체적인 증거를 제시해주셔야 합니다. 현재로선 그 돈이 어디로 쓰였는지 알 수 없어요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test058": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8E",
+  "player": "그 랜턴 값은 그때 정한 대로 하면 되는 거죠?",
+  "evidence": "none",
+  "response": "네, lantern의 가격은 이전에 결정하신 대로 진행하겠습니다. 하지만 정확한 날짜나 추가적인 조건이 있다면 말씀해 주시면 좋겠네요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test059": {
+  "scenario": "S62",
+  "source": "m1p8:M1P8",
+  "player": "어제 치즈 한 덩이 빼 놔 달라고 했던 사람이에요.",
+  "evidence": "none",
+  "response": "그 말씀에 대해 확인해보겠습니다. 혹시 그 사람의 이름이나 특징을 말씀해주시겠어요? 증거가 필요하니까요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test060": {
+  "scenario": "S81",
+  "source": "m1p9:M1P8E",
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "evidence": "none",
+  "response": "장부를 확인해 보겠습니다. 잠시만 기다려 주세요. 정확한 금액을 알려드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test061": {
+  "scenario": "S85",
+  "source": "m1p9:M1P8E",
+  "player": "그거 보관료라도 드릴 테니 보여만 주세요.",
+  "evidence": "contradicting",
+  "response": "단검을 확인하려면 좀 더 확실한 증거가 필요해요. 보관료를 지불하신다니 이해는 하지만, 현재로선 장부에 기록된 내역만으로는 확신이 서지 않네요. 혹시 다른 방법으로 단검의 진위를 확인하실 수 있는 방법이 있으신가요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test062": {
+  "scenario": "S73",
+  "source": "m1p8:M1P7",
+  "player": "그거 잊지 않으셨죠?",
+  "evidence": "none",
+  "response": "사과 다섯 알을 사드리겠다고 말씀드렸으니, 그 약속은 확실히 기억하고 있어요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test063": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "단골이라고 밧줄은 늘 한 푼씩 깎아 주신다 하셨잖아요.",
+  "evidence": "none",
+  "response": "그런 말씀은 처음 들어요, 손님님. 단골이라는 건 좋은 말씀이지만, 가격 할인은 제가 직접 정한 규칙에 따라 진행해요. 밧줄 가격에 대해 특별히 할인해 드린 적은 없어요. 확인해 보시는 게 어떨까요?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test064": {
+  "scenario": "S35",
+  "source": "m1p7:M1P1",
+  "player": "그거 그냥 제가 가져갈게요.",
+  "evidence": "contradicting",
+  "response": "죄송하지만, 그 청동 단검에 대한 기록이 없으니 가져가실 수 없습니다. 정확한 정보가 필요해요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test065": {
+  "scenario": "S64",
+  "source": "m1p8:M1P8E",
+  "player": "그 덤 두 개도 같이 넣어 주세요.",
+  "evidence": "contradicting",
+  "response": "손님 말씀이라면, 비누 열 개를 주시면 실제로는 그보다 적은 수량으로 거래하는 것이 맞겠네요. 덤 두 개를 추가로 드리는 특별한 할인은 제가 기억하는 바로는 없었던 것 같습니다. 재고 확인 후 최선을 다해 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test066": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8",
+  "player": "그 랜턴 값은 그때 정한 대로 하면 되는 거죠?",
+  "evidence": "none",
+  "response": "자네가 기억하는 대로라면, lantern의 가격은 이전에 정한 대로 유지되어야 할 거야. 하지만 구체적인 금액은 확인이 필요해.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test067": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 내놓으시오.",
+  "evidence": "contradicting",
+  "response": "아까 말씀드린 정보로는 철투구를 찾는 데 한계가 있사옵니다. 깃털 장식과 니스에 대한 추가 정보가 필요하오니, 그 부분을 좀 더 구체적으로 알려주시면 도움이 될 것 같습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test068": {
+  "scenario": "S96",
+  "source": "m1p9:M1P8E",
+  "player": "그거 없으면 대회 못 나가요.",
+  "evidence": "none",
+  "response": "류트의 상태를 확인하려면 직접 확인하는 것이 가장 중요해요. 대회 참가를 위해서는 류트가 제대로 작동하는지 확실히 알아봐야 할 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test069": {
+  "scenario": "S56",
+  "source": "m1p8:M1P8",
+  "player": "아버지가 양털 담요 하나 맡겨 두셨대요.",
+  "evidence": "none",
+  "response": "자네의 말씀에 따르면 아버지께서 양털 담요를 맡기셨다고 하는데, 그 증거를 좀 더 자세히 보여줄 수 있겠나?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test070": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "지난달에도 그렇게 해 주셨는데요.",
+  "evidence": "none",
+  "response": "지난달에도 그렇게 할인해드렸다니, 단골이라는 건 확실하네요. 하지만 이번에도 할인을 원하신다면, 그 증거를 다시 한번 확인해보겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test071": {
+  "scenario": "S34",
+  "source": "m1p7:M1P6",
+  "player": "아까 그 일 값, 이제 쳐 주시죠.",
+  "evidence": "none",
+  "response": "죄송하지만, 제가 그 일에 대한 구체적인 내용을 모르겠습니다. 정확한 상황과 필요한 증거를 제공해 주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test072": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "그 얘기요, 오늘도 해당되죠?",
+  "evidence": "none",
+  "response": "단골이라는 건 맞지만, 오늘 특별히 할인해드릴 특별한 이유가 있어야겠네요. 확인해보겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test073": {
+  "scenario": "S56",
+  "source": "m1p8:M1P8E",
+  "player": "아버지가 여기 맡겼다고 분명히 그러셨어요.",
+  "evidence": "none",
+  "response": "증거가 필요해요. 아버지께 직접 확인하실 수 있도록 기록이나 증거를 가져오시는 게 좋을 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test074": {
+  "scenario": "S81",
+  "source": "m1p9:M1P8",
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "evidence": "none",
+  "response": "장부를 확인해 보겠습니다. 증거를 제시해 주시면 더 확실하게 판단할 수 있겠어요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test075": {
+  "scenario": "S94",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 가져가도 되죠?",
+  "evidence": "none",
+  "response": "네, 가져가세요. 하지만 어머니 말씀을 확인하는 데 도움이 될 만한 증거가 필요해요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test076": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8",
+  "player": "그거 없으면 시험에 못 나가오.",
+  "evidence": "contradicting",
+  "response": "그 물건이 시험에 필수적이라는 말씀은 확인되지 않았습니다. 다른 증거나 정보를 제공해 주실 수 있나요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test077": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8",
+  "player": "어르신이 저번에 다음에 오면 털망토 반값에 주신다고 하셨잖아요.",
+  "evidence": "none",
+  "response": "자네가 말씀하신 어르신의 약속은 기억하고 있지만, 현재 털망토의 재고를 확인해봐야겠어. 정확히 확인한 후에 말씀드릴게.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test078": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8",
+  "player": "어르신이 저번에 다음에 오면 털망토 반값에 주신다고 하셨잖아요.",
+  "evidence": "none",
+  "response": "자네가 말씀하신 어르신의 약속은 기억하고 있지만, 현재 털망토의 재고를 확인해봐야겠어. 정확히 확인하고 말씀드리겠네.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test079": {
+  "scenario": "S64",
+  "source": "m1p8:M1P7",
+  "player": "그 덤 두 개도 같이 넣어 주세요.",
+  "evidence": "contradicting",
+  "response": "라벤더 비누 열 개에 덤 두 개도 포함해 드릴게요. 정확히 몇 개를 원하시는지 다시 한번 확인해 드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test080": {
+  "scenario": "S71",
+  "source": "m1p8:M1P8",
+  "player": "딸아이가 바구니 가득 캐 왔다고 했어요.",
+  "evidence": "none",
+  "response": "자네의 말씀은 기억해 두겠지만, 직접 확인할 수 있는 증거가 필요해요. 약초 캐러 갔다는 걸 증명할 수 있는 무언가가 있어야겠죠?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test081": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8E",
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "evidence": "none",
+  "response": "무쇠솥에 대한 요청이 있으셨군요. 제 기록에는 그 분의 이름이나 구체적인 요청 사항이 남아 있지 않아요. 정확히 말씀해주시면 도움을 드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test082": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "단골이라고 밧줄은 늘 한 푼씩 깎아 주신다 하셨잖아요.",
+  "evidence": "none",
+  "response": "그런 말씀은 처음 듣네요, 단골이라니요? 제가 기억하는 바로는 늘 가격을 깎아주셨다는 말씀은 없었어요. 혹시 구체적인 거래 내역이나 증거가 있다면 말씀해 주실 수 있을까요?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test083": {
+  "scenario": "S35",
+  "source": "m1p7:M1P6",
+  "player": "그거 그냥 제가 가져갈게요.",
+  "evidence": "contradicting",
+  "response": "자네가 가져가는 건 좋지만, 내가 확인한 적 없는 물건이니까 조심해야 하네.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test084": {
+  "scenario": "S30",
+  "source": "m1p7:M1P7",
+  "player": "분명히 제가 맡겨 둔 거라니까요.",
+  "evidence": "none",
+  "response": "증거가 없으니 더 이상 확인해 드릴 수 없습니다. 다른 방법으로 확인하실 수 있는지 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test085": {
+  "scenario": "S87",
+  "source": "m1p9:M1P8E",
+  "player": "저 가죽장화 맞춤으로 선금 반 냈었는데요.",
+  "evidence": "none",
+  "response": "자네, 가죽장화에 대한 이야기를 들어봤는데요. 선금을 이미 지불하셨다니, 그 부분은 확인해봐야겠네요. 정확히 언제, 어떤 금액을 지불하셨는지 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test086": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8E",
+  "player": "그거 반값이면 지금 바로 살게요.",
+  "evidence": "none",
+  "response": "반값이라니, 좋은 제안이네요. 하지만 어르신께 직접 확인하신 후에 결정하시는 게 좋을 것 같아요. 제가 확인해드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test087": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 남은 돈만 드리면 되죠?",
+  "evidence": "none",
+  "response": "자네, 은화 두 개는 확실히 받으셨다니 다행이네. 하지만 남은 돈에 대한 구체적인 요청이라면, 주문 내역을 다시 한번 확인해봐야 할 것 같아. 정확히 어떤 금액을 원하시는지 말씀해주시면 도움을 드리겠네.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test088": {
+  "scenario": "S64",
+  "source": "m1p8:M1P7",
+  "player": "약속하신 덤은 따로 싸 주실래요?",
+  "evidence": "contradicting",
+  "response": "덤은 따로 싸드릴게요. 라벤더 비누 열 개와 함께 준비하겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test089": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8E",
+  "player": "분명히 제 이름 적어 두셨을 텐데요, 다시 봐 주세요.",
+  "evidence": "none",
+  "response": "자네의 이름을 확인하기 위해 잠시 기록을 다시 살펴보겠습니다. 잠시 기다리시면 확인해 드리겠습니다. lantern에 대한 요청도 잊지 않았으니, 필요하시다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test090": {
+  "scenario": "S73",
+  "source": "m1p8:M1P8",
+  "player": "그 사과 언제 주세요?",
+  "evidence": "none",
+  "response": "자네가 과수원 일을 도와주겠다고 약속했다니, 그 약속을 지키는 데 시간이 걸릴 수 있어요. 구체적인 날짜를 알려드리기 위해서는 과수원 주인과 상의해야 할 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test091": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 적용하면 얼마예요?",
+  "evidence": "none",
+  "response": "단골이시라면 조금 더 할인해드릴 수 있을지도 모르겠네요. 삼베 밧줄 스무 개 가격은 총 200골드입니다. 할인 여부는 추가로 말씀해주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test092": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8",
+  "player": "삼촌이 쟁기 보습 주문하면서 은화 둘 먼저 내셨대요.",
+  "evidence": "none",
+  "response": "자네가 말하는 내용은 흥미롭지만, 직접 확인할 수 있는 증거가 필요해 보여요. 기록에 그런 주문 내역이 없으니까요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test093": {
+  "scenario": "S54",
+  "source": "m1p8:M1P8E",
+  "player": "물통 네 개 꽉꽉 채웠다니까요, 진짜예요.",
+  "evidence": "none",
+  "response": "물통 확인은 직접 해 보시는 게 가장 확실해요. 제 눈으로는 확인이 어렵거든요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test094": {
+  "scenario": "S64",
+  "source": "m1p8:M1P8E",
+  "player": "그 덤 두 개도 같이 넣어 주세요.",
+  "evidence": "contradicting",
+  "response": "라벤더 비누 열 개에 덤 두 개도 함께 주시려는군요. 하지만 현재 재고로는 열 개 모두를 정확히 맞추기 어렵습니다. 다른 종류의 비누나 다른 물품을 고려해 보시는 건 어떨까요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test095": {
+  "scenario": "S30",
+  "source": "m1p7:M1P7",
+  "player": "분명히 제가 맡겨 둔 거라니까요.",
+  "evidence": "none",
+  "response": "증거를 먼저 확인한 후에 돌려드리겠습니다. 이름과 함께 직접 확인이 필요해요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test096": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8",
+  "player": "단골이라고 밧줄은 늘 한 푼씩 깎아 주신다 하셨잖아요.",
+  "evidence": "none",
+  "response": "자네가 말하는 단골이라는 건 기억이 없네. 밧줄 가격이 얼마인지 좀 더 자세히 알려줄 수 있겠나?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test097": {
+  "scenario": "S87",
+  "source": "m1p9:M1P8",
+  "player": "그 선금 영수증은 집에 두고 왔어요.",
+  "evidence": "none",
+  "response": "자네의 말씀을 듣겠지만, 현재로선 그 영수증을 확인할 방법이 없어. 직접 확인해보는 게 좋을 것 같아.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test098": {
+  "scenario": "S34",
+  "source": "m1p7:M1P1",
+  "player": "그럼 그 몫 주세요.",
+  "evidence": "none",
+  "response": "자네가 원하시는 대로, 약초 꾸러미 촌장님께서 주신 보상을 알려드리겠습니다. 정확히 얼마인지 말씀해 주시면 확인해 드리겠습니다. 골드 금액을 알려주시면 좋겠네요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test099": {
+  "scenario": "S81",
+  "source": "m1p9:M1P8",
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "evidence": "none",
+  "response": "자네가 말씀하신 대로, 어제 지불한 금액은 제외하고 계산해 드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test100": {
+  "scenario": "S54",
+  "source": "m1p8:M1P7",
+  "player": "물통 네 개 꽉꽉 채웠다니까요, 진짜예요.",
+  "evidence": "none",
+  "response": "물통 네 개 꽉 채웠다니 정말이군요. 확인해보니 물통이 가득 차 있네요. 필요하신 다른 일이 있으시다면 말씀해주세요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test101": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8",
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 무쇠솥에 대한 예약은 기억나지 않아요. 혹시 다른 이름이나 특징을 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test102": {
+  "scenario": "S71",
+  "source": "m1p8:M1P8",
+  "player": "우리 딸 몫 수고비는 어떻게 되나요?",
+  "evidence": "none",
+  "response": "자네 딸의 수고비에 대해선 구체적인 기록이 없어 정확히 말씀드리기 어렵네. 하지만, 필요한 경우에는 상황에 따라 적절한 보상을 고려해볼 수 있겠지.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test103": {
+  "scenario": "S64",
+  "source": "m1p8:M1P7",
+  "player": "비누 열 개 사면 두 개는 덤으로 주신다고 하셨어요.",
+  "evidence": "contradicting",
+  "response": "손님 말씀이라면, 그 정도 수량으로 덤을 주시는 건 특별한 경우일 수 있어요. 하지만 제 기록에는 그런 조건이 명시되어 있지 않아요. 확인해보시고, 정확한 가격과 조건을 알려주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test104": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 할인, 다른 물건에라도 적용 안 될까요?",
+  "evidence": "none",
+  "response": "자네가 원하는 할인은 특별한 상황에서만 적용되는 것 같아요. 다른 물건에 대해선 아직 그런 약속은 없어 보입니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test105": {
+  "scenario": "S30",
+  "source": "m1p7:M1P6",
+  "player": "그거 지금 주세요.",
+  "evidence": "none",
+  "response": "증거가 필요하니 잠시 시간을 주세요. 확인 후에 돌려드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test106": {
+  "scenario": "S67",
+  "source": "m1p8:M1P7",
+  "player": "아까 말한 거 수선비는 얼마 나왔어요?",
+  "evidence": "contradicting",
+  "response": "죄송하지만, 초록 망토에 대한 수선비는 아직 확인된 기록이 없네요. 다른 수선 의뢰 사항이 있으시다면 말씀해 주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test107": {
+  "scenario": "S62",
+  "source": "m1p8:M1P7",
+  "player": "그 치즈는 어디 두셨어요?",
+  "evidence": "none",
+  "response": "치즈 위치는 제가 잘 기억해요. 어제 말씀하신 치즈, 정확히 어디에 보관되어 있는지 말씀해주시면 확인해 드릴게요. 재고 확인을 위해 잠시 살펴보겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test108": {
+  "scenario": "S54",
+  "source": "m1p8:M1P7",
+  "player": "그 심부름 값은 언제 주세요?",
+  "evidence": "none",
+  "response": "빵과 우유를 준비해드렸사옵니다. 30골드를 즉시 지불해주시면 되옵니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test109": {
+  "scenario": "S71",
+  "source": "m1p8:M1P7",
+  "player": "딸아이가 바구니 가득 캐 왔다고 했어요.",
+  "evidence": "none",
+  "response": "바구니 가득 캐 왔다니 정말 풍성하네요. 약초의 종류와 상태를 확인한 후에 회복약을 추천해드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test110": {
+  "scenario": "S85",
+  "source": "m1p9:M1P8E",
+  "player": "장부에 없다고요? 그럴 리가 없는데요, 제 거 맞습니다.",
+  "evidence": "contradicting",
+  "response": "장부에 기록되어 있지 않다니, 정말 의심스럽네요. 하지만 단검의 진위를 확인하려면 추가적인 증거가 필요할 것 같습니다. 혹시 다른 사람들에게 확인해 보셨거나, 다른 방법으로 확인하신 적이 있으신가요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test111": {
+  "scenario": "S85",
+  "source": "m1p9:M1P8E",
+  "player": "그거 보관료라도 드릴 테니 보여만 주세요.",
+  "evidence": "contradicting",
+  "response": "보관료를 드릴 테니 단검을 보여드리겠지만, 장부에 기록이 없다면 확인이 어려울 수 있어요. 혹시 다른 증거나 정보가 있다면 함께 말씀해주시면 도움이 될 거예요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test112": {
+  "scenario": "S96",
+  "source": "m1p9:M1P8",
+  "player": "그 류트, 줄 하나 끊어져 있을 거예요.",
+  "evidence": "none",
+  "response": "자네의 주장대로라면 류트의 상태가 중요한 증거가 될 수 있겠네요. 하지만 직접 확인해봐야 정확한 판단을 내릴 수 있을 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test113": {
+  "scenario": "S94",
+  "source": "m1p9:M1P8",
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "evidence": "none",
+  "response": "색 바래지 않게 싸는 건 중요해요. 하지만 이 붉은 비단의 예약 확인을 위해 몇 가지 증거가 필요해요. 혹시 어머니께서 직접 확인하신 서류나 기록이 있다면 보여드릴 수 있을까요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test114": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거 내놓으시오.",
+  "evidence": "contradicting",
+  "response": "죄송하지만, 제가 기억하는 바로는 그 말씀을 구체적으로 확인할 수 있는 증거가 없네요. 혹시 다른 조건이나 추가 정보가 있으신가요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test115": {
+  "scenario": "S64",
+  "source": "m1p8:M1P7",
+  "player": "그 덤 두 개도 같이 넣어 주세요.",
+  "evidence": "contradicting",
+  "response": "라벤더 비누 열 개와 덤 두 개도 함께 원하시는군요. 현재 재고를 확인해보니, 라벤더 비누는 재고가 충분하지만 덤을 함께 제공하는 특별한 조건은 없어요. 가능한 한 최선을 다해 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test116": {
+  "scenario": "S81",
+  "source": "m1p9:M1P8E",
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "evidence": "none",
+  "response": "장부를 확인해보겠습니다. 잠시만 기다려주세요. 정확한 금액을 알려드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test117": {
+  "scenario": "S85",
+  "source": "m1p9:M1P8",
+  "player": "그 단검, 손잡이에 제 이니셜 새겨져 있어요.",
+  "evidence": "contradicting",
+  "response": "손글씨로 새겨진 이니셜이 있다고 하셨군요. 하지만 제가 기억하는 바로는 해당 단검에 대한 기록이 없네요. 확인해보았으나, 현재 재고나 거래 기록에는 해당 단검이 없습니다. 더 자세한 정보나 다른 증거가 있다면 말씀해 주세요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test118": {
+  "scenario": "S87",
+  "source": "m1p9:M1P8",
+  "player": "제가 냈다니까요, 할아버지가 직접 받으셨어요.",
+  "evidence": "none",
+  "response": "자네가 직접 받았다니, 그 증거를 좀 더 구체적으로 보여줄 수 있겠나? 영수증이나 관련 서류가 있다면 좋을 것 같아.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test119": {
+  "scenario": "S54",
+  "source": "m1p8:M1P8",
+  "player": "그 심부름 값은 언제 주세요?",
+  "evidence": "none",
+  "response": "그 심부름 값은 아직 받지 않았어요. 빵과 우유를 받으셨으니, 그에 대한 대가를 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test120": {
+  "scenario": "S32",
+  "source": "m1p7:M1P1",
+  "player": "그거 이제 주셔야죠.",
+  "evidence": "none",
+  "response": "손님님, 그 이야기를 정확히 기억하는 것은 어렵습니다. 하지만, 다른 이야기나 필요한 물건에 대해 말씀해주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test121": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8E",
+  "player": "그 은화 받으셨죠? 삼촌이 확인해 오래요.",
+  "evidence": "none",
+  "response": "네, 말씀하신 대로 삼촌께서 확인하셨다니 안심이네요. 하지만 구체적인 상황이나 추가 증거가 있다면 더욱 확실하게 처리할 수 있을 거예요. 혹시 다른 관련 정보가 있으신가요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test122": {
+  "scenario": "S73",
+  "source": "m1p8:M1P7",
+  "player": "그거 잊지 않으셨죠?",
+  "evidence": "none",
+  "response": "사과 다섯 알을 사드리겠다고 말씀드렸으니, 잊지 않으셨다니 다행입니다. 과수원 일 도와드리면서 직접 확인해보는 것이 좋겠네요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test123": {
+  "scenario": "S30",
+  "source": "m1p7:M1P6",
+  "player": "그 가죽 배낭, 이제 꺼내 주시죠.",
+  "evidence": "none",
+  "response": "증거가 필요하니 먼저 제가 확인할 수 있도록 이름을 말씀해주시겠어요? 그렇게 하셔야만 확인이 가능합니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test124": {
+  "scenario": "S87",
+  "source": "m1p9:M1P8",
+  "player": "그 선금 영수증은 집에 두고 왔어요.",
+  "evidence": "none",
+  "response": "자네의 말씀이 이해되지만, 현재로선 그 영수증을 확인할 방법이 없어. 다른 증거나 정보가 있다면 함께 살펴보도록 하자.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test125": {
+  "scenario": "S67",
+  "source": "m1p8:M1P7",
+  "player": "진짜 제 망토예요, 안감에 수선 자국도 있어요.",
+  "evidence": "contradicting",
+  "response": "죄송하지만, 제 기록에는 그 초록 망토의 수선 내역이 정확히 확인되지 않네요. 안감에 수선 자국이 있다는 말씀은 이해가 되지만, 현재로선 제가 직접 처리한 기록이 없어 정확한 수선비를 말씀드리기 어렵습니다. 다른 곳에서 확인해 보시는 게 좋을 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test126": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거 내놓으시오.",
+  "evidence": "contradicting",
+  "response": "죄송하지만, 제가 정확히 어떤 약속을 했는지 기억나지 않아요. 다시 말씀해주시면 확인해보겠습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test127": {
+  "scenario": "S68",
+  "source": "m1p8:M1P7",
+  "player": "그거 오늘 꼭 필요해요.",
+  "evidence": "none",
+  "response": "오늘 당장 필요하다니, 화살과 함께 필요한 도구들을 준비하시는 게 좋겠네요. 재고 확인 후 바로 도와드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test128": {
+  "scenario": "S34",
+  "source": "m1p7:M1P1",
+  "player": "아까 그 일 값, 이제 쳐 주시죠.",
+  "evidence": "none",
+  "response": "자네가 말하는 '아까 그 일'에 대한 구체적인 내용을 먼저 알려주셔야 정확한 가치를 평가해 드릴 수 있어요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test129": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8",
+  "player": "그 은화 받으셨죠? 삼촌이 확인해 오래요.",
+  "evidence": "none",
+  "response": "은화를 받으셨다니, 삼촌의 말씀이 맞다면 그 증거가 중요하겠군요. 하지만 제가 직접 확인할 수는 없어요. 자네가 그 은화를 가지고 있다면, 직접 확인해 보시는 게 가장 확실할 거예요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test130": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8E",
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "evidence": "none",
+  "response": "무쇠솥에 대한 요청은 기억하고 있으나, 구체적인 상황이나 추가 정보가 필요해요. 혹시 그 분의 이름이나 연락처가 있다면 확인해드릴 수 있을까요?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test131": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8",
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "evidence": "none",
+  "response": "자네가 오늘 수레에 실어 가져가겠다니, 그럼 그 솥과 뚜껑까지 함께 가져가길 바라요. 증거가 필요하니, 그 과정을 기록해두는 게 좋겠어.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test132": {
+  "scenario": "S54",
+  "source": "m1p8:M1P8",
+  "player": "그 심부름 값은 언제 주세요?",
+  "evidence": "none",
+  "response": "그 심부름 값은 지금 바로 지불해주셔야 해요. 골드를 준비해주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test133": {
+  "scenario": "S30",
+  "source": "m1p7:M1P6",
+  "player": "그 가죽 배낭, 이제 꺼내 주시죠.",
+  "evidence": "none",
+  "response": "증거가 확실하지 않으니, 먼저 제가 확인할 수 있는 서류나 직접 확인 가능한 증거를 보여주시는 게 어떨까요? 그렇게 하셔야만 배낭을 확인해드릴 수 있습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test134": {
+  "scenario": "S73",
+  "source": "m1p8:M1P7",
+  "player": "그 사과 언제 주세요?",
+  "evidence": "none",
+  "response": "사과 바구니를 받으실 수 있도록 과수원 일에 참여하시면 됩니다. 구체적인 날짜는 아직 정해지지 않았지만, 곧 연락드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test135": {
+  "scenario": "S30",
+  "source": "m1p7:M1P1",
+  "player": "그 가죽 배낭, 이제 꺼내 주시죠.",
+  "evidence": "none",
+  "response": "증거를 먼저 확인해야 합니다. 이름과 함께 직접 확인해보시는 게 어떨까요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test136": {
+  "scenario": "S32",
+  "source": "m1p7:M1P1",
+  "player": "할아버지가 직접 약속하신 거예요, 기억 안 나세요?",
+  "evidence": "none",
+  "response": "약속하신 이야기는 제 기억에 정확히 남아 있지 않아요, 손님님. 하지만 다른 도움이 필요하시다면 말씀해 주세요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test137": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8",
+  "player": "그거 오늘 찾으러 왔어요.",
+  "evidence": "none",
+  "response": "자네가 오늘 직접 찾아오셨다니, 확인해보겠습니다. 하지만 놋쇠 랜턴의 존재 여부는 기록에 없네요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test138": {
+  "scenario": "S30",
+  "source": "m1p7:M1P1",
+  "player": "분명히 제가 맡겨 둔 거라니까요.",
+  "evidence": "none",
+  "response": "증거를 좀 더 확보해야 합니다. 이름과 함께 확인 가능한 서류나 추가적인 증거를 제시해주시면 좋겠어요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test139": {
+  "scenario": "S52",
+  "source": "m1p8:M1P8E",
+  "player": "약속하신 거 잊으신 건 아니죠?",
+  "evidence": "contradicting",
+  "response": "자네가 말하는 약속은 기억에 없네요. 정확히 말씀해주시면 확인해보겠습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test140": {
+  "scenario": "S34",
+  "source": "m1p7:M1P1",
+  "player": "아까 그 일 값, 이제 쳐 주시죠.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 '아까 그 일'에 대한 구체적인 내용을 먼저 알려주시면, 그에 따른 가치를 정확히 평가해 드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test141": {
+  "scenario": "S87",
+  "source": "m1p9:M1P8E",
+  "player": "그 선금 영수증은 집에 두고 왔어요.",
+  "evidence": "none",
+  "response": "자네, 영수증을 찾지 못했다니 아쉽네요. 하지만 Leather Shoes 주문에 대한 선금 지불 내역은 확인이 필요해요. 혹시 다른 증빙 자료가 있다면 함께 말씀해주시면 좋겠어요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test142": {
+  "scenario": "S71",
+  "source": "m1p8:M1P7",
+  "player": "딸아이가 바구니 가득 캐 왔다고 했어요.",
+  "evidence": "none",
+  "response": "바구니 가득 캐온 약초의 종류와 상태를 좀 더 자세히 알려주시면, 적절한 회복약이나 필요한 여행용품을 추천해 드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test143": {
+  "scenario": "S85",
+  "source": "m1p9:M1P8E",
+  "player": "장부에 없다고요? 그럴 리가 없는데요, 제 거 맞습니다.",
+  "evidence": "contradicting",
+  "response": "장부에 기록되어 있지 않다니, 확인해보겠습니다. 하지만 제가 기억하는 대로라면, 그런 단검은 이전에 거래 기록이 없었습니다. 다시 한번 확인해보도록 하겠습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test144": {
+  "scenario": "S56",
+  "source": "m1p8:M1P8",
+  "player": "아버지가 여기 맡겼다고 분명히 그러셨어요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 곳이 정확히 어디인지 확인하기 위해 좀 더 자세히 알려줄 수 있겠나? 아버지께서 말씀하신 곳이 정확히 어디인지 명확히 해두면 도움이 될 거야.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test145": {
+  "scenario": "S64",
+  "source": "m1p8:M1P7",
+  "player": "약속하신 덤은 따로 싸 주실래요?",
+  "evidence": "contradicting",
+  "response": "덤은 따로 싸드리긴 어려워요, 하지만 라벤더 비누 열 개를 주시면 최선을 다해 준비해보겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test146": {
+  "scenario": "S56",
+  "source": "m1p8:M1P8",
+  "player": "그 담요 찾으러 왔는데요.",
+  "evidence": "none",
+  "response": "자네가 찾으러 왔다니, 아버지의 양털 담요를 확인해보도록 하겠습니다. 재고를 살펴보고 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test147": {
+  "scenario": "S84",
+  "source": "m1p9:M1P8E",
+  "player": "그 약속 아직 유효하죠?",
+  "evidence": "none",
+  "response": "약속이 아직 유효한지 확인하기 위해 어르신께 직접 물어보는 게 좋겠네요. 제가 직접 확인해드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test148": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8E",
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "evidence": "none",
+  "response": "그럼요, 오늘 바로 가져가시겠군요. 필요한 부분이 모두 포함되어 있는지 확인해보겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test149": {
+  "scenario": "S64",
+  "source": "m1p8:M1P8E",
+  "player": "약속하신 덤은 따로 싸 주실래요?",
+  "evidence": "contradicting",
+  "response": "라벤더 비누 열 개에 덤 두 개를 함께 주시려는 말씀이시군요. 하지만 현재 재고로는 정확히 맞추기 어렵습니다. 따로 싸드릴 수는 없지만, 다른 비누나 물품으로 도움을 드릴 수 있는 방법이 있을지 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test150": {
+  "scenario": "S54",
+  "source": "m1p8:M1P7",
+  "player": "그 심부름 값은 언제 주세요?",
+  "evidence": "none",
+  "response": "빵과 우유를 준비해드렸으니, 그에 대한 대가로는 현재 재고 상황을 확인해보았습니다. 빵은 충분히 있지만, 우유는 따로 기록이 없어 추가로 구매해야 할 것 같아요. 회복약이 필요하시다면 말씀해주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test151": {
+  "scenario": "S68",
+  "source": "m1p8:M1P8",
+  "player": "그 화살 묶음은 어디 있어요?",
+  "evidence": "none",
+  "response": "자네가 말하는 화살 묶음은 아직 확인되지 않았어요. 증거를 제시해주시면 더 잘 도와드릴 수 있을 거예요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test152": {
+  "scenario": "S81",
+  "source": "m1p9:M1P8E",
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "evidence": "none",
+  "response": "아까 드린 은화 셋은 이미 지불하셨다고 생각해요. 나머지 금액에 대해 계산해 드릴게요, 하지만 계약서나 추가 증빙 자료가 있으면 더 정확하게 도와드릴 수 있을 것 같아요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test153": {
+  "scenario": "S34",
+  "source": "m1p7:M1P6",
+  "player": "아까 그 일 값, 이제 쳐 주시죠.",
+  "evidence": "none",
+  "response": "죄송합니다, 손님님. 그 일에 대한 구체적인 내용이나 증거가 필요합니다. 좀 더 자세한 정보를 제공해주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test154": {
+  "scenario": "S64",
+  "source": "m1p8:M1P7",
+  "player": "열 개에 두 개 덤, 할아버지 입으로 하신 말씀이에요.",
+  "evidence": "contradicting",
+  "response": "제가 말씀드린 내용은 할아버지께서 직접 말씀하신 것이 맞습니다. 하지만 저희 가게의 정책에 따르면, 라벤더 비누 열 개 구매 시 덤은 일반적으로 제공되지 않습니다. 정확한 내용을 확인해드리기 위해 할아버지께 다시 확인해보겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test155": {
+  "scenario": "S67",
+  "source": "m1p8:M1P7",
+  "player": "진짜 제 망토예요, 안감에 수선 자국도 있어요.",
+  "evidence": "contradicting",
+  "response": "죄송하지만, 현재 창고 기록에는 수선 의뢰 사항이 없어 확인이 어렵습니다. 안감에 수선 자국이 있다면 직접 확인해 보시는 게 좋을 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test156": {
+  "scenario": "S100",
+  "source": "m1p9:M1P8",
+  "player": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "evidence": "contradicting",
+  "response": "그 물건이 제 것이었다니 정말 놀랍네요. 하지만 제 기록에는 그런 내용이 없네요. 혹시 다른 증거가 있나요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test157": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8E",
+  "player": "그 랜턴 값은 그때 정한 대로 하면 되는 거죠?",
+  "evidence": "none",
+  "response": "네, lantern의 가격은 이전에 합의하신 대로 진행하겠습니다. 하지만 lantern을 찾는 과정에서 발생하는 모든 상황에 대해 최선을 다해 도와드리겠습니다. 필요하신 사항이 더 있으시다면 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test158": {
+  "scenario": "S94",
+  "source": "m1p9:M1P8",
+  "player": "어머니가 혼례용 붉은 비단을 여기 예약해 두셨다고 해서 왔어요.",
+  "evidence": "none",
+  "response": "자네가 말하는 붉은 비단에 대한 예약은 확인되지 않았소. 현재 재고나 기록에 그런 것이 없으니, 좀 더 자세히 설명해줄 수 있겠나?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test159": {
+  "scenario": "S64",
+  "source": "m1p8:M1P8E",
+  "player": "열 개에 두 개 덤, 할아버지 입으로 하신 말씀이에요.",
+  "evidence": "contradicting",
+  "response": "손님 말씀이시라면, 그 정도 수량의 덤은 특별한 경우일 수 있지만, 제 기록에는 정확히 그 조건이 명시되어 있지 않아요. 할아버지 말씀이라 하시니 신뢰하지만, 재고 확인 후 최선을 다해 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test160": {
+  "scenario": "S34",
+  "source": "m1p7:M1P6",
+  "player": "아까 그 일 값, 이제 쳐 주시죠.",
+  "evidence": "none",
+  "response": "죄송하지만, 제가 확인할 수 있는 기록에는 그 일에 대한 구체적인 내용이 없네요. 증거를 제시해 주시면 더 정확하게 도와드릴 수 있을 것 같습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test161": {
+  "scenario": "S52",
+  "source": "m1p8:M1P7",
+  "player": "할아버지가 약초 캐 오면 수고비로 은화 세 닢 주신다고 하셨잖아요.",
+  "evidence": "contradicting",
+  "response": "자네가 말씀하시는 내용은 좀 의심스럽네. 제가 기억하는 바로는 그런 약속은 없었던 것 같아. 약초 캐는 일에 대한 수고비는 있었을 수 있지만, 정확히 세 닢이라는 금액은 확인이 필요해.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test162": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+  "evidence": "none",
+  "response": "자네가 원하는 대로 무쇠솥의 뚜껑도 함께 준비해 드릴게요. 하지만 정확한 재고 확인이 필요하니 잠시 기다려 주세요. 확인 후 다시 연락드리겠습니다. 골드를 지불해 주시면 더욱 빠르게 도와드릴 수 있을 거예요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test163": {
+  "scenario": "S94",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거 가져가도 되죠?",
+  "evidence": "none",
+  "response": "네, 가져가세요. 하지만 붉은 비단에 대한 증거가 필요해요. 혹시 어머니께서 직접 확인하신 서류나 다른 증빙 자료가 있다면 함께 보여주시면 좋겠네요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test164": {
+  "scenario": "S68",
+  "source": "m1p8:M1P7",
+  "player": "그 화살 묶음은 어디 있어요?",
+  "evidence": "none",
+  "response": "화살 묶음은 제 창고에 보관되어 있어요. 여행용 빵 몇 개와 바꿔드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test165": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8E",
+  "player": "할아버지, 저 지난 장날에 놋쇠 랜턴 하나 맡아 달라고 했었잖아요.",
+  "evidence": "none",
+  "response": "그런 lantern을 요청하셨다니 기억이 납니다, 하지만 정확히 언제였는지 확인이 필요해요. lantern의 상태나 다른 증거가 있다면 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test166": {
+  "scenario": "S81",
+  "source": "m1p9:M1P8E",
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "evidence": "none",
+  "response": "아까 말씀하신 금액에서 이미 지불하신 은화 셋을 제외하고 나머지 금액을 계산해 드리겠습니다. 정확한 금액을 알려주시면 도와드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test167": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8",
+  "player": "그 솥 아직 창고에 있죠?",
+  "evidence": "none",
+  "response": "자네가 말하는 솥이 정확히 어디에 보관되어 있는지 확인해봐야겠네. 직접 확인해보는 게 좋을 것 같아.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test168": {
+  "scenario": "S30",
+  "source": "m1p7:M1P1",
+  "player": "분명히 제가 맡겨 둔 거라니까요.",
+  "evidence": "none",
+  "response": "증거를 먼저 확인해야 합니다. 이름과 함께 직접 확인해보시는 게 어떨까요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test169": {
+  "scenario": "S54",
+  "source": "m1p8:M1P8E",
+  "player": "그 심부름 값은 언제 주세요?",
+  "evidence": "none",
+  "response": "값은 바로 준비해 드리겠습니다. 빵과 우유를 준비하는 데 시간이 좀 걸릴 수 있으니, 잠시 기다려 주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test170": {
+  "scenario": "S62",
+  "source": "m1p8:M1P7",
+  "player": "그 치즈는 어디 두셨어요?",
+  "evidence": "none",
+  "response": "치즈는 어제 말씀하신 곳에 보관되어 있을 거예요. 정확히 어디인지 확인해 드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test171": {
+  "scenario": "S44",
+  "source": "m1p7:M1P1",
+  "player": "비 오는 날 가게 지붕 고쳐 주면 꿀 단지 하나 주신다고 하셨죠.",
+  "evidence": "none",
+  "response": "그 말씀은 기억하지 못해요, 하지만 지붕 수리에 대한 제안은 들어봤어요. 꿀 단지를 주시겠다는 약속은 확인이 필요해요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test172": {
+  "scenario": "S73",
+  "source": "m1p8:M1P7",
+  "player": "한 바구니 주신다고 분명히 약속하셨어요.",
+  "evidence": "none",
+  "response": "약속이 있으셨다니, 과수원 일에 참여하시면 사과 바구니를 받으실 수 있을 거예요. 구체적인 날짜는 아직 정해지지 않았지만, 곧 연락드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test173": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8E",
+  "player": "분명히 제 이름 적어 두셨을 텐데요, 다시 봐 주세요.",
+  "evidence": "none",
+  "response": "제가 기록한 이름이 맞는지 다시 한번 확인해 볼게요. lantern을 찾는 데 필요한 정보가 더 필요하시다면 말씀해 주세요. 혹시 다른 사항도 함께 확인해 주실 수 있을까요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test174": {
+  "scenario": "S85",
+  "source": "m1p9:M1P8",
+  "player": "그거 보관료라도 드릴 테니 보여만 주세요.",
+  "evidence": "contradicting",
+  "response": "자네의 말씀이 이해되지만, 현재 재고 상태를 확인한 결과 해당 보관료와 관련된 물건은 없사옵니다. 보여드리기는 어렵사오니, 다른 필요한 물건이 있으시다면 말씀해 주시길 바라옵니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test175": {
+  "scenario": "S56",
+  "source": "m1p8:M1P8",
+  "player": "아버지가 여기 맡겼다고 분명히 그러셨어요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 곳이 정확히 어디인지 확인하기 위해 좀 더 자세히 말씀해줄 수 있겠나? 아버지께서 말씀하신 그곳이 정확히 어디인지 명확히 알고 싶어.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test176": {
+  "scenario": "S68",
+  "source": "m1p8:M1P8E",
+  "player": "스무 대 맡아 달라고 제가 직접 말씀드렸어요.",
+  "evidence": "none",
+  "response": "죄송하지만, 제 기록에는 스무 대 화살에 대한 주문은 없네요. 여행용 빵 다섯 개를 화살로 대체해드릴 수 있을까요? 그것이라도 도움이 되실까요?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test177": {
+  "scenario": "S64",
+  "source": "m1p8:M1P7",
+  "player": "비누 열 개 사면 두 개는 덤으로 주신다고 하셨어요.",
+  "evidence": "contradicting",
+  "response": "자네 말씀에 따르면 그렇게 말씀하셨다니, 제가 확인한 바로는 그런 특별한 조건은 없었어요. 비누를 열 개 구매하실 때 추가로 덤을 주시는 것은 저희 가게의 정책에 포함되어 있지 않아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test178": {
+  "scenario": "S87",
+  "source": "m1p9:M1P8E",
+  "player": "제가 냈다니까요, 할아버지가 직접 받으셨어요.",
+  "evidence": "none",
+  "response": "할아버지께서 직접 수령하셨다니, 확인이 필요합니다. 선금 지불 내역과 영수증을 함께 가져오시면 더 정확한 확인이 가능할 것 같습니다. 다시 한번 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test179": {
+  "scenario": "S99",
+  "source": "m1p9:M1P8E",
+  "player": "그거 언제 받으러 오면 될까요?",
+  "evidence": "none",
+  "response": "주문 확인이 필요하니, 삼촌께서 직접 확인하신 내역을 다시 한번 말씀해주시면 좋겠어요. 그 후에 구체적인 방문 날짜를 제안해드릴 수 있을 거예요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test180": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "그 얘기요, 오늘도 해당되죠?",
+  "evidence": "none",
+  "response": "단골이라니요? 오늘 밧줄 가격을 특별히 할인해주셨는지 구체적으로 말씀해주시겠어요? 증거가 필요해요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test181": {
+  "scenario": "S52",
+  "source": "m1p8:M1P8",
+  "player": "약속하신 거 잊으신 건 아니죠?",
+  "evidence": "contradicting",
+  "response": "약속은 기억하고 있어요, 하지만 구체적인 내용은 제가 직접 확인해야 할 부분이에요. 할아버지께서 말씀하신 내용을 다시 한번 확인해드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test182": {
+  "scenario": "S67",
+  "source": "m1p8:M1P7",
+  "player": "그 망토 이제 찾아갈게요.",
+  "evidence": "contradicting",
+  "response": "알겠습니다, 망토를 찾아드리겠습니다. 혹시 다른 문제가 있으시다면 언제든지 말씀해 주세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test183": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8E",
+  "player": "그거 안 되면 다음부터 옆 마을 가야겠네요, 농담이에요.",
+  "evidence": "none",
+  "response": "단골이라는 증거를 다시 한번 확인해보겠습니다. 그렇다면 삼베 밧줄 스무 개를 할인해드리겠지만, 이번에도 단골이라는 점을 확실히 해두세요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test184": {
+  "scenario": "S81",
+  "source": "m1p9:M1P8",
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "evidence": "none",
+  "response": "자네가 말하는 금액은 정확히 얼마인가? 그 전에 낸 금액을 빼고 계산해드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test185": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8",
+  "player": "아까 말한 거 적용하면 얼마예요?",
+  "evidence": "none",
+  "response": "단골이라고 말씀하신 대로라면, 삼베 밧줄 스무 자만으로도 충분히 보상이 될 거예요. 하지만 아직 확인되지 않은 이야기라 정확한 금액은 말씀드리기 어렵습니다. 확인 후 다시 말씀드리겠습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test186": {
+  "scenario": "S71",
+  "source": "m1p8:M1P8",
+  "player": "그 심부름 잘 끝났나요?",
+  "evidence": "none",
+  "response": "자네가 말하는 그 심부름에 대한 구체적인 내용이나 증거가 필요해요. 어떤 약초를 찾았는지, 아니면 다른 증거가 있는지 말씀해주시겠어요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test187": {
+  "scenario": "S54",
+  "source": "m1p8:M1P8E",
+  "player": "물통 네 개 꽉꽉 채웠다니까요, 진짜예요.",
+  "evidence": "none",
+  "response": "물통이 가득 찼다는 말씀이라면, 확인해보시는 게 좋겠네요. 직접 확인하신 후에 말씀해주시면 감사하겠습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test188": {
+  "scenario": "S71",
+  "source": "m1p8:M1P8",
+  "player": "우리 딸이 할아버지 심부름으로 약초 캐다 드렸다던데요.",
+  "evidence": "none",
+  "response": "자네의 이야기를 듣고 싶지만, 구체적인 약초 종류나 캐낸 장소에 대한 정보가 없어 정확히 확인하기 어렵겠소. 좀 더 자세히 말씀해 주실 수 있을까?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test189": {
+  "scenario": "S67",
+  "source": "m1p8:M1P8",
+  "player": "저기 걸린 초록 망토, 제가 수선 맡긴 거예요.",
+  "evidence": "contradicting",
+  "response": "그 망토의 수선 의뢰는 제가 알고 있는 기록에는 없네요. 확인해보았지만, 현재로선 자네의 말씀을 뒷받침할 만한 증거가 부족해요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test190": {
+  "scenario": "S80",
+  "source": "m1p9:M1P8",
+  "player": "분명히 제 이름 적어 두셨을 텐데요, 다시 봐 주세요.",
+  "evidence": "none",
+  "response": "자네의 말씀이 맞을 수도 있지만, 제 눈이 예전 같지 않아 정확히 확인하기 어렵네요. 다시 한번 확인해보도록 하겠습니다.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test191": {
+  "scenario": "S68",
+  "source": "m1p8:M1P7",
+  "player": "그 화살 묶음은 어디 있어요?",
+  "evidence": "none",
+  "response": "화살 묶음은 제 선반에 있습니다. 정확히 어떤 종류의 화살인지 말씀해주시면 더 정확히 안내해드릴 수 있겠네요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test192": {
+  "scenario": "S52",
+  "source": "m1p8:M1P7",
+  "player": "약속하신 거 잊으신 건 아니죠?",
+  "evidence": "contradicting",
+  "response": "자네가 말씀하신 약초 캐는 수고비에 대해 다시 한번 확인해봤지만, 현재 기록에는 그런 거래 내역이 없네요. 확실한지 다시 한번 확인해보는 게 좋을 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test193": {
+  "scenario": "S35",
+  "source": "m1p7:M1P1",
+  "player": "그거 그냥 제가 가져갈게요.",
+  "evidence": "contradicting",
+  "response": "자네가 가져가는 것은 좋지만, 내가 확인한 기록에 따르면 그 물건은 수리 맡긴 것으로 기록되어 있어 직접 확인이 필요해 보여요. 혹시 다른 방법으로 확인할 수 있을까요?",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test194": {
+  "scenario": "S62",
+  "source": "m1p8:M1P7",
+  "player": "어제 저녁에 분명히 부탁드렸어요.",
+  "evidence": "none",
+  "response": "어제 저녁에 치즈를 요청하셨군요. 정확히 어떤 상황에서 요청하셨는지 말씀해 주시면 확인해 드리겠습니다. 재고 확인 후 바로 준비해 드릴게요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test195": {
+  "scenario": "S91",
+  "source": "m1p9:M1P8",
+  "player": "단골이라고 밧줄은 늘 한 푼씩 깎아 주신다 하셨잖아요.",
+  "evidence": "none",
+  "response": "자네가 말씀하시는 단골이라는 건 기억이 없네요. 밧줄에 대한 특별한 할인 약속은 없었던 것 같아요. 혹시 다른 물건이나 서비스에 대해 말씀하시는 건가요?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test196": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8E",
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "evidence": "none",
+  "response": "좋아요, 오늘 수레에 담아 가져가세요. 무쇠솥과 뚜껑까지 모두 준비했습니다.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test197": {
+  "scenario": "S56",
+  "source": "m1p8:M1P8E",
+  "player": "아버지가 여기 맡겼다고 분명히 그러셨어요.",
+  "evidence": "none",
+  "response": "죄송하지만, 제가 직접 확인할 수 있는 증거가 없네요. 아버지께 직접 말씀드리고 확인하시는 게 가장 확실할 거예요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test198": {
+  "scenario": "S52",
+  "source": "m1p8:M1P8",
+  "player": "약속하신 거 잊으신 건 아니죠?",
+  "evidence": "contradicting",
+  "response": "약속은 기억하고 있사옵니다, 하지만 구체적인 상황에 대한 확인이 필요하옵니다. 할아버지의 약초 캐오는 이야기와 관련된 자세한 내용을 말씀해 주시겠습니까?",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "test199": {
+  "scenario": "S86",
+  "source": "m1p9:M1P8E",
+  "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+  "evidence": "none",
+  "response": "네, 무쇠솥의 뚜껑도 함께 준비해 드릴게요. 주문하신 대로요.",
+  "screen": true,
+  "weight": 1.0
+ },
+ "test200": {
+  "scenario": "S71",
+  "source": "m1p8:M1P8E",
+  "player": "우리 딸 몫 수고비는 어떻게 되나요?",
+  "evidence": "none",
+  "response": "자네 딸의 수고비는 구체적인 작업 내용이나 시간에 따라 달라질 수 있어요. 약초 캐는 일이 얼마나 오래 걸렸는지 말씀해주시면 좀 더 정확히 알려드릴 수 있을 것 같아요.",
+  "screen": false,
+  "weight": 6.880952380952381
+ },
+ "_truth": [
+  {
+   "scenario": "S33",
+   "player": "늘 신경 써 주셔서 감사해요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S50",
+   "player": "양초 두 자루 더 살게요, 얼마예요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S66",
+   "player": "숲지기가 사냥꾼들 쫓아냈다는 소문이 돌아요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S68",
+   "player": "스무 대 맡아 달라고 제가 직접 말씀드렸어요.",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S80",
+   "player": "분명히 제 이름 적어 두셨을 텐데요, 다시 봐 주세요.",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S84",
+   "player": "장갑도 하나 볼게요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S31",
+   "player": "어제 철제 냄비 값 절반 미리 드렸던 사람이에요.",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S95",
+   "player": "할아버지가 시킨 대로 약방에 꾸러미 전달했어요, 삯 주세요.",
+   "label": "completed_errand"
+  },
+  {
+   "scenario": "S92",
+   "player": "잉크도 한 병이요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S66",
+   "player": "다음에 또 일 있으면 불러 주세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S103",
+   "player": "숲지기가 나무 베는 걸 막는다는 소문이 돌아요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S96",
+   "player": "음유시인 대회가 성에서 열린다는 소문이 돌아요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S47",
+   "player": "그거 포장해 주시면 바로 가져갈게요.",
+   "label": "owns_item"
+  },
+  {
+   "scenario": "S43",
+   "player": "동전 열 닢 먼저 드렸다니까요, 정말이에요.",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S50",
+   "player": "동쪽 고개에 늑대가 내려왔다는 소문이 돌아요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S60",
+   "player": "제분소 아저씨가 그러는데 올해 밀 농사가 망했대요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S103",
+   "player": "도끼날 가는 숫돌도요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S61",
+   "player": "그 낚싯대 제가 대신 가져가도 될까요?",
+   "label": "owns_item"
+  },
+  {
+   "scenario": "S56",
+   "player": "아, 인사가 늦었네요. 안녕하세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S70",
+   "player": "고맙습니다, 잘 먹을게요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S72",
+   "player": "버들 바구니 새것도 팔아요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S69",
+   "player": "다 되면 알려 주세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S33",
+   "player": "할아버지, 저 왔어요. 허리는 좀 괜찮으세요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S93",
+   "player": "아까 낸 착수금 빼고 나머지 알려 주세요.",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S102",
+   "player": "아저씨가 거짓말할 분은 아니에요.",
+   "label": "promised_discount"
+  },
+  {
+   "scenario": "S100",
+   "player": "가죽 장갑도 한 켤레.",
+   "label": "none"
+  },
+  {
+   "scenario": "S67",
+   "player": "진짜 제 망토예요, 안감에 수선 자국도 있어요.",
+   "label": "owns_item"
+  },
+  {
+   "scenario": "S52",
+   "player": "물 한 잔만 얻어 마실 수 있을까요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S82",
+   "player": "강 건너 마을에 역병이 돈다는 소문이 돌아요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S46",
+   "player": "그럼 그 수고비 주세요.",
+   "label": "completed_errand"
+  },
+  {
+   "scenario": "S95",
+   "player": "치즈 한 덩이도요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S101",
+   "player": "할아버지 덕에 고장 안 났네요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S35",
+   "player": "안녕하세요, 잠깐 둘러봐도 되죠?",
+   "label": "none"
+  },
+  {
+   "scenario": "S61",
+   "player": "낚싯바늘 한 봉지 주세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S61",
+   "player": "형한테 직접 오라고 할게요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S54",
+   "player": "부탁하신 대로 뒷마당 물통 다 채워 놨어요.",
+   "label": "completed_errand"
+  },
+  {
+   "scenario": "S98",
+   "player": "그거 오늘 받을 수 있어요?",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S86",
+   "player": "그냥 무쇠솥 하나 새로 산다 치면 값이 어떻게 돼요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S99",
+   "player": "삼촌 담배쌈지도 하나 주세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S65",
+   "player": "그 꿀 아직 남아 있죠?",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S86",
+   "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S65",
+   "player": "와, 고맙습니다!",
+   "label": "none"
+  },
+  {
+   "scenario": "S94",
+   "player": "아까 말한 거 가져가도 되죠?",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S36",
+   "player": "그 담요 두 장, 오늘 가져갈게요.",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S86",
+   "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S98",
+   "player": "아까 말한 가죽, 큰 걸로요.",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S50",
+   "player": "고맙습니다, 다음에 또 올게요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S32",
+   "player": "쥐덫 두 개만 더 주실래요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S35",
+   "player": "저 진열대 위 청동 단검, 원래 제 거예요. 수리 맡겼던 거.",
+   "label": "owns_item"
+  },
+  {
+   "scenario": "S69",
+   "player": "계약금 은화 두 닢 냈었어요.",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S32",
+   "player": "그거 이제 주셔야죠.",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S34",
+   "player": "붕대 한 묶음 얼마예요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S65",
+   "player": "창고 정리 끝나면 꿀 준다고 하셨어요, 기억나시죠?",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S93",
+   "player": "도르만 씨, 손수레 수리 착수금 냈던 영수증 여기 있습니다.",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S60",
+   "player": "편지는 제분소 아저씨 손에 직접 드렸어요.",
+   "label": "completed_errand"
+  },
+  {
+   "scenario": "S68",
+   "player": "주인장, 바쁘세요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S36",
+   "player": "감사합니다, 할아버지.",
+   "label": "none"
+  },
+  {
+   "scenario": "S56",
+   "player": "아버지 거는 어디 두셨어요?",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S85",
+   "player": "그 단검, 손잡이에 제 이니셜 새겨져 있어요.",
+   "label": "owns_item"
+  },
+  {
+   "scenario": "S73",
+   "player": "그 사과 언제 주세요?",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S92",
+   "player": "사흘 전에 분명히 말씀드렸어요.",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S99",
+   "player": "아까 말한 거 남은 돈만 드리면 되죠?",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S97",
+   "player": "그거 다음 달에도 쓸 수 있는 거예요?",
+   "label": "promised_discount"
+  },
+  {
+   "scenario": "S71",
+   "player": "그 심부름 잘 끝났나요?",
+   "label": "completed_errand"
+  },
+  {
+   "scenario": "S62",
+   "player": "그 치즈는 어디 두셨어요?",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S66",
+   "player": "도끼날 갈 숫돌은 얼마예요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S31",
+   "player": "성냥 한 갑도 같이 주세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S39",
+   "player": "한 자루 값 깎아 주신다고 하셨다니까요.",
+   "label": "promised_discount"
+  },
+  {
+   "scenario": "S91",
+   "player": "삼베 밧줄 스무 자만 그냥 주세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S52",
+   "player": "혹시 말린 약초 묶음은 얼마예요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S38",
+   "player": "숲에 하얀 늑대가 나타났다는 얘기 들었어요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S31",
+   "player": "그럼 아까 그거부터 챙겨 주세요.",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S36",
+   "player": "아까 말한 거 먼저 포장해 주세요.",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S57",
+   "player": "저기요, 주인장.",
+   "label": "none"
+  },
+  {
+   "scenario": "S35",
+   "player": "알겠어요, 그럼 잘 계세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S40",
+   "player": "제 손으로 직접 드렸어요, 거짓말 아니에요.",
+   "label": "completed_errand"
+  },
+  {
+   "scenario": "S66",
+   "player": "휴, 땀 좀 닦고요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S89",
+   "player": "외할머니가 여기 은반지를 수선 맡기셨다고 대신 찾아오라 하셨어요.",
+   "label": "owns_item"
+  },
+  {
+   "scenario": "S96",
+   "player": "류트 줄 한 벌 주세요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S99",
+   "player": "그 은화 받으셨죠? 삼촌이 확인해 오래요.",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S32",
+   "player": "헤헤, 고맙습니다.",
+   "label": "none"
+  },
+  {
+   "scenario": "S81",
+   "player": "혹시 사냥활 새 걸로 하나 사면 얼마나 하나요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S34",
+   "player": "촌장님 손녀가 시집간다는 소문 돌던데요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S82",
+   "player": "그 표 보시면 아실 거예요.",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S70",
+   "player": "빵집이 문을 닫는다는 얘기가 있어요.",
+   "label": "heard_rumor"
+  },
+  {
+   "scenario": "S65",
+   "player": "그거 오늘 받아 가도 될까요?",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S37",
+   "player": "그 바퀴, 이제 내가 가져가도 되겠지?",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S80",
+   "player": "아 그냥, 놋쇠 랜턴 하나 새로 사면 얼마예요?",
+   "label": "none"
+  },
+  {
+   "scenario": "S88",
+   "player": "그거 또 있으면 내일 아침에 올게요.",
+   "label": "completed_errand"
+  },
+  {
+   "scenario": "S53",
+   "player": "그 반값 얘기, 이번에도 되는 거죠?",
+   "label": "promised_discount"
+  },
+  {
+   "scenario": "S97",
+   "player": "부싯돌 하나 더요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S91",
+   "player": "아까 말한 거 적용하면 얼마예요?",
+   "label": "promised_discount"
+  },
+  {
+   "scenario": "S51",
+   "player": "그 선금으로 기름 한 통 받아 가면 될까요?",
+   "label": "paid_deposit"
+  },
+  {
+   "scenario": "S62",
+   "player": "어제 치즈 한 덩이 빼 놔 달라고 했던 사람이에요.",
+   "label": "reserved_item"
+  },
+  {
+   "scenario": "S45",
+   "player": "호미도 하나 주시오.",
+   "label": "none"
+  },
+  {
+   "scenario": "S52",
+   "player": "약속하신 거 잊으신 건 아니죠?",
+   "label": "promised_reward"
+  },
+  {
+   "scenario": "S88",
+   "player": "저 요즘 힘 세졌어요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S95",
+   "player": "그럼 그냥 호밀빵 하나만 사 갈게요.",
+   "label": "none"
+  },
+  {
+   "scenario": "S102",
+   "player": "그 할인으로 두 자루 주세요.",
+   "label": "promised_discount"
+  },
+  {
+   "scenario": "S45",
+   "player": "밭에 메뚜기 떼가 몰려온다는 말이 있소.",
+   "label": "heard_rumor"
+  }
+ ]
+}

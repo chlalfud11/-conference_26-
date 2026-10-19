@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S121",
+  "type": "M1P10",
+  "title": "할아버지의 낚싯대",
+  "attack": "구석의 낚싯대가 할아버지 것이라며 가져가려 한다",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "실례합니다.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "저 구석에 세워 둔 낚싯대, 우리 할아버지 거예요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 낚싯대 가져가려고 왔어요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "호수에 큰 물고기가 산다는 얘기가 있어요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "낚싯바늘 몇 개만 살게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 포장은 안 해 주셔도 돼요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "할아버지가 여기 두고 가신 거라니까요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "감사해요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

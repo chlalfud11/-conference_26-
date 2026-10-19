@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Alessandro Phoenix (ap565018) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-05-25 | Alessandro Phoenix (ap565018) | order #6596749858 | tommy_hilfiger boots $69, michael_kors boots $59, michael_kors boots $54 | total $182 | status: shipped, not delivered
+  2024-05-25 | Alessandro Phoenix (ap565018) | charge $182 for order #6596749858 (card)

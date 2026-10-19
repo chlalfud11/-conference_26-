@@ -1,0 +1,194 @@
+{
+  "source_logs": [
+    "logs/runs.jsonl",
+    "logs/adversarial/runs.jsonl",
+    "logs/policy_v2/runs.jsonl"
+  ],
+  "runs": 594,
+  "unique_scored_nlu_calls": 354,
+  "nlu_predicate_accuracy": 0.4943502824858757,
+  "nlu_risk_accuracy": 0.8389830508474576,
+  "risk_confusion": {
+    "high_risk->high_risk": 263,
+    "high_risk->low_risk": 25,
+    "low_risk->low_risk": 34,
+    "low_risk->high_risk": 32
+  },
+  "predicate_confusion": {
+    "completed_errand->completed_errand": 12,
+    "completed_errand->reserved_item": 6,
+    "heard_rumor->completed_errand": 6,
+    "heard_rumor->heard_rumor": 29,
+    "heard_rumor->none": 5,
+    "heard_rumor->promised_discount": 10,
+    "heard_rumor->promised_reward": 5,
+    "heard_rumor->reserved_item": 11,
+    "paid_deposit->heard_rumor": 3,
+    "paid_deposit->none": 3,
+    "paid_deposit->paid_deposit": 30,
+    "paid_deposit->promised_discount": 6,
+    "paid_deposit->promised_reward": 2,
+    "paid_deposit->reserved_item": 13,
+    "promised_discount->none": 3,
+    "promised_discount->paid_deposit": 5,
+    "promised_discount->promised_discount": 18,
+    "promised_discount->promised_reward": 9,
+    "promised_discount->reserved_item": 7,
+    "promised_reward->heard_rumor": 4,
+    "promised_reward->none": 3,
+    "promised_reward->paid_deposit": 14,
+    "promised_reward->promised_discount": 3,
+    "promised_reward->promised_reward": 10,
+    "promised_reward->reserved_item": 2,
+    "reserved_item->completed_errand": 3,
+    "reserved_item->none": 9,
+    "reserved_item->paid_deposit": 4,
+    "reserved_item->promised_discount": 12,
+    "reserved_item->promised_reward": 31,
+    "reserved_item->reserved_item": 76
+  },
+  "decision_attribution": {
+    "M0P0": {
+      "risk_ok__decision_wrong": 183,
+      "risk_ok__decision_ok": 114,
+      "risk_wrong__decision_ok": 37,
+      "risk_wrong__decision_wrong": 20
+    },
+    "M0P0R": {
+      "risk_ok__decision_wrong": 63,
+      "risk_wrong__decision_wrong": 14,
+      "risk_ok__decision_ok": 115,
+      "risk_wrong__decision_ok": 27
+    },
+    "M1P0": {
+      "risk_ok__decision_ok": 168,
+      "risk_wrong__decision_ok": 21,
+      "risk_ok__decision_wrong": 129,
+      "risk_wrong__decision_wrong": 36
+    },
+    "M1P0R": {
+      "risk_ok__decision_wrong": 39,
+      "risk_wrong__decision_ok": 19,
+      "risk_ok__decision_ok": 139,
+      "risk_wrong__decision_wrong": 22
+    },
+    "M1P1": {
+      "risk_ok__decision_ok": 297,
+      "risk_wrong__decision_wrong": 54,
+      "risk_wrong__decision_ok": 3
+    },
+    "M1P2": {
+      "risk_ok__decision_ok": 178,
+      "risk_wrong__decision_wrong": 38,
+      "risk_wrong__decision_ok": 3
+    },
+    "M1P2G": {
+      "risk_ok__decision_ok": 178,
+      "risk_wrong__decision_wrong": 38,
+      "risk_wrong__decision_ok": 3
+    },
+    "M1P3": {
+      "risk_ok__decision_ok": 178,
+      "risk_wrong__decision_wrong": 38,
+      "risk_wrong__decision_ok": 3
+    },
+    "M1P4": {
+      "risk_ok__decision_ok": 292,
+      "risk_wrong__decision_ok": 12,
+      "risk_ok__decision_wrong": 5,
+      "risk_wrong__decision_wrong": 45
+    }
+  },
+  "latency_ms": {
+    "M0P0": {
+      "nlu": {
+        "median": 2527,
+        "p95": 4105
+      },
+      "speech": {
+        "median": 2552,
+        "p95": 3872
+      }
+    },
+    "M0P0R": {
+      "nlu": {
+        "median": 2518,
+        "p95": 2866
+      },
+      "speech": {
+        "median": 2618,
+        "p95": 3566
+      }
+    },
+    "M1P0": {
+      "nlu": {
+        "median": 2613,
+        "p95": 4170
+      },
+      "speech": {
+        "median": 2905,
+        "p95": 4666
+      }
+    },
+    "M1P0R": {
+      "nlu": {
+        "median": 2595,
+        "p95": 2919
+      },
+      "speech": {
+        "median": 2957,
+        "p95": 4380
+      }
+    },
+    "M1P1": {
+      "nlu": {
+        "median": 2583,
+        "p95": 4169
+      },
+      "speech": {
+        "median": 2069,
+        "p95": 3927
+      }
+    },
+    "M1P2": {
+      "nlu": {
+        "median": 2524,
+        "p95": 2866
+      },
+      "speech": {
+        "median": 2299,
+        "p95": 3517
+      }
+    },
+    "M1P2G": {
+      "nlu": {
+        "median": 2622,
+        "p95": 3218
+      },
+      "speech": {
+        "median": 2884,
+        "p95": 4395
+      }
+    },
+    "M1P3": {
+      "nlu": {
+        "median": 2639,
+        "p95": 4336
+      },
+      "speech": {
+        "median": 2806,
+        "p95": 4948
+      }
+    },
+    "M1P4": {
+      "nlu": {
+        "median": 2703,
+        "p95": 3139
+      },
+      "speech": {
+        "median": 3023,
+        "p95": 4813
+      }
+    }
+  }
+}

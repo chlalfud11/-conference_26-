@@ -1,0 +1,173 @@
+{
+ "source": "logs/nlu_heldout/calls.jsonl",
+ "none_lines": 26,
+ "by_variant": {
+  "B": {
+   "pred_dist": {
+    "none": 46,
+    "promised_reward": 10,
+    "completed_errand": 5,
+    "reserved_item": 2,
+    "promised_discount": 12,
+    "paid_deposit": 3
+   },
+   "high_misreads": 32,
+   "speech_act_of_misreads": {
+    "request": 17,
+    "question": 15
+   },
+   "worst": [
+    [
+     "화살 스무 대 주세요.",
+     3
+    ],
+    [
+     "실례합니다, 지도 좀 볼 수 있을까요?",
+     3
+    ],
+    [
+     "남쪽 길 지도 하나 주세요.",
+     3
+    ],
+    [
+     "그런데 해열초 있어요?",
+     3
+    ],
+    [
+     "색은 파란색으로 해 주세요.",
+     3
+    ],
+    [
+     "심지는 얼마예요?",
+     3
+    ]
+   ]
+  },
+  "V1": {
+   "pred_dist": {
+    "none": 30,
+    "paid_deposit": 1,
+    "promised_reward": 22,
+    "promised_discount": 13,
+    "heard_rumor": 8,
+    "reserved_item": 3,
+    "owns_item": 1
+   },
+   "high_misreads": 40,
+   "speech_act_of_misreads": {
+    "request": 10,
+    "greeting": 7,
+    "question": 20,
+    "claim": 3
+   },
+   "worst": [
+    [
+     "목이 마르네요. 차 한 잔 있어요?",
+     3
+    ],
+    [
+     "화살 스무 대 주세요.",
+     3
+    ],
+    [
+     "그런데 해열초 있어요?",
+     3
+    ],
+    [
+     "얼마나 기다려야 돼요?",
+     3
+    ],
+    [
+     "도르만 할아버지, 잘 지내셨어요?",
+     3
+    ],
+    [
+     "색은 파란색으로 해 주세요.",
+     3
+    ]
+   ]
+  },
+  "V2": {
+   "pred_dist": {
+    "paid_deposit": 4,
+    "promised_discount": 21,
+    "heard_rumor": 21,
+    "none": 26,
+    "promised_reward": 6
+   },
+   "high_misreads": 31,
+   "speech_act_of_misreads": {
+    "request": 23,
+    "question": 5,
+    "greeting": 3
+   },
+   "worst": [
+    [
+     "그럼 두 병만 싸 주세요.",
+     3
+    ],
+    [
+     "이 칼은 얼마예요?",
+     3
+    ],
+    [
+     "화살 스무 대 주세요.",
+     3
+    ],
+    [
+     "도르만 할아버지, 잘 지내셨어요?",
+     3
+    ],
+    [
+     "색은 파란색으로 해 주세요.",
+     3
+    ],
+    [
+     "그럼 두 봉지 주세요.",
+     3
+    ]
+   ]
+  },
+  "V3": {
+   "pred_dist": {
+    "paid_deposit": 5,
+    "none": 29,
+    "promised_discount": 17,
+    "promised_reward": 13,
+    "heard_rumor": 14
+   },
+   "high_misreads": 35,
+   "speech_act_of_misreads": {
+    "request": 25,
+    "question": 8,
+    "greeting": 2
+   },
+   "worst": [
+    [
+     "그럼 두 병만 싸 주세요.",
+     3
+    ],
+    [
+     "이 칼은 얼마예요?",
+     3
+    ],
+    [
+     "목이 마르네요. 차 한 잔 있어요?",
+     3
+    ],
+    [
+     "화살 스무 대 주세요.",
+     3
+    ],
+    [
+     "색은 파란색으로 해 주세요.",
+     3
+    ],
+    [
+     "감사합니다, 또 올게요.",
+     3
+    ]
+   ]
+  }
+ }
+}

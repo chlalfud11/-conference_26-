@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Chloe Zhang (chloezhang) | member: gold | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Chloe Zhang (chloezhang) | order #2651164237 | michael_kors jacket $79 | total $79 | status: delivered
+  2024-06-12 | Chloe Zhang (chloezhang) | charge $79 for order #2651164237 (card)

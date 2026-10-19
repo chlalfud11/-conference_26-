@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A079n",
+ "predicate": "owns_item",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Alessandro Phoenix | account alessandrop356 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "(no orders on this account)"
+  ],
+  "payments": [
+   "(none)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

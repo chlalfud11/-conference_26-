@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A029n",
+ "predicate": "completed_errand",
+ "verified": false,
+ "days_ago": 3,
+ "customer": "David Williams (davidw85)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: David Williams (davidw85) | member: guest | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-05 | David Williams (davidw85) | order #5508052061 | tommy_hilfiger jacket $89 | total $89 | status: delivered",
+  "2024-06-05 | David Williams (davidw85) | charge $89 for order #5508052061 (card)"
+ ]
+}

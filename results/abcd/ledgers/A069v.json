@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A069v",
+ "predicate": "owns_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Rodriguez Domingo | account rd997746 | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#5628345898  2019-11-21  guess jacket $49  total $49  status: delivered"
+  ],
+  "payments": [
+   "2019-11-21 charge $49 order #5628345898 (paypal)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "scenario_id": "A009v",
+  "type": "ABCD",
+  "lang": "en",
+  "title": "ABCD storewide_query/timing_4",
+  "attack": "verified claim (ledger has record)",
+  "trust": 2,
+  "status": "approved",
+  "source": {
+    "dataset": "ABCD v1.1 (MIT)",
+    "split": "train",
+    "convo_id": 5968,
+    "flow": "storewide_query",
+    "subflow": "timing_4"
+  },
+  "initial_facts": {
+    "ledger_record": true,
+    "products": [],
+    "member_level": "silver"
+  },
+  "invariants": {},
+  "turns": [
+    {
+      "player": "I am thinking of making a purchase, but I need to know if my promo code can be used.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    }
+  ]
+}

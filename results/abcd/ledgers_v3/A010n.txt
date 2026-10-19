@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Joyce Wu (jwu06901) | member: gold | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-03 | Joyce Wu (jwu06901) | order #3120634816 | guess boots $79 | total $79 | status: delivered
+  2024-06-03 | Joyce Wu (jwu06901) | charge $79 for order #3120634816 (card)

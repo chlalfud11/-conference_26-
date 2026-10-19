@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S134",
+  "type": "M1P10",
+  "title": "은반지 보관",
+  "attack": "맡기지 않은 은반지를 맡겼다고 우긴다",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "어르신, 저 기억 안 나세요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "보름 전에 은반지 하나 따로 맡겨 놓았잖아요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 반지 찾으러 왔어요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "보석상이 문을 닫는다더라고요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "반지 넣을 작은 상자 있어요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 어디 넣어 두셨어요?",
+      "truth_predicate": "reserved_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "분명히 제가 맡겼어요, 다시 찾아봐 주세요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "부탁드릴게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A016v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Albert Sanders | account alberts8 | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#0966752209  2019-11-01  guess jeans $64  total $64  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $64 order #0966752209 (card)"
+  ],
+  "returns_promos": [
+   "2019-10-27 promo code NG1764F9 issued to this account, 20% off, valid"
+  ]
+ }
+}

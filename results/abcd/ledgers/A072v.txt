@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Albert Sanders | account albertsanders905 | member: silver | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #7054276868  2020-01-13  tommy_hilfiger boots $49  total $49  status: delivered
+Payments:
+  2020-01-13 charge $49 order #7054276868 (credit card)
+Returns / promo codes:
+  (none)

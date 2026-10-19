@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A052v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Chloe Zhang | account chloezhang337 | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#6606070816  2020-03-18  michael_kors boots $99, tommy_hilfiger boots $94, calvin_klein jacket $64  total $257  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2020-03-18 charge $257 order #6606070816 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

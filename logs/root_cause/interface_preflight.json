@@ -1,0 +1,25 @@
+{
+  "server_pid": 75461,
+  "server_monitor": "mon_5AM4W7RNF1PEENBJ",
+  "version": "0.6.0 (build 11429, commit d81235049)",
+  "command": "llama-server -m models/EXAONE-3.5-2.4B-Instruct-Q4_K_M.gguf --host 127.0.0.1 --port 8080 -c 4096 -ngl 99 --jinja --log-file logs/root_cause/server.log",
+  "model_sha256": "1660a3794acc33437137faab5cb3fb2b2c4191d0a4ec991d4c31a7197cb2cdbf",
+  "original_runs_sha256": "c659a15afdfcb5ba3433fc00bb10d4168386e1c38c1c3d165e44368726e5dea3",
+  "official_tokenizer_source": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct/raw/main/tokenizer_config.json",
+  "props_template_equals_official_template": true,
+  "apply_template_status": 200,
+  "apply_template_sentinel": "[|system|]SYS_CHECK[|endofturn|]\n[|user|]USR_CHECK\n[|assistant|]",
+  "official_bos_token": "[BOS]",
+  "official_eos_token": "[|endofturn|]",
+  "observed_eos_token_id": 361,
+  "slots": [
+    {"id": 0, "n_ctx": 4096},
+    {"id": 1, "n_ctx": 4096},
+    {"id": 2, "n_ctx": 4096},
+    {"id": 3, "n_ctx": 4096}
+  ],
+  "startup_warning": "special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect",
+  "warning_interpretation": "Warning observed; no demonstrated chat-template mismatch. Generation stop behavior and actual rendered diagnostic inputs remain to be checked.",
+  "power_at_start": "Battery Power, 56%, discharging",
+  "no_embedding_server_required": true
+}

@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A027n",
+ "predicate": "completed_errand",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "David Williams | account davidw23 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#4319256134  2019-11-01  calvin_klein boots $89  total $89  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $89 order #4319256134 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Crystal Minh | account cminh278 | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #5113897269  2020-02-22  guess jacket $59  total $59  status: delivered
+Payments:
+  2020-02-22 charge $59 order #5113897269 (credit card)
+Returns / promo codes:
+  (none)

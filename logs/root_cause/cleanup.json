@@ -1,0 +1,38 @@
+{
+  "chat_pid": 75461,
+  "caffeinate_pid": 75496,
+  "chat_monitor": "mon_5AM4W7RNF1PEENBJ",
+  "caffeinate_monitor": "mon_44R0NWQ3C1W6T8M4",
+  "runtime_monitor": "mon_CNASFCE78GJVSCPQ",
+  "runtime_exit_code": 0,
+  "pilot_monitor": "mon_J0JTA7QXZ3WHPWZH",
+  "pilot_exit_code": 0,
+  "review_pack_monitor": "mon_JR1W5R2NXP9DDTCN",
+  "review_pack_exit_code": 0,
+  "report_monitor": "mon_FGGSM30WP9NTVPHN",
+  "report_exit_code": 0,
+  "test_monitor": "mon_E0MZXDGJSPS7P6RG",
+  "test_exit_code": 0,
+  "tests_passed": 35,
+  "preservation_monitor": "mon_21JTA8C1VA4YXFDZ",
+  "preservation_exit_code": 0,
+  "protected_files_verified": 40,
+  "original_runs": 432,
+  "original_runs_sha256": "c659a15afdfcb5ba3433fc00bb10d4168386e1c38c1c3d165e44368726e5dea3",
+  "ports_checked": [
+    8080,
+    8081
+  ],
+  "ports_closed": true,
+  "owned_processes_gone": true,
+  "closure_markers": [
+    "ROOT_CAUSE_OWNED_PROCESSES_GONE",
+    "ROOT_CAUSE_PORTS_CLOSED"
+  ],
+  "other_processes_terminated": false,
+  "diagnostic_calls": 300,
+  "blind_reviews": 180,
+  "static_diagnostics": "not run: basedpyright-langserver not installed",
+  "generation_trace": "unconfirmed: actual applied generation prompt trace unavailable",
+  "reviewer": "st_01a13955 PASS: report counts, H-only candidate, ambiguity bounds, negative results, limits and receipts are consistent. Independent AI evidence review, not human evaluation."
+}

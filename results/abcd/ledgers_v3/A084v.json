@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A084v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "David Williams (dw085349)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: David Williams (dw085349) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | David Williams (dw085349) | order #0785647682 | calvin_klein jeans $74 | total $74 | status: delivered",
+  "2024-06-12 | David Williams (dw085349) | charge $74 for order #0785647682 (credit card)"
+ ]
+}

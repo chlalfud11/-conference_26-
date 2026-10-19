@@ -1,0 +1,7 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Alessandro Phoenix (alessandrophoenix) | member: bronze | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-15 | Alessandro Phoenix (alessandrophoenix) | order #7439615758 | michael_kors jacket $49 | total $49 | status: delivered
+  2024-06-15 | Alessandro Phoenix (alessandrophoenix) | charge $49 for order #7439615758 (card)
+  2024-06-15 | Alessandro Phoenix (alessandrophoenix) | charge $49 for order #7439615758 [duplicate of previous charge]

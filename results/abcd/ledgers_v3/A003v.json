@@ -1,0 +1,13 @@
+{
+ "scenario_id": "A003v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Rodriguez Domingo (rdomingo748)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Rodriguez Domingo (rdomingo748) | member: guest | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Rodriguez Domingo (rdomingo748) | order #6840582919 | tommy_hilfiger jacket $54 | total $54 | status: delivered",
+  "2024-06-02 | Rodriguez Domingo (rdomingo748) | charge $54 for order #6840582919 (card)",
+  "2024-06-12 | Rodriguez Domingo (rdomingo748) | promo code NG94A26D issued, 20% off, valid until 2024-07-15"
+ ]
+}

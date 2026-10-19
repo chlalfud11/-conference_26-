@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A034n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "days_ago": 3,
+ "customer": "Joyce Wu (joycewu)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Joyce Wu (joycewu) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Joyce Wu (joycewu) | order #9043089444 | calvin_klein jeans $49 | total $49 | status: delivered",
+  "2024-06-12 | Joyce Wu (joycewu) | charge $49 for order #9043089444 (card)"
+ ]
+}

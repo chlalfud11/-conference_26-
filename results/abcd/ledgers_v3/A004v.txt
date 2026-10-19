@@ -1,0 +1,7 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Alessandro Phoenix (alessandrophoenix228) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-02 | Alessandro Phoenix (alessandrophoenix228) | order #3639784943 | michael_kors jeans $84 | total $84 | status: delivered
+  2024-06-02 | Alessandro Phoenix (alessandrophoenix228) | charge $84 for order #3639784943 (card)
+  2024-06-12 | Alessandro Phoenix (alessandrophoenix228) | promo code NG8788FC issued, 20% off, valid until 2024-07-15

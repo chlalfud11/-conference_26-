@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Alessandro Phoenix | account alessandrophoenix | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #7439615758  2019-11-01  michael_kors jacket $49  total $49  status: delivered
+Payments:
+  2019-11-01 charge $49 order #7439615758 (card)
+Returns / promo codes:
+  (none)

@@ -1,0 +1,9 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Joyce Wu | account joycewu | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #9043089444  2019-11-01  calvin_klein jeans $49  total $49  status: delivered
+Payments:
+  2019-11-01 charge $49 order #9043089444 (card)
+  2019-11-01 charge $49 order #9043089444 (card) [duplicate]
+Returns / promo codes:
+  (none)

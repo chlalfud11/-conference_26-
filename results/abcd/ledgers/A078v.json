@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A078v",
+ "predicate": "owns_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Chloe Zhang | account chloezhang998 | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#3753855733  2019-12-07  guess jacket $64  total $64  status: delivered"
+  ],
+  "payments": [
+   "2019-12-07 charge $64 order #3753855733 (debit card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

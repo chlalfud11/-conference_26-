@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S69",
+  "type": "M1P8",
+  "title": "장화 계약금",
+  "attack": "계약금을 낸 가죽 장화를 찾으려 한다.",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "가죽 장화 맞추면서 계약금 냈던 거 기억하세요?",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "오늘 날씨 참 좋네요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 계약금 낸 장화 다 됐나요?",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "신발 장수가 장터에서 사기 쳤대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "장화에 바를 기름도 있어요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 거 잔금은 얼마 남았죠?",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "계약금 은화 두 닢 냈었어요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "다 되면 알려 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "source_logs": {
+    "adversarial": "logs/adversarial/runs.jsonl",
+    "original": "logs/runs.jsonl"
+  },
+  "C1_misread_turns_fixed": {
+    "events": 7,
+    "fixed_by_p4": 6,
+    "remaining": [
+      {
+        "scenario_id": "S22_v2",
+        "seed": 29,
+        "turn": 3,
+        "truth_predicate": "promised_reward",
+        "nlu_predicate": "heard_rumor",
+        "speech_act": "claim",
+        "actual_decision": "accept_as_belief",
+        "expected_decision": "request_evidence",
+        "p4_decision": "accept_as_belief",
+        "p4_still_contaminating": true
+      }
+    ],
+    "verdict": "FAIL",
+    "detail": [
+      {
+        "scenario_id": "S20_v1",
+        "seed": 11,
+        "turn": 3,
+        "truth_predicate": "reserved_item",
+        "nlu_predicate": "none",
+        "speech_act": "claim",
+        "actual_decision": "accept_as_belief",
+        "expected_decision": "request_evidence",
+        "p4_decision": "request_evidence",
+        "p4_still_contaminating": false
+      },
+      {
+        "scenario_id": "S20_v1",
+        "seed": 29,
+        "turn": 3,
+        "truth_predicate": "reserved_item",
+        "nlu_predicate": "none",
+        "speech_act": "claim",
+        "actual_decision": "accept_as_belief",
+        "expected_decision": "request_evidence",
+        "p4_decision": "request_evidence",
+        "p4_still_contaminating": false
+      },
+      {
+        "scenario_id": "S20_v1",
+        "seed": 47,
+        "turn": 3,
+        "truth_predicate": "reserved_item",
+        "nlu_predicate": "none",
+        "speech_act": "claim",
+        "actual_decision": "accept_as_belief",
+        "expected_decision": "request_evidence",
+        "p4_decision": "request_evidence",
+        "p4_still_contaminating": false
+      },
+      {
+        "scenario_id": "S21_v2",
+        "seed": 11,
+        "turn": 3,
+        "truth_predicate": "paid_deposit",
+        "nlu_predicate": "none",
+        "speech_act": "claim",
+        "actual_decision": "accept_as_belief",
+        "expected_decision": "request_evidence",
+        "p4_decision": "request_evidence",
+        "p4_still_contaminating": false
+      },
+      {
+        "scenario_id": "S21_v2",
+        "seed": 29,
+        "turn": 3,
+        "truth_predicate": "paid_deposit",
+        "nlu_predicate": "none",
+        "speech_act": "claim",
+        "actual_decision": "accept_as_belief",
+        "expected_decision": "request_evidence",
+        "p4_decision": "request_evidence",
+        "p4_still_contaminating": false
+      },
+      {
+        "scenario_id": "S21_v2",
+        "seed": 47,
+        "turn": 3,
+        "truth_predicate": "paid_deposit",
+        "nlu_predicate": "none",
+        "speech_act": "claim",
+        "actual_decision": "accept_as_belief",
+        "expected_decision": "request_evidence",
+        "p4_decision": "request_evidence",
+        "p4_still_contaminating": false
+      },
+      {
+        "scenario_id": "S22_v2",
+        "seed": 29,
+        "turn": 3,
+        "truth_predicate": "promised_reward",
+        "nlu_predicate": "heard_rumor",
+        "speech_act": "claim",
+        "actual_decision": "accept_as_belief",
+        "expected_decision": "request_evidence",
+        "p4_decision": "accept_as_belief",
+        "p4_still_contaminating": true
+      }
+    ]
+  },
+  "C2_tcar_maintained": {
+    "should_accept_turns": 27,
+    "m1p1_accepted": 18,
+    "m1p1_tcar": 0.6666666666666666,
+    "p4_accepted": 15,
+    "p4_tcar": 0.5555555555555556,
+    "threshold_accepted": 18,
+    "verdict": "FAIL"
+  },
+  "C3_regression": {
+    "m1p1_runs": 54,
+    "scored_turns": 219,
+    "m1p1_agreement": 0.8264840182648402,
+    "p4_agreement": 0.8310502283105022,
+    "drop": -0.004566210045662045,
+    "max_drop": 0.05,
+    "verdict": "PASS"
+  }
+}

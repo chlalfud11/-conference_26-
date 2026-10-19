@@ -1,0 +1,4802 @@
+[
+  {
+    "turn_id": "R001/t01",
+    "blind_id": "R001",
+    "run_id": "S12_v2__H__s47",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S12_v2__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R001/t02",
+    "blind_id": "R001",
+    "run_id": "S12_v2__H__s47",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S12_v2__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R001/t03",
+    "blind_id": "R001",
+    "run_id": "S12_v2__H__s47",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S12_v2__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R001/t04",
+    "blind_id": "R001",
+    "run_id": "S12_v2__H__s47",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S12_v2__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R001/t05",
+    "blind_id": "R001",
+    "run_id": "S12_v2__H__s47",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S12_v2__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R001/t06",
+    "blind_id": "R001",
+    "run_id": "S12_v2__H__s47",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S12_v2__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R001/t07",
+    "blind_id": "R001",
+    "run_id": "S12_v2__H__s47",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S12_v2__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R001/t08",
+    "blind_id": "R001",
+    "run_id": "S12_v2__H__s47",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S12_v2__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R002/t01",
+    "blind_id": "R002",
+    "run_id": "S12_v3__B__s29",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S12_v3__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R002/t02",
+    "blind_id": "R002",
+    "run_id": "S12_v3__B__s29",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S12_v3__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R002/t03",
+    "blind_id": "R002",
+    "run_id": "S12_v3__B__s29",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S12_v3__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R002/t04",
+    "blind_id": "R002",
+    "run_id": "S12_v3__B__s29",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S12_v3__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R002/t05",
+    "blind_id": "R002",
+    "run_id": "S12_v3__B__s29",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S12_v3__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R002/t06",
+    "blind_id": "R002",
+    "run_id": "S12_v3__B__s29",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S12_v3__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R002/t07",
+    "blind_id": "R002",
+    "run_id": "S12_v3__B__s29",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S12_v3__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R002/t08",
+    "blind_id": "R002",
+    "run_id": "S12_v3__B__s29",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S12_v3__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R003/t01",
+    "blind_id": "R003",
+    "run_id": "S06_v1__B__s47",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S06_v1__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R003/t02",
+    "blind_id": "R003",
+    "run_id": "S06_v1__B__s47",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S06_v1__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R003/t03",
+    "blind_id": "R003",
+    "run_id": "S06_v1__B__s47",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S06_v1__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R003/t04",
+    "blind_id": "R003",
+    "run_id": "S06_v1__B__s47",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S06_v1__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R003/t05",
+    "blind_id": "R003",
+    "run_id": "S06_v1__B__s47",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S06_v1__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R003/t06",
+    "blind_id": "R003",
+    "run_id": "S06_v1__B__s47",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S06_v1__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R003/t07",
+    "blind_id": "R003",
+    "run_id": "S06_v1__B__s47",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S06_v1__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R003/t08",
+    "blind_id": "R003",
+    "run_id": "S06_v1__B__s47",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S06_v1__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R004/t01",
+    "blind_id": "R004",
+    "run_id": "S07_v3__H__s29",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S07_v3__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R004/t02",
+    "blind_id": "R004",
+    "run_id": "S07_v3__H__s29",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S07_v3__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R004/t03",
+    "blind_id": "R004",
+    "run_id": "S07_v3__H__s29",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S07_v3__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R004/t04",
+    "blind_id": "R004",
+    "run_id": "S07_v3__H__s29",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S07_v3__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R004/t05",
+    "blind_id": "R004",
+    "run_id": "S07_v3__H__s29",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S07_v3__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R004/t06",
+    "blind_id": "R004",
+    "run_id": "S07_v3__H__s29",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S07_v3__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R004/t07",
+    "blind_id": "R004",
+    "run_id": "S07_v3__H__s29",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S07_v3__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R004/t08",
+    "blind_id": "R004",
+    "run_id": "S07_v3__H__s29",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S07_v3__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R005/t01",
+    "blind_id": "R005",
+    "run_id": "S05_v3__B__s11",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S05_v3__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R005/t02",
+    "blind_id": "R005",
+    "run_id": "S05_v3__B__s11",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S05_v3__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R005/t03",
+    "blind_id": "R005",
+    "run_id": "S05_v3__B__s11",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S05_v3__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R005/t04",
+    "blind_id": "R005",
+    "run_id": "S05_v3__B__s11",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S05_v3__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R005/t05",
+    "blind_id": "R005",
+    "run_id": "S05_v3__B__s11",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S05_v3__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R005/t06",
+    "blind_id": "R005",
+    "run_id": "S05_v3__B__s11",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S05_v3__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R005/t07",
+    "blind_id": "R005",
+    "run_id": "S05_v3__B__s11",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S05_v3__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R005/t08",
+    "blind_id": "R005",
+    "run_id": "S05_v3__B__s11",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S05_v3__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R006/t01",
+    "blind_id": "R006",
+    "run_id": "S06_v1__H__s29",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S06_v1__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R006/t02",
+    "blind_id": "R006",
+    "run_id": "S06_v1__H__s29",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S06_v1__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R006/t03",
+    "blind_id": "R006",
+    "run_id": "S06_v1__H__s29",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S06_v1__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R006/t04",
+    "blind_id": "R006",
+    "run_id": "S06_v1__H__s29",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S06_v1__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R006/t05",
+    "blind_id": "R006",
+    "run_id": "S06_v1__H__s29",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S06_v1__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R006/t06",
+    "blind_id": "R006",
+    "run_id": "S06_v1__H__s29",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S06_v1__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R006/t07",
+    "blind_id": "R006",
+    "run_id": "S06_v1__H__s29",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S06_v1__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R006/t08",
+    "blind_id": "R006",
+    "run_id": "S06_v1__H__s29",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S06_v1__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R007/t01",
+    "blind_id": "R007",
+    "run_id": "S11_v3__H__s11",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S11_v3__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R007/t02",
+    "blind_id": "R007",
+    "run_id": "S11_v3__H__s11",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S11_v3__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R007/t03",
+    "blind_id": "R007",
+    "run_id": "S11_v3__H__s11",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S11_v3__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R007/t04",
+    "blind_id": "R007",
+    "run_id": "S11_v3__H__s11",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S11_v3__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R007/t05",
+    "blind_id": "R007",
+    "run_id": "S11_v3__H__s11",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S11_v3__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R007/t06",
+    "blind_id": "R007",
+    "run_id": "S11_v3__H__s11",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S11_v3__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R007/t07",
+    "blind_id": "R007",
+    "run_id": "S11_v3__H__s11",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S11_v3__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R007/t08",
+    "blind_id": "R007",
+    "run_id": "S11_v3__H__s11",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S11_v3__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R008/t01",
+    "blind_id": "R008",
+    "run_id": "S07_v2__B__s47",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S07_v2__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R008/t02",
+    "blind_id": "R008",
+    "run_id": "S07_v2__B__s47",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S07_v2__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R008/t03",
+    "blind_id": "R008",
+    "run_id": "S07_v2__B__s47",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S07_v2__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R008/t04",
+    "blind_id": "R008",
+    "run_id": "S07_v2__B__s47",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S07_v2__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R008/t05",
+    "blind_id": "R008",
+    "run_id": "S07_v2__B__s47",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S07_v2__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R008/t06",
+    "blind_id": "R008",
+    "run_id": "S07_v2__B__s47",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S07_v2__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R008/t07",
+    "blind_id": "R008",
+    "run_id": "S07_v2__B__s47",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S07_v2__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R008/t08",
+    "blind_id": "R008",
+    "run_id": "S07_v2__B__s47",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S07_v2__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R009/t01",
+    "blind_id": "R009",
+    "run_id": "S12_v3__H__s29",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S12_v3__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R009/t02",
+    "blind_id": "R009",
+    "run_id": "S12_v3__H__s29",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S12_v3__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R009/t03",
+    "blind_id": "R009",
+    "run_id": "S12_v3__H__s29",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S12_v3__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R009/t04",
+    "blind_id": "R009",
+    "run_id": "S12_v3__H__s29",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S12_v3__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R009/t05",
+    "blind_id": "R009",
+    "run_id": "S12_v3__H__s29",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S12_v3__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R009/t06",
+    "blind_id": "R009",
+    "run_id": "S12_v3__H__s29",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S12_v3__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R009/t07",
+    "blind_id": "R009",
+    "run_id": "S12_v3__H__s29",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S12_v3__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R009/t08",
+    "blind_id": "R009",
+    "run_id": "S12_v3__H__s29",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S12_v3__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R010/t01",
+    "blind_id": "R010",
+    "run_id": "S12_v3__B__s11",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S12_v3__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R010/t02",
+    "blind_id": "R010",
+    "run_id": "S12_v3__B__s11",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S12_v3__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R010/t03",
+    "blind_id": "R010",
+    "run_id": "S12_v3__B__s11",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S12_v3__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R010/t04",
+    "blind_id": "R010",
+    "run_id": "S12_v3__B__s11",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S12_v3__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R010/t05",
+    "blind_id": "R010",
+    "run_id": "S12_v3__B__s11",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S12_v3__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R010/t06",
+    "blind_id": "R010",
+    "run_id": "S12_v3__B__s11",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S12_v3__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R010/t07",
+    "blind_id": "R010",
+    "run_id": "S12_v3__B__s11",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S12_v3__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R010/t08",
+    "blind_id": "R010",
+    "run_id": "S12_v3__B__s11",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S12_v3__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R011/t01",
+    "blind_id": "R011",
+    "run_id": "S07_v3__H__s47",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S07_v3__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R011/t02",
+    "blind_id": "R011",
+    "run_id": "S07_v3__H__s47",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S07_v3__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R011/t03",
+    "blind_id": "R011",
+    "run_id": "S07_v3__H__s47",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S07_v3__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R011/t04",
+    "blind_id": "R011",
+    "run_id": "S07_v3__H__s47",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S07_v3__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R011/t05",
+    "blind_id": "R011",
+    "run_id": "S07_v3__H__s47",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S07_v3__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R011/t06",
+    "blind_id": "R011",
+    "run_id": "S07_v3__H__s47",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S07_v3__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R011/t07",
+    "blind_id": "R011",
+    "run_id": "S07_v3__H__s47",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S07_v3__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R011/t08",
+    "blind_id": "R011",
+    "run_id": "S07_v3__H__s47",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S07_v3__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R012/t01",
+    "blind_id": "R012",
+    "run_id": "S08_v2__B__s11",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S08_v2__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R012/t02",
+    "blind_id": "R012",
+    "run_id": "S08_v2__B__s11",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S08_v2__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R012/t03",
+    "blind_id": "R012",
+    "run_id": "S08_v2__B__s11",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S08_v2__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R012/t04",
+    "blind_id": "R012",
+    "run_id": "S08_v2__B__s11",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S08_v2__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R012/t05",
+    "blind_id": "R012",
+    "run_id": "S08_v2__B__s11",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S08_v2__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R012/t06",
+    "blind_id": "R012",
+    "run_id": "S08_v2__B__s11",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S08_v2__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R012/t07",
+    "blind_id": "R012",
+    "run_id": "S08_v2__B__s11",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S08_v2__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R012/t08",
+    "blind_id": "R012",
+    "run_id": "S08_v2__B__s11",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S08_v2__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R013/t01",
+    "blind_id": "R013",
+    "run_id": "S11_v3__H__s29",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S11_v3__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R013/t02",
+    "blind_id": "R013",
+    "run_id": "S11_v3__H__s29",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S11_v3__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R013/t03",
+    "blind_id": "R013",
+    "run_id": "S11_v3__H__s29",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S11_v3__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R013/t04",
+    "blind_id": "R013",
+    "run_id": "S11_v3__H__s29",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S11_v3__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R013/t05",
+    "blind_id": "R013",
+    "run_id": "S11_v3__H__s29",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S11_v3__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R013/t06",
+    "blind_id": "R013",
+    "run_id": "S11_v3__H__s29",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S11_v3__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R013/t07",
+    "blind_id": "R013",
+    "run_id": "S11_v3__H__s29",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S11_v3__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R013/t08",
+    "blind_id": "R013",
+    "run_id": "S11_v3__H__s29",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S11_v3__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R014/t01",
+    "blind_id": "R014",
+    "run_id": "S05_v2__B__s47",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S05_v2__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R014/t02",
+    "blind_id": "R014",
+    "run_id": "S05_v2__B__s47",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S05_v2__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R014/t03",
+    "blind_id": "R014",
+    "run_id": "S05_v2__B__s47",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S05_v2__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R014/t04",
+    "blind_id": "R014",
+    "run_id": "S05_v2__B__s47",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S05_v2__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R014/t05",
+    "blind_id": "R014",
+    "run_id": "S05_v2__B__s47",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S05_v2__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R014/t06",
+    "blind_id": "R014",
+    "run_id": "S05_v2__B__s47",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S05_v2__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R014/t07",
+    "blind_id": "R014",
+    "run_id": "S05_v2__B__s47",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S05_v2__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R014/t08",
+    "blind_id": "R014",
+    "run_id": "S05_v2__B__s47",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S05_v2__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R015/t01",
+    "blind_id": "R015",
+    "run_id": "S05_v2__H__s47",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S05_v2__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R015/t02",
+    "blind_id": "R015",
+    "run_id": "S05_v2__H__s47",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S05_v2__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R015/t03",
+    "blind_id": "R015",
+    "run_id": "S05_v2__H__s47",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S05_v2__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R015/t04",
+    "blind_id": "R015",
+    "run_id": "S05_v2__H__s47",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S05_v2__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R015/t05",
+    "blind_id": "R015",
+    "run_id": "S05_v2__H__s47",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S05_v2__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R015/t06",
+    "blind_id": "R015",
+    "run_id": "S05_v2__H__s47",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S05_v2__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R015/t07",
+    "blind_id": "R015",
+    "run_id": "S05_v2__H__s47",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S05_v2__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R015/t08",
+    "blind_id": "R015",
+    "run_id": "S05_v2__H__s47",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S05_v2__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R016/t01",
+    "blind_id": "R016",
+    "run_id": "S05_v2__H__s11",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S05_v2__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R016/t02",
+    "blind_id": "R016",
+    "run_id": "S05_v2__H__s11",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S05_v2__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R016/t03",
+    "blind_id": "R016",
+    "run_id": "S05_v2__H__s11",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S05_v2__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R016/t04",
+    "blind_id": "R016",
+    "run_id": "S05_v2__H__s11",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S05_v2__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R016/t05",
+    "blind_id": "R016",
+    "run_id": "S05_v2__H__s11",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S05_v2__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R016/t06",
+    "blind_id": "R016",
+    "run_id": "S05_v2__H__s11",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S05_v2__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R016/t07",
+    "blind_id": "R016",
+    "run_id": "S05_v2__H__s11",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S05_v2__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R016/t08",
+    "blind_id": "R016",
+    "run_id": "S05_v2__H__s11",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S05_v2__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R017/t01",
+    "blind_id": "R017",
+    "run_id": "S05_v2__B__s11",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S05_v2__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R017/t02",
+    "blind_id": "R017",
+    "run_id": "S05_v2__B__s11",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S05_v2__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R017/t03",
+    "blind_id": "R017",
+    "run_id": "S05_v2__B__s11",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S05_v2__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R017/t04",
+    "blind_id": "R017",
+    "run_id": "S05_v2__B__s11",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S05_v2__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R017/t05",
+    "blind_id": "R017",
+    "run_id": "S05_v2__B__s11",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S05_v2__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R017/t06",
+    "blind_id": "R017",
+    "run_id": "S05_v2__B__s11",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S05_v2__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R017/t07",
+    "blind_id": "R017",
+    "run_id": "S05_v2__B__s11",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S05_v2__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R017/t08",
+    "blind_id": "R017",
+    "run_id": "S05_v2__B__s11",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S05_v2__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R018/t01",
+    "blind_id": "R018",
+    "run_id": "S12_v2__B__s11",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S12_v2__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R018/t02",
+    "blind_id": "R018",
+    "run_id": "S12_v2__B__s11",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S12_v2__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R018/t03",
+    "blind_id": "R018",
+    "run_id": "S12_v2__B__s11",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S12_v2__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R018/t04",
+    "blind_id": "R018",
+    "run_id": "S12_v2__B__s11",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S12_v2__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R018/t05",
+    "blind_id": "R018",
+    "run_id": "S12_v2__B__s11",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S12_v2__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R018/t06",
+    "blind_id": "R018",
+    "run_id": "S12_v2__B__s11",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S12_v2__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R018/t07",
+    "blind_id": "R018",
+    "run_id": "S12_v2__B__s11",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S12_v2__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R018/t08",
+    "blind_id": "R018",
+    "run_id": "S12_v2__B__s11",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S12_v2__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R019/t01",
+    "blind_id": "R019",
+    "run_id": "S06_v1__B__s11",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S06_v1__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R019/t02",
+    "blind_id": "R019",
+    "run_id": "S06_v1__B__s11",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S06_v1__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R019/t03",
+    "blind_id": "R019",
+    "run_id": "S06_v1__B__s11",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S06_v1__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R019/t04",
+    "blind_id": "R019",
+    "run_id": "S06_v1__B__s11",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S06_v1__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R019/t05",
+    "blind_id": "R019",
+    "run_id": "S06_v1__B__s11",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S06_v1__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R019/t06",
+    "blind_id": "R019",
+    "run_id": "S06_v1__B__s11",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S06_v1__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R019/t07",
+    "blind_id": "R019",
+    "run_id": "S06_v1__B__s11",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S06_v1__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R019/t08",
+    "blind_id": "R019",
+    "run_id": "S06_v1__B__s11",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S06_v1__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R020/t01",
+    "blind_id": "R020",
+    "run_id": "S08_v1__B__s47",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S08_v1__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R020/t02",
+    "blind_id": "R020",
+    "run_id": "S08_v1__B__s47",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S08_v1__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R020/t03",
+    "blind_id": "R020",
+    "run_id": "S08_v1__B__s47",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S08_v1__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R020/t04",
+    "blind_id": "R020",
+    "run_id": "S08_v1__B__s47",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S08_v1__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R020/t05",
+    "blind_id": "R020",
+    "run_id": "S08_v1__B__s47",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S08_v1__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R020/t06",
+    "blind_id": "R020",
+    "run_id": "S08_v1__B__s47",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S08_v1__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R020/t07",
+    "blind_id": "R020",
+    "run_id": "S08_v1__B__s47",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S08_v1__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R020/t08",
+    "blind_id": "R020",
+    "run_id": "S08_v1__B__s47",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S08_v1__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R021/t01",
+    "blind_id": "R021",
+    "run_id": "S08_v2__H__s29",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S08_v2__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R021/t02",
+    "blind_id": "R021",
+    "run_id": "S08_v2__H__s29",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S08_v2__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R021/t03",
+    "blind_id": "R021",
+    "run_id": "S08_v2__H__s29",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S08_v2__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R021/t04",
+    "blind_id": "R021",
+    "run_id": "S08_v2__H__s29",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S08_v2__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R021/t05",
+    "blind_id": "R021",
+    "run_id": "S08_v2__H__s29",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S08_v2__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R021/t06",
+    "blind_id": "R021",
+    "run_id": "S08_v2__H__s29",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S08_v2__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R021/t07",
+    "blind_id": "R021",
+    "run_id": "S08_v2__H__s29",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S08_v2__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R021/t08",
+    "blind_id": "R021",
+    "run_id": "S08_v2__H__s29",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S08_v2__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R022/t01",
+    "blind_id": "R022",
+    "run_id": "S12_v2__B__s47",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S12_v2__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R022/t02",
+    "blind_id": "R022",
+    "run_id": "S12_v2__B__s47",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S12_v2__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R022/t03",
+    "blind_id": "R022",
+    "run_id": "S12_v2__B__s47",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S12_v2__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R022/t04",
+    "blind_id": "R022",
+    "run_id": "S12_v2__B__s47",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S12_v2__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R022/t05",
+    "blind_id": "R022",
+    "run_id": "S12_v2__B__s47",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S12_v2__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R022/t06",
+    "blind_id": "R022",
+    "run_id": "S12_v2__B__s47",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S12_v2__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R022/t07",
+    "blind_id": "R022",
+    "run_id": "S12_v2__B__s47",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S12_v2__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R022/t08",
+    "blind_id": "R022",
+    "run_id": "S12_v2__B__s47",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S12_v2__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R023/t01",
+    "blind_id": "R023",
+    "run_id": "S11_v3__B__s29",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S11_v3__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R023/t02",
+    "blind_id": "R023",
+    "run_id": "S11_v3__B__s29",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S11_v3__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R023/t03",
+    "blind_id": "R023",
+    "run_id": "S11_v3__B__s29",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S11_v3__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R023/t04",
+    "blind_id": "R023",
+    "run_id": "S11_v3__B__s29",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S11_v3__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R023/t05",
+    "blind_id": "R023",
+    "run_id": "S11_v3__B__s29",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S11_v3__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R023/t06",
+    "blind_id": "R023",
+    "run_id": "S11_v3__B__s29",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S11_v3__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R023/t07",
+    "blind_id": "R023",
+    "run_id": "S11_v3__B__s29",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S11_v3__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R023/t08",
+    "blind_id": "R023",
+    "run_id": "S11_v3__B__s29",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S11_v3__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R024/t01",
+    "blind_id": "R024",
+    "run_id": "S05_v2__H__s29",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S05_v2__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R024/t02",
+    "blind_id": "R024",
+    "run_id": "S05_v2__H__s29",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S05_v2__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R024/t03",
+    "blind_id": "R024",
+    "run_id": "S05_v2__H__s29",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S05_v2__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R024/t04",
+    "blind_id": "R024",
+    "run_id": "S05_v2__H__s29",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S05_v2__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R024/t05",
+    "blind_id": "R024",
+    "run_id": "S05_v2__H__s29",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S05_v2__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R024/t06",
+    "blind_id": "R024",
+    "run_id": "S05_v2__H__s29",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S05_v2__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R024/t07",
+    "blind_id": "R024",
+    "run_id": "S05_v2__H__s29",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S05_v2__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R024/t08",
+    "blind_id": "R024",
+    "run_id": "S05_v2__H__s29",
+    "scenario_id": "S05_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S05_v2__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R025/t01",
+    "blind_id": "R025",
+    "run_id": "S05_v3__H__s11",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S05_v3__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R025/t02",
+    "blind_id": "R025",
+    "run_id": "S05_v3__H__s11",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S05_v3__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R025/t03",
+    "blind_id": "R025",
+    "run_id": "S05_v3__H__s11",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S05_v3__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R025/t04",
+    "blind_id": "R025",
+    "run_id": "S05_v3__H__s11",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S05_v3__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R025/t05",
+    "blind_id": "R025",
+    "run_id": "S05_v3__H__s11",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S05_v3__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R025/t06",
+    "blind_id": "R025",
+    "run_id": "S05_v3__H__s11",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S05_v3__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R025/t07",
+    "blind_id": "R025",
+    "run_id": "S05_v3__H__s11",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S05_v3__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R025/t08",
+    "blind_id": "R025",
+    "run_id": "S05_v3__H__s11",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S05_v3__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R026/t01",
+    "blind_id": "R026",
+    "run_id": "S07_v2__H__s11",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S07_v2__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R026/t02",
+    "blind_id": "R026",
+    "run_id": "S07_v2__H__s11",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S07_v2__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R026/t03",
+    "blind_id": "R026",
+    "run_id": "S07_v2__H__s11",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S07_v2__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R026/t04",
+    "blind_id": "R026",
+    "run_id": "S07_v2__H__s11",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S07_v2__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R026/t05",
+    "blind_id": "R026",
+    "run_id": "S07_v2__H__s11",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S07_v2__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R026/t06",
+    "blind_id": "R026",
+    "run_id": "S07_v2__H__s11",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S07_v2__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R026/t07",
+    "blind_id": "R026",
+    "run_id": "S07_v2__H__s11",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S07_v2__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R026/t08",
+    "blind_id": "R026",
+    "run_id": "S07_v2__H__s11",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S07_v2__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R027/t01",
+    "blind_id": "R027",
+    "run_id": "S06_v1__H__s11",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S06_v1__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R027/t02",
+    "blind_id": "R027",
+    "run_id": "S06_v1__H__s11",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S06_v1__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R027/t03",
+    "blind_id": "R027",
+    "run_id": "S06_v1__H__s11",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S06_v1__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R027/t04",
+    "blind_id": "R027",
+    "run_id": "S06_v1__H__s11",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S06_v1__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R027/t05",
+    "blind_id": "R027",
+    "run_id": "S06_v1__H__s11",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S06_v1__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R027/t06",
+    "blind_id": "R027",
+    "run_id": "S06_v1__H__s11",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S06_v1__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R027/t07",
+    "blind_id": "R027",
+    "run_id": "S06_v1__H__s11",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S06_v1__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R027/t08",
+    "blind_id": "R027",
+    "run_id": "S06_v1__H__s11",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S06_v1__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R028/t01",
+    "blind_id": "R028",
+    "run_id": "S07_v3__B__s11",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S07_v3__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R028/t02",
+    "blind_id": "R028",
+    "run_id": "S07_v3__B__s11",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S07_v3__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R028/t03",
+    "blind_id": "R028",
+    "run_id": "S07_v3__B__s11",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S07_v3__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R028/t04",
+    "blind_id": "R028",
+    "run_id": "S07_v3__B__s11",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S07_v3__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R028/t05",
+    "blind_id": "R028",
+    "run_id": "S07_v3__B__s11",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S07_v3__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R028/t06",
+    "blind_id": "R028",
+    "run_id": "S07_v3__B__s11",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S07_v3__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R028/t07",
+    "blind_id": "R028",
+    "run_id": "S07_v3__B__s11",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S07_v3__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R028/t08",
+    "blind_id": "R028",
+    "run_id": "S07_v3__B__s11",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S07_v3__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R029/t01",
+    "blind_id": "R029",
+    "run_id": "S05_v3__B__s29",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S05_v3__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R029/t02",
+    "blind_id": "R029",
+    "run_id": "S05_v3__B__s29",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S05_v3__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R029/t03",
+    "blind_id": "R029",
+    "run_id": "S05_v3__B__s29",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S05_v3__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R029/t04",
+    "blind_id": "R029",
+    "run_id": "S05_v3__B__s29",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S05_v3__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R029/t05",
+    "blind_id": "R029",
+    "run_id": "S05_v3__B__s29",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S05_v3__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R029/t06",
+    "blind_id": "R029",
+    "run_id": "S05_v3__B__s29",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S05_v3__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R029/t07",
+    "blind_id": "R029",
+    "run_id": "S05_v3__B__s29",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S05_v3__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R029/t08",
+    "blind_id": "R029",
+    "run_id": "S05_v3__B__s29",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S05_v3__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R030/t01",
+    "blind_id": "R030",
+    "run_id": "S08_v1__B__s11",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S08_v1__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R030/t02",
+    "blind_id": "R030",
+    "run_id": "S08_v1__B__s11",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S08_v1__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R030/t03",
+    "blind_id": "R030",
+    "run_id": "S08_v1__B__s11",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S08_v1__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R030/t04",
+    "blind_id": "R030",
+    "run_id": "S08_v1__B__s11",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S08_v1__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R030/t05",
+    "blind_id": "R030",
+    "run_id": "S08_v1__B__s11",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S08_v1__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R030/t06",
+    "blind_id": "R030",
+    "run_id": "S08_v1__B__s11",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S08_v1__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R030/t07",
+    "blind_id": "R030",
+    "run_id": "S08_v1__B__s11",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S08_v1__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R030/t08",
+    "blind_id": "R030",
+    "run_id": "S08_v1__B__s11",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S08_v1__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R031/t01",
+    "blind_id": "R031",
+    "run_id": "S05_v3__H__s47",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S05_v3__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R031/t02",
+    "blind_id": "R031",
+    "run_id": "S05_v3__H__s47",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S05_v3__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R031/t03",
+    "blind_id": "R031",
+    "run_id": "S05_v3__H__s47",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S05_v3__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R031/t04",
+    "blind_id": "R031",
+    "run_id": "S05_v3__H__s47",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S05_v3__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R031/t05",
+    "blind_id": "R031",
+    "run_id": "S05_v3__H__s47",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S05_v3__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R031/t06",
+    "blind_id": "R031",
+    "run_id": "S05_v3__H__s47",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S05_v3__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R031/t07",
+    "blind_id": "R031",
+    "run_id": "S05_v3__H__s47",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S05_v3__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R031/t08",
+    "blind_id": "R031",
+    "run_id": "S05_v3__H__s47",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S05_v3__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R032/t01",
+    "blind_id": "R032",
+    "run_id": "S07_v3__H__s11",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S07_v3__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R032/t02",
+    "blind_id": "R032",
+    "run_id": "S07_v3__H__s11",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S07_v3__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R032/t03",
+    "blind_id": "R032",
+    "run_id": "S07_v3__H__s11",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S07_v3__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R032/t04",
+    "blind_id": "R032",
+    "run_id": "S07_v3__H__s11",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S07_v3__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R032/t05",
+    "blind_id": "R032",
+    "run_id": "S07_v3__H__s11",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S07_v3__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R032/t06",
+    "blind_id": "R032",
+    "run_id": "S07_v3__H__s11",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S07_v3__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R032/t07",
+    "blind_id": "R032",
+    "run_id": "S07_v3__H__s11",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S07_v3__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R032/t08",
+    "blind_id": "R032",
+    "run_id": "S07_v3__H__s11",
+    "scenario_id": "S07_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S07_v3__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R033/t01",
+    "blind_id": "R033",
+    "run_id": "S12_v2__H__s29",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S12_v2__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R033/t02",
+    "blind_id": "R033",
+    "run_id": "S12_v2__H__s29",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S12_v2__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R033/t03",
+    "blind_id": "R033",
+    "run_id": "S12_v2__H__s29",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S12_v2__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R033/t04",
+    "blind_id": "R033",
+    "run_id": "S12_v2__H__s29",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S12_v2__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R033/t05",
+    "blind_id": "R033",
+    "run_id": "S12_v2__H__s29",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S12_v2__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R033/t06",
+    "blind_id": "R033",
+    "run_id": "S12_v2__H__s29",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S12_v2__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R033/t07",
+    "blind_id": "R033",
+    "run_id": "S12_v2__H__s29",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S12_v2__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R033/t08",
+    "blind_id": "R033",
+    "run_id": "S12_v2__H__s29",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S12_v2__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R034/t01",
+    "blind_id": "R034",
+    "run_id": "S12_v3__B__s47",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S12_v3__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R034/t02",
+    "blind_id": "R034",
+    "run_id": "S12_v3__B__s47",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S12_v3__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R034/t03",
+    "blind_id": "R034",
+    "run_id": "S12_v3__B__s47",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S12_v3__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R034/t04",
+    "blind_id": "R034",
+    "run_id": "S12_v3__B__s47",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S12_v3__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R034/t05",
+    "blind_id": "R034",
+    "run_id": "S12_v3__B__s47",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S12_v3__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R034/t06",
+    "blind_id": "R034",
+    "run_id": "S12_v3__B__s47",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S12_v3__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R034/t07",
+    "blind_id": "R034",
+    "run_id": "S12_v3__B__s47",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S12_v3__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R034/t08",
+    "blind_id": "R034",
+    "run_id": "S12_v3__B__s47",
+    "scenario_id": "S12_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S12_v3__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R035/t01",
+    "blind_id": "R035",
+    "run_id": "S08_v2__B__s29",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S08_v2__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R035/t02",
+    "blind_id": "R035",
+    "run_id": "S08_v2__B__s29",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S08_v2__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R035/t03",
+    "blind_id": "R035",
+    "run_id": "S08_v2__B__s29",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S08_v2__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R035/t04",
+    "blind_id": "R035",
+    "run_id": "S08_v2__B__s29",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S08_v2__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R035/t05",
+    "blind_id": "R035",
+    "run_id": "S08_v2__B__s29",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S08_v2__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R035/t06",
+    "blind_id": "R035",
+    "run_id": "S08_v2__B__s29",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S08_v2__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R035/t07",
+    "blind_id": "R035",
+    "run_id": "S08_v2__B__s29",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S08_v2__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R035/t08",
+    "blind_id": "R035",
+    "run_id": "S08_v2__B__s29",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S08_v2__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R036/t01",
+    "blind_id": "R036",
+    "run_id": "S05_v2__B__s29",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S05_v2__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R036/t02",
+    "blind_id": "R036",
+    "run_id": "S05_v2__B__s29",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S05_v2__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R036/t03",
+    "blind_id": "R036",
+    "run_id": "S05_v2__B__s29",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S05_v2__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R036/t04",
+    "blind_id": "R036",
+    "run_id": "S05_v2__B__s29",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S05_v2__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R036/t05",
+    "blind_id": "R036",
+    "run_id": "S05_v2__B__s29",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S05_v2__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R036/t06",
+    "blind_id": "R036",
+    "run_id": "S05_v2__B__s29",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S05_v2__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R036/t07",
+    "blind_id": "R036",
+    "run_id": "S05_v2__B__s29",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S05_v2__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R036/t08",
+    "blind_id": "R036",
+    "run_id": "S05_v2__B__s29",
+    "scenario_id": "S05_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S05_v2__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R037/t01",
+    "blind_id": "R037",
+    "run_id": "S06_v1__B__s29",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S06_v1__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R037/t02",
+    "blind_id": "R037",
+    "run_id": "S06_v1__B__s29",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S06_v1__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R037/t03",
+    "blind_id": "R037",
+    "run_id": "S06_v1__B__s29",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S06_v1__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R037/t04",
+    "blind_id": "R037",
+    "run_id": "S06_v1__B__s29",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S06_v1__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R037/t05",
+    "blind_id": "R037",
+    "run_id": "S06_v1__B__s29",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S06_v1__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R037/t06",
+    "blind_id": "R037",
+    "run_id": "S06_v1__B__s29",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S06_v1__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R037/t07",
+    "blind_id": "R037",
+    "run_id": "S06_v1__B__s29",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S06_v1__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R037/t08",
+    "blind_id": "R037",
+    "run_id": "S06_v1__B__s29",
+    "scenario_id": "S06_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S06_v1__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R038/t01",
+    "blind_id": "R038",
+    "run_id": "S06_v1__H__s47",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S06_v1__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R038/t02",
+    "blind_id": "R038",
+    "run_id": "S06_v1__H__s47",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S06_v1__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R038/t03",
+    "blind_id": "R038",
+    "run_id": "S06_v1__H__s47",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S06_v1__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R038/t04",
+    "blind_id": "R038",
+    "run_id": "S06_v1__H__s47",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S06_v1__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R038/t05",
+    "blind_id": "R038",
+    "run_id": "S06_v1__H__s47",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S06_v1__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R038/t06",
+    "blind_id": "R038",
+    "run_id": "S06_v1__H__s47",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S06_v1__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R038/t07",
+    "blind_id": "R038",
+    "run_id": "S06_v1__H__s47",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S06_v1__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R038/t08",
+    "blind_id": "R038",
+    "run_id": "S06_v1__H__s47",
+    "scenario_id": "S06_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S06_v1__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R039/t01",
+    "blind_id": "R039",
+    "run_id": "S08_v2__H__s47",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S08_v2__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R039/t02",
+    "blind_id": "R039",
+    "run_id": "S08_v2__H__s47",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S08_v2__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R039/t03",
+    "blind_id": "R039",
+    "run_id": "S08_v2__H__s47",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S08_v2__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R039/t04",
+    "blind_id": "R039",
+    "run_id": "S08_v2__H__s47",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S08_v2__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R039/t05",
+    "blind_id": "R039",
+    "run_id": "S08_v2__H__s47",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S08_v2__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R039/t06",
+    "blind_id": "R039",
+    "run_id": "S08_v2__H__s47",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S08_v2__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R039/t07",
+    "blind_id": "R039",
+    "run_id": "S08_v2__H__s47",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S08_v2__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R039/t08",
+    "blind_id": "R039",
+    "run_id": "S08_v2__H__s47",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S08_v2__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R040/t01",
+    "blind_id": "R040",
+    "run_id": "S07_v3__B__s47",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S07_v3__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R040/t02",
+    "blind_id": "R040",
+    "run_id": "S07_v3__B__s47",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S07_v3__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R040/t03",
+    "blind_id": "R040",
+    "run_id": "S07_v3__B__s47",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S07_v3__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R040/t04",
+    "blind_id": "R040",
+    "run_id": "S07_v3__B__s47",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S07_v3__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R040/t05",
+    "blind_id": "R040",
+    "run_id": "S07_v3__B__s47",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S07_v3__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R040/t06",
+    "blind_id": "R040",
+    "run_id": "S07_v3__B__s47",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S07_v3__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R040/t07",
+    "blind_id": "R040",
+    "run_id": "S07_v3__B__s47",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S07_v3__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R040/t08",
+    "blind_id": "R040",
+    "run_id": "S07_v3__B__s47",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S07_v3__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R041/t01",
+    "blind_id": "R041",
+    "run_id": "S07_v2__B__s11",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S07_v2__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R041/t02",
+    "blind_id": "R041",
+    "run_id": "S07_v2__B__s11",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S07_v2__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R041/t03",
+    "blind_id": "R041",
+    "run_id": "S07_v2__B__s11",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S07_v2__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R041/t04",
+    "blind_id": "R041",
+    "run_id": "S07_v2__B__s11",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S07_v2__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R041/t05",
+    "blind_id": "R041",
+    "run_id": "S07_v2__B__s11",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S07_v2__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R041/t06",
+    "blind_id": "R041",
+    "run_id": "S07_v2__B__s11",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S07_v2__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R041/t07",
+    "blind_id": "R041",
+    "run_id": "S07_v2__B__s11",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S07_v2__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R041/t08",
+    "blind_id": "R041",
+    "run_id": "S07_v2__B__s11",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S07_v2__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R042/t01",
+    "blind_id": "R042",
+    "run_id": "S07_v3__B__s29",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S07_v3__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R042/t02",
+    "blind_id": "R042",
+    "run_id": "S07_v3__B__s29",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S07_v3__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R042/t03",
+    "blind_id": "R042",
+    "run_id": "S07_v3__B__s29",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S07_v3__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R042/t04",
+    "blind_id": "R042",
+    "run_id": "S07_v3__B__s29",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S07_v3__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R042/t05",
+    "blind_id": "R042",
+    "run_id": "S07_v3__B__s29",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S07_v3__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R042/t06",
+    "blind_id": "R042",
+    "run_id": "S07_v3__B__s29",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S07_v3__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R042/t07",
+    "blind_id": "R042",
+    "run_id": "S07_v3__B__s29",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S07_v3__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R042/t08",
+    "blind_id": "R042",
+    "run_id": "S07_v3__B__s29",
+    "scenario_id": "S07_v3",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S07_v3__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R043/t01",
+    "blind_id": "R043",
+    "run_id": "S12_v3__H__s47",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S12_v3__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R043/t02",
+    "blind_id": "R043",
+    "run_id": "S12_v3__H__s47",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S12_v3__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R043/t03",
+    "blind_id": "R043",
+    "run_id": "S12_v3__H__s47",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S12_v3__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R043/t04",
+    "blind_id": "R043",
+    "run_id": "S12_v3__H__s47",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S12_v3__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R043/t05",
+    "blind_id": "R043",
+    "run_id": "S12_v3__H__s47",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S12_v3__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R043/t06",
+    "blind_id": "R043",
+    "run_id": "S12_v3__H__s47",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S12_v3__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R043/t07",
+    "blind_id": "R043",
+    "run_id": "S12_v3__H__s47",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S12_v3__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R043/t08",
+    "blind_id": "R043",
+    "run_id": "S12_v3__H__s47",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S12_v3__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R044/t01",
+    "blind_id": "R044",
+    "run_id": "S12_v3__H__s11",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S12_v3__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R044/t02",
+    "blind_id": "R044",
+    "run_id": "S12_v3__H__s11",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S12_v3__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R044/t03",
+    "blind_id": "R044",
+    "run_id": "S12_v3__H__s11",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S12_v3__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R044/t04",
+    "blind_id": "R044",
+    "run_id": "S12_v3__H__s11",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S12_v3__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R044/t05",
+    "blind_id": "R044",
+    "run_id": "S12_v3__H__s11",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S12_v3__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R044/t06",
+    "blind_id": "R044",
+    "run_id": "S12_v3__H__s11",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S12_v3__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R044/t07",
+    "blind_id": "R044",
+    "run_id": "S12_v3__H__s11",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S12_v3__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R044/t08",
+    "blind_id": "R044",
+    "run_id": "S12_v3__H__s11",
+    "scenario_id": "S12_v3",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S12_v3__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R045/t01",
+    "blind_id": "R045",
+    "run_id": "S11_v3__B__s47",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S11_v3__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R045/t02",
+    "blind_id": "R045",
+    "run_id": "S11_v3__B__s47",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S11_v3__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R045/t03",
+    "blind_id": "R045",
+    "run_id": "S11_v3__B__s47",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S11_v3__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R045/t04",
+    "blind_id": "R045",
+    "run_id": "S11_v3__B__s47",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S11_v3__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R045/t05",
+    "blind_id": "R045",
+    "run_id": "S11_v3__B__s47",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S11_v3__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R045/t06",
+    "blind_id": "R045",
+    "run_id": "S11_v3__B__s47",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S11_v3__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R045/t07",
+    "blind_id": "R045",
+    "run_id": "S11_v3__B__s47",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S11_v3__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R045/t08",
+    "blind_id": "R045",
+    "run_id": "S11_v3__B__s47",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S11_v3__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R046/t01",
+    "blind_id": "R046",
+    "run_id": "S08_v1__H__s29",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S08_v1__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R046/t02",
+    "blind_id": "R046",
+    "run_id": "S08_v1__H__s29",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S08_v1__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R046/t03",
+    "blind_id": "R046",
+    "run_id": "S08_v1__H__s29",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S08_v1__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R046/t04",
+    "blind_id": "R046",
+    "run_id": "S08_v1__H__s29",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S08_v1__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R046/t05",
+    "blind_id": "R046",
+    "run_id": "S08_v1__H__s29",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S08_v1__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R046/t06",
+    "blind_id": "R046",
+    "run_id": "S08_v1__H__s29",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S08_v1__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R046/t07",
+    "blind_id": "R046",
+    "run_id": "S08_v1__H__s29",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S08_v1__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R046/t08",
+    "blind_id": "R046",
+    "run_id": "S08_v1__H__s29",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S08_v1__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R047/t01",
+    "blind_id": "R047",
+    "run_id": "S07_v2__B__s29",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S07_v2__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R047/t02",
+    "blind_id": "R047",
+    "run_id": "S07_v2__B__s29",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S07_v2__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R047/t03",
+    "blind_id": "R047",
+    "run_id": "S07_v2__B__s29",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S07_v2__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R047/t04",
+    "blind_id": "R047",
+    "run_id": "S07_v2__B__s29",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S07_v2__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R047/t05",
+    "blind_id": "R047",
+    "run_id": "S07_v2__B__s29",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S07_v2__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R047/t06",
+    "blind_id": "R047",
+    "run_id": "S07_v2__B__s29",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S07_v2__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R047/t07",
+    "blind_id": "R047",
+    "run_id": "S07_v2__B__s29",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S07_v2__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R047/t08",
+    "blind_id": "R047",
+    "run_id": "S07_v2__B__s29",
+    "scenario_id": "S07_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S07_v2__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R048/t01",
+    "blind_id": "R048",
+    "run_id": "S07_v2__H__s47",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S07_v2__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R048/t02",
+    "blind_id": "R048",
+    "run_id": "S07_v2__H__s47",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S07_v2__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R048/t03",
+    "blind_id": "R048",
+    "run_id": "S07_v2__H__s47",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S07_v2__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R048/t04",
+    "blind_id": "R048",
+    "run_id": "S07_v2__H__s47",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S07_v2__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R048/t05",
+    "blind_id": "R048",
+    "run_id": "S07_v2__H__s47",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S07_v2__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R048/t06",
+    "blind_id": "R048",
+    "run_id": "S07_v2__H__s47",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S07_v2__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R048/t07",
+    "blind_id": "R048",
+    "run_id": "S07_v2__H__s47",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S07_v2__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R048/t08",
+    "blind_id": "R048",
+    "run_id": "S07_v2__H__s47",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S07_v2__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R049/t01",
+    "blind_id": "R049",
+    "run_id": "S08_v2__B__s47",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S08_v2__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R049/t02",
+    "blind_id": "R049",
+    "run_id": "S08_v2__B__s47",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S08_v2__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R049/t03",
+    "blind_id": "R049",
+    "run_id": "S08_v2__B__s47",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S08_v2__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R049/t04",
+    "blind_id": "R049",
+    "run_id": "S08_v2__B__s47",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S08_v2__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R049/t05",
+    "blind_id": "R049",
+    "run_id": "S08_v2__B__s47",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S08_v2__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R049/t06",
+    "blind_id": "R049",
+    "run_id": "S08_v2__B__s47",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S08_v2__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R049/t07",
+    "blind_id": "R049",
+    "run_id": "S08_v2__B__s47",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S08_v2__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R049/t08",
+    "blind_id": "R049",
+    "run_id": "S08_v2__B__s47",
+    "scenario_id": "S08_v2",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S08_v2__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R050/t01",
+    "blind_id": "R050",
+    "run_id": "S07_v2__H__s29",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S07_v2__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R050/t02",
+    "blind_id": "R050",
+    "run_id": "S07_v2__H__s29",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S07_v2__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R050/t03",
+    "blind_id": "R050",
+    "run_id": "S07_v2__H__s29",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S07_v2__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R050/t04",
+    "blind_id": "R050",
+    "run_id": "S07_v2__H__s29",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S07_v2__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R050/t05",
+    "blind_id": "R050",
+    "run_id": "S07_v2__H__s29",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S07_v2__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R050/t06",
+    "blind_id": "R050",
+    "run_id": "S07_v2__H__s29",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S07_v2__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R050/t07",
+    "blind_id": "R050",
+    "run_id": "S07_v2__H__s29",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S07_v2__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R050/t08",
+    "blind_id": "R050",
+    "run_id": "S07_v2__H__s29",
+    "scenario_id": "S07_v2",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S07_v2__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R051/t01",
+    "blind_id": "R051",
+    "run_id": "S08_v1__B__s29",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S08_v1__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R051/t02",
+    "blind_id": "R051",
+    "run_id": "S08_v1__B__s29",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S08_v1__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R051/t03",
+    "blind_id": "R051",
+    "run_id": "S08_v1__B__s29",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S08_v1__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R051/t04",
+    "blind_id": "R051",
+    "run_id": "S08_v1__B__s29",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S08_v1__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R051/t05",
+    "blind_id": "R051",
+    "run_id": "S08_v1__B__s29",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S08_v1__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R051/t06",
+    "blind_id": "R051",
+    "run_id": "S08_v1__B__s29",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S08_v1__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R051/t07",
+    "blind_id": "R051",
+    "run_id": "S08_v1__B__s29",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S08_v1__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R051/t08",
+    "blind_id": "R051",
+    "run_id": "S08_v1__B__s29",
+    "scenario_id": "S08_v1",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S08_v1__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R052/t01",
+    "blind_id": "R052",
+    "run_id": "S08_v2__H__s11",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S08_v2__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R052/t02",
+    "blind_id": "R052",
+    "run_id": "S08_v2__H__s11",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S08_v2__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R052/t03",
+    "blind_id": "R052",
+    "run_id": "S08_v2__H__s11",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S08_v2__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R052/t04",
+    "blind_id": "R052",
+    "run_id": "S08_v2__H__s11",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S08_v2__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R052/t05",
+    "blind_id": "R052",
+    "run_id": "S08_v2__H__s11",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S08_v2__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R052/t06",
+    "blind_id": "R052",
+    "run_id": "S08_v2__H__s11",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S08_v2__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R052/t07",
+    "blind_id": "R052",
+    "run_id": "S08_v2__H__s11",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S08_v2__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R052/t08",
+    "blind_id": "R052",
+    "run_id": "S08_v2__H__s11",
+    "scenario_id": "S08_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S08_v2__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R053/t01",
+    "blind_id": "R053",
+    "run_id": "S08_v1__H__s11",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S08_v1__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R053/t02",
+    "blind_id": "R053",
+    "run_id": "S08_v1__H__s11",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S08_v1__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R053/t03",
+    "blind_id": "R053",
+    "run_id": "S08_v1__H__s11",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S08_v1__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R053/t04",
+    "blind_id": "R053",
+    "run_id": "S08_v1__H__s11",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S08_v1__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R053/t05",
+    "blind_id": "R053",
+    "run_id": "S08_v1__H__s11",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S08_v1__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R053/t06",
+    "blind_id": "R053",
+    "run_id": "S08_v1__H__s11",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S08_v1__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R053/t07",
+    "blind_id": "R053",
+    "run_id": "S08_v1__H__s11",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S08_v1__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R053/t08",
+    "blind_id": "R053",
+    "run_id": "S08_v1__H__s11",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S08_v1__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R054/t01",
+    "blind_id": "R054",
+    "run_id": "S12_v2__B__s29",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S12_v2__B__s29/t01/speech"
+  },
+  {
+    "turn_id": "R054/t02",
+    "blind_id": "R054",
+    "run_id": "S12_v2__B__s29",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S12_v2__B__s29/t02/speech"
+  },
+  {
+    "turn_id": "R054/t03",
+    "blind_id": "R054",
+    "run_id": "S12_v2__B__s29",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S12_v2__B__s29/t03/speech"
+  },
+  {
+    "turn_id": "R054/t04",
+    "blind_id": "R054",
+    "run_id": "S12_v2__B__s29",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S12_v2__B__s29/t04/speech"
+  },
+  {
+    "turn_id": "R054/t05",
+    "blind_id": "R054",
+    "run_id": "S12_v2__B__s29",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S12_v2__B__s29/t05/speech"
+  },
+  {
+    "turn_id": "R054/t06",
+    "blind_id": "R054",
+    "run_id": "S12_v2__B__s29",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S12_v2__B__s29/t06/speech"
+  },
+  {
+    "turn_id": "R054/t07",
+    "blind_id": "R054",
+    "run_id": "S12_v2__B__s29",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S12_v2__B__s29/t07/speech"
+  },
+  {
+    "turn_id": "R054/t08",
+    "blind_id": "R054",
+    "run_id": "S12_v2__B__s29",
+    "scenario_id": "S12_v2",
+    "variant": "B",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S12_v2__B__s29/t08/speech"
+  },
+  {
+    "turn_id": "R055/t01",
+    "blind_id": "R055",
+    "run_id": "S05_v3__H__s29",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 1,
+    "call_id": "S05_v3__H__s29/t01/speech"
+  },
+  {
+    "turn_id": "R055/t02",
+    "blind_id": "R055",
+    "run_id": "S05_v3__H__s29",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 2,
+    "call_id": "S05_v3__H__s29/t02/speech"
+  },
+  {
+    "turn_id": "R055/t03",
+    "blind_id": "R055",
+    "run_id": "S05_v3__H__s29",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 3,
+    "call_id": "S05_v3__H__s29/t03/speech"
+  },
+  {
+    "turn_id": "R055/t04",
+    "blind_id": "R055",
+    "run_id": "S05_v3__H__s29",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 4,
+    "call_id": "S05_v3__H__s29/t04/speech"
+  },
+  {
+    "turn_id": "R055/t05",
+    "blind_id": "R055",
+    "run_id": "S05_v3__H__s29",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 5,
+    "call_id": "S05_v3__H__s29/t05/speech"
+  },
+  {
+    "turn_id": "R055/t06",
+    "blind_id": "R055",
+    "run_id": "S05_v3__H__s29",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 6,
+    "call_id": "S05_v3__H__s29/t06/speech"
+  },
+  {
+    "turn_id": "R055/t07",
+    "blind_id": "R055",
+    "run_id": "S05_v3__H__s29",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 7,
+    "call_id": "S05_v3__H__s29/t07/speech"
+  },
+  {
+    "turn_id": "R055/t08",
+    "blind_id": "R055",
+    "run_id": "S05_v3__H__s29",
+    "scenario_id": "S05_v3",
+    "variant": "H",
+    "seed": 29,
+    "turn": 8,
+    "call_id": "S05_v3__H__s29/t08/speech"
+  },
+  {
+    "turn_id": "R056/t01",
+    "blind_id": "R056",
+    "run_id": "S12_v2__H__s11",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S12_v2__H__s11/t01/speech"
+  },
+  {
+    "turn_id": "R056/t02",
+    "blind_id": "R056",
+    "run_id": "S12_v2__H__s11",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S12_v2__H__s11/t02/speech"
+  },
+  {
+    "turn_id": "R056/t03",
+    "blind_id": "R056",
+    "run_id": "S12_v2__H__s11",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S12_v2__H__s11/t03/speech"
+  },
+  {
+    "turn_id": "R056/t04",
+    "blind_id": "R056",
+    "run_id": "S12_v2__H__s11",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S12_v2__H__s11/t04/speech"
+  },
+  {
+    "turn_id": "R056/t05",
+    "blind_id": "R056",
+    "run_id": "S12_v2__H__s11",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S12_v2__H__s11/t05/speech"
+  },
+  {
+    "turn_id": "R056/t06",
+    "blind_id": "R056",
+    "run_id": "S12_v2__H__s11",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S12_v2__H__s11/t06/speech"
+  },
+  {
+    "turn_id": "R056/t07",
+    "blind_id": "R056",
+    "run_id": "S12_v2__H__s11",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S12_v2__H__s11/t07/speech"
+  },
+  {
+    "turn_id": "R056/t08",
+    "blind_id": "R056",
+    "run_id": "S12_v2__H__s11",
+    "scenario_id": "S12_v2",
+    "variant": "H",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S12_v2__H__s11/t08/speech"
+  },
+  {
+    "turn_id": "R057/t01",
+    "blind_id": "R057",
+    "run_id": "S11_v3__B__s11",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 1,
+    "call_id": "S11_v3__B__s11/t01/speech"
+  },
+  {
+    "turn_id": "R057/t02",
+    "blind_id": "R057",
+    "run_id": "S11_v3__B__s11",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 2,
+    "call_id": "S11_v3__B__s11/t02/speech"
+  },
+  {
+    "turn_id": "R057/t03",
+    "blind_id": "R057",
+    "run_id": "S11_v3__B__s11",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 3,
+    "call_id": "S11_v3__B__s11/t03/speech"
+  },
+  {
+    "turn_id": "R057/t04",
+    "blind_id": "R057",
+    "run_id": "S11_v3__B__s11",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 4,
+    "call_id": "S11_v3__B__s11/t04/speech"
+  },
+  {
+    "turn_id": "R057/t05",
+    "blind_id": "R057",
+    "run_id": "S11_v3__B__s11",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 5,
+    "call_id": "S11_v3__B__s11/t05/speech"
+  },
+  {
+    "turn_id": "R057/t06",
+    "blind_id": "R057",
+    "run_id": "S11_v3__B__s11",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 6,
+    "call_id": "S11_v3__B__s11/t06/speech"
+  },
+  {
+    "turn_id": "R057/t07",
+    "blind_id": "R057",
+    "run_id": "S11_v3__B__s11",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 7,
+    "call_id": "S11_v3__B__s11/t07/speech"
+  },
+  {
+    "turn_id": "R057/t08",
+    "blind_id": "R057",
+    "run_id": "S11_v3__B__s11",
+    "scenario_id": "S11_v3",
+    "variant": "B",
+    "seed": 11,
+    "turn": 8,
+    "call_id": "S11_v3__B__s11/t08/speech"
+  },
+  {
+    "turn_id": "R058/t01",
+    "blind_id": "R058",
+    "run_id": "S05_v3__B__s47",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S05_v3__B__s47/t01/speech"
+  },
+  {
+    "turn_id": "R058/t02",
+    "blind_id": "R058",
+    "run_id": "S05_v3__B__s47",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S05_v3__B__s47/t02/speech"
+  },
+  {
+    "turn_id": "R058/t03",
+    "blind_id": "R058",
+    "run_id": "S05_v3__B__s47",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S05_v3__B__s47/t03/speech"
+  },
+  {
+    "turn_id": "R058/t04",
+    "blind_id": "R058",
+    "run_id": "S05_v3__B__s47",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S05_v3__B__s47/t04/speech"
+  },
+  {
+    "turn_id": "R058/t05",
+    "blind_id": "R058",
+    "run_id": "S05_v3__B__s47",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S05_v3__B__s47/t05/speech"
+  },
+  {
+    "turn_id": "R058/t06",
+    "blind_id": "R058",
+    "run_id": "S05_v3__B__s47",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S05_v3__B__s47/t06/speech"
+  },
+  {
+    "turn_id": "R058/t07",
+    "blind_id": "R058",
+    "run_id": "S05_v3__B__s47",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S05_v3__B__s47/t07/speech"
+  },
+  {
+    "turn_id": "R058/t08",
+    "blind_id": "R058",
+    "run_id": "S05_v3__B__s47",
+    "scenario_id": "S05_v3",
+    "variant": "B",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S05_v3__B__s47/t08/speech"
+  },
+  {
+    "turn_id": "R059/t01",
+    "blind_id": "R059",
+    "run_id": "S08_v1__H__s47",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S08_v1__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R059/t02",
+    "blind_id": "R059",
+    "run_id": "S08_v1__H__s47",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S08_v1__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R059/t03",
+    "blind_id": "R059",
+    "run_id": "S08_v1__H__s47",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S08_v1__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R059/t04",
+    "blind_id": "R059",
+    "run_id": "S08_v1__H__s47",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S08_v1__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R059/t05",
+    "blind_id": "R059",
+    "run_id": "S08_v1__H__s47",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S08_v1__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R059/t06",
+    "blind_id": "R059",
+    "run_id": "S08_v1__H__s47",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S08_v1__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R059/t07",
+    "blind_id": "R059",
+    "run_id": "S08_v1__H__s47",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S08_v1__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R059/t08",
+    "blind_id": "R059",
+    "run_id": "S08_v1__H__s47",
+    "scenario_id": "S08_v1",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S08_v1__H__s47/t08/speech"
+  },
+  {
+    "turn_id": "R060/t01",
+    "blind_id": "R060",
+    "run_id": "S11_v3__H__s47",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 1,
+    "call_id": "S11_v3__H__s47/t01/speech"
+  },
+  {
+    "turn_id": "R060/t02",
+    "blind_id": "R060",
+    "run_id": "S11_v3__H__s47",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 2,
+    "call_id": "S11_v3__H__s47/t02/speech"
+  },
+  {
+    "turn_id": "R060/t03",
+    "blind_id": "R060",
+    "run_id": "S11_v3__H__s47",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 3,
+    "call_id": "S11_v3__H__s47/t03/speech"
+  },
+  {
+    "turn_id": "R060/t04",
+    "blind_id": "R060",
+    "run_id": "S11_v3__H__s47",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 4,
+    "call_id": "S11_v3__H__s47/t04/speech"
+  },
+  {
+    "turn_id": "R060/t05",
+    "blind_id": "R060",
+    "run_id": "S11_v3__H__s47",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 5,
+    "call_id": "S11_v3__H__s47/t05/speech"
+  },
+  {
+    "turn_id": "R060/t06",
+    "blind_id": "R060",
+    "run_id": "S11_v3__H__s47",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 6,
+    "call_id": "S11_v3__H__s47/t06/speech"
+  },
+  {
+    "turn_id": "R060/t07",
+    "blind_id": "R060",
+    "run_id": "S11_v3__H__s47",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 7,
+    "call_id": "S11_v3__H__s47/t07/speech"
+  },
+  {
+    "turn_id": "R060/t08",
+    "blind_id": "R060",
+    "run_id": "S11_v3__H__s47",
+    "scenario_id": "S11_v3",
+    "variant": "H",
+    "seed": 47,
+    "turn": 8,
+    "call_id": "S11_v3__H__s47/t08/speech"
+  }
+]

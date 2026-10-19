@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Joseph Banter (josephb6) | member: gold | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Joseph Banter (josephb6) | order #4535425307 | calvin_klein shirt $84 | total $84 | status: delivered
+  2024-06-12 | Joseph Banter (josephb6) | charge $84 for order #4535425307 (card)

@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Sanya Afzal | account sa104531 | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #5122413690  2019-11-01  tommy_hilfiger shirt $99  total $99  status: delivered
+Payments:
+  2019-11-01 charge $99 order #5122413690 (card)
+Returns / promo codes:
+  (none)

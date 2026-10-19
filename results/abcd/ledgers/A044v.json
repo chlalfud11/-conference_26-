@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A044v",
+ "predicate": "paid_deposit",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Joseph Banter | account josephbanter | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#4156957435  2019-11-01  michael_kors shirt $99  total $99  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $99 order #4156957435 (card)",
+   "2019-11-01 charge $99 order #4156957435 (card) [duplicate]"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

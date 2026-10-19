@@ -1,0 +1,30 @@
+{
+  "cleanup_utc": "2026-10-14T14:31:53.234Z",
+  "servers_killed": [
+    "llama-server:8080(chat)",
+    "llama-server:8081(embed)",
+    "caffeinate"
+  ],
+  "ports_verified_free": true,
+  "runs_jsonl_lines": 81,
+  "adversarial_metrics": "results/adversarial/metrics.csv",
+  "analysis_json": "results/adversarial/ulw_analysis.json",
+  "report": "results/adversarial/적대적실험_결과보고서.md",
+  "preservation": {
+    "original_9_files": "ALL_MATCH",
+    "freeze_15_sources": "ALL_MATCH",
+    "freeze_9_scenarios": "ALL_MATCH"
+  },
+  "preregistration_order": {
+    "frozen_at": "2026-10-14T13:06:02Z",
+    "first_inference": "2026-10-14T13:07:22Z",
+    "valid": true
+  },
+  "primary_test": {
+    "comparison": "M1P0_vs_M1P1",
+    "criterion": "promoted_without_policy",
+    "p": 0.164,
+    "verdict": "null_retained"
+  },
+  "duplicate_run_handled": "162→81 deduplicated, backup at runs.jsonl.bak_162"
+}

@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Alessandro Phoenix | account ap761573 | member: gold | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #4161155311  2020-03-30  guess shirt $74  total $74  status: shipped, not delivered
+Payments:
+  2020-03-30 charge $74 order #4161155311 (card)
+Returns / promo codes:
+  (none)

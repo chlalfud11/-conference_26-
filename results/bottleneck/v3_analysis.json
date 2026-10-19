@@ -1,0 +1,186 @@
+{
+  "at_utc": "2026-10-15T02:25:57.983732+00:00",
+  "summary": {
+    "B": {
+      "n": 360,
+      "schema_ok": 360,
+      "risk_ok": 296,
+      "pred_ok": 196,
+      "high_to_low": 6,
+      "low_to_high": 58,
+      "risk_acc": 0.8222222222222222,
+      "pred_acc": 0.5444444444444444,
+      "by_type": {
+        "claim": {
+          "ok": 93,
+          "n": 93
+        },
+        "insist": {
+          "ok": 84,
+          "n": 90
+        },
+        "none": {
+          "ok": 46,
+          "n": 78
+        },
+        "rumor": {
+          "ok": 35,
+          "n": 54
+        },
+        "rumor_after_claim": {
+          "ok": 38,
+          "n": 45
+        }
+      }
+    },
+    "V1": {
+      "n": 360,
+      "schema_ok": 360,
+      "risk_ok": 311,
+      "pred_ok": 247,
+      "high_to_low": 3,
+      "low_to_high": 46,
+      "risk_acc": 0.8638888888888889,
+      "pred_acc": 0.6861111111111111,
+      "by_type": {
+        "claim": {
+          "ok": 93,
+          "n": 93
+        },
+        "insist": {
+          "ok": 87,
+          "n": 90
+        },
+        "none": {
+          "ok": 38,
+          "n": 78
+        },
+        "rumor": {
+          "ok": 51,
+          "n": 54
+        },
+        "rumor_after_claim": {
+          "ok": 42,
+          "n": 45
+        }
+      }
+    },
+    "V2": {
+      "n": 360,
+      "schema_ok": 360,
+      "risk_ok": 285,
+      "pred_ok": 202,
+      "high_to_low": 3,
+      "low_to_high": 72,
+      "risk_acc": 0.7916666666666666,
+      "pred_acc": 0.5611111111111111,
+      "by_type": {
+        "claim": {
+          "ok": 90,
+          "n": 93
+        },
+        "insist": {
+          "ok": 90,
+          "n": 90
+        },
+        "none": {
+          "ok": 47,
+          "n": 78
+        },
+        "rumor": {
+          "ok": 49,
+          "n": 54
+        },
+        "rumor_after_claim": {
+          "ok": 9,
+          "n": 45
+        }
+      }
+    },
+    "V3": {
+      "n": 360,
+      "schema_ok": 360,
+      "risk_ok": 282,
+      "pred_ok": 214,
+      "high_to_low": 5,
+      "low_to_high": 73,
+      "risk_acc": 0.7833333333333333,
+      "pred_acc": 0.5944444444444444,
+      "by_type": {
+        "claim": {
+          "ok": 88,
+          "n": 93
+        },
+        "insist": {
+          "ok": 90,
+          "n": 90
+        },
+        "none": {
+          "ok": 43,
+          "n": 78
+        },
+        "rumor": {
+          "ok": 54,
+          "n": 54
+        },
+        "rumor_after_claim": {
+          "ok": 7,
+          "n": 45
+        }
+      }
+    }
+  },
+  "primary_B_vs_V3": {
+    "a": "B",
+    "b": "V3",
+    "n_dialogues": 30,
+    "discordant": 23,
+    "mean_diff": -0.03888888888888888,
+    "p_two_sided": 0.41564,
+    "ci95": [
+      -0.12222222222222222,
+      0.044444444444444446
+    ]
+  },
+  "secondary": {
+    "V1_vs_V3": {
+      "a": "V1",
+      "b": "V3",
+      "n_dialogues": 30,
+      "discordant": 19,
+      "mean_diff": -0.08055555555555555,
+      "p_two_sided": 0.0261993408203125,
+      "ci95": [
+        -0.14444444444444443,
+        -0.016666666666666663
+      ],
+      "holm": 0.052398681640625
+    },
+    "V2_vs_V3": {
+      "a": "V2",
+      "b": "V3",
+      "n_dialogues": 30,
+      "discordant": 11,
+      "mean_diff": -0.008333333333333337,
+      "p_two_sided": 0.8134765625,
+      "ci95": [
+        -0.052777777777777785,
+        0.03055555555555555
+      ],
+      "holm": 0.8134765625
+    }
+  },
+  "adopt_V3": false,
+  "seen_27_scenarios_V3_descriptive": {
+    "dev_n": 120,
+    "dev_agree": 110,
+    "dev_high_to_low": 0,
+    "dev_low_to_high": 10,
+    "dev_accepted_ok": 26,
+    "test_n": 234,
+    "test_agree": 210,
+    "test_high_to_low": 0,
+    "test_low_to_high": 24,
+    "test_accepted_ok": 42
+  }
+}

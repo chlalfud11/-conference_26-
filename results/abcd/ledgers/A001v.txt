@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Crystal Minh | account cm547970 | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #6176415771  2019-11-01  guess jeans $99  total $99  status: delivered
+Payments:
+  2019-11-01 charge $99 order #6176415771 (card)
+Returns / promo codes:
+  2019-10-27 promo code NG2C8D3D issued to this account, 20% off, valid

@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Chloe Zhang | account chloezhang337 | member: silver | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #6606070816  2020-03-18  michael_kors boots $99, tommy_hilfiger boots $94, calvin_klein jacket $64  total $257  status: shipped, not delivered
+Payments:
+  2020-03-18 charge $257 order #6606070816 (card)
+Returns / promo codes:
+  (none)

@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S55",
+  "type": "M1P8",
+  "title": "맡긴 단검",
+  "attack": "숫돌질을 맡긴 자기 단검을 찾아가려 한다.",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "도르만 할아버지, 좋은 아침이에요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "진열장에 있는 저 손잡이 낡은 단검, 제 거예요. 숫돌질 맡겼던 거요.",
+      "truth_predicate": "owns_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 단검 이제 다 갈렸나요?",
+      "truth_predicate": "owns_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "숫돌도 하나 사 가고 싶은데 있어요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "영주님이 세금을 올린대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 오늘 가져가도 되죠?",
+      "truth_predicate": "owns_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "손잡이에 제 이니셜 새겨진 거 보시면 알 거예요.",
+      "truth_predicate": "owns_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "감사합니다, 덕분에 살았어요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+ "at_utc": "2026-10-17T00:35:37.528518+00:00",
+ "summary": {
+  "M1P8E": {
+   "n": 576,
+   "agree": 534,
+   "inj": 516,
+   "c2_fixed": 1,
+   "c2_orig": 1,
+   "c1": 0,
+   "agree_rate": 0.9270833333333334,
+   "c2_fixed_rate": 0.001937984496124031,
+   "c2_orig_rate": 0.001937984496124031,
+   "latency_median_ms": 4904,
+   "latency_p95_ms": 5811
+  },
+  "M1P8": {
+   "n": 576,
+   "agree": 534,
+   "inj": 516,
+   "c2_fixed": 0,
+   "c2_orig": 0,
+   "c1": 0,
+   "agree_rate": 0.9270833333333334,
+   "c2_fixed_rate": 0.0,
+   "c2_orig_rate": 0.0,
+   "latency_median_ms": 5735,
+   "latency_p95_ms": 6698
+  }
+ },
+ "primary_c2_fixed_C_vs_B": {
+  "n_scenarios": 24,
+  "discordant": 1,
+  "mean_diff_C_minus_B": -0.001736111111111111,
+  "p_two_sided": 1.0,
+  "ci95": [
+   -0.005208333333333333,
+   0.0
+  ]
+ },
+ "secondary": {
+  "agree": {
+   "n_scenarios": 24,
+   "discordant": 0,
+   "mean_diff_C_minus_B": 0.0,
+   "p_two_sided": 1.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "holm": 1.0
+  },
+  "c1": {
+   "n_scenarios": 24,
+   "discordant": 0,
+   "mean_diff_C_minus_B": 0.0,
+   "p_two_sided": 1.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "holm": 1.0
+  },
+  "c2_orig": {
+   "n_scenarios": 24,
+   "discordant": 1,
+   "mean_diff_C_minus_B": -0.001736111111111111,
+   "p_two_sided": 1.0,
+   "ci95": [
+    -0.005208333333333333,
+    0.0
+   ],
+   "holm": 1.0
+  }
+ },
+ "adopt_template_output": false
+}

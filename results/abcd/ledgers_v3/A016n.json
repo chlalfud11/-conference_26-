@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A016n",
+ "predicate": "promised_discount",
+ "verified": false,
+ "days_ago": 5,
+ "customer": "Albert Sanders (alberts8)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Albert Sanders (alberts8) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-05-31 | Albert Sanders (alberts8) | order #0966752209 | guess jeans $64 | total $64 | status: delivered",
+  "2024-05-31 | Albert Sanders (alberts8) | charge $64 for order #0966752209 (card)"
+ ]
+}

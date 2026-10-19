@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Joyce Wu (jw223882) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-02 | Joyce Wu (jw223882) | order #4726762878 | tommy_hilfiger boots $79 | total $79 | status: delivered
+  2024-06-02 | Joyce Wu (jw223882) | charge $79 for order #4726762878 (card)

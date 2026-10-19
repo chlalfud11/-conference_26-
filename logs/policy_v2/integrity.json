@@ -1,0 +1,55 @@
+{
+  "log": "logs/policy_v2/runs.jsonl",
+  "lines": 81,
+  "unique_run_ids": 81,
+  "duplicate_run_ids": {},
+  "planned_runs": 81,
+  "missing_run_ids": [],
+  "unexpected_run_ids": [],
+  "conditions": {
+    "M1P4": 81
+  },
+  "seeds": {
+    "11": 27,
+    "29": 27,
+    "47": 27
+  },
+  "models": {
+    "EXAONE-3.5-2.4B-Instruct-Q4_K_M": 81
+  },
+  "decision_actors": {
+    "policy_engine_v2": 648
+  },
+  "schema_ok_rate": 1.0,
+  "turn_count_mismatches": [],
+  "scoring_independence": {
+    "M1P4": {
+      "runs": 81,
+      "scored_turns": 354,
+      "mismatches_vs_truth_based_key": 0,
+      "turns_where_p4_would_differ": 0,
+      "turns_scored_with_p4_key": 0,
+      "samples": [],
+      "verdict": "PASS"
+    },
+    "M1P0": {
+      "runs": 27,
+      "scored_turns": 135,
+      "mismatches_vs_truth_based_key": 0,
+      "turns_where_p4_would_differ": 0,
+      "turns_scored_with_p4_key": 0,
+      "samples": [],
+      "verdict": "PASS"
+    },
+    "M1P1": {
+      "runs": 27,
+      "scored_turns": 135,
+      "mismatches_vs_truth_based_key": 0,
+      "turns_where_p4_would_differ": 0,
+      "turns_scored_with_p4_key": 0,
+      "samples": [],
+      "verdict": "PASS"
+    }
+  },
+  "verdict": "PASS"
+}

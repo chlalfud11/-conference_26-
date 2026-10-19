@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A018n",
+ "predicate": "promised_discount",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Chloe Zhang | account czhang13 | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#6010333984  2019-11-01  guess jeans $84  total $84  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $84 order #6010333984 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

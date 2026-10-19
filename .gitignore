@@ -1,0 +1,6 @@
+# 모델 가중치(수 GB) - models/README.md 참고
+models/*.gguf
+__pycache__/
+.pytest_cache/
+.DS_Store
+.omo/

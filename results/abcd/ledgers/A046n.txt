@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Albert Sanders | account albertsanders | member: silver | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #5520301699  2019-11-01  michael_kors jeans $49  total $49  status: delivered
+Payments:
+  2019-11-01 charge $49 order #5520301699 (card)
+Returns / promo codes:
+  (none)

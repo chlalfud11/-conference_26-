@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A003v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Rodriguez Domingo | account rdomingo748 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#6840582919  2019-11-01  tommy_hilfiger jacket $54  total $54  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $54 order #6840582919 (card)"
+  ],
+  "returns_promos": [
+   "2019-10-27 promo code NG94A26D issued to this account, 20% off, valid"
+  ]
+ }
+}

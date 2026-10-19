@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A054v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Albert Sanders | account albertsanders284 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#9051381325  2019-11-28  michael_kors shirt $69, calvin_klein shirt $79, tommy_hilfiger shirt $99  total $247  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2019-11-28 charge $247 order #9051381325 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

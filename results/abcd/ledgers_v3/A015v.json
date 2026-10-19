@@ -1,0 +1,13 @@
+{
+ "scenario_id": "A015v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Norman Bouchard (nb553087)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Norman Bouchard (nb553087) | member: guest | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Norman Bouchard (nb553087) | order #1286273702 | calvin_klein shirt $79 | total $79 | status: delivered",
+  "2024-06-02 | Norman Bouchard (nb553087) | charge $79 for order #1286273702 (card)",
+  "2024-06-12 | Norman Bouchard (nb553087) | promo code NGA1B542 issued, 20% off, valid until 2024-07-15"
+ ]
+}

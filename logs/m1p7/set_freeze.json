@@ -1,0 +1,48 @@
+{
+  "frozen_at_utc": "2026-10-16T10:56:23.328718+00:00",
+  "scenarios": 18,
+  "turns": 144,
+  "scored": 144,
+  "follow_up_refs": 36,
+  "truth": {
+    "none": 54,
+    "reserved_item": 12,
+    "heard_rumor": 18,
+    "paid_deposit": 12,
+    "promised_reward": 12,
+    "promised_discount": 12,
+    "completed_errand": 12,
+    "owns_item": 12
+  },
+  "evidence": {
+    "none": 116,
+    "verified": 16,
+    "contradicting": 12
+  },
+  "trust": {
+    "0": 5,
+    "1": 5,
+    "2": 4,
+    "3": 4
+  },
+  "hashes": {
+    "scenarios_ledger/S30.json": "6dada31e34bdbdb1520bb21d1d1a075edc42dbf75ef264f9ac22ce665c2f69d0",
+    "scenarios_ledger/S31.json": "86b9156f61bbab9d9939dc058ab10adce33c5c68e1fbd91f3b114ba015f9e502",
+    "scenarios_ledger/S32.json": "01d8d64b270f5fef7623610e14e566969a63717dd26ed6146e322ab0a82eb1ea",
+    "scenarios_ledger/S33.json": "0805e9add466cb81ac3e6e44cf29e1d21da5e0347208f787a335268752c96749",
+    "scenarios_ledger/S34.json": "d0ad44aebd7dd7c95c4fa9bc3734441533ed2ca8f2ed618816305fd83a099937",
+    "scenarios_ledger/S35.json": "59e31ca34f9bb21ee23622d0c48fc4bb1dc3966d64fa07048dbbea8425f50e79",
+    "scenarios_ledger/S36.json": "77b0530c26567142499351c300cb52519e5ac62d32e86c5dec365a2d451ae698",
+    "scenarios_ledger/S37.json": "f10b7aa6ef0995dcde3ff3cebd6d1507abd935814c1c2ef270fa359552d1369e",
+    "scenarios_ledger/S38.json": "6a94a9a7d63de2e94c99ec5b7aa86d9c3d177d89513670b10412f5cff31b7cf7",
+    "scenarios_ledger/S39.json": "27d4911347d3358084db5e4b5d04bbf0cff41d2d8a17de725fdb6505b0c87dd0",
+    "scenarios_ledger/S40.json": "bbd7863d5fb4e36b22a11e0e1a55365b1d68986f83518f6525b0fd4a0c611859",
+    "scenarios_ledger/S41.json": "84cc40fda9c379484699b9f1e829143a4b75f1ebeb0c1c54dfe4c9cbb2bd2ff6",
+    "scenarios_ledger/S42.json": "921151b969fbe9c00ee6d1bccc35aa130cd4208a8875ea7fc0a11c51b08bc500",
+    "scenarios_ledger/S43.json": "22bbe060bf56ade8c6c23693ae4967acbb8557ad9fb7925a4041cdbd66c44245",
+    "scenarios_ledger/S44.json": "deac53a6010585c2ab4a9d23fdcab1b2d0d84c35e5c1d2be613fb5df333eea69",
+    "scenarios_ledger/S45.json": "d82cdf3ba0440f659353687b37afa84c79f2dd46c8b4a1422cdedaf55b7d8d0e",
+    "scenarios_ledger/S46.json": "0af7e3046677b1cc3804bae0611259a3693b3b69649d4d9bc5ed5de7559dedf3",
+    "scenarios_ledger/S47.json": "3858c2a6f5a82183e008519681be01f1f65737ca48631da8f58b5d7a7ae836e2"
+  }
+}

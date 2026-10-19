@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A023n",
+ "predicate": "completed_errand",
+ "verified": false,
+ "days_ago": 3,
+ "customer": "Rodriguez Domingo (rodriguezdomingo342)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Rodriguez Domingo (rodriguezdomingo342) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-05 | Rodriguez Domingo (rodriguezdomingo342) | order #6335566511 | calvin_klein shirt $94 | total $94 | status: delivered",
+  "2024-06-05 | Rodriguez Domingo (rodriguezdomingo342) | charge $94 for order #6335566511 (card)"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "scenario_id": "A035v",
+ "predicate": "paid_deposit",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Sanya Afzal (sanyaafzal)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Sanya Afzal (sanyaafzal) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Sanya Afzal (sanyaafzal) | order #4945986658 | tommy_hilfiger jeans $89 | total $89 | status: delivered",
+  "2024-06-12 | Sanya Afzal (sanyaafzal) | charge $89 for order #4945986658 (card)",
+  "2024-06-12 | Sanya Afzal (sanyaafzal) | charge $89 for order #4945986658 [duplicate of previous charge]"
+ ]
+}

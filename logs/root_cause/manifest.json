@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "source_root": "/Users/miryeong/0/00 졸업논문/start/conference-paper",
+  "source_sha256": {
+    "logs/runs.jsonl": "c659a15afdfcb5ba3433fc00bb10d4168386e1c38c1c3d165e44368726e5dea3",
+    "m1p2_prompt_replay.py": "b7391687ccedd2aa11faa6c728155f4e4f53bad0c9680d4fa3af6df4ff58513a",
+    "npc/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "npc/adapters.py": "250c3ffe7869fd5ac506855c08cbcf258d6e92af784dd61ce9b083cb1990a91b",
+    "npc/cli.py": "3bee2cd40097caf00f5e3331102391227ce2506a987ea8d53a98143ee45c19e8",
+    "npc/config.py": "5482261e4aadfb8e51b9da6700b0259ecea6c3fef1a204e2a52a1ba93e8edfb5",
+    "npc/diagnose.py": "04be6453adf34aeb5f8a7150524dc3b260782d5049402ff5c3e856c305a10eb9",
+    "npc/engine.py": "4a8ef4e49edbe42ceb091de11d8c04bd979276764350ddde42ab0bc5bdf65f84",
+    "npc/eval.py": "46b24da2d1b8b5f3b83925acc6f16ff08699b3bc05011422f002762d5d8f28f5",
+    "npc/llm.py": "b4e1d1e2733f53e55c17cc061f9b637b88f9f3eb27b4bc72cb2afea0a73002cd",
+    "npc/repeat_check.py": "2f72e794790f54d44b0f7af3703f9b96df1006812cc29789f790b1dafb2b92f1",
+    "npc/runner.py": "3b6f2842fe0337d6d33112ef0a9b752d5383dd2806a376aa4cb6f4c64aba3651",
+    "npc/speech.py": "f8ddd060668efe143a93d53fb65b40d1d9fec974601d3d1f46e75e6ef494a38a",
+    "npc/verify_paper.py": "8059b759b9a0c96a5f860f4ae5f45bc3e11c1e5d709fc053485f0564ccc652d1",
+    "scenarios/S05_v1.json": "3b672d923c4c22f0d607ef74947891e3dfb7cbdd75f7708c7595fd3088b90c8c",
+    "scenarios/S06_v2.json": "f5fcd701717870c32fbc47ca7731c25756a8642bde6db74d78b56735a8bd6a74",
+    "scenarios/S06_v3.json": "c67d4bd1edbc138aa0d03f2f80c9e816cc049afb36cf2aa20d08a0c5dbfd471e",
+    "scenarios/S07_v1.json": "0702499478f45d52d003642ded67911d9d018cc0180948024fa9402d66031e59",
+    "scenarios/S08_v3.json": "b2d2e0a77adbdef322c7b128f248bc154527b75e5a4d2948dcf18743f05add0f",
+    "scenarios/S11_v1.json": "058439ff4d447f5a158e3e9961dd835771ea8148c1e525d56177038fe00e58f6",
+    "scenarios/S11_v2.json": "ac4e57c9cf5a38184aa31dc42d3958df3f79302f5c3728e39309174af25be289",
+    "scenarios/S12_v1.json": "e821ecff1d21b1bea9d1908d4d8a5a26dd79a44e6003f45f6c639b03e4d6de71"
+  },
+  "matched": 12,
+  "compared": 12,
+  "pass": true,
+  "truth_labels_separate": true,
+  "criteria": {
+    "nlu": "36 classifications: improve total predicate accuracy over current; do not worsen greeting or simple-purchase controls.",
+    "speech": "36 generations: reduce unsupported assertions or policy contradictions without increasing either; no blanket refusal of verified claims, unverified rumors or normal product inquiries.",
+    "baseline_zero": "No improvement demonstrated on a card with zero baseline errors.",
+    "scope": "Selected diagnostic cases only; not a general hallucination rate."
+  },
+  "official_prefix": "You are EXAONE model from LG AI Research, a helpful assistant.",
+  "official_prefix_source": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct",
+  "snapshots_sha256": "3acacb67a87eb23a14d42ecc14da6e6803f4a8d6566d7935f89db5be120649a0",
+  "card_annotations_sha256": "e805e6381c1231e58617e64e96b4929b559b9770413cd9089be9cd7e916bb10d",
+  "exposure_counts": {
+    "S05_v1/t3": {
+      "player_claim": 1,
+      "npc_belief": 0,
+      "committed_event": 1,
+      "npc_utterance": 2
+    },
+    "S05_v1/t7": {
+      "player_claim": 4,
+      "npc_belief": 0,
+      "committed_event": 4,
+      "npc_utterance": 6
+    },
+    "S06_v3/t4": {
+      "player_claim": 3,
+      "npc_belief": 0,
+      "committed_event": 2,
+      "npc_utterance": 3
+    },
+    "S07_v1/t1": {
+      "player_claim": 1,
+      "npc_belief": 0,
+      "committed_event": 0,
+      "npc_utterance": 0
+    },
+    "S12_v1/t2": {
+      "player_claim": 2,
+      "npc_belief": 0,
+      "committed_event": 1,
+      "npc_utterance": 1
+    },
+    "S06_v2/t2": {
+      "player_claim": 2,
+      "npc_belief": 0,
+      "committed_event": 1,
+      "npc_utterance": 1
+    },
+    "S05_v1/t1": {
+      "player_claim": 0,
+      "npc_belief": 0,
+      "committed_event": 0,
+      "npc_utterance": 0
+    },
+    "S05_v1/t6": {
+      "player_claim": 3,
+      "npc_belief": 0,
+      "committed_event": 3,
+      "npc_utterance": 5
+    },
+    "S07_v1/t2": {
+      "player_claim": 2,
+      "npc_belief": 0,
+      "committed_event": 1,
+      "npc_utterance": 1
+    },
+    "S08_v3/t2": {
+      "player_claim": 1,
+      "npc_belief": 0,
+      "committed_event": 1,
+      "npc_utterance": 1
+    },
+    "S11_v1/t2": {
+      "player_claim": 2,
+      "npc_belief": 0,
+      "committed_event": 1,
+      "npc_utterance": 1
+    },
+    "S11_v2/t2": {
+      "player_claim": 2,
+      "npc_belief": 0,
+      "committed_event": 1,
+      "npc_utterance": 1
+    }
+  }
+}

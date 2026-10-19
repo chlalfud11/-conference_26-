@@ -1,0 +1,96 @@
+{
+  "dev": {
+    "B": {
+      "n": 120,
+      "schema_ok": 120,
+      "agree": 102,
+      "risk_ok": 99,
+      "pred_ok": 63,
+      "high_to_low": 15,
+      "low_to_high": 6,
+      "should_accept": 33,
+      "accepted_ok": 27,
+      "promoted_without_policy": 3,
+      "agree_rate": 0.85,
+      "risk_acc": 0.825,
+      "latency_median_ms": 2457
+    },
+    "V1": {
+      "n": 120,
+      "schema_ok": 120,
+      "agree": 107,
+      "risk_ok": 104,
+      "pred_ok": 72,
+      "high_to_low": 7,
+      "low_to_high": 9,
+      "should_accept": 33,
+      "accepted_ok": 24,
+      "promoted_without_policy": 1,
+      "agree_rate": 0.8916666666666667,
+      "risk_acc": 0.8666666666666667,
+      "latency_median_ms": 2605
+    },
+    "V2": {
+      "n": 120,
+      "schema_ok": 120,
+      "agree": 108,
+      "risk_ok": 108,
+      "pred_ok": 77,
+      "high_to_low": 0,
+      "low_to_high": 12,
+      "should_accept": 33,
+      "accepted_ok": 24,
+      "promoted_without_policy": 0,
+      "agree_rate": 0.9,
+      "risk_acc": 0.9,
+      "latency_median_ms": 2588
+    }
+  },
+  "test": {
+    "B": {
+      "n": 234,
+      "schema_ok": 234,
+      "agree": 199,
+      "risk_ok": 199,
+      "pred_ok": 111,
+      "high_to_low": 10,
+      "low_to_high": 25,
+      "should_accept": 66,
+      "accepted_ok": 38,
+      "promoted_without_policy": 4,
+      "agree_rate": 0.8504273504273504,
+      "risk_acc": 0.8504273504273504,
+      "latency_median_ms": 2522
+    },
+    "V1": {
+      "n": 234,
+      "schema_ok": 234,
+      "agree": 211,
+      "risk_ok": 207,
+      "pred_ok": 118,
+      "high_to_low": 12,
+      "low_to_high": 15,
+      "should_accept": 66,
+      "accepted_ok": 51,
+      "promoted_without_policy": 5,
+      "agree_rate": 0.9017094017094017,
+      "risk_acc": 0.8846153846153846,
+      "latency_median_ms": 2650
+    },
+    "V2": {
+      "n": 234,
+      "schema_ok": 234,
+      "agree": 206,
+      "risk_ok": 206,
+      "pred_ok": 132,
+      "high_to_low": 1,
+      "low_to_high": 27,
+      "should_accept": 66,
+      "accepted_ok": 39,
+      "promoted_without_policy": 1,
+      "agree_rate": 0.8803418803418803,
+      "risk_acc": 0.8803418803418803,
+      "latency_median_ms": 2644
+    }
+  }
+}

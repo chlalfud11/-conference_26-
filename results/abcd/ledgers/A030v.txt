@@ -1,0 +1,9 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: David Williams | account davidwilliams | member: gold | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #1448069994  2019-11-01  michael_kors jacket $89  total $89  status: delivered
+Payments:
+  2019-11-01 charge $89 order #1448069994 (card)
+  2019-11-01 charge $89 order #1448069994 (card) [duplicate]
+Returns / promo codes:
+  (none)

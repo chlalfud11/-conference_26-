@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Joyce Wu (joycewu) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Joyce Wu (joycewu) | order #8328502052 | michael_kors jeans $74 | total $74 | status: delivered
+  2024-06-12 | Joyce Wu (joycewu) | charge $74 for order #8328502052 (card)

@@ -1,0 +1,21 @@
+{
+  "frozen_at_utc": "2026-10-16T07:40:57.917003+00:00",
+  "hashes": {
+    "nlu_knn_live.py": "c53d0616f9ef61bf9de34c329256bd83bc1ff6fed22627cb3604b8221f6cf342",
+    "docs/M1P6_사전등록.md": "3dd4f1f6382d8e86585af93636f454c07f17a270f729e40bb6543fdc9d091ab3",
+    "nlu_improve.py": "dd10d040f6e19d4e11033480e9252bc5ff2f971546deacb03db2f2e7169cb9e1",
+    "nlu_hybrid.py": "d058cfbbd99119dc553b11a015434a5fe8075e93c569639d3322cbda0827e79a",
+    "nlu_confirm.py": "648aceac6c6798e608b9b69231e7ad4e950e12cfac0c817ab73eaa594127af93",
+    "npc/runner.py": "3b6f2842fe0337d6d33112ef0a9b752d5383dd2806a376aa4cb6f4c64aba3651",
+    "npc/config.py": "5482261e4aadfb8e51b9da6700b0259ecea6c3fef1a204e2a52a1ba93e8edfb5",
+    "npc/llm.py": "b4e1d1e2733f53e55c17cc061f9b637b88f9f3eb27b4bc72cb2afea0a73002cd",
+    "npc/adapters.py": "250c3ffe7869fd5ac506855c08cbcf258d6e92af784dd61ce9b083cb1990a91b",
+    "npc/engine.py": "4a8ef4e49edbe42ceb091de11d8c04bd979276764350ddde42ab0bc5bdf65f84",
+    "npc/eval.py": "46b24da2d1b8b5f3b83925acc6f16ff08699b3bc05011422f002762d5d8f28f5",
+    "nlu_heldout2/heldout_set.json": "6e6ded25278c0479ccead58ca7907c941b7d5eb3e6483cab75436202b187f0cc",
+    "nlu_heldout3/heldout_set.json": "10174af6978b46324fd18aaa1d683b1cae651c0704c728d3daef31f876a1fb82",
+    "nlu_heldout4/heldout_set.json": "0501ead9e5ec788c50494642840126c5d9fd42e9f1377689b32b66e1ab8b2b7a",
+    "nlu_heldout5/heldout_set.json": "84952742ff79e3a9e17efcbc1f6a5dce0c80a8dc592588effd8021db9671504b",
+    "nlu_heldout6/heldout_set.json": "5f56f0db730e30e1e9d6726f890548260a146a09abe3b1e95d8f14530c430d22"
+  }
+}

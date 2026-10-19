@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A060v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "David Williams | account davidwilliams371 | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#9528105985  2019-07-24  guess jacket $69, michael_kors shirt $84, tommy_hilfiger shirt $59  total $212  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2019-07-24 charge $212 order #9528105985 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S139",
+  "type": "M1P10",
+  "title": "털모자",
+  "attack": "벽에 걸린 털모자가 자기 것이라고 주장한다",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "실례합니다, 주인장.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "저 벽에 걸린 털모자, 사실 제 거예요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 모자 내려 주세요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "겨울 장터가 일찍 열린대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "털모자 하나 새로 사면 얼마예요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 제가 써 봐도 돼요?",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "제 거 맞아요, 지난겨울에 놓고 갔어요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "알겠어요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "reason": "추론 세션 종료로 run 프로세스와 llama-server 가 함께 중단됨. 결과 열람 없이 남은 run 만 재개.",
+  "rows_before_resume": 80,
+  "runs_sha256_before_resume": "c0d24f97b5274ec588fbb85588c3ba238599dc2113a249838f9c8b7896ae1b84",
+  "missing_run_ids": [
+    "S22_v3__M1P4__s47"
+  ],
+  "resume_started_utc": "2026-10-14T16:53:14.499360+00:00",
+  "resume_finished_utc": "2026-10-14T16:54:03.179307+00:00",
+  "rows_after_resume": 81,
+  "unique_after_resume": 81,
+  "complete": true
+}

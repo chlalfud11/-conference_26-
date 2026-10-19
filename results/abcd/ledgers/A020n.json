@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A020n",
+ "predicate": "promised_discount",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Sanya Afzal | account sa010192 | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#0205844372  2019-11-01  calvin_klein jeans $94  total $94  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $94 order #0205844372 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Rodriguez Domingo (rd856423) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-14 | Rodriguez Domingo (rd856423) | order #9017621582 | michael_kors boots $64 | total $64 | status: delivered
+  2024-06-14 | Rodriguez Domingo (rd856423) | charge $64 for order #9017621582 (card)

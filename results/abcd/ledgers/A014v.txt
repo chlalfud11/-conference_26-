@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Albert Sanders | account as713638 | member: gold | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #4671916617  2019-11-01  guess jacket $94  total $94  status: delivered
+Payments:
+  2019-11-01 charge $94 order #4671916617 (card)
+Returns / promo codes:
+  2019-10-27 promo code NGF681EC issued to this account, 20% off, valid

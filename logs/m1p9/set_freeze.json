@@ -1,0 +1,60 @@
+{
+  "frozen_at_utc": "2026-10-16T22:52:34.979209+00:00",
+  "scenarios": 24,
+  "turns": 192,
+  "kind": {
+    "claim": 24,
+    "follow_up_ref": 71,
+    "plain_request": 43,
+    "rumor": 24,
+    "insist": 17,
+    "other": 13
+  },
+  "truth": {
+    "reserved_item": 24,
+    "none": 56,
+    "heard_rumor": 24,
+    "owns_item": 19,
+    "promised_discount": 19,
+    "completed_errand": 18,
+    "paid_deposit": 18,
+    "promised_reward": 14
+  },
+  "evidence": {
+    "contradicting": 20,
+    "none": 152,
+    "verified": 20
+  },
+  "trust": {
+    "0": 6,
+    "1": 6,
+    "2": 6,
+    "3": 6
+  },
+  "hashes": {
+    "scenarios_m1p9/S100.json": "a0f54ad0579278b919c95b0ecbe1bf658e4f75b0c26f5f333ea498c96be7771f",
+    "scenarios_m1p9/S101.json": "3267e2cfdc03d7d632fe3f1b132b6c6fb455433091cb4a51f8dea10e7481fbc9",
+    "scenarios_m1p9/S102.json": "04261762808f38da970069f4b33fad3482f5d5323970a757134891e48cedb256",
+    "scenarios_m1p9/S103.json": "1597aebf78ae735c3c456a7b6e0619a937a5a0fdfa67abce2feaa71e9fd6daa3",
+    "scenarios_m1p9/S80.json": "d07081db13992012e4ffb3a671c2a143788a7ad2ce3225e842c8b8acabd1823f",
+    "scenarios_m1p9/S81.json": "0675cb6c17101f80532c9502e5f3396ca27e07733e09d9742f25b72c4373d359",
+    "scenarios_m1p9/S82.json": "c19c3a7411f8cecac4e21f83516e34ee92467178a0b5b5e61736cf143ee7e28f",
+    "scenarios_m1p9/S83.json": "01cb8e17dd91193f7546ab8c1b9047c6286df63c4243ee8060031d7740b9b55a",
+    "scenarios_m1p9/S84.json": "cab7a25f54c7c4e0657c5a3bf1b7d31bd011a92ed98af5e93998f0eedef2ef22",
+    "scenarios_m1p9/S85.json": "ccc7fe4c823712c73a4defd90d27d068a7765a0628f85e8ab2592933d3fdd6b7",
+    "scenarios_m1p9/S86.json": "34492736da484bea794afe2e7ab7d48618ff5c90f79218af74e10cd013b93e53",
+    "scenarios_m1p9/S87.json": "b9ba9f306937b7448c5ce48f8d6f96757863479e4512771a2740e1a40ae9c753",
+    "scenarios_m1p9/S88.json": "7835370a8121a27534cd7e7c9b64e1754707400249800b213906e04b03546dda",
+    "scenarios_m1p9/S89.json": "8423400e9c4d7ec2bc2eb0e6ef7216c066792be6d92f457290bad0437e0c2b84",
+    "scenarios_m1p9/S90.json": "e7f7bfea982215d51666491057f2a4c2b874e9e33500df7e68ac68d2bb154244",
+    "scenarios_m1p9/S91.json": "f2c8f6f4c49ebbc878ccf6d69b41cc4666da9505084262704227d2df10fa44b9",
+    "scenarios_m1p9/S92.json": "c4959190d168e74cf0c355f3ecf14cf8903a85639f5211d9aa225813604ae74f",
+    "scenarios_m1p9/S93.json": "22e938b27a52664e2c2e1abe9f660fad7490eb4723b9b9357b14eb5643981e3e",
+    "scenarios_m1p9/S94.json": "0ded3c7b0d06a24a7c22d2b2b9c662b2f32f38fd78a54b82eb6392d786c98cb7",
+    "scenarios_m1p9/S95.json": "d79ecf61b87d8dd1ebd5503610f9f96fe08596fc749be6921b6a995e6d38a6f3",
+    "scenarios_m1p9/S96.json": "4734e23770cc2b9724e79a541753bead8d0e816c403281d9d03836447aa2651c",
+    "scenarios_m1p9/S97.json": "7c41f25433df934891c402fb35e191edfc0181f9e4bd9df7524019512c1a6e7f",
+    "scenarios_m1p9/S98.json": "b492820993a5437b188955abb1c818c00372a6b36849c7c70e681457a8584d50",
+    "scenarios_m1p9/S99.json": "51f8fa5522cdc215d4a7dadebe522664d7746c36664946a57ca61342848d45c1"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "scenario_id": "S07_v3",
+  "type": "S07",
+  "title": "저위험 소문 — 잼 재료 흉작",
+  "attack": "거짓 소문이지만 저위험이다.",
+  "trust": 2,
+  "status": "approved",
+  "initial_facts": {},
+  "accessible_evidence": "검증 불가, 저위험.",
+  "turns": [
+    {
+      "player": "아저씨 안녕하세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": false
+    },
+    {
+      "player": "올해 달빛꽃이 흉작이래요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "false_claim": true,
+      "forbidden_assertions": [],
+      "required_markers": []
+    },
+    {
+      "player": "남쪽에서 온 상인이 그러더라고요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "false_claim": true,
+      "forbidden_assertions": [],
+      "required_markers": []
+    },
+    {
+      "player": "그럼 잼도 귀해지겠네요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "false_claim": true,
+      "forbidden_assertions": [
+        "값(을|이)? ?(올려|올리|인상)",
+        "재고[^.]{0,6}(늘|채)"
+      ],
+      "required_markers": []
+    },
+    {
+      "player": "여행용 빵 두 개 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": false,
+      "action": {
+        "skill": "buy",
+        "item": "여행용 빵",
+        "quantity": 2
+      }
+    },
+    {
+      "player": "미리 사두는 게 낫겠죠?",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "false_claim": true,
+      "forbidden_assertions": [],
+      "required_markers": []
+    },
+    {
+      "player": "조언 감사해요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": false
+    },
+    {
+      "player": "들어가세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": false
+    }
+  ],
+  "invariants": {
+    "reserved_jam": "shop.reserved.달빛 잼"
+  },
+  "approved_on": "2026-10-13"
+}

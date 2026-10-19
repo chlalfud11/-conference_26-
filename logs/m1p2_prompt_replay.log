@@ -1,0 +1,7 @@
+M0P0: stored_before_change vs recorded_input_replay 8/8
+M1P0: stored_before_change vs recorded_input_replay 8/8
+M1P1: stored_before_change vs recorded_input_replay 8/8
+M0P0R: stored_before_change vs recorded_input_replay 8/8
+M1P0R: stored_before_change vs recorded_input_replay 8/8
+{"scope": "S05_v1 seed11, original recorded NLU and utterances; live embeddings for vector memory.", "not_a_fresh_sampling_reproducibility_test": true, "per_condition": {"M0P0": {"matched": 8, "compared": 8}, "M1P0": {"matched": 8, "compared": 8}, "M1P1": {"matched": 8, "compared": 8}, "M0P0R": {"matched": 8, "compared": 8}, "M1P0R": {"matched": 8, "compared": 8}}, "matched": 40, "compared": 40, "pass": true}
+PROMPT_REPLAY_PASS

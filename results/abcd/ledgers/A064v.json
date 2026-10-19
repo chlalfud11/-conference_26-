@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A064v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Albert Sanders | account asanders811 | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#0702225229  2019-09-08  tommy_hilfiger jeans $99, calvin_klein jacket $94, guess jeans $89  total $282  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2019-09-08 charge $282 order #0702225229 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

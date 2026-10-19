@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A053n",
+ "predicate": "reserved_item",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Rodriguez Domingo | account rodriguezdomingo770 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "(no orders on this account)"
+  ],
+  "payments": [
+   "(none)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

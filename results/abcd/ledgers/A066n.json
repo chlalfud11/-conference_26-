@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A066n",
+ "predicate": "owns_item",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Crystal Minh | account cm898507 | member: gold | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "(no orders on this account)"
+  ],
+  "payments": [
+   "(none)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

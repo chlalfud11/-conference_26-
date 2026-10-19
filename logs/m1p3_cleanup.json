@@ -1,0 +1,19 @@
+{
+  "chat_monitor": "mon_Z611TKD44TKJ10HB",
+  "embedding_monitor": "mon_01TJ73E0SYM4B54X",
+  "chat_pid": 71345,
+  "embedding_pid": 71085,
+  "batch_pid": 71780,
+  "caffeinate_pid": 72132,
+  "batch_exit_code": 0,
+  "caffeinate_exit_code": 0,
+  "ports_checked": [8080, 8081],
+  "ports_closed": true,
+  "owned_processes_gone": true,
+  "check_evidence": [
+    "M1P3_PORTS_CLOSED",
+    "M1P3_OWNED_PROCESSES_GONE"
+  ],
+  "temporary_raw_metric_files": "NamedTemporaryFile context managers closed and deleted their files.",
+  "frozen_sources_modified_after_sampling": false
+}

@@ -1,0 +1,7 @@
+{
+  "source": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct/raw/main/tokenizer_config.json",
+  "note": "Only the fields used by interface diagnostics; fetched before generation.",
+  "bos_token": "[BOS]",
+  "eos_token": "[|endofturn|]",
+  "chat_template": "{% for message in messages %}{% if loop.first and message['role'] != 'system' %}{{ '[|system|][|endofturn|]\n' }}{% endif %}{{ '[|' + message['role'] + '|]' + message['content'] }}{% if message['role'] == 'user' %}{{ '\n' }}{% else %}{{ '[|endofturn|]\n' }}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '[|assistant|]' }}{% endif %}"
+}

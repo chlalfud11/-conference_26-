@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A017v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Alessandro Phoenix | account alessandrop888 | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#3731036975  2019-11-01  guess shirt $99  total $99  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $99 order #3731036975 (card)"
+  ],
+  "returns_promos": [
+   "2019-10-27 promo code NG3A0E7D issued to this account, 20% off, valid"
+  ]
+ }
+}

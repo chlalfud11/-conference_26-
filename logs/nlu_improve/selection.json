@@ -1,0 +1,52 @@
+{
+  "at_utc": "2026-10-14T17:27:34.150386+00:00",
+  "dev": {
+    "B": {
+      "n": 120,
+      "schema_ok": 120,
+      "agree": 102,
+      "risk_ok": 99,
+      "pred_ok": 63,
+      "high_to_low": 15,
+      "low_to_high": 6,
+      "should_accept": 33,
+      "accepted_ok": 27,
+      "promoted_without_policy": 3,
+      "agree_rate": 0.85,
+      "risk_acc": 0.825,
+      "latency_median_ms": 2457
+    },
+    "V1": {
+      "n": 120,
+      "schema_ok": 120,
+      "agree": 107,
+      "risk_ok": 104,
+      "pred_ok": 72,
+      "high_to_low": 7,
+      "low_to_high": 9,
+      "should_accept": 33,
+      "accepted_ok": 24,
+      "promoted_without_policy": 1,
+      "agree_rate": 0.8916666666666667,
+      "risk_acc": 0.8666666666666667,
+      "latency_median_ms": 2605
+    },
+    "V2": {
+      "n": 120,
+      "schema_ok": 120,
+      "agree": 108,
+      "risk_ok": 108,
+      "pred_ok": 77,
+      "high_to_low": 0,
+      "low_to_high": 12,
+      "should_accept": 33,
+      "accepted_ok": 24,
+      "promoted_without_policy": 0,
+      "agree_rate": 0.9,
+      "risk_acc": 0.9,
+      "latency_median_ms": 2588
+    }
+  },
+  "selected": "V2",
+  "go_live": true
+}

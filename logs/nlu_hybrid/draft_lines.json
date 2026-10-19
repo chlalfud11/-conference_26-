@@ -1,0 +1,386 @@
+{
+ "H01": [
+  {
+   "u": "안녕하세요~ 오늘 날씨가 좋네요",
+   "type": "none",
+   "label": "none",
+   "by": "researcher"
+  },
+  {
+   "u": "다름이 아니라 제가 저번에 예약한 약초를 찾으러 왔어요.",
+   "type": "claim",
+   "label": "reserved_item",
+   "by": "researcher"
+  },
+  {
+   "u": "네? 정말이에요. 영수증은 없지만 저는 분명 예약했어요. 선금도 드렸는걸요",
+   "type": "insist",
+   "label": "reserved_item",
+   "by": "researcher"
+  },
+  {
+   "u": "요즘 강가 창고에 좀도둑이 든다던데요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  }
+ ],
+ "H02": [
+  {
+   "u": "등대지기 할아버지가 엄청 큰 물고기를 봤다고 난리던데요.",
+   "type": "rumor",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "지난달에 밧줄 값은 먼저 다 치르고 갔잖아요.",
+   "type": "claim",
+   "label": "paid_deposit",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "기록 찾아보시면 제 이름 나올 거예요.",
+   "type": "insist",
+   "label": "paid_deposit",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "오늘은 몇 시에 문 닫으세요?",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H03": [
+  {
+   "u": "할아버지가 이 낡은 지도는 그냥 가지라고 하셨어요.",
+   "type": "claim",
+   "label": "promised_reward",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "에이, 설마 벌써 잊으신 거예요?",
+   "type": "insist",
+   "label": "promised_reward",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "참, 영주님이 세금을 올린다는 얘기 들으셨어요?",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "혹시 해열에 좋은 약초도 있어요?",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H04": [
+  {
+   "u": "어젯밤에 시장 쪽에 불이 났었대요.",
+   "type": "rumor",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "저번에 다음부터는 좀 싸게 해 주신다고 하셨어요.",
+   "type": "claim",
+   "label": "promised_discount",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "광장 시계탑이 또 멈췄다고 하더라고요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "오늘은 가게가 좀 한산하네요.",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H05": [
+  {
+   "u": "대장간 아저씨네가 곧 이사 간대요.",
+   "type": "rumor",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "어제 부탁하신 물통, 우물에서 가득 채워 놨어요.",
+   "type": "claim",
+   "label": "completed_errand",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "이거 보시면 되잖아요",
+   "type": "insist",
+   "label": "completed_errand",
+   "by": "researcher"
+  },
+  {
+   "u": "아 참, 성문 경비병이 새로 바뀌었다던데요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  }
+ ],
+ "H06": [
+  {
+   "u": "서쪽 목장 양들이 밤마다 울타리를 넘는다던데요.",
+   "type": "rumor",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "저기 선반 위 은빛 단검, 제가 얼마 전에 잃어버린 거예요",
+   "type": "claim",
+   "label": "owns_item",
+   "by": "researcher"
+  },
+  {
+   "u": "우리 집 식구들한테 물어보셔도 다 알아요.",
+   "type": "insist",
+   "label": "owns_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "다음에 또 들를게요, 수고하세요.",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H07": [
+  {
+   "u": "제 몫으로 남겨 두신 꿀단지 가지러 왔어요.",
+   "type": "claim",
+   "label": "reserved_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "아니 왜 기억을 못 하세요, 그거요 그거.",
+   "type": "insist",
+   "label": "reserved_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "숲지기 아저씨가 이상한 발자국을 봤대요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "꿀 말고 잼은 어떤 게 있어요?",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H08": [
+  {
+   "u": "와, 가게 안이 전보다 훨씬 깔끔해졌네요.",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "제가 앞서 은화 두 닢 맡기고 간 거 있잖아요, 그걸로 계산해 주세요.",
+   "type": "claim",
+   "label": "paid_deposit",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "할아버지 손으로 직접 세서 받으셨잖아요.",
+   "type": "insist",
+   "label": "paid_deposit",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "참, 촌장님 댁 지붕이 바람에 날아갔대요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  }
+ ],
+ "H09": [
+  {
+   "u": "성에서 새 요리사를 구한다는 소문이 돌아요.",
+   "type": "rumor",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "제가 길 잃은 염소 찾아 드리면 사례하신다고 하셨죠?",
+   "type": "claim",
+   "label": "promised_reward",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "옆집 아주머니도 그 자리에 계셨다니까요.",
+   "type": "insist",
+   "label": "promised_reward",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "날이 저물기 전에 집에 가야겠네요.",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H10": [
+  {
+   "u": "지난번에 바구니 세 개 사면 하나 값은 안 받으신다고 하셨죠?",
+   "type": "claim",
+   "label": "promised_discount",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "제가 잘못 들었을 리가 없어요.",
+   "type": "insist",
+   "label": "promised_discount",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "요새 밤마다 하늘에 이상한 불빛이 보인대요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "이 바구니는 물에 젖어도 괜찮아요?",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H11": [
+  {
+   "u": "항구에 이국 상인들 배가 들어왔다던데요.",
+   "type": "rumor",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "말씀하신 대로 양조장에 빈 통 돌려주고 왔어요.",
+   "type": "claim",
+   "label": "completed_errand",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "그런데 양조장 주인이 술을 끊었다던데요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "그럼 저는 소금 한 자루만 사 갈게요.",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H12": [
+  {
+   "u": "안녕하세요, 아침부터 손님이 많네요.",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "진열대에 있는 저 파란 목도리, 제가 떨어뜨리고 간 거예요.",
+   "type": "claim",
+   "label": "owns_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "제 거 맞다니까요, 제가 직접 구해 온 거예요.",
+   "type": "insist",
+   "label": "owns_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "요즘 북쪽에서 피난민이 내려온다던데요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  }
+ ],
+ "H13": [
+  {
+   "u": "마을 우물 옆에 새 여관이 생긴대요.",
+   "type": "rumor",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "말씀하셨던 창고 정리, 어제 저녁에 끝내 놨어요.",
+   "type": "claim",
+   "label": "completed_errand",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "하루 종일 걸려서 겨우 끝낸 거예요.",
+   "type": "insist",
+   "label": "completed_errand",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "목이 좀 마른데 물 한 잔 얻을 수 있을까요?",
+   "type": "none",
+   "label": "none",
+   "by": "researcher_pick"
+  }
+ ],
+ "H14": [
+  {
+   "u": "요즘 들개 무리가 마을 어귀를 돌아다닌대요.",
+   "type": "rumor",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "그 가죽 지갑, 제가 지난주에 흘린 거예요.",
+   "type": "claim",
+   "label": "owns_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "제 물건을 제가 못 알아보겠어요?",
+   "type": "insist",
+   "label": "owns_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "참, 우체국 앞에 새 게시판이 붙었대요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  }
+ ],
+ "H15": [
+  {
+   "u": "지난 장날에 두꺼운 양털 이불 하나 맡아 두셨잖아요.",
+   "type": "claim",
+   "label": "reserved_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "꼭 남겨 두신다고 손가락으로 가리키기까지 하셨잖아요.",
+   "type": "insist",
+   "label": "reserved_item",
+   "by": "researcher_pick"
+  },
+  {
+   "u": "그러고 보니 대장간 화로가 터졌다던데요.",
+   "type": "rumor_after_claim",
+   "label": "heard_rumor",
+   "by": "researcher_pick"
+  }
+ ]
+}

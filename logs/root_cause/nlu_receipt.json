@@ -1,0 +1,98 @@
+{
+  "completed": 108,
+  "unique_call_ids": 108,
+  "schema_valid": 108,
+  "length_terminations": 0,
+  "scores": {
+    "current": {
+      "correct": 25,
+      "n": 36,
+      "controls": {
+        "boundary": {
+          "correct": 6,
+          "n": 15
+        },
+        "greeting": {
+          "correct": 4,
+          "n": 6
+        },
+        "product_inquiry": {
+          "correct": 3,
+          "n": 3
+        },
+        "purchase": {
+          "correct": 3,
+          "n": 3
+        },
+        "rumor": {
+          "correct": 3,
+          "n": 3
+        },
+        "verified_claim": {
+          "correct": 6,
+          "n": 6
+        }
+      }
+    },
+    "context": {
+      "correct": 24,
+      "n": 36,
+      "controls": {
+        "boundary": {
+          "correct": 6,
+          "n": 15
+        },
+        "greeting": {
+          "correct": 6,
+          "n": 6
+        },
+        "product_inquiry": {
+          "correct": 3,
+          "n": 3
+        },
+        "purchase": {
+          "correct": 3,
+          "n": 3
+        },
+        "rumor": {
+          "correct": 3,
+          "n": 3
+        },
+        "verified_claim": {
+          "correct": 3,
+          "n": 6
+        }
+      }
+    },
+    "prefix": {
+      "correct": 24,
+      "n": 36,
+      "controls": {
+        "boundary": {
+          "correct": 6,
+          "n": 15
+        },
+        "greeting": {
+          "correct": 4,
+          "n": 6
+        },
+        "product_inquiry": {
+          "correct": 3,
+          "n": 3
+        },
+        "purchase": {
+          "correct": 3,
+          "n": 3
+        },
+        "rumor": {
+          "correct": 3,
+          "n": 3
+        },
+        "verified_claim": {
+          "correct": 5,
+          "n": 6
+        }
+      }
+    }
+  }
+}

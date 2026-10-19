@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A072v",
+ "predicate": "owns_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Albert Sanders | account albertsanders905 | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#7054276868  2020-01-13  tommy_hilfiger boots $49  total $49  status: delivered"
+  ],
+  "payments": [
+   "2020-01-13 charge $49 order #7054276868 (credit card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

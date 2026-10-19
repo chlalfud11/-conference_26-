@@ -1,0 +1,9 @@
+{
+ "scenario_id": "A072n",
+ "predicate": "owns_item",
+ "verified": false,
+ "days_ago": 3,
+ "customer": "Albert Sanders (albertsanders905)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Albert Sanders (albertsanders905) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": []
+}

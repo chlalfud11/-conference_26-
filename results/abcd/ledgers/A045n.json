@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A045n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Chloe Zhang | account chloezhang | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#9356822177  2019-11-01  michael_kors jacket $54  total $54  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $54 order #9356822177 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

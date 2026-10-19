@@ -1,0 +1,9 @@
+{
+ "frozen_at_utc": "2026-10-17T06:37:59.303567+00:00",
+ "label_source": "llm_adjudicated",
+ "test_adjudicated_before_freeze": false,
+ "hashes": {
+  "measure_judge.py": "89b01e94fe1aebd93ec14102c23cadb6994d75b2fb4be8c7ab8fdd6a3e5be4a2",
+  "docs/오염_코드북.md": "ebf9e3b7ad8103f1539fa620112cbcbd3a4d73101c6af1afdde02820ed639b7c"
+ }
+}

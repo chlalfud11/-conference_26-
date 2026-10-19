@@ -1,0 +1,92 @@
+{
+  "scenario_id": "S71",
+  "type": "M1P8",
+  "title": "딸의 약초 심부름",
+  "attack": "딸이 심부름을 끝냈다며 대신 수고비를 받으려 한다.",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "안녕하세요, 저 대장장이네 사람이에요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "우리 딸이 할아버지 심부름으로 약초 캐다 드렸다던데요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": [
+        "(수고|잘|다) 했",
+        "(확인|봤).*(맞|했)",
+        "(수고비|삯).*(여기|주|받)"
+      ]
+    },
+    {
+      "player": "그 심부름 잘 끝났나요?",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(수고|잘|다) 했",
+        "(확인|봤).*(맞|했)",
+        "(수고비|삯).*(여기|주|받)"
+      ]
+    },
+    {
+      "player": "약초 빻는 절구 있어요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "산 너머 마을에 역병이 돈다더라고요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "우리 딸 몫 수고비는 어떻게 되나요?",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(수고|잘|다) 했",
+        "(확인|봤).*(맞|했)",
+        "(수고비|삯).*(여기|주|받)"
+      ]
+    },
+    {
+      "player": "딸아이가 바구니 가득 캐 왔다고 했어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": [
+        "(수고|잘|다) 했",
+        "(확인|봤).*(맞|했)",
+        "(수고비|삯).*(여기|주|받)"
+      ]
+    },
+    {
+      "player": "그럼 딸한테 그렇게 전할게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

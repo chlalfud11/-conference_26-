@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; }
+body { margin:0; padding:22px; background:#fff;
+       font-family:"Apple SD Gothic Neo","Helvetica Neue",Arial,sans-serif; color:#111; }
+h2 { font-size:15pt; margin:0 0 14px; }
+.flow { display:flex; flex-direction:column; gap:7px; width:560px; }
+.row { display:flex; align-items:center; gap:9px; }
+.box { border:1.4px solid #333; border-radius:6px; padding:8px 12px; font-size:10.5pt;
+       background:#fff; flex:1; }
+.box .k { font-weight:700; }
+.box .s { color:#666; font-size:9pt; }
+.engine { background:#eef3f8; border-color:#2c5d8f; }
+.slm { background:#fdf4ec; border-color:#b5722c; }
+.policy { background:#eef7ee; border-color:#2f7a37; }
+.arrow { text-align:center; color:#888; font-size:12pt; line-height:1; }
+.ledger { display:grid; grid-template-columns:repeat(5,1fr); gap:7px; width:620px; }
+.led { border:1.3px solid #444; border-radius:6px; padding:7px; font-size:8.6pt; text-align:center; }
+.led b { display:block; font-size:9.4pt; margin-bottom:3px; }
+.led .w { display:block; margin-top:4px; color:#b03030; font-size:7.8pt; line-height:1.3; }
+.bars { width:640px; }
+.bargroup { margin-bottom:17px; }
+.bartitle { font-size:10.5pt; font-weight:700; margin-bottom:6px; }
+.bar { display:flex; align-items:center; gap:9px; margin-bottom:5px; font-size:9.5pt; }
+.barlabel { width:170px; text-align:right; color:#333; }
+.bartrack { flex:1; background:#f0f0f0; border-radius:3px; height:19px; position:relative; }
+.barfill { height:100%; border-radius:3px; }
+.barval { width:104px; font-size:8.8pt; color:#444; }
+.ci { position:absolute; top:4px; height:11px; border-left:1.6px solid #333;
+      border-right:1.6px solid #333; }
+.ci::after { content:""; position:absolute; top:5px; left:0; right:0; border-top:1.4px solid #333; }
+.note { font-size:8.6pt; color:#666; margin-top:9px; }
+</style></head><body><style>
+*{box-sizing:border-box}body{margin:0;background:#fff;font-family:-apple-system,"Apple SD Gothic Neo",sans-serif;color:#1d2433}
+.wrap{padding:22px 26px;width:900px}
+h1{font-size:20px;margin:0 0 2px}.sub{font-size:12px;color:#667;margin-bottom:14px}
+.legend{display:flex;gap:14px;font-size:12px;margin-bottom:14px}.legend span{display:flex;align-items:center;gap:5px}
+.sw{width:14px;height:14px;border-radius:3px;display:inline-block}
+.row{display:flex;align-items:stretch;gap:10px}
+.box{border-radius:10px;padding:10px 12px;font-size:12.5px;line-height:1.45;border:2px solid}
+.box b{font-size:13.5px;display:block;margin-bottom:3px}
+.slm{background:#fff4e8;border-color:#f08a4c}.code{background:#eaf1ff;border-color:#4c7cf0}
+.mem{background:#e9f8f0;border-color:#2bb673}.io{background:#f3f3f6;border-color:#9aa5b1}
+.audit{background:#fafafa;border-color:#c9ced6;border-style:dashed;color:#556}
+.n{display:inline-block;width:20px;height:20px;border-radius:50%;background:#1d2433;color:#fff;font-size:11.5px;text-align:center;line-height:20px;margin-right:5px}
+.arrow{text-align:center;font-size:20px;color:#8a93a3;line-height:22px;margin:3px 0}
+.side{font-size:20px;color:#8a93a3;display:flex;align-items:center}
+.tag{font-size:11px;color:#667;font-style:italic}
+.note{margin-top:14px;font-size:12px;background:#f6f7fb;border-radius:8px;padding:9px 12px;line-height:1.55}
+</style>
+<div class="wrap">
+<h1>NPC가 손님 말을 듣고 답하기까지 (현재 최종 조건 M1P3)</h1>
+<div class="sub">코드 기준: npc/runner.py run_dialogue(), 조건 설정 decider=decision_table_sourced, output=engine_renderer</div>
+<div class="legend"><span><i class="sw" style="background:#f08a4c"></i>언어모델(EXAONE 2.4B) 호출</span><span><i class="sw" style="background:#4c7cf0"></i>코드·게임 엔진</span><span><i class="sw" style="background:#2bb673"></i>기억</span><span><i class="sw" style="background:#c9ced6"></i>감사 기록만</span></div>
+
+<div class="box io"><b><span class="n">0</span>손님 말 입력</b>"저번에 잼 두 병 예약했잖아요. 주세요." <span class="tag">→ 기억에 '손님' 발화로 저장</span></div>
+<div class="arrow">▼</div>
+
+<div class="box slm"><b><span class="n">1</span>귀: NLU (언어모델 호출 ①)</b>
+손님 말 한 줄만 보고 JSON으로 구조화합니다. 형식이 강제됩니다(json_schema).<br>
+→ intent, speech_act, <b style="display:inline">claim_predicate</b>(예: reserved_item), claim_object(예: 잼), confidence</div>
+<div class="arrow">▼ <span class="tag">claim_predicate만 다음 단계로 (speech_act는 쓰이지 않음)</span></div>
+
+<div class="row">
+<div class="box code" style="flex:1"><b><span class="n">2</span>위험도 판정 (코드)</b>
+risk_of(): 예약·선금·약속·심부름·소유 → <b style="display:inline">고위험</b>, 소문·없음 → 저위험.<br>
+주장이 있으면 엔진 장부에 <i>주장(claim)</i>으로 저장합니다(사실 아님).</div>
+<div class="side">+</div>
+<div class="box code" style="flex:1"><b>게임이 아는 값</b>
+증거 상태(검증됨/없음/모순), 손님 신뢰도(0~3), 상태 모순 여부 — 언어모델이 정하지 않습니다.</div>
+</div>
+<div class="arrow">▼</div>
+
+<div class="box code"><b><span class="n">3</span>문지기: 승격 정책 (코드, 결정표)</b>
+모순 → reject · 반박 증거 → dispute · 고위험+증거 없음 → <b style="display:inline">request_evidence</b> · 고위험+검증 → accept · 저위험+신뢰≥2 → accept · 그 외 → defer<br>
+<span class="tag">같은 입력이면 항상 같은 결정. 수용(accept)일 때만 엔진에 '믿음'이 생김</span></div>
+<div class="arrow">▼</div>
+
+<div class="row">
+<div class="box slm" style="flex:1.1"><b><span class="n">4</span>입: 대사 후보 (언어모델 호출 ②)</b>
+페르소나 + 가게 상태 + 기억 + 엔진 근거(JSON) + 정책 결정을 받아 1~2문장을 씁니다.<br><span class="tag">"판단을 뒤집지 마라"</span></div>
+<div class="side">→</div>
+<div class="box audit" style="flex:0.9"><b>원문은 감사 로그로만</b>
+raw_response에 저장. 손님에게 보이지 않고 기억에도 들어가지 않습니다.<br>(예: "예약하신 잼 준비해 드릴게요" ← 오염 후보)</div>
+</div>
+<div class="arrow">▼</div>
+
+<div class="box code"><b><span class="n">5</span>최종 대사 조립 (코드, 엔진 렌더러)</b>
+make_speech_plan → render_speech_plan: 고정 템플릿 + 엔진의 실제 재고·가격·예약 수량 슬롯으로 문장을 만듭니다.<br>
+→ "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?"  <span class="tag">(거래 행동이 있으면 engine.buy 결과 반영)</span></div>
+<div class="arrow">▼</div>
+
+<div class="row">
+<div class="box io" style="flex:1"><b><span class="n">6</span>손님에게 출력</b>엔진 사실로만 만든 문장</div>
+<div class="side">+</div>
+<div class="box mem" style="flex:1"><b>기억 갱신</b>최종 대사만 '도르만' 발화로 저장 → 다음 턴의 [기억]</div>
+</div>
+
+<div class="note"><b>핵심</b>: 언어모델은 ①귀와 ④입 두 번만 호출되고, <b>결정(③)과 손님이 듣는 말(⑤)은 코드가 정합니다</b>. 그래서 최종 오염 탐지가 0/183입니다. 다만 ①에서 말을 잘못 알아들으면(위험도 정확도 약 .83) ③이 틀린 입력으로 정확히 집행하게 되며, 이것이 현재의 병목입니다. 세계의 사실(World Truth)은 오직 게임 엔진만 바꿉니다.</div>
+</div>
+</body></html>

@@ -1,0 +1,7 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Crystal Minh (cm547970) | member: bronze | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-05-28 | Crystal Minh (cm547970) | order #6176415771 | guess jeans $99 | total $99 | status: delivered
+  2024-05-28 | Crystal Minh (cm547970) | charge $99 for order #6176415771 (card)
+  2024-06-07 | Crystal Minh (cm547970) | promo code NG2C8D3D issued, 20% off, valid until 2024-07-15

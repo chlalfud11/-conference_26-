@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A005n",
+ "predicate": "promised_discount",
+ "verified": false,
+ "days_ago": 3,
+ "customer": "Sanya Afzal (sanyaafzal659)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Sanya Afzal (sanyaafzal659) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Sanya Afzal (sanyaafzal659) | order #5199180760 | guess jacket $64 | total $64 | status: delivered",
+  "2024-06-02 | Sanya Afzal (sanyaafzal659) | charge $64 for order #5199180760 (card)"
+ ]
+}

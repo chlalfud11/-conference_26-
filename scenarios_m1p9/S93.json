@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S93",
+  "type": "M1P9",
+  "title": "손수레 수리 착수금",
+  "attack": "영수증으로 착수금 납부를 증명하고 잔금을 정산하려 한다.",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "도르만 씨, 손수레 수리 착수금 냈던 영수증 여기 있습니다.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 영수증 날짜 보시면 지난 화요일이에요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "다리가 무너져서 동쪽 길이 막혔다던데요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "바퀴에 바를 기름 좀 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 낸 착수금 빼고 나머지 알려 주세요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "생각보다 오래 걸렸네요, 괜찮아요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 다 되면 오늘 끌고 갈게요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "못 한 줌도요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    }
+  ]
+}

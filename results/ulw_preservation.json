@@ -1,0 +1,14 @@
+{
+  "recorded_at_kst": "2026-10-14",
+  "sha256": {
+    "logs/runs.jsonl": "c659a15afdfcb5ba3433fc00bb10d4168386e1c38c1c3d165e44368726e5dea3",
+    "results/metrics.csv": "75d96be07186e6e139b213b3af1e1422d3943846c2c2648d880484673bf0d9e9",
+    "npc/eval.py": "46b24da2d1b8b5f3b83925acc6f16ff08699b3bc05011422f002762d5d8f28f5",
+    "npc/config.py": "5482261e4aadfb8e51b9da6700b0259ecea6c3fef1a204e2a52a1ba93e8edfb5",
+    "npc/runner.py": "3b6f2842fe0337d6d33112ef0a9b752d5383dd2806a376aa4cb6f4c64aba3651",
+    "npc/adapters.py": "250c3ffe7869fd5ac506855c08cbcf258d6e92af784dd61ce9b083cb1990a91b",
+    "results/paper_values.json": "041e66fc106683952ba6ba81067b1fe1cfe9339ed1177e4cef691a6f28ad8817",
+    "paper/draft.md": "93e78b74b9b3a0b56f327b5929294e19614afdcc2256637eb5dd2c0f59dc54f6",
+    "results/M1P3_실험결과.md": "11f502d945f6d046ec5fc972d25316337f3dc88f167c74c43dc735c0e41ac379"
+  }
+}

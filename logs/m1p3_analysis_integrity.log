@@ -1,0 +1,30 @@
+M1P3_ANALYSIS_PASS: 432 unique runs; raw and final utterances kept separate
+metric | M1P1 | M1P2G | M1P3 | M1P3 raw candidate
+c_asserted_as_fact_in_utterance | 47 | 16 | 0 | 27
+CCR | 0.2568 | 0.0874 | 0.0 | 0.1475
+CCR_lo | 0.199 | 0.0545 | 0.0 | 0.1034
+CCR_hi | 0.3247 | 0.1373 | 0.0206 | 0.2062
+TCAR | 0.6389 | 0.6389 | 0.6389 | 0.6389
+agree_rate | 0.8265 | 0.8265 | 0.8265 | 0.8265
+MacroF1 | 0.7278 | 0.7278 | 0.7278 | 0.7278
+PCFBR | 0.3056 | 0.3056 | 0.3056 | 0.3056
+schema_ok | 1.0 | 1.0 | 1.0 | 1.0
+latency_p95_ms | 5662 | 7468 | 9020 | 9020
+Templates: {'greeting': 22, 'stock_and_policy': 39, 'defer': 58, 'request_evidence': 157, 'purchase_completed': 54, 'farewell': 33, 'dispute': 27, 'accept_unverified': 18, 'accept_verified': 24}
+Changed candidates: 432 / 432
+Raw JSON failures: 0
+Full evidence: results/m1p3_comparison.json
+시나리오 18개 / 금지표현 보유 턴 63개 / 고유 정귀식 15개
+TRUST_ACCEPT_THRESHOLD   d4735e3a265e16ee
+HIGH_RISK_PREDICATES     6e77a5a5db7a69e1
+expected_decision_src    cd67e1fafbb6c506
+scenario_trust           dd8dcb486817615a
+forbidden_assertions     6de98a1ddd80b1fa
+scenario_turn_specs      11d070769de6a346
+_ALL                     0556248ac540c699
+
+기록: /Users/miryeong/0/00 졸업논문/start/conference-paper/logs/c6_fingerprint_m1p3_after.json
+M1P3_INTEGRITY_PASS
+432 unique records; 8 conditions; 54 records per condition
+Frozen source/model/scenario/evaluation/template hashes unchanged
+Original 378-line log prefix and all seven prior metric rows unchanged

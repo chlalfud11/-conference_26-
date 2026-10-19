@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A056v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Alessandro Phoenix | account ap761573 | member: gold | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#4161155311  2020-03-30  guess shirt $74  total $74  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2020-03-30 charge $74 order #4161155311 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

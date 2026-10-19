@@ -1,0 +1,1282 @@
+{
+ "b001": {
+  "model": "exaone78",
+  "scenario": "S81",
+  "turn": 4,
+  "player": "영주님이 사냥 금지령 내린다던데요.",
+  "response": "그런 소식은 아직 듣지 못했네. 확실한 정보가 아니면 믿지 않는 게 좋겠어.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 10502
+ },
+ "b002": {
+  "model": "kanana2_3b",
+  "scenario": "S100",
+  "turn": 5,
+  "player": "아까 말한 거 내놓으시오.",
+  "response": "아까 말한 거 내놓으시오.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 2884
+ },
+ "b003": {
+  "model": "exaone24",
+  "scenario": "S94",
+  "turn": 1,
+  "player": "어머니가 혼례용 붉은 비단을 여기 예약해 두셨다고 해서 왔어요.",
+  "response": "혼례용 붉은 비단이라니, 그런 고급 소재는 보통 특별한 경우에만 거래되죠. 정확히 어떤 특징이나 필요한 수량이 있는지 좀 더 자세히 말씀해주시겠어요? 어머니 말씀만으로는 정확히 확인하기 어렵겠네요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 6082
+ },
+ "b004": {
+  "model": "kanana2_3b",
+  "scenario": "S86",
+  "turn": 4,
+  "player": "여관 주인이 새 요리사를 들였대요.",
+  "response": "여관 주인이 새 요리사를 들였대요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 3443
+ },
+ "b005": {
+  "model": "kanana2_3b",
+  "scenario": "S86",
+  "turn": 7,
+  "player": "그냥 무쇠솥 하나 새로 산다 치면 값이 어떻게 돼요?",
+  "response": "값이 10골드예요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 3790
+ },
+ "b006": {
+  "model": "kanana2_3b",
+  "scenario": "S81",
+  "turn": 2,
+  "player": "그 돈 말인데요, 나머지만 내면 되는 거 맞죠?",
+  "response": "맞습니다. 나머지만 내면 됩니다.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2690
+ },
+ "b007": {
+  "model": "exaone24",
+  "scenario": "S81",
+  "turn": 4,
+  "player": "영주님이 사냥 금지령 내린다던데요.",
+  "response": "사냥 금지령이라니, 정말인가요? 제 기록에는 그런 내용이 없네요. 혹시 다른 증거나 문서가 있다면 함께 보여주시겠어요?",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 4888
+ },
+ "b008": {
+  "model": "kanana2_3b",
+  "scenario": "S94",
+  "turn": 7,
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "response": "자네, 바늘 한 쌈 주세요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 3210
+ },
+ "b009": {
+  "model": "exaone78",
+  "scenario": "S81",
+  "turn": 3,
+  "player": "화살 열 대도 같이 볼게요.",
+  "response": "알았네, 화살 열 대도 확인해줄게. 잠시만 기다려 주게.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 9032
+ },
+ "b010": {
+  "model": "kanana2_3b",
+  "scenario": "S86",
+  "turn": 8,
+  "player": "아, 수레는 밖에 묶어 뒀어요.",
+  "response": "아, 수레는 밖에 묶어 뒀어요.",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 3568
+ },
+ "b011": {
+  "model": "seed15",
+  "scenario": "S94",
+  "turn": 3,
+  "player": "바늘 한 쌈 주세요.",
+  "response": "바늘 한 쌈 주세요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 2132
+ },
+ "b012": {
+  "model": "exaone24",
+  "scenario": "S81",
+  "turn": 1,
+  "player": "주인장, 제가 사냥활 계약금으로 은화 셋 미리 드렸던 거 기억하시죠?",
+  "response": "사냥 계약금에 대해 말씀하시는군요. 하지만 제 기록에는 그런 약속이 명확히 남아 있지 않아요. 혹시 다른 증거나 문서가 있다면 함께 보여주시겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5276
+ },
+ "b013": {
+  "model": "seed15",
+  "scenario": "S86",
+  "turn": 7,
+  "player": "그냥 무쇠솥 하나 새로 산다 치면 값이 어떻게 돼요?",
+  "response": "{\n  \"utterance\": \"그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 7793
+ },
+ "b014": {
+  "model": "exaone78",
+  "scenario": "S86",
+  "turn": 2,
+  "player": "그 솥 아직 창고에 있죠?",
+  "response": "확인해봐야겠네. 창고 좀 봐줘야겠어.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 9738
+ },
+ "b015": {
+  "model": "kanana2_3b",
+  "scenario": "S100",
+  "turn": 1,
+  "player": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "response": "철투구 하나 맡아 두라고 했던 거, 여기 있소.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 3461
+ },
+ "b016": {
+  "model": "kanana2_3b",
+  "scenario": "S86",
+  "turn": 5,
+  "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+  "response": "뚜껑까지 같이 주시는 거죠?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 3298
+ },
+ "b017": {
+  "model": "seed15",
+  "scenario": "S86",
+  "turn": 4,
+  "player": "여관 주인이 새 요리사를 들였대요.",
+  "response": "여관 주인이 새 요리사를 들였대요. (출처: 손님)",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 2399
+ },
+ "b018": {
+  "model": "exaone78",
+  "scenario": "S94",
+  "turn": 1,
+  "player": "어머니가 혼례용 붉은 비단을 여기 예약해 두셨다고 해서 왔어요.",
+  "response": "예약 확인을 위해 잠시 기다려 주셔야겠네. 장부를 살펴봐야 하거든. 비단이 있는지 확실히 알아보고 말씀드리겠네.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 11336
+ },
+ "b019": {
+  "model": "kanana2_3b",
+  "scenario": "S94",
+  "turn": 2,
+  "player": "그 비단, 어머니 말로는 세 필이래요.",
+  "response": "그 비단, 어머니 말로는 세 필이래요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2700
+ },
+ "b020": {
+  "model": "exaone24",
+  "scenario": "S81",
+  "turn": 2,
+  "player": "그 돈 말인데요, 나머지만 내면 되는 거 맞죠?",
+  "response": "죄송하지만, 현재 기록에는 그 약속에 대한 명확한 증거가 없네요. 나머지 금액을 지불하실 계획이라면, 먼저 확인할 수 있는 모든 문서와 증거를 함께 제시해 주실 수 있을까요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5044
+ },
+ "b021": {
+  "model": "exaone24",
+  "scenario": "S100",
+  "turn": 6,
+  "player": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "response": "자네의 주장은 확실해 보이지만, 제 기억에는 그런 철투구를 직접 거래한 기록이 없네요. 혹시 다른 증거나 추가 정보가 있다면 말씀해 주실 수 있겠습니까?",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 5101
+ },
+ "b022": {
+  "model": "exaone78",
+  "scenario": "S94",
+  "turn": 5,
+  "player": "아까 말한 거 가져가도 되죠?",
+  "response": "바늘 한 쌈 가져왔네. 가져가시게. 다른 물건 필요하면 말해봐.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 10184
+ },
+ "b023": {
+  "model": "exaone78",
+  "scenario": "S86",
+  "turn": 4,
+  "player": "여관 주인이 새 요리사를 들였대요.",
+  "response": "그럼 그 요리사가 필요한 기구들을 말해주게. 국자 하나만으로는 부족할 수도 있잖나.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 11840
+ },
+ "b024": {
+  "model": "exaone78",
+  "scenario": "S100",
+  "turn": 1,
+  "player": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "response": "아, 철투구라니...  찾으셨다니 다행이야.  근데 여기 내 재고에는 없네. 혹시 다른 곳에서 빌려온 건가?",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 11461
+ },
+ "b025": {
+  "model": "seed15",
+  "scenario": "S81",
+  "turn": 3,
+  "player": "화살 열 대도 같이 볼게요.",
+  "response": "화살 열 대도 같이 볼게요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 1959
+ },
+ "b026": {
+  "model": "seed15",
+  "scenario": "S94",
+  "turn": 2,
+  "player": "그 비단, 어머니 말로는 세 필이래요.",
+  "response": "그 비단, 어머니 말로는 세 필이래요. (출처: 손님)",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2429
+ },
+ "b027": {
+  "model": "kanana2_3b",
+  "scenario": "S94",
+  "turn": 8,
+  "player": "어머니는 장 보러 가셨어요.",
+  "response": "자네, 바늘 한 쌈 주세요.",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 2869
+ },
+ "b028": {
+  "model": "kanana2_3b",
+  "scenario": "S81",
+  "turn": 4,
+  "player": "영주님이 사냥 금지령 내린다던데요.",
+  "response": "사냥 금지령 내린다던데요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 2520
+ },
+ "b029": {
+  "model": "exaone24",
+  "scenario": "S86",
+  "turn": 7,
+  "player": "그냥 무쇠솥 하나 새로 산다 치면 값이 어떻게 돼요?",
+  "response": "무쇠솥 하나 새로 사시려면, 기본 가격이 10골드이고 추가로 뚜껑까지 포함하면 약 20골드 정도가 필요하실 거예요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4932
+ },
+ "b030": {
+  "model": "exaone24",
+  "scenario": "S100",
+  "turn": 2,
+  "player": "그 투구, 깃털 장식 달린 거요.",
+  "response": " feathered decorations... 흥미로운 요청이네요. 하지만 제 기억에는 그런 특징의 철투구를 정확히 찾은 기록이 없네요. 혹시 다른 특징이 있었나요?",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 4653
+ },
+ "b031": {
+  "model": "kanana2_3b",
+  "scenario": "S86",
+  "turn": 6,
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "response": "뚜껑까지 같이 주시는 거죠?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 3832
+ },
+ "b032": {
+  "model": "exaone78",
+  "scenario": "S100",
+  "turn": 2,
+  "player": "그 투구, 깃털 장식 달린 거요.",
+  "response": "그런 투구는...  아직 못 봤네. 혹시 다른 곳에서 구했는지 모르겠구나.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 10358
+ },
+ "b033": {
+  "model": "exaone24",
+  "scenario": "S94",
+  "turn": 7,
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "response": "색 바래지 않도록 잘 싸주는 게 중요해요. 비단의 상태를 잘 유지하는 것이 중요하니까요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4845
+ },
+ "b034": {
+  "model": "kanana2_3b",
+  "scenario": "S81",
+  "turn": 3,
+  "player": "화살 열 대도 같이 볼게요.",
+  "response": "화살 열 대도 같이 볼게요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 3161
+ },
+ "b035": {
+  "model": "exaone24",
+  "scenario": "S94",
+  "turn": 5,
+  "player": "아까 말한 거 가져가도 되죠?",
+  "response": "네, 가져가세요. 필요한 정보는 모두 준비했으니까요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 3978
+ },
+ "b036": {
+  "model": "exaone78",
+  "scenario": "S86",
+  "turn": 6,
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "response": "알겠네. 그럼 오늘 수레를 이용해 가져가는 거로군. 준비는 잘 해두고 오게.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 10571
+ },
+ "b037": {
+  "model": "exaone24",
+  "scenario": "S81",
+  "turn": 3,
+  "player": "화살 열 대도 같이 볼게요.",
+  "response": "화살 열 대도 확인해 볼게요. 증거가 더 필요한지 다시 말씀해 주세요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 4266
+ },
+ "b038": {
+  "model": "exaone78",
+  "scenario": "S86",
+  "turn": 3,
+  "player": "그리고 국자 하나요.",
+  "response": "국자 하나 더 필요한가? 어디에 필요한지 좀 더 자세히 말해주게.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 10220
+ },
+ "b039": {
+  "model": "exaone78",
+  "scenario": "S94",
+  "turn": 4,
+  "player": "이웃집 언니가 다음 달에 시집간다던데요.",
+  "response": "그런 소식이라면 축하할 일이지. 하지만 지금은 비단 예약 확인이 먼저네. 비단은 찾으셨나?",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 11071
+ },
+ "b040": {
+  "model": "seed15",
+  "scenario": "S100",
+  "turn": 7,
+  "player": "그거 없으면 시험에 못 나가오.",
+  "response": "그거 없으면 시험에 못 나가오.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 2379
+ },
+ "b041": {
+  "model": "exaone78",
+  "scenario": "S100",
+  "turn": 5,
+  "player": "아까 말한 거 내놓으시오.",
+  "response": "아까 뭐라고 말씀하셨는지 정확히 기억나지 않네. 다시 한번 자세히 말씀해 주시겠나?",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 10094
+ },
+ "b042": {
+  "model": "exaone24",
+  "scenario": "S86",
+  "turn": 3,
+  "player": "그리고 국자 하나요.",
+  "response": "국자도 필요하시다니요. 재고 확인해 볼게요. 무쇠솥과 함께라면 더 좋겠지만, 우선 준비해 드릴게요. 혹시 추가로 필요한 물품이 있으시면 말씀해 주세요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4730
+ },
+ "b043": {
+  "model": "kanana2_3b",
+  "scenario": "S94",
+  "turn": 5,
+  "player": "아까 말한 거 가져가도 되죠?",
+  "response": "자네, 바늘 한 쌈 주세요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2436
+ },
+ "b044": {
+  "model": "exaone78",
+  "scenario": "S81",
+  "turn": 1,
+  "player": "주인장, 제가 사냥활 계약금으로 은화 셋 미리 드렸던 거 기억하시죠?",
+  "response": "기억은 확실하지만, 지금 당장 금고를 확인해야겠네. 잠시 기다려 주게.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 12121
+ },
+ "b045": {
+  "model": "seed15",
+  "scenario": "S81",
+  "turn": 7,
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "response": "그거 장부에 적혀 있을 거예요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2294
+ },
+ "b046": {
+  "model": "seed15",
+  "scenario": "S94",
+  "turn": 1,
+  "player": "어머니가 혼례용 붉은 비단을 여기 예약해 두셨다고 해서 왔어요.",
+  "response": "어머니가 혼례용 붉은 비단을 여기 예약해 두셨다고 해서 왔어요. (출처: 손님)",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2882
+ },
+ "b047": {
+  "model": "exaone78",
+  "scenario": "S81",
+  "turn": 7,
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "response": "장부를 확인해 봐야겠지만, 기억에는 맞는 것 같네. 잠시 기다려 주게.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 11601
+ },
+ "b048": {
+  "model": "kanana2_3b",
+  "scenario": "S94",
+  "turn": 6,
+  "player": "어머니가 두 번이나 확인하셨다고 했어요.",
+  "response": "자네, 바늘 한 쌈 주세요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 3230
+ },
+ "b049": {
+  "model": "kanana2_3b",
+  "scenario": "S100",
+  "turn": 4,
+  "player": "경비대가 사람을 새로 뽑는다는 소문이 돌아요.",
+  "response": "경비대가 사람을 새로 뽑는다는 소문이 돌아요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 3304
+ },
+ "b050": {
+  "model": "seed15",
+  "scenario": "S94",
+  "turn": 8,
+  "player": "어머니는 장 보러 가셨어요.",
+  "response": "어머니는 장 보러 가셨어요. 1문장",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 2352
+ },
+ "b051": {
+  "model": "exaone24",
+  "scenario": "S94",
+  "turn": 6,
+  "player": "어머니가 두 번이나 확인하셨다고 했어요.",
+  "response": "두 번이나 확인하셨다니, 신뢰할 만한 정보네요. 하지만 여전히 구체적인 사양이나 수량이 더 필요해요. 비단의 색상이나 품질에 대한 세부 사항을 말씀해주시면 더욱 정확한 도움을 드릴 수 있을 것 같아요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5521
+ },
+ "b052": {
+  "model": "exaone24",
+  "scenario": "S100",
+  "turn": 8,
+  "player": "가죽 장갑도 한 켤레.",
+  "response": "가죽 장갑도 함께 필요하시군요. 다른 물품들과 함께 어떤 조합으로 준비하시려는 건가요?",
+  "decision": "request_evidence",
+  "expected": "defer",
+  "latency_ms": 4369
+ },
+ "b053": {
+  "model": "exaone78",
+  "scenario": "S81",
+  "turn": 2,
+  "player": "그 돈 말인데요, 나머지만 내면 되는 거 맞죠?",
+  "response": "돈은 맞지만, 계약 조건 다시 한번 확인해봐야겠네. 계약서에 명시된 금액이 맞는지 확인해야지.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 10406
+ },
+ "b054": {
+  "model": "exaone78",
+  "scenario": "S100",
+  "turn": 7,
+  "player": "그거 없으면 시험에 못 나가오.",
+  "response": "시험과 관련된 물건이라면 다른 곳을 찾아보시는 게 좋겠네요. 여기서는 그런 재고가 없으니까요.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 10123
+ },
+ "b055": {
+  "model": "exaone78",
+  "scenario": "S81",
+  "turn": 5,
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "response": "알겠네. 아까 주신 은화를 제외하고 계산해드리겠네.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 10076
+ },
+ "b056": {
+  "model": "kanana2_3b",
+  "scenario": "S100",
+  "turn": 3,
+  "player": "방패에 바를 니스도 하나 주시오.",
+  "response": "방패에 바를 니스도 하나 주시오.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 3433
+ },
+ "b057": {
+  "model": "exaone78",
+  "scenario": "S100",
+  "turn": 6,
+  "player": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "response": "그런 말씀이시군요. 하지만 지금 제 기록에는 그런 물건이 없네요. 혹시 다른 곳에서 구매하셨거나, 잘못 기억하시는 건 아닌지 확인이 필요할 것 같습니다.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 12326
+ },
+ "b058": {
+  "model": "exaone78",
+  "scenario": "S94",
+  "turn": 2,
+  "player": "그 비단, 어머니 말로는 세 필이래요.",
+  "response": "기록에는 비단 한 필만 예약되어 있네. 어머니 말씀이 맞는지 확인이 필요하겠어.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 10891
+ },
+ "b059": {
+  "model": "exaone78",
+  "scenario": "S86",
+  "turn": 5,
+  "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+  "response": "확인해봐야겠네. 무쇠솥과 국자에 뚜껑이 필요한지 정확히 말해주게.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 10374
+ },
+ "b060": {
+  "model": "seed15",
+  "scenario": "S86",
+  "turn": 3,
+  "player": "그리고 국자 하나요.",
+  "response": "그리고 국자 하나요. (출처: 손님, 검증: none)",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 2254
+ },
+ "b061": {
+  "model": "kanana2_3b",
+  "scenario": "S100",
+  "turn": 6,
+  "player": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "response": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 3314
+ },
+ "b062": {
+  "model": "seed15",
+  "scenario": "S100",
+  "turn": 4,
+  "player": "경비대가 사람을 새로 뽑는다는 소문이 돌아요.",
+  "response": "경비대가 사람을 새로 뽑는다는 소문이 돌아요. 그 소문, 사실인지 좀 더 확인해봐야겠네요. 자네, 그 정보 좀 다시 찾아보게. 그리고 경비대 인원 현황도 한번 확인해봐요. 새로 뽑는지 여부도 중요하니까요. 자, 자네 도와줄 수 있겠어요?",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 3785
+ },
+ "b063": {
+  "model": "seed15",
+  "scenario": "S100",
+  "turn": 6,
+  "player": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "response": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 2521
+ },
+ "b064": {
+  "model": "seed15",
+  "scenario": "S94",
+  "turn": 6,
+  "player": "어머니가 두 번이나 확인하셨다고 했어요.",
+  "response": "어머니가 두 번이나 확인하셨다고 했어요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2355
+ },
+ "b065": {
+  "model": "exaone78",
+  "scenario": "S100",
+  "turn": 3,
+  "player": "방패에 바를 니스도 하나 주시오.",
+  "response": "니스는 재고에 없네. 다른 곳을 찾아보시는 게 좋겠어.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 9889
+ },
+ "b066": {
+  "model": "exaone78",
+  "scenario": "S100",
+  "turn": 4,
+  "player": "경비대가 사람을 새로 뽑는다는 소문이 돌아요.",
+  "response": "경비대 소식이라니...  그런 소문 들은 적은 있네. 하지만 확실한 건 아니고,  경비 관련 물건이 필요한가?",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 11753
+ },
+ "b067": {
+  "model": "exaone78",
+  "scenario": "S86",
+  "turn": 1,
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "response": "아, 그렇구나. 무쇠솥 따로 빼둔 거 있나 확인해봐야겠네. 잠시만 기다려 주게.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 11792
+ },
+ "b068": {
+  "model": "seed15",
+  "scenario": "S86",
+  "turn": 1,
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "response": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요. (출처: player, 검증: none)",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2816
+ },
+ "b069": {
+  "model": "exaone78",
+  "scenario": "S100",
+  "turn": 8,
+  "player": "가죽 장갑도 한 켤레.",
+  "response": "가죽 장갑은 재고에 없네. 다른 곳을 찾아보시는 게 좋겠어.",
+  "decision": "request_evidence",
+  "expected": "defer",
+  "latency_ms": 9960
+ },
+ "b070": {
+  "model": "exaone24",
+  "scenario": "S100",
+  "turn": 3,
+  "player": "방패에 바를 니스도 하나 주시오.",
+  "response": " 니스를 찾으시는군요. 제가 기억하는 바로는, 특정한 니스에 대한 정보는 없네요. 혹시 다른 특징이나 조건이 있으신가요?",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 4673
+ },
+ "b071": {
+  "model": "seed15",
+  "scenario": "S81",
+  "turn": 1,
+  "player": "주인장, 제가 사냥활 계약금으로 은화 셋 미리 드렸던 거 기억하시죠?",
+  "response": "주인장, 제가 사냥활 계약금으로 은화 셋 미리 드렸던 거 기억하시죠? (출처: player, 검증: none)",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 3112
+ },
+ "b072": {
+  "model": "seed15",
+  "scenario": "S86",
+  "turn": 5,
+  "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+  "response": "아까 말한 거, 뚜껑까지 같이 주시는 거죠? (출처: 손님, 검증: none)",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2634
+ },
+ "b073": {
+  "model": "seed15",
+  "scenario": "S100",
+  "turn": 1,
+  "player": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "response": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 2615
+ },
+ "b074": {
+  "model": "seed15",
+  "scenario": "S94",
+  "turn": 7,
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "response": "그거 색 바래지 않게 싸 주세요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2228
+ },
+ "b075": {
+  "model": "exaone78",
+  "scenario": "S86",
+  "turn": 8,
+  "player": "아, 수레는 밖에 묶어 뒀어요.",
+  "response": "수레 위치는 잘 알아두었네. 그럼 오늘은 무쇠솥 25골드로 거래하고, 필요한 국자와 뚜껑은 여관 주인에게 직접 확인해보게.",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 11373
+ },
+ "b076": {
+  "model": "exaone24",
+  "scenario": "S100",
+  "turn": 1,
+  "player": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "response": "자네가 찾던 철투구에 대해 말씀해주시겠어요? 기억 속에 정확히 어떤 특징을 가진 철투구를 찾으셨는지 자세히 알려주시면 도와드리겠습니다.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 5533
+ },
+ "b077": {
+  "model": "seed15",
+  "scenario": "S100",
+  "turn": 8,
+  "player": "가죽 장갑도 한 켤레.",
+  "response": "손님: 가죽 장갑도 한 켤레. (출처: 손님)",
+  "decision": "request_evidence",
+  "expected": "defer",
+  "latency_ms": 2499
+ },
+ "b078": {
+  "model": "kanana2_3b",
+  "scenario": "S100",
+  "turn": 7,
+  "player": "그거 없으면 시험에 못 나가오.",
+  "response": "그거 없으면 시험에 못 나가오.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 2884
+ },
+ "b079": {
+  "model": "exaone24",
+  "scenario": "S86",
+  "turn": 6,
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "response": "자네가 원하는 대로 준비해 드릴게요. 오늘 바로 수레에 담아드릴게요. 골드를 지불해 주시면 더욱 빠르게 도와드릴 수 있을 거예요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5253
+ },
+ "b080": {
+  "model": "exaone24",
+  "scenario": "S94",
+  "turn": 8,
+  "player": "어머니는 장 보러 가셨어요.",
+  "response": "장 보러 가신다니, 비단 준비가 시급하겠네요. 필요한 정보가 더 필요하니 잠시만 기다려 주세요.",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 4571
+ },
+ "b081": {
+  "model": "kanana2_3b",
+  "scenario": "S100",
+  "turn": 2,
+  "player": "그 투구, 깃털 장식 달린 거요.",
+  "response": "그 투구, 깃털 장식 달린 거요.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 3221
+ },
+ "b082": {
+  "model": "exaone78",
+  "scenario": "S81",
+  "turn": 8,
+  "player": "혹시 사냥활 새 걸로 하나 사면 얼마나 하나요?",
+  "response": "사냥활은 품질에 따라 가격이 달라지네. 고급 모델은 50골드 이상 될 거야. 정확히 얼마인지는 재고 확인이 필요하네.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 11954
+ },
+ "b083": {
+  "model": "kanana2_3b",
+  "scenario": "S100",
+  "turn": 8,
+  "player": "가죽 장갑도 한 켤레.",
+  "response": "가죽 장갑도 한 켤레.",
+  "decision": "request_evidence",
+  "expected": "defer",
+  "latency_ms": 3219
+ },
+ "b084": {
+  "model": "seed15",
+  "scenario": "S81",
+  "turn": 6,
+  "player": "오늘 날씨 참 쌀쌀하네요.",
+  "response": "오늘 날씨 참 쌀쌀하네요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 2079
+ },
+ "b085": {
+  "model": "kanana2_3b",
+  "scenario": "S81",
+  "turn": 6,
+  "player": "오늘 날씨 참 쌀쌀하네요.",
+  "response": "오늘 날씨 참 쌀쌀하네요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 3153
+ },
+ "b086": {
+  "model": "exaone24",
+  "scenario": "S94",
+  "turn": 3,
+  "player": "바늘 한 쌈 주세요.",
+  "response": "바늘 한 쌈이라니, 혼례용 비단과 관련된 거래라면 좀 더 구체적인 정보가 필요해요. 비단의 상태나 필요한 수량과 함께 말씀해주시면 더 정확하게 도와드릴 수 있을 것 같아요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 5231
+ },
+ "b087": {
+  "model": "seed15",
+  "scenario": "S86",
+  "turn": 6,
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "response": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2124
+ },
+ "b088": {
+  "model": "exaone78",
+  "scenario": "S81",
+  "turn": 6,
+  "player": "오늘 날씨 참 쌀쌀하네요.",
+  "response": "그러게나. 겨울이 다가오는 모양이네. 따뜻한 차 한 잔 마시면서 몸 좀 녹이시게.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 11667
+ },
+ "b089": {
+  "model": "exaone24",
+  "scenario": "S94",
+  "turn": 2,
+  "player": "그 비단, 어머니 말로는 세 필이래요.",
+  "response": "세 필이라니, 좀 더 구체적인 정보가 필요해요. 비단의 색상이나 품질은 어떠한가요? 혹시 다른 특징이 있나요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4599
+ },
+ "b090": {
+  "model": "kanana2_3b",
+  "scenario": "S81",
+  "turn": 8,
+  "player": "혹시 사냥활 새 걸로 하나 사면 얼마나 하나요?",
+  "response": "사냥활 새 걸로 하나 사면 얼마인가요?",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 3251
+ },
+ "b091": {
+  "model": "exaone24",
+  "scenario": "S81",
+  "turn": 6,
+  "player": "오늘 날씨 참 쌀쌀하네요.",
+  "response": "날씨가 참 춥네요. 따뜻한 차 한 잔 드시겠어요?",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 4077
+ },
+ "b092": {
+  "model": "seed15",
+  "scenario": "S81",
+  "turn": 5,
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "response": "손님이 계약금과 화살 비용에 대해 다시 요청했네. 도르만은 이를 기억하고 증거를 요구할 준비를 하네.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2502
+ },
+ "b093": {
+  "model": "seed15",
+  "scenario": "S100",
+  "turn": 3,
+  "player": "방패에 바를 니스도 하나 주시오.",
+  "response": "방패에 바를 니스도 하나 주시오. (출처: 손님)",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 2402
+ },
+ "b094": {
+  "model": "seed15",
+  "scenario": "S100",
+  "turn": 5,
+  "player": "아까 말한 거 내놓으시오.",
+  "response": "자네, 아까 말한 거 내놓으시오. 그거, 내가 기억하고 있으니까.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 2385
+ },
+ "b095": {
+  "model": "seed15",
+  "scenario": "S81",
+  "turn": 2,
+  "player": "그 돈 말인데요, 나머지만 내면 되는 거 맞죠?",
+  "response": "정책_engine",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 1806
+ },
+ "b096": {
+  "model": "kanana2_3b",
+  "scenario": "S86",
+  "turn": 2,
+  "player": "그 솥 아직 창고에 있죠?",
+  "response": "아직 창고에 있어요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2875
+ },
+ "b097": {
+  "model": "seed15",
+  "scenario": "S81",
+  "turn": 8,
+  "player": "혹시 사냥활 새 걸로 하나 사면 얼마나 하나요?",
+  "response": "혹시 사냥활 새 걸로 하나 사면 얼마나 하나요?",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 2198
+ },
+ "b098": {
+  "model": "seed15",
+  "scenario": "S94",
+  "turn": 5,
+  "player": "아까 말한 거 가져가도 되죠?",
+  "response": "아까 말한 거 가져가도 되죠?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2154
+ },
+ "b099": {
+  "model": "seed15",
+  "scenario": "S81",
+  "turn": 4,
+  "player": "영주님이 사냥 금지령 내린다던데요.",
+  "response": "영주님이 사냥 금지령 내린다던데요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 2250
+ },
+ "b100": {
+  "model": "kanana2_3b",
+  "scenario": "S94",
+  "turn": 1,
+  "player": "어머니가 혼례용 붉은 비단을 여기 예약해 두셨다고 해서 왔어요.",
+  "response": "혼례용 붉은 비단",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 3250
+ },
+ "b101": {
+  "model": "exaone24",
+  "scenario": "S100",
+  "turn": 5,
+  "player": "아까 말한 거 내놓으시오.",
+  "response": "제가 기억하는 바로는, 철투구와 니스에 대한 구체적인 정보를 찾지 못했습니다. 다른 특징이나 추가 정보가 있으신가요?",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 4675
+ },
+ "b102": {
+  "model": "exaone24",
+  "scenario": "S86",
+  "turn": 8,
+  "player": "아, 수레는 밖에 묶어 뒀어요.",
+  "response": "수레는 밖에 잘 묶어두셨군요. 무쇠솥과 뚜껑 준비가 완료되었으니, 오늘 바로 가져가실 수 있을 거예요. 골드를 지불해 주시면 더욱 빠르게 도와드리겠습니다.",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 5522
+ },
+ "b103": {
+  "model": "kanana2_3b",
+  "scenario": "S86",
+  "turn": 1,
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "response": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 3243
+ },
+ "b104": {
+  "model": "seed15",
+  "scenario": "S94",
+  "turn": 4,
+  "player": "이웃집 언니가 다음 달에 시집간다던데요.",
+  "response": "이웃집 언니가 다음 달에 시집간다던데요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 2353
+ },
+ "b105": {
+  "model": "exaone78",
+  "scenario": "S94",
+  "turn": 7,
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "response": "알겠네, 비단을 잘 싸서 드리겠네. 다른 도움 필요하면 말해봐.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 9510
+ },
+ "b106": {
+  "model": "kanana2_3b",
+  "scenario": "S81",
+  "turn": 7,
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "response": "그거 장부에 적혀 있을 거예요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2850
+ },
+ "b107": {
+  "model": "seed15",
+  "scenario": "S86",
+  "turn": 8,
+  "player": "아, 수레는 밖에 묶어 뒀어요.",
+  "response": "{\n  \"utterance\": \"아, 수레는 밖에 묶어 뒀어요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘 수레 끌고 와서 가져갈게요. 그거 오늘",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 7861
+ },
+ "b108": {
+  "model": "exaone24",
+  "scenario": "S100",
+  "turn": 7,
+  "player": "그거 없으면 시험에 못 나가오.",
+  "response": "시험에 필요한 철투구의 특징을 좀 더 자세히 알려주시겠어요? 혹시 다른 조건이나 특징이 있었는지 기억나시나요?",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 4653
+ },
+ "b109": {
+  "model": "exaone24",
+  "scenario": "S86",
+  "turn": 1,
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "response": "무쇠솥에 대한 요청은 기억하고 있으나, 구체적인 상황이나 추가 정보가 필요해요. 혹시 그 분의 이름이나 연락처가 있다면 확인해드릴 수 있을까요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5105
+ },
+ "b110": {
+  "model": "exaone78",
+  "scenario": "S94",
+  "turn": 6,
+  "player": "어머니가 두 번이나 확인하셨다고 했어요.",
+  "response": "어머니 확인하셨다니 다행이지. 하지만 장부에 기록된 것은 한 필 뿐이네. 다시 한번 확인해봐야겠어.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 11390
+ },
+ "b111": {
+  "model": "exaone78",
+  "scenario": "S94",
+  "turn": 8,
+  "player": "어머니는 장 보러 가셨어요.",
+  "response": "알겠네, 어머니께서 장 보러 가셨다니 확인은 해야겠지만, 지금 당장은 비단을 찾아드리는 게 먼저겠네. 다른 도움 필요하면 말해.",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 11402
+ },
+ "b112": {
+  "model": "exaone24",
+  "scenario": "S86",
+  "turn": 4,
+  "player": "여관 주인이 새 요리사를 들였대요.",
+  "response": "그런 소식이라면, 새로 온 요리사분이 더 맛있는 음식을 제공할 수 있을 거예요. 무쇠솥과 함께라면 더욱 풍성한 식탁이 될 거예요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4941
+ },
+ "b113": {
+  "model": "exaone24",
+  "scenario": "S81",
+  "turn": 5,
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "response": "자네, 어제 지불하신 금액을 제외하고 나머지 금액을 계산해 볼게요. 정확히 얼마를 더 지불해야 할지 알려주시면 좋겠어요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4802
+ },
+ "b114": {
+  "model": "exaone24",
+  "scenario": "S100",
+  "turn": 4,
+  "player": "경비대가 사람을 새로 뽑는다는 소문이 돌아요.",
+  "response": "경비대 Recruitment 소문이 퍼지긴 했지만, 제가 직접 확인할 수 있는 정보는 제한적이네요. 구체적인 위치나 상황에 대한 추가 정보가 있다면 도움이 될 것 같습니다.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5320
+ },
+ "b115": {
+  "model": "kanana2_3b",
+  "scenario": "S81",
+  "turn": 1,
+  "player": "주인장, 제가 사냥활 계약금으로 은화 셋 미리 드렸던 거 기억하시죠?",
+  "response": "기억합니다. 은화 셋을 미리 드렸으니, 사냥활 계약도 문제없습니다.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4391
+ },
+ "b116": {
+  "model": "exaone24",
+  "scenario": "S81",
+  "turn": 8,
+  "player": "혹시 사냥활 새 걸로 하나 사면 얼마나 하나요?",
+  "response": "사냥활 가격은 정확히 기억이 나지 않네요. 하지만 일반적으로 그런 종류의 장비는 상당히 비싸죠. 좀 더 구체적인 정보나 다른 옵션이 있다면 말씀해 주시면 도움이 될 것 같아요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5555
+ },
+ "b117": {
+  "model": "kanana2_3b",
+  "scenario": "S86",
+  "turn": 3,
+  "player": "그리고 국자 하나요.",
+  "response": "그리고 국자 하나요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 3111
+ },
+ "b118": {
+  "model": "exaone78",
+  "scenario": "S86",
+  "turn": 7,
+  "player": "그냥 무쇠솥 하나 새로 산다 치면 값이 어떻게 돼요?",
+  "response": "무쇠솥 하나면 25골드면 될 거야. 다른 옵션이 있나?",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 9946
+ },
+ "b119": {
+  "model": "exaone24",
+  "scenario": "S86",
+  "turn": 5,
+  "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+  "response": "자네가 원하는 대로 무쇠솥의 뚜껑도 함께 준비해 드릴게요. 하지만 정확한 재고 확인이 필요하니 잠시 기다려 주세요. 확인 후 다시 연락드리겠습니다. 골드를 지불해 주시면 더욱 빠르게 도와드릴 수 있을 거예요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5684
+ },
+ "b120": {
+  "model": "kanana2_3b",
+  "scenario": "S81",
+  "turn": 5,
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "response": "아까 낸 거 빼고 계산해 주세요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2626
+ },
+ "b121": {
+  "model": "seed15",
+  "scenario": "S86",
+  "turn": 2,
+  "player": "그 솥 아직 창고에 있죠?",
+  "response": "손님이 다시 요청할 경우 증거를 요구해야 합니다. 지금은 증거 없이 요청을 받아들일 수 없습니다. 자네는 이 점을 명심해야 할 거라네.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 2759
+ },
+ "b122": {
+  "model": "exaone24",
+  "scenario": "S86",
+  "turn": 2,
+  "player": "그 솥 아직 창고에 있죠?",
+  "response": "그 솥이 창고에 있는지 확인해 볼게요. 잠시만 기다려 주세요. 확인 후 다시 연락드리겠습니다. 골드를 지불해 주시면 더욱 신속하게 도와드릴 수 있을 것 같아요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4821
+ },
+ "b123": {
+  "model": "exaone24",
+  "scenario": "S81",
+  "turn": 7,
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "response": "장부를 확인해 볼게요. 좀 더 자세히 말씀해 주시면 도움이 될 것 같아요.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4413
+ },
+ "b124": {
+  "model": "kanana2_3b",
+  "scenario": "S94",
+  "turn": 4,
+  "player": "이웃집 언니가 다음 달에 시집간다던데요.",
+  "response": "자네, 바늘 한 쌈 주세요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 2629
+ },
+ "b125": {
+  "model": "exaone78",
+  "scenario": "S94",
+  "turn": 3,
+  "player": "바늘 한 쌈 주세요.",
+  "response": "알겠네, 바늘 한 쌈 가져다드리겠네. 다른 물건 필요하면 말해봐.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 9887
+ },
+ "b126": {
+  "model": "exaone24",
+  "scenario": "S94",
+  "turn": 4,
+  "player": "이웃집 언니가 다음 달에 시집간다던데요.",
+  "response": "그런 소식이라면, 혼례용 비단의 준비가 시급하겠군요. 세 필의 비단이 필요하다니, 품질 좋은 바늘과 함께 준비해드릴게요. 다음 달 결혼식에 필요한 모든 것을 도와드리겠습니다.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 5250
+ },
+ "b127": {
+  "model": "seed15",
+  "scenario": "S100",
+  "turn": 2,
+  "player": "그 투구, 깃털 장식 달린 거요.",
+  "response": "그 투구, 깃털 장식 달린 거요. (출처: 손님, 검증: 모름)",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 2497
+ },
+ "b128": {
+  "model": "kanana2_3b",
+  "scenario": "S94",
+  "turn": 3,
+  "player": "바늘 한 쌈 주세요.",
+  "response": "자네, 바늘 한 쌈 주세요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 3022
+ }
+}

@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Rodriguez Domingo (rodriguezdomingo) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Rodriguez Domingo (rodriguezdomingo) | order #7250391369 | calvin_klein shirt $59, calvin_klein jacket $49 | total $108 | status: delivered
+  2024-06-12 | Rodriguez Domingo (rodriguezdomingo) | charge $108 for order #7250391369 (card)

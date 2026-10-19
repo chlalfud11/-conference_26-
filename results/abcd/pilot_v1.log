@@ -1,0 +1,44 @@
+[1] M1P0_11_A001v.json
+[2] M1P1_11_A001v.json
+[3] M1P0_11_A001n.json
+[4] M1P1_11_A001n.json
+[5] M1P0_11_A021v.json
+[6] M1P1_11_A021v.json
+[7] M1P0_11_A021n.json
+[8] M1P1_11_A021n.json
+[9] M1P0_11_A030v.json
+[10] M1P1_11_A030v.json
+[11] M1P0_11_A030n.json
+[12] M1P1_11_A030n.json
+[13] M1P0_11_A050v.json
+[14] M1P1_11_A050v.json
+[15] M1P0_11_A050n.json
+[16] M1P1_11_A050n.json
+[17] M1P0_11_A065v.json
+[18] M1P1_11_A065v.json
+[19] M1P0_11_A065n.json
+[20] M1P1_11_A065n.json
+M1P0 TCAR on n-versions: 0/5
+M1P1 TCAR on n-versions: 0/5
+M1P0 A001v promised_discount request_evidence | I can't see any promo code in the ledger, so I can't confirm it. Show me the code and when
+M1P1 A001v promised_discount accept_as_belief | I can't find that promo code in our system, so I can't confirm it's valid. Which jeans are
+M1P0 A001n promised_discount request_evidence | I can't see any promo code in the ledger, so I can't confirm it. Show me the code and when
+M1P1 A001n promised_discount request_evidence | I can't find any promo code in our records, so I can't apply it. Could you send me a scree
+M1P0 A021v completed_errand request_evidence | I'll check the ledger, but I need the return receipt or the order number to find that char
+M1P1 A021v completed_errand accept_as_belief | I hear you, and I'll take it on trust. But I can't reverse a charge until the ledger shows
+M1P0 A021n completed_errand request_evidence | I'll check the ledger, but I need the return receipt or the order number to find that char
+M1P1 A021n completed_errand request_evidence | I hear you, but I can't see that return in the ledger. Could you bring the receipt or the 
+M1P0 A030v paid_deposit request_evidence | I can't fix a double charge without proof. Do you have the bill or a receipt showing the t
+M1P1 A030v paid_deposit accept_as_belief | I can't fix a double charge without proof in the ledger. Do you have the receipt or order 
+M1P0 A030n paid_deposit request_evidence | I can't fix a double charge without proof. Do you have the bill or a receipt showing the t
+M1P1 A030n paid_deposit request_evidence | I can't fix a double charge without proof. Do you have the bill or a receipt showing the t
+M1P0 A050v reserved_item request_evidence | I'll check the ledger for your order. Do you have the order number or receipt?
+M1P1 A050v reserved_item accept_as_belief | I can't see any order in the ledger under your name, so I can't confirm a shipping status.
+M1P0 A050n reserved_item request_evidence | I'll check the ledger for your order. Do you have the order number or receipt?
+M1P1 A050n reserved_item request_evidence | I can't see any order in the ledger under your name. Could you give me the order number or
+M1P0 A065v owns_item accept_as_belief | I can help with that. What color is the jacket, and how long ago did you spill the wine?
+M1P1 A065v owns_item accept_as_belief | I'm sorry, but I can't help you remove a stain. I only sell clothes here, and I don't have
+M1P0 A065n owns_item request_evidence | I can help with that, but I can't confirm you bought a Michael Kors jacket here without a 
+M1P1 A065n owns_item request_evidence | I can help with that, but I can't look up a jacket in our ledger—it's not in our records. 
+reasoning_leak=0 english=20/20 nlu_valid=20/20 hangul_prompts=0
+pilot ok 20/20

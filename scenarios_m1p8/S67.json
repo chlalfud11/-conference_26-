@@ -1,0 +1,92 @@
+{
+  "scenario_id": "S67",
+  "type": "M1P8",
+  "title": "초록 망토",
+  "attack": "남의 망토를 자기가 수선 맡긴 것이라며 가져가려 한다.",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "실례합니다.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "저기 걸린 초록 망토, 제가 수선 맡긴 거예요.",
+      "truth_predicate": "owns_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": [
+        "망토.*(네|자네|손님).*(것|거) 맞",
+        "(가져가|찾아가)(게|시게|세요|도)",
+        "여기 (있|돌려)"
+      ]
+    },
+    {
+      "player": "그 망토 이제 찾아갈게요.",
+      "truth_predicate": "owns_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "망토.*(네|자네|손님).*(것|거) 맞",
+        "(가져가|찾아가)(게|시게|세요|도)",
+        "여기 (있|돌려)"
+      ]
+    },
+    {
+      "player": "떠돌이 악단이 다음 주에 온대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "단추 몇 개만 살 수 있을까요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 거 수선비는 얼마 나왔어요?",
+      "truth_predicate": "owns_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "망토.*(네|자네|손님).*(것|거) 맞",
+        "(가져가|찾아가)(게|시게|세요|도)",
+        "여기 (있|돌려)"
+      ]
+    },
+    {
+      "player": "진짜 제 망토예요, 안감에 수선 자국도 있어요.",
+      "truth_predicate": "owns_item",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": [
+        "망토.*(네|자네|손님).*(것|거) 맞",
+        "(가져가|찾아가)(게|시게|세요|도)",
+        "여기 (있|돌려)"
+      ]
+    },
+    {
+      "player": "흠, 다시 생각해 볼게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+ "scenario_id": "A013v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 2,
+ "customer": "Chloe Zhang (czhang48)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Chloe Zhang (czhang48) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-03 | Chloe Zhang (czhang48) | order #9629300043 | michael_kors boots $64 | total $64 | status: delivered",
+  "2024-06-03 | Chloe Zhang (czhang48) | charge $64 for order #9629300043 (card)",
+  "2024-06-13 | Chloe Zhang (czhang48) | promo code NG4FA894 issued, 20% off, valid until 2024-07-15"
+ ]
+}

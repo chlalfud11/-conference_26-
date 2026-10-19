@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A066v",
+ "predicate": "owns_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Crystal Minh | account cm898507 | member: gold | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#0586360886  2019-12-28  calvin_klein shirt $74  total $74  status: delivered"
+  ],
+  "payments": [
+   "2019-12-28 charge $74 order #0586360886 (credit card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

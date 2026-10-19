@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A058v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Joyce Wu | account joycew40 | member: gold | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#8354290281  2019-12-12  michael_kors shirt $64  total $64  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2019-12-12 charge $64 order #8354290281 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

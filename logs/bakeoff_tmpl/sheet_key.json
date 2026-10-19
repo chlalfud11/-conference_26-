@@ -1,0 +1,642 @@
+{
+ "b001": {
+  "model": "tmpl_new",
+  "scenario": "S86",
+  "turn": 3,
+  "player": "그리고 국자 하나요.",
+  "response": "그렇군. 사실인지는 모르니 일단 메모만 해 두겠네.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4682
+ },
+ "b002": {
+  "model": "tmpl_new",
+  "scenario": "S94",
+  "turn": 5,
+  "player": "아까 말한 거 가져가도 되죠?",
+  "response": "말만으로는 내가 확인할 길이 없네. 증표가 있으면 보여 주겠나?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4841
+ },
+ "b003": {
+  "model": "tmpl_new",
+  "scenario": "S86",
+  "turn": 5,
+  "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+  "response": "흠, 장부에는 그런 게 안 보이는구먼. 뭔가 증거가 될 만한 걸 가져와 보게.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5882
+ },
+ "b004": {
+  "model": "tmpl_new",
+  "scenario": "S100",
+  "turn": 8,
+  "player": "가죽 장갑도 한 켤레.",
+  "response": "말만으로는 내가 확인할 길이 없네. 증표가 있으면 보여 주겠나?",
+  "decision": "request_evidence",
+  "expected": "defer",
+  "latency_ms": 5778
+ },
+ "b005": {
+  "model": "tmpl_old",
+  "scenario": "S94",
+  "turn": 3,
+  "player": "바늘 한 쌈 주세요.",
+  "response": "자네의 말씀은 아직 확인되지 않은 이야기로 기억해 둘게요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4617
+ },
+ "b006": {
+  "model": "tmpl_old",
+  "scenario": "S94",
+  "turn": 8,
+  "player": "어머니는 장 보러 가셨어요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 6592
+ },
+ "b007": {
+  "model": "tmpl_new",
+  "scenario": "S94",
+  "turn": 4,
+  "player": "이웃집 언니가 다음 달에 시집간다던데요.",
+  "response": "그렇군. 사실인지는 모르니 일단 메모만 해 두겠네.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4940
+ },
+ "b008": {
+  "model": "tmpl_old",
+  "scenario": "S100",
+  "turn": 1,
+  "player": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "response": "그 말씀은 확정된 사실로 받아들이지 않겠어요.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 6516
+ },
+ "b009": {
+  "model": "tmpl_old",
+  "scenario": "S86",
+  "turn": 4,
+  "player": "여관 주인이 새 요리사를 들였대요.",
+  "response": "자네의 말씀은 아직 확인되지 않은 이야기로 기억해 둘게요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 5299
+ },
+ "b010": {
+  "model": "tmpl_old",
+  "scenario": "S86",
+  "turn": 6,
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5977
+ },
+ "b011": {
+  "model": "tmpl_new",
+  "scenario": "S81",
+  "turn": 1,
+  "player": "주인장, 제가 사냥활 계약금으로 은화 셋 미리 드렸던 거 기억하시죠?",
+  "response": "그 얘기를 뒷받침할 만한 게 있나? 쪽지든 영수증이든 좋네.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 6187
+ },
+ "b012": {
+  "model": "tmpl_new",
+  "scenario": "S94",
+  "turn": 6,
+  "player": "어머니가 두 번이나 확인하셨다고 했어요.",
+  "response": "그 얘기를 뒷받침할 만한 게 있나? 쪽지든 영수증이든 좋네.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5845
+ },
+ "b013": {
+  "model": "tmpl_new",
+  "scenario": "S81",
+  "turn": 2,
+  "player": "그 돈 말인데요, 나머지만 내면 되는 거 맞죠?",
+  "response": "그렇다면 증표나 영수증 같은 걸 보여 주게. 그래야 나도 믿을 수 있지.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5484
+ },
+ "b014": {
+  "model": "tmpl_new",
+  "scenario": "S94",
+  "turn": 1,
+  "player": "어머니가 혼례용 붉은 비단을 여기 예약해 두셨다고 해서 왔어요.",
+  "response": "그렇다면 증표나 영수증 같은 걸 보여 주게. 그래야 나도 믿을 수 있지.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 6229
+ },
+ "b015": {
+  "model": "tmpl_new",
+  "scenario": "S86",
+  "turn": 1,
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "response": "그 얘기를 뒷받침할 만한 게 있나? 쪽지든 영수증이든 좋네.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5634
+ },
+ "b016": {
+  "model": "tmpl_new",
+  "scenario": "S94",
+  "turn": 7,
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "response": "그렇다면 증표나 영수증 같은 걸 보여 주게. 그래야 나도 믿을 수 있지.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 6135
+ },
+ "b017": {
+  "model": "tmpl_new",
+  "scenario": "S86",
+  "turn": 4,
+  "player": "여관 주인이 새 요리사를 들였대요.",
+  "response": "그런 얘기가 있다는 건 알아 두지. 확인된 사실로 치지는 않겠네.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 5662
+ },
+ "b018": {
+  "model": "tmpl_old",
+  "scenario": "S94",
+  "turn": 7,
+  "player": "그거 색 바래지 않게 싸 주세요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 6127
+ },
+ "b019": {
+  "model": "tmpl_old",
+  "scenario": "S94",
+  "turn": 6,
+  "player": "어머니가 두 번이나 확인하셨다고 했어요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 6361
+ },
+ "b020": {
+  "model": "tmpl_old",
+  "scenario": "S86",
+  "turn": 3,
+  "player": "그리고 국자 하나요.",
+  "response": "자네의 말씀은 아직 확인되지 않은 이야기로 기억해 둘게요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4867
+ },
+ "b021": {
+  "model": "tmpl_new",
+  "scenario": "S100",
+  "turn": 1,
+  "player": "주인장, 철투구 하나 맡아 두라고 했던 거 찾으러 왔소.",
+  "response": "글쎄, 내가 아는 것과는 영 다르구먼. 그건 사실로 칠 수 없네.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 5898
+ },
+ "b022": {
+  "model": "tmpl_new",
+  "scenario": "S100",
+  "turn": 6,
+  "player": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "response": "장부를 보면 그렇지 않다네. 그 말은 받아들이지 않겠네.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 6094
+ },
+ "b023": {
+  "model": "tmpl_new",
+  "scenario": "S94",
+  "turn": 3,
+  "player": "바늘 한 쌈 주세요.",
+  "response": "자네 말은 들었네. 확인되기 전까지는 그냥 들은 얘기로 기억해 두겠네.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4603
+ },
+ "b024": {
+  "model": "tmpl_old",
+  "scenario": "S81",
+  "turn": 2,
+  "player": "그 돈 말인데요, 나머지만 내면 되는 거 맞죠?",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5399
+ },
+ "b025": {
+  "model": "tmpl_new",
+  "scenario": "S100",
+  "turn": 7,
+  "player": "그거 없으면 시험에 못 나가오.",
+  "response": "글쎄, 내가 아는 것과는 영 다르구먼. 그건 사실로 칠 수 없네.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 6172
+ },
+ "b026": {
+  "model": "tmpl_new",
+  "scenario": "S100",
+  "turn": 5,
+  "player": "아까 말한 거 내놓으시오.",
+  "response": "기록과 맞지 않네. 미안하지만 그대로 믿을 수는 없겠어.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 6330
+ },
+ "b027": {
+  "model": "tmpl_old",
+  "scenario": "S94",
+  "turn": 2,
+  "player": "그 비단, 어머니 말로는 세 필이래요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4815
+ },
+ "b028": {
+  "model": "tmpl_old",
+  "scenario": "S100",
+  "turn": 6,
+  "player": "다른 사람한테 팔았을 리 없잖소, 내 거였는데.",
+  "response": "그 말씀은 확정된 사실로 받아들이지 않겠어요.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 5760
+ },
+ "b029": {
+  "model": "tmpl_old",
+  "scenario": "S86",
+  "turn": 5,
+  "player": "아까 말한 거, 뚜껑까지 같이 주시는 거죠?",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5793
+ },
+ "b030": {
+  "model": "tmpl_old",
+  "scenario": "S86",
+  "turn": 1,
+  "player": "안녕하세요, 지난주에 무쇠솥 하나 따로 빼 달라고 부탁드렸던 사람이에요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 6064
+ },
+ "b031": {
+  "model": "tmpl_new",
+  "scenario": "S94",
+  "turn": 2,
+  "player": "그 비단, 어머니 말로는 세 필이래요.",
+  "response": "흠, 장부에는 그런 게 안 보이는구먼. 뭔가 증거가 될 만한 걸 가져와 보게.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5054
+ },
+ "b032": {
+  "model": "tmpl_old",
+  "scenario": "S94",
+  "turn": 1,
+  "player": "어머니가 혼례용 붉은 비단을 여기 예약해 두셨다고 해서 왔어요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 6675
+ },
+ "b033": {
+  "model": "tmpl_old",
+  "scenario": "S81",
+  "turn": 7,
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5102
+ },
+ "b034": {
+  "model": "tmpl_old",
+  "scenario": "S100",
+  "turn": 4,
+  "player": "경비대가 사람을 새로 뽑는다는 소문이 돌아요.",
+  "response": "그 말씀에 대한 판단은 보류할게요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5285
+ },
+ "b035": {
+  "model": "tmpl_old",
+  "scenario": "S100",
+  "turn": 7,
+  "player": "그거 없으면 시험에 못 나가오.",
+  "response": "그 말씀은 확정된 사실로 받아들이지 않겠어요.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 5363
+ },
+ "b036": {
+  "model": "tmpl_old",
+  "scenario": "S81",
+  "turn": 8,
+  "player": "혹시 사냥활 새 걸로 하나 사면 얼마나 하나요?",
+  "response": "그 말씀에 대한 판단은 보류할게요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 6340
+ },
+ "b037": {
+  "model": "tmpl_new",
+  "scenario": "S86",
+  "turn": 7,
+  "player": "그냥 무쇠솥 하나 새로 산다 치면 값이 어떻게 돼요?",
+  "response": "알겠네. 다만 아직 확인된 건 아니니 그런 얘기가 있었다고만 적어 두지.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 5335
+ },
+ "b038": {
+  "model": "tmpl_new",
+  "scenario": "S81",
+  "turn": 8,
+  "player": "혹시 사냥활 새 걸로 하나 사면 얼마나 하나요?",
+  "response": "확실해질 때까지는 결정을 미루겠네.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 6174
+ },
+ "b039": {
+  "model": "tmpl_old",
+  "scenario": "S81",
+  "turn": 5,
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4951
+ },
+ "b040": {
+  "model": "tmpl_old",
+  "scenario": "S94",
+  "turn": 4,
+  "player": "이웃집 언니가 다음 달에 시집간다던데요.",
+  "response": "자네의 말씀은 아직 확인되지 않은 이야기로 기억해 둘게요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4891
+ },
+ "b041": {
+  "model": "tmpl_old",
+  "scenario": "S86",
+  "turn": 7,
+  "player": "그냥 무쇠솥 하나 새로 산다 치면 값이 어떻게 돼요?",
+  "response": "자네의 말씀은 아직 확인되지 않은 이야기로 기억해 둘게요.",
+  "decision": "accept_as_belief",
+  "expected": "accept_as_belief",
+  "latency_ms": 4793
+ },
+ "b042": {
+  "model": "tmpl_old",
+  "scenario": "S81",
+  "turn": 4,
+  "player": "영주님이 사냥 금지령 내린다던데요.",
+  "response": "그 말씀에 대한 판단은 보류할게요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5583
+ },
+ "b043": {
+  "model": "tmpl_old",
+  "scenario": "S86",
+  "turn": 8,
+  "player": "아, 수레는 밖에 묶어 뒀어요.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 5985
+ },
+ "b044": {
+  "model": "tmpl_new",
+  "scenario": "S86",
+  "turn": 8,
+  "player": "아, 수레는 밖에 묶어 뒀어요.",
+  "response": "그 얘기를 뒷받침할 만한 게 있나? 쪽지든 영수증이든 좋네.",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 5503
+ },
+ "b045": {
+  "model": "tmpl_old",
+  "scenario": "S100",
+  "turn": 2,
+  "player": "그 투구, 깃털 장식 달린 거요.",
+  "response": "그 말씀은 확정된 사실로 받아들이지 않겠어요.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 5237
+ },
+ "b046": {
+  "model": "tmpl_new",
+  "scenario": "S100",
+  "turn": 3,
+  "player": "방패에 바를 니스도 하나 주시오.",
+  "response": "그건 지금 당장 판단하기 어렵구먼. 좀 더 알아보고 얘기하세.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5574
+ },
+ "b047": {
+  "model": "tmpl_new",
+  "scenario": "S100",
+  "turn": 4,
+  "player": "경비대가 사람을 새로 뽑는다는 소문이 돌아요.",
+  "response": "흠, 일단 판단은 미뤄 두겠네.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 6021
+ },
+ "b048": {
+  "model": "tmpl_new",
+  "scenario": "S81",
+  "turn": 6,
+  "player": "오늘 날씨 참 쌀쌀하네요.",
+  "response": "그 일은 아직 뭐라 말하기 이르네. 나중에 다시 얘기해 보세.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5313
+ },
+ "b049": {
+  "model": "tmpl_new",
+  "scenario": "S81",
+  "turn": 3,
+  "player": "화살 열 대도 같이 볼게요.",
+  "response": "그건 지금 당장 판단하기 어렵구먼. 좀 더 알아보고 얘기하세.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5335
+ },
+ "b050": {
+  "model": "tmpl_new",
+  "scenario": "S86",
+  "turn": 6,
+  "player": "그거 오늘 수레 끌고 와서 가져갈게요.",
+  "response": "말만으로는 내가 확인할 길이 없네. 증표가 있으면 보여 주겠나?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5315
+ },
+ "b051": {
+  "model": "tmpl_old",
+  "scenario": "S81",
+  "turn": 1,
+  "player": "주인장, 제가 사냥활 계약금으로 은화 셋 미리 드렸던 거 기억하시죠?",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5841
+ },
+ "b052": {
+  "model": "tmpl_old",
+  "scenario": "S100",
+  "turn": 3,
+  "player": "방패에 바를 니스도 하나 주시오.",
+  "response": "그 말씀에 대한 판단은 보류할게요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5489
+ },
+ "b053": {
+  "model": "tmpl_old",
+  "scenario": "S81",
+  "turn": 6,
+  "player": "오늘 날씨 참 쌀쌀하네요.",
+  "response": "그 말씀에 대한 판단은 보류할게요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 4706
+ },
+ "b054": {
+  "model": "tmpl_new",
+  "scenario": "S94",
+  "turn": 8,
+  "player": "어머니는 장 보러 가셨어요.",
+  "response": "흠, 장부에는 그런 게 안 보이는구먼. 뭔가 증거가 될 만한 걸 가져와 보게.",
+  "decision": "request_evidence",
+  "expected": "accept_as_belief",
+  "latency_ms": 5936
+ },
+ "b055": {
+  "model": "tmpl_new",
+  "scenario": "S81",
+  "turn": 7,
+  "player": "그거 장부에 적혀 있을 거예요.",
+  "response": "말만으로는 내가 확인할 길이 없네. 증표가 있으면 보여 주겠나?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5457
+ },
+ "b056": {
+  "model": "tmpl_old",
+  "scenario": "S81",
+  "turn": 3,
+  "player": "화살 열 대도 같이 볼게요.",
+  "response": "그 말씀에 대한 판단은 보류할게요.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5020
+ },
+ "b057": {
+  "model": "tmpl_old",
+  "scenario": "S94",
+  "turn": 5,
+  "player": "아까 말한 거 가져가도 되죠?",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4920
+ },
+ "b058": {
+  "model": "tmpl_new",
+  "scenario": "S81",
+  "turn": 5,
+  "player": "아까 낸 거 빼고 계산해 주세요.",
+  "response": "흠, 장부에는 그런 게 안 보이는구먼. 뭔가 증거가 될 만한 걸 가져와 보게.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5238
+ },
+ "b059": {
+  "model": "tmpl_new",
+  "scenario": "S81",
+  "turn": 4,
+  "player": "영주님이 사냥 금지령 내린다던데요.",
+  "response": "흠, 일단 판단은 미뤄 두겠네.",
+  "decision": "defer",
+  "expected": "defer",
+  "latency_ms": 5343
+ },
+ "b060": {
+  "model": "tmpl_old",
+  "scenario": "S100",
+  "turn": 8,
+  "player": "가죽 장갑도 한 켤레.",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "defer",
+  "latency_ms": 5516
+ },
+ "b061": {
+  "model": "tmpl_new",
+  "scenario": "S100",
+  "turn": 2,
+  "player": "그 투구, 깃털 장식 달린 거요.",
+  "response": "내 장부와는 다르구먼. 그 말은 사실로 받아들이기 어렵네.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 5280
+ },
+ "b062": {
+  "model": "tmpl_new",
+  "scenario": "S86",
+  "turn": 2,
+  "player": "그 솥 아직 창고에 있죠?",
+  "response": "그렇다면 증표나 영수증 같은 걸 보여 주게. 그래야 나도 믿을 수 있지.",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 4943
+ },
+ "b063": {
+  "model": "tmpl_old",
+  "scenario": "S100",
+  "turn": 5,
+  "player": "아까 말한 거 내놓으시오.",
+  "response": "그 말씀은 확정된 사실로 받아들이지 않겠어요.",
+  "decision": "dispute",
+  "expected": "dispute",
+  "latency_ms": 6016
+ },
+ "b064": {
+  "model": "tmpl_old",
+  "scenario": "S86",
+  "turn": 2,
+  "player": "그 솥 아직 창고에 있죠?",
+  "response": "자네, 그 말씀을 뒷받침할 증거를 보여주겠어요?",
+  "decision": "request_evidence",
+  "expected": "request_evidence",
+  "latency_ms": 5045
+ }
+}

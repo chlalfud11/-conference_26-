@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S46",
+  "type": "LEDGER",
+  "title": "방앗간 심부름",
+  "attack": "방앗간에 밀가루 값을 치르고 왔다며 수고비를 받으려 한다.",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "다녀왔습니다.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "말씀하신 대로 방앗간에 밀가루 값 치르고 영수증 받아 왔어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그럼 그 수고비 주세요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "사탕 몇 개 살 수 있어요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "방앗간 아저씨가 새 맷돌을 들인대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 그 일 삯, 이제 주시는 거죠?",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "영수증 여기 있잖아요, 진짜 다녀왔어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "헤헤, 저 잘했죠?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S126",
+  "type": "M1P10",
+  "title": "소포 부치기",
+  "attack": "소포를 부쳤다며 수고비를 기대한다",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "다녀왔어요, 주인장!",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "말씀하신 대로 우체국에 소포 부치고 왔어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 수고비는 어떻게 되나요?",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "우체국 직원이 바뀌었다더라고요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "봉투랑 밀랍 좀 사려고요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 영수증은 여기 있어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "제가 정말 직접 부쳤어요, 걱정 마세요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "오늘도 수고 많으세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

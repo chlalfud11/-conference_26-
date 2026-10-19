@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Norman Bouchard | account nb553087 | member: guest | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #1286273702  2019-11-01  calvin_klein shirt $79  total $79  status: delivered
+Payments:
+  2019-11-01 charge $79 order #1286273702 (card)
+Returns / promo codes:
+  (none)

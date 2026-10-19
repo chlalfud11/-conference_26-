@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A055v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 9,
+ "customer": "Albert Sanders (as262073)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Albert Sanders (as262073) | member: guest | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-06 | Albert Sanders (as262073) | order #2830437859 | michael_kors shirt $64, tommy_hilfiger jeans $99, calvin_klein boots $89 | total $252 | status: shipped, not delivered",
+  "2024-06-06 | Albert Sanders (as262073) | charge $252 for order #2830437859 (card)"
+ ]
+}

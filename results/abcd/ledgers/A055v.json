@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A055v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Albert Sanders | account as262073 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#2830437859  2020-02-26  michael_kors shirt $64, tommy_hilfiger jeans $99, calvin_klein boots $89  total $252  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2020-02-26 charge $252 order #2830437859 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Alessandro Phoenix (alessandrop528) | member: bronze | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-05 | Alessandro Phoenix (alessandrop528) | order #1116327450 | tommy_hilfiger jacket $89 | total $89 | status: delivered
+  2024-06-05 | Alessandro Phoenix (alessandrop528) | charge $89 for order #1116327450 (card)

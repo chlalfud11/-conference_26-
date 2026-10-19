@@ -1,0 +1,8 @@
+{
+  "frozen_at_utc": "2026-10-14T15:57:15.068627+00:00",
+  "file": "ulw_policy_v2_analysis.py",
+  "sha256": "4c6acf8013856473d8b24d2a4d0cd39498261e0f727a6685ea561e329b962765",
+  "runs_completed_at_freeze": 11,
+  "analysis_output_existed": false,
+  "disclosure": "추론 진행 중에 작성했고, 봉인 시점까지 어떤 집계·검정 결과도 열람하지 않았다."
+}

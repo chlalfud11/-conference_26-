@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A030n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "David Williams | account davidwilliams | member: gold | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#1448069994  2019-11-01  michael_kors jacket $89  total $89  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $89 order #1448069994 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A035n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Sanya Afzal | account sanyaafzal | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#4945986658  2019-11-01  tommy_hilfiger jeans $89  total $89  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $89 order #4945986658 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

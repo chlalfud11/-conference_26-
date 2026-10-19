@@ -1,0 +1,7 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Albert Sanders (alberts8) | member: bronze | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-05-31 | Albert Sanders (alberts8) | order #0966752209 | guess jeans $64 | total $64 | status: delivered
+  2024-05-31 | Albert Sanders (alberts8) | charge $64 for order #0966752209 (card)
+  2024-06-10 | Albert Sanders (alberts8) | promo code NG1764F9 issued, 20% off, valid until 2024-07-15

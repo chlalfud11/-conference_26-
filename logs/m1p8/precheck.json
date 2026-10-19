@@ -1,0 +1,23 @@
+{
+  "at_utc": "2026-10-16T14:11:27.641232+00:00",
+  "P1_hearsay": {
+    "lines": 1285,
+    "high_risk_turned_rumor": 1,
+    "examples": [
+      "아버지 숫돌이요, 이름 써 붙여 놨대요."
+    ],
+    "rumor_caught": 185,
+    "rumor_total": 310,
+    "none_caught": 4,
+    "hearsay_rule_enabled": false
+  },
+  "P2_replay_on_m1p7": {
+    "n": 432,
+    "agree": 423,
+    "agree_m1p7": 405,
+    "rule_none": 405,
+    "rule_none_truth_high": 189,
+    "rule_inherited": 27,
+    "rule_inherited_truth_high": 27
+  }
+}

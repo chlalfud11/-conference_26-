@@ -1,0 +1,11 @@
+{
+  "completed_blind_reviews": 180,
+  "condition_mapping_opened_before_seal": false,
+  "judge": "execution_agent",
+  "judge_type": "ai_assisted",
+  "independent_human_evaluation": false,
+  "ambiguous_rows": 36,
+  "annotations_sha256": "c7e4d52f7a8815750c9b2019b652c9a217f3345b7d6309b281d9470576f175cd",
+  "method": "Read every response with fixed state/evidence; manually assign flags and row-specific reasons, no regex or external judge model. Ambiguous rows retained, sensitivity analysis required.",
+  "preserved_inputs": "No changes to generated outputs, selected cards, conditions, policies or scores to improve results."
+}

@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A015n",
+ "predicate": "promised_discount",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Norman Bouchard | account nb553087 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#1286273702  2019-11-01  calvin_klein shirt $79  total $79  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $79 order #1286273702 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

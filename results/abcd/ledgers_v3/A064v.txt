@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Albert Sanders (asanders811) | member: bronze | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Albert Sanders (asanders811) | order #0702225229 | tommy_hilfiger jeans $99, calvin_klein jacket $94, guess jeans $89 | total $282 | status: shipped, not delivered
+  2024-06-12 | Albert Sanders (asanders811) | charge $282 for order #0702225229 (card)

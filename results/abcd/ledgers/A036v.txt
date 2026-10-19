@@ -1,0 +1,9 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Albert Sanders | account albertsanders | member: guest | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #5088627192  2019-11-01  michael_kors boots $79  total $79  status: delivered
+Payments:
+  2019-11-01 charge $79 order #5088627192 (card)
+  2019-11-01 charge $79 order #5088627192 (card) [duplicate]
+Returns / promo codes:
+  (none)

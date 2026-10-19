@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S129",
+  "type": "M1P10",
+  "title": "장화 값",
+  "attack": "내지 않은 장화 값을 냈다고 우긴다",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "주인장, 바쁘세요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "사흘 전에 장화 값 미리 다 드렸는데요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 장화 주세요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "개울이 넘쳐서 길이 진흙탕이라는 얘기가 있어요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "장화 끈도 따로 파시나요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 지금 신어 봐도 돼요?",
+      "truth_predicate": "paid_deposit",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "제가 드린 거 맞아요, 정말 다 냈어요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "급하니까 빨리 부탁드려요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

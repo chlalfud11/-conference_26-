@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Joyce Wu | account jw746072 | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #7839014830  2020-02-19  michael_kors jacket $79  total $79  status: delivered
+Payments:
+  2020-02-19 charge $79 order #7839014830 (credit card)
+Returns / promo codes:
+  (none)

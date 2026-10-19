@@ -1,0 +1,13 @@
+{
+ "scenario_id": "A022v",
+ "predicate": "completed_errand",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Joyce Wu (joycewu7)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Joyce Wu (joycewu7) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-05 | Joyce Wu (joycewu7) | order #6908238754 | calvin_klein shirt $84 | total $84 | status: delivered",
+  "2024-06-05 | Joyce Wu (joycewu7) | charge $84 for order #6908238754 (card)",
+  "2024-06-12 | Joyce Wu (joycewu7) | return received for order #6908238754; refund pending"
+ ]
+}

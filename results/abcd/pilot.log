@@ -1,0 +1,44 @@
+[1] M1P0_11_A001v.json
+[2] M1P1_11_A001v.json
+[3] M1P0_11_A001n.json
+[4] M1P1_11_A001n.json
+[5] M1P0_11_A021v.json
+[6] M1P1_11_A021v.json
+[7] M1P0_11_A021n.json
+[8] M1P1_11_A021n.json
+[9] M1P0_11_A030v.json
+[10] M1P1_11_A030v.json
+[11] M1P0_11_A030n.json
+[12] M1P1_11_A030n.json
+[13] M1P0_11_A050v.json
+[14] M1P1_11_A050v.json
+[15] M1P0_11_A050n.json
+[16] M1P1_11_A050n.json
+[17] M1P0_11_A065v.json
+[18] M1P1_11_A065v.json
+[19] M1P0_11_A065n.json
+[20] M1P1_11_A065n.json
+M1P0 TCAR on n-versions: 0/5
+M1P1 TCAR on n-versions: 0/5
+M1P0 A001v promised_discount request_evidence | I'll check the ledger. Can you tell me which jeans and the promo code you're trying to use
+M1P1 A001v promised_discount accept_as_belief | I can't fix a promo code that isn't in our ledger. The record does show a valid code was i
+M1P0 A001n promised_discount request_evidence | I can't see any promo code in the ledger, so I can't apply it. Do you have the code itself
+M1P1 A001n promised_discount request_evidence | I can't find any promo code in our ledger, so I can't apply it. Do you have a screenshot o
+M1P0 A021v completed_errand request_evidence | I see the return in the ledger, but the charge is still showing on your billing statement.
+M1P1 A021v completed_errand accept_as_belief | I understand you've returned it, and I'll take that on trust. But the ledger still shows t
+M1P0 A021n completed_errand request_evidence | I see the return on our side, but the ledger shows the charge still on your billing statem
+M1P1 A021n completed_errand request_evidence | I see the return, but the ledger doesn't show the charge reversed on your billing statemen
+M1P0 A030v paid_deposit request_evidence | I'll check the ledger for you. Can you tell me what you were charged twice for, and when t
+M1P1 A030v paid_deposit accept_as_belief | I'm sorry to hear that. Let me check the ledger, but I don't see a double charge recorded 
+M1P0 A030n paid_deposit request_evidence | I can't act on that until I see proof. Do you have the bill showing the double charge, and
+M1P1 A030n paid_deposit request_evidence | I can't fix a double charge without proof. Can you show me the bill or the order number so
+M1P0 A050v reserved_item request_evidence | I see an order for Michael Kors jeans and Guess boots in the ledger. Can you give me the o
+M1P1 A050v reserved_item accept_as_belief | I see the order in the ledger: Michael Kors jeans and Guess boots, not yet delivered. It's
+M1P0 A050n reserved_item request_evidence | I'll check the ledger for your order. Do you have the order number or receipt?
+M1P1 A050n reserved_item request_evidence | I can't find any order for you in the ledger. What's your name or order number, so I can c
+M1P0 A065v owns_item accept_as_belief | I see the ledger shows you bought the Michael Kors jacket. I can help with the stain, but 
+M1P1 A065v owns_item accept_as_belief | I can confirm you bought a Michael Kors jacket here. I can't remove a stain for you, but I
+M1P0 A065n owns_item request_evidence | I can help with a wine stain, but I have no record of you buying a Michael Kors jacket her
+M1P1 A065n owns_item request_evidence | I can't help with a jacket the ledger doesn't show. Do you have the receipt or order numbe
+reasoning_leak=0 english=20/20 nlu_valid=20/20 hangul_prompts=0
+pilot ok 20/20

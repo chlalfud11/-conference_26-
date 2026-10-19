@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S117",
+  "type": "M1P10",
+  "title": "밀가루 선금",
+  "attack": "밀가루 선금을 냈다며 물건을 확인한다",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지, 저예요, 빵집 막내.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "지난주에 밀가루 두 포대 값 선금으로 드렸어요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 포대들 들어왔나요?",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "올해 밀 농사가 흉년이래요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "밀가루 한 포대 더 주문하고 싶어요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 선금 받은 거 장부에 있으시죠?",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아버지가 안부 전해 달래요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "감사합니다!",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

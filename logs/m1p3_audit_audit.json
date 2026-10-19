@@ -1,0 +1,8 @@
+{
+  "runs": 54,
+  "turns": 432,
+  "fact_and_template_mismatches": 0,
+  "counterfactual_candidate_prompt_matches": 432,
+  "counterfactual_scope": "Recorded NLU held fixed; all model candidates replaced.",
+  "pass": true
+}

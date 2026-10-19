@@ -1,0 +1,11 @@
+{
+  "review_pack_sha256": "d2ecb6114221f7c82de9ef1016b419fdd47a0bf6c65c4f864830e058d17e12b0",
+  "review_mapping_sha256": "0d0e0ffdb609ec52efeeec4540418d6f1e62ddf83b4499f80d7843f49713c390",
+  "runs_sha256": "e8ccff83e6e1509b62e607b01065fd613a0d229d799bfef29fcf5403d2a9a4b6",
+  "calls_sha256": "6fcb5e57994ed2be22a3ac9616bfe1c982848314139b7a09364c4f43cc51585a",
+  "dialogues": 60,
+  "turns": 480,
+  "criteria_source": "docs/H_후속검증계획.md",
+  "schema_file": "annotation_schema.json",
+  "provenance": "Execution-agent AI-assisted audit, not independent human ground truth."
+}

@@ -1,0 +1,13 @@
+{
+ "scenario_id": "A006v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Joyce Wu (jw223882)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Joyce Wu (jw223882) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Joyce Wu (jw223882) | order #4726762878 | tommy_hilfiger boots $79 | total $79 | status: delivered",
+  "2024-06-02 | Joyce Wu (jw223882) | charge $79 for order #4726762878 (card)",
+  "2024-06-12 | Joyce Wu (jw223882) | promo code NGA9C7AF issued, 20% off, valid until 2024-07-15"
+ ]
+}

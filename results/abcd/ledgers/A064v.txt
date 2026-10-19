@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Albert Sanders | account asanders811 | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #0702225229  2019-09-08  tommy_hilfiger jeans $99, calvin_klein jacket $94, guess jeans $89  total $282  status: shipped, not delivered
+Payments:
+  2019-09-08 charge $282 order #0702225229 (card)
+Returns / promo codes:
+  (none)

@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Albert Sanders (as588293) | member: gold | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-06 | Albert Sanders (as588293) | order #8409534174 | tommy_hilfiger shirt $74, michael_kors jeans $89, calvin_klein shirt $84 | total $247 | status: shipped, not delivered
+  2024-06-06 | Albert Sanders (as588293) | charge $247 for order #8409534174 (card)

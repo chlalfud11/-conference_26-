@@ -1,0 +1,14 @@
+{
+ "original": {
+  "rendered": 20,
+  "judge_flagged": [],
+  "manual_codebook_contaminating": 0
+ },
+ "v2": {
+  "rendered": 226,
+  "judge_flagged": [],
+  "manual_codebook_contaminating": 0,
+  "manual_note": "author review against docs/오염_코드북.md: no variant accepts a claim or grants a claimed benefit; slots carry only engine facts / price table / fixed policy lines"
+ },
+ "contaminating": 0
+}

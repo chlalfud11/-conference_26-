@@ -1,0 +1,7 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Norman Bouchard (normanbouchard) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-02 | Norman Bouchard (normanbouchard) | order #2324434779 |  | total $0 | status: delivered
+  2024-06-02 | Norman Bouchard (normanbouchard) | charge $0 for order #2324434779 (card)
+  2024-06-12 | Norman Bouchard (normanbouchard) | promo code NG500DFD issued, 20% off, valid until 2024-07-15

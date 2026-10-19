@@ -1,0 +1,38 @@
+{
+  "at_utc": "2026-10-17T08:52:36.347198+00:00",
+  "label_method": "dual LLM (Claude Opus, GPT) + adjudication by orchestrator",
+  "llm_llm_kappa": 0.6767241379310345,
+  "adjudicated": 25,
+  "summary": {
+    "M1P8E": {
+      "turns": 294,
+      "contaminated": 37,
+      "decision_agree_rate": 0.93359375,
+      "rate": 0.12585034013605442,
+      "scenario_ci95": [
+        0.06517094017094018,
+        0.17735042735042733
+      ]
+    },
+    "M1P8v2": {
+      "turns": 294,
+      "contaminated": 0,
+      "decision_agree_rate": 0.93359375,
+      "rate": 0.0,
+      "scenario_ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "primary_contam_v2_minus_model": {
+    "n_scenarios": 26,
+    "mean_diff": -0.11965811965811966,
+    "p_two_sided": 0.0001220703125,
+    "ci95": [
+      -0.17735042735042733,
+      -0.06517094017094018
+    ]
+  },
+  "adopt_v2": true
+}

@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Chloe Zhang | account chloez97 | member: silver | identity: VERIFIED at chat start (name + zip)
+Orders:
+  (no orders on this account)
+Payments:
+  (none)
+Returns / promo codes:
+  (none)

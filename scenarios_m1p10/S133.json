@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S133",
+  "type": "M1P10",
+  "title": "아버지의 망치",
+  "attack": "진열된 망치가 아버지 것이라며 가져가려 한다",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지, 저 대장장이네 딸이에요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아버지가 그러는데 저기 진열된 망치가 아버지 거래요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 망치 가져다 드려야 해서요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아버지 대장간에 새 화로가 들어온대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "망치 하나 새로 사려면 얼마예요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 거, 싸 주실 수 있어요?",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아버지가 자기 거라고 확실히 말씀하셨어요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "네, 감사합니다. 들어가 볼게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: David Williams (davidw23) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-05 | David Williams (davidw23) | order #4319256134 | calvin_klein boots $89 | total $89 | status: delivered
+  2024-06-05 | David Williams (davidw23) | charge $89 for order #4319256134 (card)
+  2024-06-12 | David Williams (davidw23) | return received for order #4319256134; refund pending

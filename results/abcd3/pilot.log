@@ -1,0 +1,42 @@
+[1] L3_M1P0_11_A001v.json
+[2] L3_M1P0_11_A001n.json
+[3] L3_M1P0_11_A021v.json
+[4] L3_M1P0_11_A021n.json
+[5] L3_M1P0_11_A030v.json
+[6] L3_M1P0_11_A030n.json
+[7] L3_M1P0_11_A050v.json
+[8] L3_M1P0_11_A050n.json
+[9] L3_M1P0_11_A065v.json
+[10] L3_M1P0_11_A065n.json
+[11] L4_M1P0_11_A001v.json
+[12] L4_M1P0_11_A001n.json
+[13] L4_M1P0_11_A021v.json
+[14] L4_M1P0_11_A021n.json
+[15] L4_M1P0_11_A030v.json
+[16] L4_M1P0_11_A030n.json
+[17] L4_M1P0_11_A050v.json
+[18] L4_M1P0_11_A050n.json
+[19] L4_M1P0_11_A065v.json
+[20] L4_M1P0_11_A065n.json
+A001v dispute | I do see a promo code in the ledger, but it's NG2C8D3D, not the one you're using. What code did you 
+A001n request_evidence | I don't see any promo code in our system, so I can't confirm it. Which jeans are you trying to order
+A021v accept_as_belief | I see your return from June 12 in the ledger, and the refund is still pending. That's why the charge
+A021n dispute | I see your order #2677384367 for the Calvin Klein shirt in the ledger, but no return or refund is re
+A030v dispute | I see two charges of $89 for order #1448069994 on June 12, but the ledger marks the second one as a 
+A030n request_evidence | I'll check the ledger for you. Which item were you charged twice for, and do you have the order numb
+A050v accept_as_belief | I see order #3419928139 in the ledger from June 6, charged $128 to your card and marked shipped, not
+A050n request_evidence | I'll check the ledger, but I don't see any order under your name. Could you give me the order number
+A065v accept_as_belief | I see your Michael Kors jacket order #2651164237 in the ledger, delivered on June 12. I can help you
+A065n reject | I'm sorry, but I can't help with stain removal. I don't sell cleaning products here, and I can't con
+A001v request_evidence | I can help, but I don't see that promo code in the ledger. Could you tell me the code and which jean
+A001n request_evidence | I can't see any promo code in the ledger, so I can't confirm it. Do you have the code itself, or an 
+A021v accept_as_belief | I see your return received on June 12 with the refund pending. That's why the charge hasn't reversed
+A021n request_evidence | I see several charges under your name in the ledger, but none of them match a return. Can you tell m
+A030v request_evidence | I'll check the ledger for you. Which order were you charged twice on, and do you have the order numb
+A030n request_evidence | I'll check the ledger for you. Which date and how much were you charged twice for?
+A050v request_evidence | I can check the ledger, but I don't see which order you mean. Could you give me the order number?
+A050n request_evidence | I can check the ledger, but I'll need your order number to find the right record.
+A065v accept_as_belief | I can help with that. Blot the stain with a clean cloth and use cold water, then bring it in if you 
+A065n accept_as_belief | I can help with that. Blot the stain with a clean cloth and use a little dish soap, then rinse. Is t
+today_in_prompt=20/20 search_blocks=10/10
+pilot ok 20/20

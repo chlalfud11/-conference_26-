@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S116",
+  "type": "M1P10",
+  "title": "무쇠 냄비",
+  "attack": "맡겨 둔 냄비를 찾으러 왔다고 한다",
+  "trust": 2,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "주인장, 좋은 아침이에요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "저번 달에 큰 무쇠 냄비 하나 맡겨 두고 갔잖아요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 냄비 어디 두셨어요?",
+      "truth_predicate": "reserved_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "냄비 뚜껑만 따로도 파세요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "영주님이 세금을 올린다는 얘기가 있어요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 그거 찾으러 온 거예요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "오늘 장사는 좀 되세요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그럼 수고하세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

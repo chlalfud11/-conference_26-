@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-14T19:14:04.294209+00:00",
+  "stopped": [
+    "llama-server:8080(chat)",
+    "caffeinate(chain pid 87953, exited with chain)",
+    "monitors bash_18/26/44"
+  ],
+  "ports_8080_8081_listening": false,
+  "remaining_procs": []
+}

@@ -1,0 +1,600 @@
+{"did": "R01", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:33:42.836071+00:00"}
+{"did": "R01", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:33:42.885079+00:00"}
+{"did": "R01", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2440, "at_utc": "2026-10-16T10:33:45.325370+00:00"}
+{"did": "R01", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2190, "at_utc": "2026-10-16T10:33:47.515766+00:00"}
+{"did": "R01", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2308, "at_utc": "2026-10-16T10:33:49.824797+00:00"}
+{"did": "R01", "line": 2, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:33:49.863928+00:00"}
+{"did": "R01", "line": 2, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:33:49.907705+00:00"}
+{"did": "R01", "line": 2, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2235, "at_utc": "2026-10-16T10:33:52.142849+00:00"}
+{"did": "R01", "line": 2, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2302, "at_utc": "2026-10-16T10:33:54.445531+00:00"}
+{"did": "R01", "line": 2, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2205, "at_utc": "2026-10-16T10:33:56.651131+00:00"}
+{"did": "R01", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:33:56.690654+00:00"}
+{"did": "R01", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:33:56.734456+00:00"}
+{"did": "R01", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2398, "at_utc": "2026-10-16T10:33:59.133227+00:00"}
+{"did": "R01", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2286, "at_utc": "2026-10-16T10:34:01.419836+00:00"}
+{"did": "R01", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2234, "at_utc": "2026-10-16T10:34:03.654629+00:00"}
+{"did": "R01", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:34:03.694321+00:00"}
+{"did": "R01", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:34:03.737664+00:00"}
+{"did": "R01", "line": 4, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2269, "at_utc": "2026-10-16T10:34:06.006914+00:00"}
+{"did": "R01", "line": 4, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2230, "at_utc": "2026-10-16T10:34:08.237004+00:00"}
+{"did": "R01", "line": 4, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2226, "at_utc": "2026-10-16T10:34:10.463964+00:00"}
+{"did": "R02", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:10.502330+00:00"}
+{"did": "R02", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:10.545777+00:00"}
+{"did": "R02", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2225, "at_utc": "2026-10-16T10:34:12.771478+00:00"}
+{"did": "R02", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2160, "at_utc": "2026-10-16T10:34:14.931761+00:00"}
+{"did": "R02", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2167, "at_utc": "2026-10-16T10:34:17.099108+00:00"}
+{"did": "R02", "line": 2, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:34:17.138326+00:00"}
+{"did": "R02", "line": 2, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:34:17.182122+00:00"}
+{"did": "R02", "line": 2, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2167, "at_utc": "2026-10-16T10:34:19.349221+00:00"}
+{"did": "R02", "line": 2, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2092, "at_utc": "2026-10-16T10:34:21.441775+00:00"}
+{"did": "R02", "line": 2, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2214, "at_utc": "2026-10-16T10:34:23.656503+00:00"}
+{"did": "R02", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:34:23.695789+00:00"}
+{"did": "R02", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:34:23.739031+00:00"}
+{"did": "R02", "line": 3, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2202, "at_utc": "2026-10-16T10:34:25.941118+00:00"}
+{"did": "R02", "line": 3, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2291, "at_utc": "2026-10-16T10:34:28.232499+00:00"}
+{"did": "R02", "line": 3, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2207, "at_utc": "2026-10-16T10:34:30.439742+00:00"}
+{"did": "R02", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:30.478638+00:00"}
+{"did": "R02", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:30.521848+00:00"}
+{"did": "R02", "line": 4, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2224, "at_utc": "2026-10-16T10:34:32.746129+00:00"}
+{"did": "R02", "line": 4, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2167, "at_utc": "2026-10-16T10:34:34.913815+00:00"}
+{"did": "R02", "line": 4, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2095, "at_utc": "2026-10-16T10:34:37.009550+00:00"}
+{"did": "R03", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:37.049100+00:00"}
+{"did": "R03", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:37.092458+00:00"}
+{"did": "R03", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2262, "at_utc": "2026-10-16T10:34:39.355220+00:00"}
+{"did": "R03", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2190, "at_utc": "2026-10-16T10:34:41.545584+00:00"}
+{"did": "R03", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2186, "at_utc": "2026-10-16T10:34:43.732173+00:00"}
+{"did": "R03", "line": 2, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:43.771270+00:00"}
+{"did": "R03", "line": 2, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:43.814768+00:00"}
+{"did": "R03", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2188, "at_utc": "2026-10-16T10:34:46.003743+00:00"}
+{"did": "R03", "line": 2, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1977, "at_utc": "2026-10-16T10:34:47.981186+00:00"}
+{"did": "R03", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2169, "at_utc": "2026-10-16T10:34:50.150687+00:00"}
+{"did": "R03", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:34:50.189327+00:00"}
+{"did": "R03", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:34:50.233072+00:00"}
+{"did": "R03", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2189, "at_utc": "2026-10-16T10:34:52.422697+00:00"}
+{"did": "R03", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2274, "at_utc": "2026-10-16T10:34:54.697215+00:00"}
+{"did": "R03", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2171, "at_utc": "2026-10-16T10:34:56.869175+00:00"}
+{"did": "R03", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:56.908706+00:00"}
+{"did": "R03", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:34:56.952220+00:00"}
+{"did": "R03", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2649, "at_utc": "2026-10-16T10:34:59.602070+00:00"}
+{"did": "R03", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2484, "at_utc": "2026-10-16T10:35:02.086352+00:00"}
+{"did": "R03", "line": 4, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2226, "at_utc": "2026-10-16T10:35:04.313179+00:00"}
+{"did": "R04", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:35:04.352952+00:00"}
+{"did": "R04", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:35:04.396403+00:00"}
+{"did": "R04", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2343, "at_utc": "2026-10-16T10:35:06.739688+00:00"}
+{"did": "R04", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2206, "at_utc": "2026-10-16T10:35:08.946565+00:00"}
+{"did": "R04", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2192, "at_utc": "2026-10-16T10:35:11.139336+00:00"}
+{"did": "R04", "line": 2, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:35:11.178045+00:00"}
+{"did": "R04", "line": 2, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:35:11.221564+00:00"}
+{"did": "R04", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2143, "at_utc": "2026-10-16T10:35:13.365133+00:00"}
+{"did": "R04", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2137, "at_utc": "2026-10-16T10:35:15.502470+00:00"}
+{"did": "R04", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2096, "at_utc": "2026-10-16T10:35:17.599385+00:00"}
+{"did": "R04", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:35:17.639010+00:00"}
+{"did": "R04", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:35:17.683068+00:00"}
+{"did": "R04", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2268, "at_utc": "2026-10-16T10:35:19.951631+00:00"}
+{"did": "R04", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2169, "at_utc": "2026-10-16T10:35:22.120892+00:00"}
+{"did": "R04", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2223, "at_utc": "2026-10-16T10:35:24.344735+00:00"}
+{"did": "R04", "line": 4, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:35:24.384093+00:00"}
+{"did": "R04", "line": 4, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:35:24.428212+00:00"}
+{"did": "R04", "line": 4, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2169, "at_utc": "2026-10-16T10:35:26.598157+00:00"}
+{"did": "R04", "line": 4, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2168, "at_utc": "2026-10-16T10:35:28.766775+00:00"}
+{"did": "R04", "line": 4, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2183, "at_utc": "2026-10-16T10:35:30.950564+00:00"}
+{"did": "R05", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:35:30.990425+00:00"}
+{"did": "R05", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:35:31.034410+00:00"}
+{"did": "R05", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2205, "at_utc": "2026-10-16T10:35:33.240255+00:00"}
+{"did": "R05", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2179, "at_utc": "2026-10-16T10:35:35.419469+00:00"}
+{"did": "R05", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2182, "at_utc": "2026-10-16T10:35:37.602513+00:00"}
+{"did": "R05", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:35:37.641397+00:00"}
+{"did": "R05", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:35:37.685143+00:00"}
+{"did": "R05", "line": 2, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2283, "at_utc": "2026-10-16T10:35:39.968274+00:00"}
+{"did": "R05", "line": 2, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2210, "at_utc": "2026-10-16T10:35:42.178764+00:00"}
+{"did": "R05", "line": 2, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2217, "at_utc": "2026-10-16T10:35:44.396274+00:00"}
+{"did": "R05", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:35:44.435691+00:00"}
+{"did": "R05", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:35:44.479149+00:00"}
+{"did": "R05", "line": 3, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2169, "at_utc": "2026-10-16T10:35:46.649172+00:00"}
+{"did": "R05", "line": 3, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2150, "at_utc": "2026-10-16T10:35:48.799694+00:00"}
+{"did": "R05", "line": 3, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2165, "at_utc": "2026-10-16T10:35:50.965382+00:00"}
+{"did": "R05", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:35:51.004303+00:00"}
+{"did": "R05", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:35:51.047826+00:00"}
+{"did": "R05", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2059, "at_utc": "2026-10-16T10:35:53.107198+00:00"}
+{"did": "R05", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2136, "at_utc": "2026-10-16T10:35:55.243624+00:00"}
+{"did": "R05", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2050, "at_utc": "2026-10-16T10:35:57.293713+00:00"}
+{"did": "R06", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:35:57.333358+00:00"}
+{"did": "R06", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:35:57.376772+00:00"}
+{"did": "R06", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2313, "at_utc": "2026-10-16T10:35:59.690423+00:00"}
+{"did": "R06", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2296, "at_utc": "2026-10-16T10:36:01.986991+00:00"}
+{"did": "R06", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2317, "at_utc": "2026-10-16T10:36:04.304266+00:00"}
+{"did": "R06", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:36:04.343060+00:00"}
+{"did": "R06", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:36:04.386797+00:00"}
+{"did": "R06", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2155, "at_utc": "2026-10-16T10:36:06.542764+00:00"}
+{"did": "R06", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2169, "at_utc": "2026-10-16T10:36:08.711932+00:00"}
+{"did": "R06", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2160, "at_utc": "2026-10-16T10:36:10.872199+00:00"}
+{"did": "R06", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:36:10.911861+00:00"}
+{"did": "R06", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:36:10.955213+00:00"}
+{"did": "R06", "line": 3, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2242, "at_utc": "2026-10-16T10:36:13.197424+00:00"}
+{"did": "R06", "line": 3, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2244, "at_utc": "2026-10-16T10:36:15.442226+00:00"}
+{"did": "R06", "line": 3, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2101, "at_utc": "2026-10-16T10:36:17.543454+00:00"}
+{"did": "R06", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:36:17.582555+00:00"}
+{"did": "R06", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:36:17.626528+00:00"}
+{"did": "R06", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2192, "at_utc": "2026-10-16T10:36:19.818733+00:00"}
+{"did": "R06", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2171, "at_utc": "2026-10-16T10:36:21.990734+00:00"}
+{"did": "R06", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2097, "at_utc": "2026-10-16T10:36:24.088226+00:00"}
+{"did": "R07", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:36:24.128799+00:00"}
+{"did": "R07", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:36:24.172683+00:00"}
+{"did": "R07", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2196, "at_utc": "2026-10-16T10:36:26.369083+00:00"}
+{"did": "R07", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2179, "at_utc": "2026-10-16T10:36:28.548218+00:00"}
+{"did": "R07", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2176, "at_utc": "2026-10-16T10:36:30.725240+00:00"}
+{"did": "R07", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:36:30.765031+00:00"}
+{"did": "R07", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:36:30.808656+00:00"}
+{"did": "R07", "line": 2, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2209, "at_utc": "2026-10-16T10:36:33.017961+00:00"}
+{"did": "R07", "line": 2, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2292, "at_utc": "2026-10-16T10:36:35.310509+00:00"}
+{"did": "R07", "line": 2, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2167, "at_utc": "2026-10-16T10:36:37.478101+00:00"}
+{"did": "R07", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:36:37.516765+00:00"}
+{"did": "R07", "line": 3, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:36:37.560104+00:00"}
+{"did": "R07", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2217, "at_utc": "2026-10-16T10:36:39.777493+00:00"}
+{"did": "R07", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2282, "at_utc": "2026-10-16T10:36:42.059624+00:00"}
+{"did": "R07", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2277, "at_utc": "2026-10-16T10:36:44.336925+00:00"}
+{"did": "R07", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:36:44.375726+00:00"}
+{"did": "R07", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:36:44.419178+00:00"}
+{"did": "R07", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1957, "at_utc": "2026-10-16T10:36:46.377008+00:00"}
+{"did": "R07", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1935, "at_utc": "2026-10-16T10:36:48.312380+00:00"}
+{"did": "R07", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1990, "at_utc": "2026-10-16T10:36:50.303155+00:00"}
+{"did": "R08", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:36:50.342620+00:00"}
+{"did": "R08", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:36:50.386121+00:00"}
+{"did": "R08", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2300, "at_utc": "2026-10-16T10:36:52.686437+00:00"}
+{"did": "R08", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2238, "at_utc": "2026-10-16T10:36:54.925131+00:00"}
+{"did": "R08", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2175, "at_utc": "2026-10-16T10:36:57.100944+00:00"}
+{"did": "R08", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:36:57.141988+00:00"}
+{"did": "R08", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:36:57.185525+00:00"}
+{"did": "R08", "line": 2, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2188, "at_utc": "2026-10-16T10:36:59.374259+00:00"}
+{"did": "R08", "line": 2, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2146, "at_utc": "2026-10-16T10:37:01.520821+00:00"}
+{"did": "R08", "line": 2, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2110, "at_utc": "2026-10-16T10:37:03.631377+00:00"}
+{"did": "R08", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:37:03.671233+00:00"}
+{"did": "R08", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:37:03.714704+00:00"}
+{"did": "R08", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2184, "at_utc": "2026-10-16T10:37:05.899658+00:00"}
+{"did": "R08", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2137, "at_utc": "2026-10-16T10:37:08.037439+00:00"}
+{"did": "R08", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2105, "at_utc": "2026-10-16T10:37:10.142807+00:00"}
+{"did": "R08", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:37:10.181643+00:00"}
+{"did": "R08", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:37:10.225424+00:00"}
+{"did": "R08", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1986, "at_utc": "2026-10-16T10:37:12.211945+00:00"}
+{"did": "R08", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1931, "at_utc": "2026-10-16T10:37:14.143321+00:00"}
+{"did": "R08", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1905, "at_utc": "2026-10-16T10:37:16.048762+00:00"}
+{"did": "R09", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:37:16.087912+00:00"}
+{"did": "R09", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:37:16.132031+00:00"}
+{"did": "R09", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2176, "at_utc": "2026-10-16T10:37:18.308864+00:00"}
+{"did": "R09", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2141, "at_utc": "2026-10-16T10:37:20.450882+00:00"}
+{"did": "R09", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2123, "at_utc": "2026-10-16T10:37:22.574725+00:00"}
+{"did": "R09", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:37:22.613805+00:00"}
+{"did": "R09", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:37:22.657206+00:00"}
+{"did": "R09", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2303, "at_utc": "2026-10-16T10:37:24.960935+00:00"}
+{"did": "R09", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2299, "at_utc": "2026-10-16T10:37:27.260009+00:00"}
+{"did": "R09", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2275, "at_utc": "2026-10-16T10:37:29.535888+00:00"}
+{"did": "R09", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:37:29.575759+00:00"}
+{"did": "R09", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:37:29.619230+00:00"}
+{"did": "R09", "line": 3, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2193, "at_utc": "2026-10-16T10:37:31.812365+00:00"}
+{"did": "R09", "line": 3, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2128, "at_utc": "2026-10-16T10:37:33.940814+00:00"}
+{"did": "R09", "line": 3, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2128, "at_utc": "2026-10-16T10:37:36.069090+00:00"}
+{"did": "R09", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:37:36.108192+00:00"}
+{"did": "R09", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:37:36.152578+00:00"}
+{"did": "R09", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2014, "at_utc": "2026-10-16T10:37:38.167511+00:00"}
+{"did": "R09", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2015, "at_utc": "2026-10-16T10:37:40.182686+00:00"}
+{"did": "R09", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2026, "at_utc": "2026-10-16T10:37:42.209046+00:00"}
+{"did": "R10", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:37:42.248235+00:00"}
+{"did": "R10", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:37:42.292079+00:00"}
+{"did": "R10", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2097, "at_utc": "2026-10-16T10:37:44.389404+00:00"}
+{"did": "R10", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2002, "at_utc": "2026-10-16T10:37:46.392469+00:00"}
+{"did": "R10", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2245, "at_utc": "2026-10-16T10:37:48.637701+00:00"}
+{"did": "R10", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:37:48.677438+00:00"}
+{"did": "R10", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:37:48.720755+00:00"}
+{"did": "R10", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2194, "at_utc": "2026-10-16T10:37:50.915590+00:00"}
+{"did": "R10", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2093, "at_utc": "2026-10-16T10:37:53.009110+00:00"}
+{"did": "R10", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2169, "at_utc": "2026-10-16T10:37:55.178756+00:00"}
+{"did": "R10", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:37:55.218503+00:00"}
+{"did": "R10", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:37:55.262215+00:00"}
+{"did": "R10", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2152, "at_utc": "2026-10-16T10:37:57.414506+00:00"}
+{"did": "R10", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2105, "at_utc": "2026-10-16T10:37:59.520559+00:00"}
+{"did": "R10", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2153, "at_utc": "2026-10-16T10:38:01.674550+00:00"}
+{"did": "R10", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:38:01.713510+00:00"}
+{"did": "R10", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:38:01.757204+00:00"}
+{"did": "R10", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2135, "at_utc": "2026-10-16T10:38:03.892332+00:00"}
+{"did": "R10", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2218, "at_utc": "2026-10-16T10:38:06.110788+00:00"}
+{"did": "R10", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2227, "at_utc": "2026-10-16T10:38:08.338248+00:00"}
+{"did": "R11", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:38:08.377495+00:00"}
+{"did": "R11", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:38:08.421377+00:00"}
+{"did": "R11", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2417, "at_utc": "2026-10-16T10:38:10.839323+00:00"}
+{"did": "R11", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2058, "at_utc": "2026-10-16T10:38:12.897698+00:00"}
+{"did": "R11", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2414, "at_utc": "2026-10-16T10:38:15.312700+00:00"}
+{"did": "R11", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:38:15.352562+00:00"}
+{"did": "R11", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:38:15.396316+00:00"}
+{"did": "R11", "line": 2, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2226, "at_utc": "2026-10-16T10:38:17.622385+00:00"}
+{"did": "R11", "line": 2, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2155, "at_utc": "2026-10-16T10:38:19.778240+00:00"}
+{"did": "R11", "line": 2, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2170, "at_utc": "2026-10-16T10:38:21.948832+00:00"}
+{"did": "R11", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:38:21.988070+00:00"}
+{"did": "R11", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:38:22.031937+00:00"}
+{"did": "R11", "line": 3, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2243, "at_utc": "2026-10-16T10:38:24.275020+00:00"}
+{"did": "R11", "line": 3, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2163, "at_utc": "2026-10-16T10:38:26.438287+00:00"}
+{"did": "R11", "line": 3, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2174, "at_utc": "2026-10-16T10:38:28.613283+00:00"}
+{"did": "R11", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:38:28.652074+00:00"}
+{"did": "R11", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:38:28.695742+00:00"}
+{"did": "R11", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2078, "at_utc": "2026-10-16T10:38:30.774512+00:00"}
+{"did": "R11", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2037, "at_utc": "2026-10-16T10:38:32.812257+00:00"}
+{"did": "R11", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2080, "at_utc": "2026-10-16T10:38:34.892474+00:00"}
+{"did": "R12", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:38:34.931526+00:00"}
+{"did": "R12", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:38:34.975208+00:00"}
+{"did": "R12", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2379, "at_utc": "2026-10-16T10:38:37.355276+00:00"}
+{"did": "R12", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2344, "at_utc": "2026-10-16T10:38:39.700255+00:00"}
+{"did": "R12", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2363, "at_utc": "2026-10-16T10:38:42.063667+00:00"}
+{"did": "R12", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:38:42.103016+00:00"}
+{"did": "R12", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:38:42.147124+00:00"}
+{"did": "R12", "line": 2, "variant": "B", "seed": 11, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2246, "at_utc": "2026-10-16T10:38:44.393398+00:00"}
+{"did": "R12", "line": 2, "variant": "B", "seed": 29, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2200, "at_utc": "2026-10-16T10:38:46.593584+00:00"}
+{"did": "R12", "line": 2, "variant": "B", "seed": 47, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2172, "at_utc": "2026-10-16T10:38:48.765794+00:00"}
+{"did": "R12", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:38:48.805413+00:00"}
+{"did": "R12", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:38:48.849012+00:00"}
+{"did": "R12", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2201, "at_utc": "2026-10-16T10:38:51.050426+00:00"}
+{"did": "R12", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2160, "at_utc": "2026-10-16T10:38:53.211398+00:00"}
+{"did": "R12", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2126, "at_utc": "2026-10-16T10:38:55.338023+00:00"}
+{"did": "R12", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:38:55.377631+00:00"}
+{"did": "R12", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:38:55.421623+00:00"}
+{"did": "R12", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1973, "at_utc": "2026-10-16T10:38:57.395049+00:00"}
+{"did": "R12", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1972, "at_utc": "2026-10-16T10:38:59.367401+00:00"}
+{"did": "R12", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2013, "at_utc": "2026-10-16T10:39:01.381009+00:00"}
+{"did": "R13", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:39:01.419963+00:00"}
+{"did": "R13", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:39:01.463760+00:00"}
+{"did": "R13", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2251, "at_utc": "2026-10-16T10:39:03.715591+00:00"}
+{"did": "R13", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2174, "at_utc": "2026-10-16T10:39:05.890005+00:00"}
+{"did": "R13", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2153, "at_utc": "2026-10-16T10:39:08.043789+00:00"}
+{"did": "R13", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:39:08.083236+00:00"}
+{"did": "R13", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:39:08.126876+00:00"}
+{"did": "R13", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2335, "at_utc": "2026-10-16T10:39:10.462256+00:00"}
+{"did": "R13", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2283, "at_utc": "2026-10-16T10:39:12.745640+00:00"}
+{"did": "R13", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2270, "at_utc": "2026-10-16T10:39:15.016698+00:00"}
+{"did": "R13", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:39:15.055900+00:00"}
+{"did": "R13", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:39:15.099655+00:00"}
+{"did": "R13", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2139, "at_utc": "2026-10-16T10:39:17.238983+00:00"}
+{"did": "R13", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2111, "at_utc": "2026-10-16T10:39:19.350131+00:00"}
+{"did": "R13", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2130, "at_utc": "2026-10-16T10:39:21.481185+00:00"}
+{"did": "R13", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:39:21.520865+00:00"}
+{"did": "R13", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:39:21.564200+00:00"}
+{"did": "R13", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2008, "at_utc": "2026-10-16T10:39:23.573233+00:00"}
+{"did": "R13", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1990, "at_utc": "2026-10-16T10:39:25.563302+00:00"}
+{"did": "R13", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1989, "at_utc": "2026-10-16T10:39:27.553189+00:00"}
+{"did": "R14", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:39:27.591821+00:00"}
+{"did": "R14", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:39:27.635610+00:00"}
+{"did": "R14", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2406, "at_utc": "2026-10-16T10:39:30.042670+00:00"}
+{"did": "R14", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2348, "at_utc": "2026-10-16T10:39:32.391357+00:00"}
+{"did": "R14", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2289, "at_utc": "2026-10-16T10:39:34.681070+00:00"}
+{"did": "R14", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:39:34.719775+00:00"}
+{"did": "R14", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:39:34.763470+00:00"}
+{"did": "R14", "line": 2, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2536, "at_utc": "2026-10-16T10:39:37.299701+00:00"}
+{"did": "R14", "line": 2, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2287, "at_utc": "2026-10-16T10:39:39.587442+00:00"}
+{"did": "R14", "line": 2, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2481, "at_utc": "2026-10-16T10:39:42.069431+00:00"}
+{"did": "R14", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:39:42.121135+00:00"}
+{"did": "R14", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:39:42.164524+00:00"}
+{"did": "R14", "line": 3, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2182, "at_utc": "2026-10-16T10:39:44.347362+00:00"}
+{"did": "R14", "line": 3, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2338, "at_utc": "2026-10-16T10:39:46.685609+00:00"}
+{"did": "R14", "line": 3, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2133, "at_utc": "2026-10-16T10:39:48.819228+00:00"}
+{"did": "R14", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:39:48.859092+00:00"}
+{"did": "R14", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:39:48.902545+00:00"}
+{"did": "R14", "line": 4, "variant": "B", "seed": 11, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2224, "at_utc": "2026-10-16T10:39:51.126875+00:00"}
+{"did": "R14", "line": 4, "variant": "B", "seed": 29, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2150, "at_utc": "2026-10-16T10:39:53.277331+00:00"}
+{"did": "R14", "line": 4, "variant": "B", "seed": 47, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2190, "at_utc": "2026-10-16T10:39:55.468064+00:00"}
+{"did": "R15", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:39:55.507425+00:00"}
+{"did": "R15", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:39:55.551265+00:00"}
+{"did": "R15", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2331, "at_utc": "2026-10-16T10:39:57.882447+00:00"}
+{"did": "R15", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2227, "at_utc": "2026-10-16T10:40:00.110164+00:00"}
+{"did": "R15", "line": 1, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2353, "at_utc": "2026-10-16T10:40:02.463400+00:00"}
+{"did": "R15", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:40:02.502530+00:00"}
+{"did": "R15", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:40:02.546318+00:00"}
+{"did": "R15", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2192, "at_utc": "2026-10-16T10:40:04.738872+00:00"}
+{"did": "R15", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2190, "at_utc": "2026-10-16T10:40:06.929427+00:00"}
+{"did": "R15", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2124, "at_utc": "2026-10-16T10:40:09.053928+00:00"}
+{"did": "R15", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:40:09.093481+00:00"}
+{"did": "R15", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:40:09.137107+00:00"}
+{"did": "R15", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2186, "at_utc": "2026-10-16T10:40:11.323213+00:00"}
+{"did": "R15", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2112, "at_utc": "2026-10-16T10:40:13.436127+00:00"}
+{"did": "R15", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2141, "at_utc": "2026-10-16T10:40:15.577278+00:00"}
+{"did": "R15", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:40:15.615762+00:00"}
+{"did": "R15", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:40:15.659326+00:00"}
+{"did": "R15", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2208, "at_utc": "2026-10-16T10:40:17.868248+00:00"}
+{"did": "R15", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2139, "at_utc": "2026-10-16T10:40:20.008199+00:00"}
+{"did": "R15", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2245, "at_utc": "2026-10-16T10:40:22.254119+00:00"}
+{"did": "R16", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:40:22.293929+00:00"}
+{"did": "R16", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:40:22.337717+00:00"}
+{"did": "R16", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2202, "at_utc": "2026-10-16T10:40:24.540366+00:00"}
+{"did": "R16", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2198, "at_utc": "2026-10-16T10:40:26.738903+00:00"}
+{"did": "R16", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2148, "at_utc": "2026-10-16T10:40:28.887205+00:00"}
+{"did": "R16", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:40:28.926325+00:00"}
+{"did": "R16", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:40:28.969694+00:00"}
+{"did": "R16", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2258, "at_utc": "2026-10-16T10:40:31.228647+00:00"}
+{"did": "R16", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2207, "at_utc": "2026-10-16T10:40:33.436619+00:00"}
+{"did": "R16", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2158, "at_utc": "2026-10-16T10:40:35.594989+00:00"}
+{"did": "R16", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:40:35.634685+00:00"}
+{"did": "R16", "line": 3, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:40:35.678401+00:00"}
+{"did": "R16", "line": 3, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2057, "at_utc": "2026-10-16T10:40:37.735511+00:00"}
+{"did": "R16", "line": 3, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2011, "at_utc": "2026-10-16T10:40:39.747082+00:00"}
+{"did": "R16", "line": 3, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2019, "at_utc": "2026-10-16T10:40:41.766482+00:00"}
+{"did": "R16", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:40:41.806215+00:00"}
+{"did": "R16", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:40:41.849631+00:00"}
+{"did": "R16", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2086, "at_utc": "2026-10-16T10:40:43.936302+00:00"}
+{"did": "R16", "line": 4, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2019, "at_utc": "2026-10-16T10:40:45.955565+00:00"}
+{"did": "R16", "line": 4, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2016, "at_utc": "2026-10-16T10:40:47.972026+00:00"}
+{"did": "R17", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:40:48.012306+00:00"}
+{"did": "R17", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:40:48.055996+00:00"}
+{"did": "R17", "line": 1, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2278, "at_utc": "2026-10-16T10:40:50.334579+00:00"}
+{"did": "R17", "line": 1, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2249, "at_utc": "2026-10-16T10:40:52.584256+00:00"}
+{"did": "R17", "line": 1, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2228, "at_utc": "2026-10-16T10:40:54.812450+00:00"}
+{"did": "R17", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:40:54.851100+00:00"}
+{"did": "R17", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:40:54.894638+00:00"}
+{"did": "R17", "line": 2, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2196, "at_utc": "2026-10-16T10:40:57.090872+00:00"}
+{"did": "R17", "line": 2, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2127, "at_utc": "2026-10-16T10:40:59.218605+00:00"}
+{"did": "R17", "line": 2, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2145, "at_utc": "2026-10-16T10:41:01.364049+00:00"}
+{"did": "R17", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:41:01.403625+00:00"}
+{"did": "R17", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:41:01.447419+00:00"}
+{"did": "R17", "line": 3, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2261, "at_utc": "2026-10-16T10:41:03.709158+00:00"}
+{"did": "R17", "line": 3, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2167, "at_utc": "2026-10-16T10:41:05.876534+00:00"}
+{"did": "R17", "line": 3, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2169, "at_utc": "2026-10-16T10:41:08.045950+00:00"}
+{"did": "R17", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:41:08.085009+00:00"}
+{"did": "R17", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:41:08.128673+00:00"}
+{"did": "R17", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2209, "at_utc": "2026-10-16T10:41:10.337868+00:00"}
+{"did": "R17", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2171, "at_utc": "2026-10-16T10:41:12.509109+00:00"}
+{"did": "R17", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2186, "at_utc": "2026-10-16T10:41:14.695667+00:00"}
+{"did": "R18", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:41:14.734355+00:00"}
+{"did": "R18", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:41:14.777917+00:00"}
+{"did": "R18", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1959, "at_utc": "2026-10-16T10:41:16.737631+00:00"}
+{"did": "R18", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1934, "at_utc": "2026-10-16T10:41:18.672243+00:00"}
+{"did": "R18", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1922, "at_utc": "2026-10-16T10:41:20.594837+00:00"}
+{"did": "R18", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:41:20.633790+00:00"}
+{"did": "R18", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:41:20.677090+00:00"}
+{"did": "R18", "line": 2, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2246, "at_utc": "2026-10-16T10:41:22.923693+00:00"}
+{"did": "R18", "line": 2, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2156, "at_utc": "2026-10-16T10:41:25.080123+00:00"}
+{"did": "R18", "line": 2, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2131, "at_utc": "2026-10-16T10:41:27.211552+00:00"}
+{"did": "R18", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:41:27.251189+00:00"}
+{"did": "R18", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:41:27.294714+00:00"}
+{"did": "R18", "line": 3, "variant": "B", "seed": 11, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2189, "at_utc": "2026-10-16T10:41:29.483896+00:00"}
+{"did": "R18", "line": 3, "variant": "B", "seed": 29, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2197, "at_utc": "2026-10-16T10:41:31.681688+00:00"}
+{"did": "R18", "line": 3, "variant": "B", "seed": 47, "predicate": "owns_item", "high": true, "schema_ok": true, "latency_ms": 2143, "at_utc": "2026-10-16T10:41:33.825564+00:00"}
+{"did": "R18", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:41:33.865208+00:00"}
+{"did": "R18", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:41:33.908926+00:00"}
+{"did": "R18", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2483, "at_utc": "2026-10-16T10:41:36.392360+00:00"}
+{"did": "R18", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2433, "at_utc": "2026-10-16T10:41:38.826311+00:00"}
+{"did": "R18", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2391, "at_utc": "2026-10-16T10:41:41.217473+00:00"}
+{"did": "R19", "line": 1, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:41:41.256764+00:00"}
+{"did": "R19", "line": 1, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:41:41.299812+00:00"}
+{"did": "R19", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2103, "at_utc": "2026-10-16T10:41:43.403862+00:00"}
+{"did": "R19", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2081, "at_utc": "2026-10-16T10:41:45.485740+00:00"}
+{"did": "R19", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2024, "at_utc": "2026-10-16T10:41:47.510547+00:00"}
+{"did": "R19", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:41:47.550036+00:00"}
+{"did": "R19", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:41:47.593425+00:00"}
+{"did": "R19", "line": 2, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2179, "at_utc": "2026-10-16T10:41:49.772665+00:00"}
+{"did": "R19", "line": 2, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2117, "at_utc": "2026-10-16T10:41:51.890534+00:00"}
+{"did": "R19", "line": 2, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2134, "at_utc": "2026-10-16T10:41:54.024657+00:00"}
+{"did": "R19", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:41:54.063304+00:00"}
+{"did": "R19", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:41:54.106847+00:00"}
+{"did": "R19", "line": 3, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2222, "at_utc": "2026-10-16T10:41:56.329719+00:00"}
+{"did": "R19", "line": 3, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2143, "at_utc": "2026-10-16T10:41:58.473150+00:00"}
+{"did": "R19", "line": 3, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2145, "at_utc": "2026-10-16T10:42:00.619140+00:00"}
+{"did": "R19", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:42:00.658644+00:00"}
+{"did": "R19", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:42:00.702273+00:00"}
+{"did": "R19", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2211, "at_utc": "2026-10-16T10:42:02.914081+00:00"}
+{"did": "R19", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2127, "at_utc": "2026-10-16T10:42:05.041286+00:00"}
+{"did": "R19", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2151, "at_utc": "2026-10-16T10:42:07.192798+00:00"}
+{"did": "R20", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:42:07.231598+00:00"}
+{"did": "R20", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:42:07.275113+00:00"}
+{"did": "R20", "line": 1, "variant": "B", "seed": 11, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2097, "at_utc": "2026-10-16T10:42:09.372263+00:00"}
+{"did": "R20", "line": 1, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2085, "at_utc": "2026-10-16T10:42:11.457838+00:00"}
+{"did": "R20", "line": 1, "variant": "B", "seed": 47, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2168, "at_utc": "2026-10-16T10:42:13.626182+00:00"}
+{"did": "R20", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:42:13.664824+00:00"}
+{"did": "R20", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:42:13.708111+00:00"}
+{"did": "R20", "line": 2, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2287, "at_utc": "2026-10-16T10:42:15.996135+00:00"}
+{"did": "R20", "line": 2, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2237, "at_utc": "2026-10-16T10:42:18.233792+00:00"}
+{"did": "R20", "line": 2, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2229, "at_utc": "2026-10-16T10:42:20.463390+00:00"}
+{"did": "R20", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:42:20.501871+00:00"}
+{"did": "R20", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:42:20.545489+00:00"}
+{"did": "R20", "line": 3, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2269, "at_utc": "2026-10-16T10:42:22.814680+00:00"}
+{"did": "R20", "line": 3, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2164, "at_utc": "2026-10-16T10:42:24.978927+00:00"}
+{"did": "R20", "line": 3, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2213, "at_utc": "2026-10-16T10:42:27.192944+00:00"}
+{"did": "R20", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:42:27.231845+00:00"}
+{"did": "R20", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:42:27.275257+00:00"}
+{"did": "R20", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2208, "at_utc": "2026-10-16T10:42:29.483742+00:00"}
+{"did": "R20", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2193, "at_utc": "2026-10-16T10:42:31.677113+00:00"}
+{"did": "R20", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2209, "at_utc": "2026-10-16T10:42:33.887005+00:00"}
+{"did": "R21", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:42:33.926502+00:00"}
+{"did": "R21", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:42:33.970316+00:00"}
+{"did": "R21", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1980, "at_utc": "2026-10-16T10:42:35.951241+00:00"}
+{"did": "R21", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1981, "at_utc": "2026-10-16T10:42:37.932604+00:00"}
+{"did": "R21", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1978, "at_utc": "2026-10-16T10:42:39.910983+00:00"}
+{"did": "R21", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:42:39.949670+00:00"}
+{"did": "R21", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:42:39.993134+00:00"}
+{"did": "R21", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2221, "at_utc": "2026-10-16T10:42:42.214744+00:00"}
+{"did": "R21", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2208, "at_utc": "2026-10-16T10:42:44.423005+00:00"}
+{"did": "R21", "line": 2, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2230, "at_utc": "2026-10-16T10:42:46.653532+00:00"}
+{"did": "R21", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:42:46.693025+00:00"}
+{"did": "R21", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:42:46.736595+00:00"}
+{"did": "R21", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2173, "at_utc": "2026-10-16T10:42:48.910483+00:00"}
+{"did": "R21", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2151, "at_utc": "2026-10-16T10:42:51.061865+00:00"}
+{"did": "R21", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2131, "at_utc": "2026-10-16T10:42:53.193170+00:00"}
+{"did": "R21", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:42:53.232687+00:00"}
+{"did": "R21", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:42:53.276485+00:00"}
+{"did": "R21", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2476, "at_utc": "2026-10-16T10:42:55.752782+00:00"}
+{"did": "R21", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2433, "at_utc": "2026-10-16T10:42:58.186745+00:00"}
+{"did": "R21", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2417, "at_utc": "2026-10-16T10:43:00.604655+00:00"}
+{"did": "R22", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:43:00.643348+00:00"}
+{"did": "R22", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:43:00.686819+00:00"}
+{"did": "R22", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2043, "at_utc": "2026-10-16T10:43:02.729963+00:00"}
+{"did": "R22", "line": 1, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2124, "at_utc": "2026-10-16T10:43:04.854180+00:00"}
+{"did": "R22", "line": 1, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2133, "at_utc": "2026-10-16T10:43:06.987351+00:00"}
+{"did": "R22", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:43:07.026978+00:00"}
+{"did": "R22", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:43:07.070474+00:00"}
+{"did": "R22", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2181, "at_utc": "2026-10-16T10:43:09.252560+00:00"}
+{"did": "R22", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2108, "at_utc": "2026-10-16T10:43:11.360673+00:00"}
+{"did": "R22", "line": 2, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2199, "at_utc": "2026-10-16T10:43:13.559945+00:00"}
+{"did": "R22", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:43:13.598555+00:00"}
+{"did": "R22", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:43:13.641952+00:00"}
+{"did": "R22", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2099, "at_utc": "2026-10-16T10:43:15.741875+00:00"}
+{"did": "R22", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2100, "at_utc": "2026-10-16T10:43:17.842109+00:00"}
+{"did": "R22", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2084, "at_utc": "2026-10-16T10:43:19.926616+00:00"}
+{"did": "R22", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:43:19.966190+00:00"}
+{"did": "R22", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:43:20.009724+00:00"}
+{"did": "R22", "line": 4, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2174, "at_utc": "2026-10-16T10:43:22.184245+00:00"}
+{"did": "R22", "line": 4, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2153, "at_utc": "2026-10-16T10:43:24.337910+00:00"}
+{"did": "R22", "line": 4, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2200, "at_utc": "2026-10-16T10:43:26.538510+00:00"}
+{"did": "R23", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:43:26.577354+00:00"}
+{"did": "R23", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:43:26.620974+00:00"}
+{"did": "R23", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1956, "at_utc": "2026-10-16T10:43:28.577452+00:00"}
+{"did": "R23", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1952, "at_utc": "2026-10-16T10:43:30.529732+00:00"}
+{"did": "R23", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1936, "at_utc": "2026-10-16T10:43:32.465902+00:00"}
+{"did": "R23", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:43:32.504840+00:00"}
+{"did": "R23", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:43:32.548579+00:00"}
+{"did": "R23", "line": 2, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2404, "at_utc": "2026-10-16T10:43:34.952983+00:00"}
+{"did": "R23", "line": 2, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2308, "at_utc": "2026-10-16T10:43:37.261591+00:00"}
+{"did": "R23", "line": 2, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2382, "at_utc": "2026-10-16T10:43:39.643670+00:00"}
+{"did": "R23", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:43:39.682162+00:00"}
+{"did": "R23", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:43:39.725507+00:00"}
+{"did": "R23", "line": 3, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2270, "at_utc": "2026-10-16T10:43:41.996311+00:00"}
+{"did": "R23", "line": 3, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2235, "at_utc": "2026-10-16T10:43:44.231928+00:00"}
+{"did": "R23", "line": 3, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2166, "at_utc": "2026-10-16T10:43:46.398919+00:00"}
+{"did": "R23", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:43:46.437603+00:00"}
+{"did": "R23", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:43:46.481031+00:00"}
+{"did": "R23", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2365, "at_utc": "2026-10-16T10:43:48.846766+00:00"}
+{"did": "R23", "line": 4, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2129, "at_utc": "2026-10-16T10:43:50.976314+00:00"}
+{"did": "R23", "line": 4, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2199, "at_utc": "2026-10-16T10:43:53.175569+00:00"}
+{"did": "R24", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:43:53.214125+00:00"}
+{"did": "R24", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:43:53.257387+00:00"}
+{"did": "R24", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2042, "at_utc": "2026-10-16T10:43:55.300032+00:00"}
+{"did": "R24", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2077, "at_utc": "2026-10-16T10:43:57.377410+00:00"}
+{"did": "R24", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2045, "at_utc": "2026-10-16T10:43:59.422910+00:00"}
+{"did": "R24", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:43:59.462228+00:00"}
+{"did": "R24", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:43:59.505563+00:00"}
+{"did": "R24", "line": 2, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2189, "at_utc": "2026-10-16T10:44:01.695227+00:00"}
+{"did": "R24", "line": 2, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2178, "at_utc": "2026-10-16T10:44:03.873602+00:00"}
+{"did": "R24", "line": 2, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2155, "at_utc": "2026-10-16T10:44:06.029360+00:00"}
+{"did": "R24", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:44:06.068602+00:00"}
+{"did": "R24", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:44:06.111904+00:00"}
+{"did": "R24", "line": 3, "variant": "B", "seed": 11, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2211, "at_utc": "2026-10-16T10:44:08.323792+00:00"}
+{"did": "R24", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2136, "at_utc": "2026-10-16T10:44:10.460758+00:00"}
+{"did": "R24", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2144, "at_utc": "2026-10-16T10:44:12.605496+00:00"}
+{"did": "R24", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:44:12.644535+00:00"}
+{"did": "R24", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:44:12.688634+00:00"}
+{"did": "R24", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2276, "at_utc": "2026-10-16T10:44:14.964955+00:00"}
+{"did": "R24", "line": 4, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2364, "at_utc": "2026-10-16T10:44:17.329783+00:00"}
+{"did": "R24", "line": 4, "variant": "B", "seed": 47, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2218, "at_utc": "2026-10-16T10:44:19.547872+00:00"}
+{"did": "R25", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:44:19.586672+00:00"}
+{"did": "R25", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:44:19.630002+00:00"}
+{"did": "R25", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2042, "at_utc": "2026-10-16T10:44:21.672253+00:00"}
+{"did": "R25", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2356, "at_utc": "2026-10-16T10:44:24.029108+00:00"}
+{"did": "R25", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2050, "at_utc": "2026-10-16T10:44:26.079663+00:00"}
+{"did": "R25", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:44:26.120992+00:00"}
+{"did": "R25", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:44:26.165287+00:00"}
+{"did": "R25", "line": 2, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2405, "at_utc": "2026-10-16T10:44:28.570478+00:00"}
+{"did": "R25", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2251, "at_utc": "2026-10-16T10:44:30.821641+00:00"}
+{"did": "R25", "line": 2, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2520, "at_utc": "2026-10-16T10:44:33.341816+00:00"}
+{"did": "R25", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:44:33.380520+00:00"}
+{"did": "R25", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:44:33.424017+00:00"}
+{"did": "R25", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2262, "at_utc": "2026-10-16T10:44:35.686810+00:00"}
+{"did": "R25", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2183, "at_utc": "2026-10-16T10:44:37.870716+00:00"}
+{"did": "R25", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2180, "at_utc": "2026-10-16T10:44:40.051077+00:00"}
+{"did": "R25", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:44:40.089836+00:00"}
+{"did": "R25", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:44:40.133441+00:00"}
+{"did": "R25", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2307, "at_utc": "2026-10-16T10:44:42.441113+00:00"}
+{"did": "R25", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2286, "at_utc": "2026-10-16T10:44:44.727777+00:00"}
+{"did": "R25", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2247, "at_utc": "2026-10-16T10:44:46.975262+00:00"}
+{"did": "R26", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:44:47.014583+00:00"}
+{"did": "R26", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:44:47.058699+00:00"}
+{"did": "R26", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2044, "at_utc": "2026-10-16T10:44:49.102940+00:00"}
+{"did": "R26", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2017, "at_utc": "2026-10-16T10:44:51.120373+00:00"}
+{"did": "R26", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2082, "at_utc": "2026-10-16T10:44:53.203422+00:00"}
+{"did": "R26", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:44:53.242569+00:00"}
+{"did": "R26", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:44:53.286698+00:00"}
+{"did": "R26", "line": 2, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2176, "at_utc": "2026-10-16T10:44:55.462961+00:00"}
+{"did": "R26", "line": 2, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2209, "at_utc": "2026-10-16T10:44:57.672618+00:00"}
+{"did": "R26", "line": 2, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2244, "at_utc": "2026-10-16T10:44:59.917026+00:00"}
+{"did": "R26", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:44:59.956980+00:00"}
+{"did": "R26", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:45:00.000371+00:00"}
+{"did": "R26", "line": 3, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2191, "at_utc": "2026-10-16T10:45:02.192090+00:00"}
+{"did": "R26", "line": 3, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2221, "at_utc": "2026-10-16T10:45:04.414078+00:00"}
+{"did": "R26", "line": 3, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2215, "at_utc": "2026-10-16T10:45:06.629987+00:00"}
+{"did": "R26", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:45:06.669610+00:00"}
+{"did": "R26", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:45:06.713278+00:00"}
+{"did": "R26", "line": 4, "variant": "B", "seed": 11, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2282, "at_utc": "2026-10-16T10:45:08.995623+00:00"}
+{"did": "R26", "line": 4, "variant": "B", "seed": 29, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2245, "at_utc": "2026-10-16T10:45:11.241600+00:00"}
+{"did": "R26", "line": 4, "variant": "B", "seed": 47, "predicate": "paid_deposit", "high": true, "schema_ok": true, "latency_ms": 2217, "at_utc": "2026-10-16T10:45:13.459048+00:00"}
+{"did": "R27", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:45:13.498218+00:00"}
+{"did": "R27", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:45:13.541547+00:00"}
+{"did": "R27", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2121, "at_utc": "2026-10-16T10:45:15.662854+00:00"}
+{"did": "R27", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2031, "at_utc": "2026-10-16T10:45:17.694561+00:00"}
+{"did": "R27", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2057, "at_utc": "2026-10-16T10:45:19.752011+00:00"}
+{"did": "R27", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:45:19.791457+00:00"}
+{"did": "R27", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:45:19.834827+00:00"}
+{"did": "R27", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2327, "at_utc": "2026-10-16T10:45:22.162191+00:00"}
+{"did": "R27", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2325, "at_utc": "2026-10-16T10:45:24.487614+00:00"}
+{"did": "R27", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2385, "at_utc": "2026-10-16T10:45:26.872994+00:00"}
+{"did": "R27", "line": 3, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.42857142857142855, "at_utc": "2026-10-16T10:45:26.912417+00:00"}
+{"did": "R27", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:45:26.956833+00:00"}
+{"did": "R27", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2159, "at_utc": "2026-10-16T10:45:29.116425+00:00"}
+{"did": "R27", "line": 3, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2100, "at_utc": "2026-10-16T10:45:31.217157+00:00"}
+{"did": "R27", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2138, "at_utc": "2026-10-16T10:45:33.356178+00:00"}
+{"did": "R27", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:45:33.395769+00:00"}
+{"did": "R27", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:45:33.439223+00:00"}
+{"did": "R27", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2218, "at_utc": "2026-10-16T10:45:35.657775+00:00"}
+{"did": "R27", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2122, "at_utc": "2026-10-16T10:45:37.780062+00:00"}
+{"did": "R27", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2151, "at_utc": "2026-10-16T10:45:39.931481+00:00"}
+{"did": "R28", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:45:39.970027+00:00"}
+{"did": "R28", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:45:40.013586+00:00"}
+{"did": "R28", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2066, "at_utc": "2026-10-16T10:45:42.080334+00:00"}
+{"did": "R28", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2111, "at_utc": "2026-10-16T10:45:44.192162+00:00"}
+{"did": "R28", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2088, "at_utc": "2026-10-16T10:45:46.280832+00:00"}
+{"did": "R28", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:45:46.319666+00:00"}
+{"did": "R28", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:45:46.363185+00:00"}
+{"did": "R28", "line": 2, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2284, "at_utc": "2026-10-16T10:45:48.647792+00:00"}
+{"did": "R28", "line": 2, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2133, "at_utc": "2026-10-16T10:45:50.781359+00:00"}
+{"did": "R28", "line": 2, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2153, "at_utc": "2026-10-16T10:45:52.934635+00:00"}
+{"did": "R28", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:45:52.974304+00:00"}
+{"did": "R28", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:45:53.017859+00:00"}
+{"did": "R28", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2240, "at_utc": "2026-10-16T10:45:55.258395+00:00"}
+{"did": "R28", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2188, "at_utc": "2026-10-16T10:45:57.447079+00:00"}
+{"did": "R28", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_discount", "high": true, "schema_ok": true, "latency_ms": 2186, "at_utc": "2026-10-16T10:45:59.633356+00:00"}
+{"did": "R28", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:45:59.673034+00:00"}
+{"did": "R28", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.0, "at_utc": "2026-10-16T10:45:59.716637+00:00"}
+{"did": "R28", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2404, "at_utc": "2026-10-16T10:46:02.121023+00:00"}
+{"did": "R28", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2407, "at_utc": "2026-10-16T10:46:04.528653+00:00"}
+{"did": "R28", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2342, "at_utc": "2026-10-16T10:46:06.871248+00:00"}
+{"did": "R29", "line": 1, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:46:06.911182+00:00"}
+{"did": "R29", "line": 1, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.5714285714285714, "at_utc": "2026-10-16T10:46:06.954884+00:00"}
+{"did": "R29", "line": 1, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2283, "at_utc": "2026-10-16T10:46:09.238099+00:00"}
+{"did": "R29", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2027, "at_utc": "2026-10-16T10:46:11.265299+00:00"}
+{"did": "R29", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2032, "at_utc": "2026-10-16T10:46:13.297697+00:00"}
+{"did": "R29", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:46:13.337154+00:00"}
+{"did": "R29", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:46:13.380727+00:00"}
+{"did": "R29", "line": 2, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2315, "at_utc": "2026-10-16T10:46:15.696068+00:00"}
+{"did": "R29", "line": 2, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2162, "at_utc": "2026-10-16T10:46:17.858639+00:00"}
+{"did": "R29", "line": 2, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2179, "at_utc": "2026-10-16T10:46:20.038056+00:00"}
+{"did": "R29", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:46:20.076919+00:00"}
+{"did": "R29", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:46:20.120486+00:00"}
+{"did": "R29", "line": 3, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2292, "at_utc": "2026-10-16T10:46:22.412781+00:00"}
+{"did": "R29", "line": 3, "variant": "B", "seed": 29, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2261, "at_utc": "2026-10-16T10:46:24.673985+00:00"}
+{"did": "R29", "line": 3, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2277, "at_utc": "2026-10-16T10:46:26.951099+00:00"}
+{"did": "R29", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:46:26.989890+00:00"}
+{"did": "R29", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:46:27.033325+00:00"}
+{"did": "R29", "line": 4, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2141, "at_utc": "2026-10-16T10:46:29.174689+00:00"}
+{"did": "R29", "line": 4, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2136, "at_utc": "2026-10-16T10:46:31.310899+00:00"}
+{"did": "R29", "line": 4, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2165, "at_utc": "2026-10-16T10:46:33.476373+00:00"}
+{"did": "R30", "line": 1, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.2857142857142857, "at_utc": "2026-10-16T10:46:33.515013+00:00"}
+{"did": "R30", "line": 1, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:46:33.558384+00:00"}
+{"did": "R30", "line": 1, "variant": "B", "seed": 11, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 1999, "at_utc": "2026-10-16T10:46:35.557571+00:00"}
+{"did": "R30", "line": 1, "variant": "B", "seed": 29, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2015, "at_utc": "2026-10-16T10:46:37.573399+00:00"}
+{"did": "R30", "line": 1, "variant": "B", "seed": 47, "predicate": "none", "high": false, "schema_ok": true, "latency_ms": 2053, "at_utc": "2026-10-16T10:46:39.626917+00:00"}
+{"did": "R30", "line": 2, "variant": "KNN_OLD", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:46:39.666324+00:00"}
+{"did": "R30", "line": 2, "variant": "KNN_AUG", "seed": null, "high": true, "share": 0.8571428571428571, "at_utc": "2026-10-16T10:46:39.709862+00:00"}
+{"did": "R30", "line": 2, "variant": "B", "seed": 11, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2208, "at_utc": "2026-10-16T10:46:41.918366+00:00"}
+{"did": "R30", "line": 2, "variant": "B", "seed": 29, "predicate": "reserved_item", "high": true, "schema_ok": true, "latency_ms": 2122, "at_utc": "2026-10-16T10:46:44.040999+00:00"}
+{"did": "R30", "line": 2, "variant": "B", "seed": 47, "predicate": "completed_errand", "high": true, "schema_ok": true, "latency_ms": 2141, "at_utc": "2026-10-16T10:46:46.182806+00:00"}
+{"did": "R30", "line": 3, "variant": "KNN_OLD", "seed": null, "high": true, "share": 0.7142857142857143, "at_utc": "2026-10-16T10:46:46.221556+00:00"}
+{"did": "R30", "line": 3, "variant": "KNN_AUG", "seed": null, "high": true, "share": 1.0, "at_utc": "2026-10-16T10:46:46.265577+00:00"}
+{"did": "R30", "line": 3, "variant": "B", "seed": 11, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2192, "at_utc": "2026-10-16T10:46:48.458166+00:00"}
+{"did": "R30", "line": 3, "variant": "B", "seed": 29, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2147, "at_utc": "2026-10-16T10:46:50.605267+00:00"}
+{"did": "R30", "line": 3, "variant": "B", "seed": 47, "predicate": "promised_reward", "high": true, "schema_ok": true, "latency_ms": 2168, "at_utc": "2026-10-16T10:46:52.773652+00:00"}
+{"did": "R30", "line": 4, "variant": "KNN_OLD", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:46:52.812466+00:00"}
+{"did": "R30", "line": 4, "variant": "KNN_AUG", "seed": null, "high": false, "share": 0.14285714285714285, "at_utc": "2026-10-16T10:46:52.856604+00:00"}
+{"did": "R30", "line": 4, "variant": "B", "seed": 11, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2376, "at_utc": "2026-10-16T10:46:55.233402+00:00"}
+{"did": "R30", "line": 4, "variant": "B", "seed": 29, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2332, "at_utc": "2026-10-16T10:46:57.566161+00:00"}
+{"did": "R30", "line": 4, "variant": "B", "seed": 47, "predicate": "heard_rumor", "high": false, "schema_ok": true, "latency_ms": 2266, "at_utc": "2026-10-16T10:46:59.832911+00:00"}

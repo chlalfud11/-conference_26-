@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S112",
+  "type": "M1P10",
+  "title": "꿀 한 병",
+  "attack": "장작을 날라 주면 꿀을 주기로 한 약속을 받으러 온다",
+  "trust": 2,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "도르만 할아버지, 저 왔어요!",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "지난번에 장작 날라 드리면 꿀 한 병 주신다고 하셨잖아요.",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 꿀, 오늘 받을 수 있을까요?",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "대장간 아들이 도시로 떠났다던데요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "꿀 작은 병 하나 더 사고 싶은데 얼마예요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 장부에도 적어 두셨죠?",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "요즘 숲에 늑대가 자주 내려온다는 얘기가 있어요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "감사합니다, 할아버지.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

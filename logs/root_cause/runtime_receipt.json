@@ -1,0 +1,20 @@
+{
+  "monitor": "mon_CNASFCE78GJVSCPQ",
+  "exit_code": 0,
+  "completed": 12,
+  "planned": 12,
+  "unique_call_ids": 12,
+  "failed_attempts": 0,
+  "finish_reasons": {"stop": 12},
+  "output_length_terminations": 0,
+  "unique_outputs_per_three_repeats": [1, 1, 1, 1],
+  "template_metadata_comparison": "exact_match",
+  "rendered_input_token_counts": [232, 225, 1261, 1779],
+  "api_prompt_token_counts_match_rendered_inputs": true,
+  "slot_context_capacity": 4096,
+  "input_truncated_api_field_present": false,
+  "direct_actual_generation_prompt_trace": "unconfirmed",
+  "interpretation": "These four inputs fit within the observed slot capacity, API usage matches the complete diagnostic rendering, and all outputs ended with stop. No demonstrated interface mismatch or truncation was found. Missing direct generation prompt trace and truncation flags are not represented as verified.",
+  "eos_warning": "Recorded startup special_eos_id warning remains; this repetition test did not demonstrate faulty stopping.",
+  "pilot_monitor": "mon_J0JTA7QXZ3WHPWZH"
+}

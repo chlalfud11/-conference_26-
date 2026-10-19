@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Alessandro Phoenix | account alessandrop168 | member: guest | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #1926278034  2019-11-01  tommy_hilfiger jacket $99  total $99  status: delivered
+Payments:
+  2019-11-01 charge $99 order #1926278034 (card)
+Returns / promo codes:
+  (none)

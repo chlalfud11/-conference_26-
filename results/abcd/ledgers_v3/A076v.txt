@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Sanya Afzal (sanyaafzal717) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Sanya Afzal (sanyaafzal717) | order #3549165953 | calvin_klein jeans $64 | total $64 | status: delivered
+  2024-06-12 | Sanya Afzal (sanyaafzal717) | charge $64 for order #3549165953 (debit card)

@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Chloe Zhang (chloezhang998) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Chloe Zhang (chloezhang998) | order #3753855733 | guess jacket $64 | total $64 | status: delivered
+  2024-06-12 | Chloe Zhang (chloezhang998) | charge $64 for order #3753855733 (debit card)

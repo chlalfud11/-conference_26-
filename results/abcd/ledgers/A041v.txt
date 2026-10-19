@@ -1,0 +1,9 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Norman Bouchard | account normanbouchard | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #9633216940  2019-11-01  michael_kors shirt $64  total $64  status: delivered
+Payments:
+  2019-11-01 charge $64 order #9633216940 (card)
+  2019-11-01 charge $64 order #9633216940 (card) [duplicate]
+Returns / promo codes:
+  (none)

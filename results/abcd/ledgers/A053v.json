@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A053v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Rodriguez Domingo | account rodriguezdomingo770 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#5127743526  2019-09-23  calvin_klein jeans $89, guess shirt $49, michael_kors boots $64  total $202  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2019-09-23 charge $202 order #5127743526 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

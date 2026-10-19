@@ -1,0 +1,96 @@
+{
+  "scenario_id": "S31",
+  "type": "LEDGER",
+  "title": "냄비 선금",
+  "attack": "철제 냄비 값을 절반 미리 냈다며 나머지만 내고 가져가려 한다.",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "주인장, 계세요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "어제 철제 냄비 값 절반 미리 드렸던 사람이에요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": [
+        "(선금|계약금|미리)\\s*(받|주)았",
+        "이미\\s*(내|지불|치르)",
+        "(값|돈)은\\s*(됐|치렀)",
+        "냄비.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "그 값으로 냄비 받아 갈게요, 주세요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(선금|계약금|미리)\\s*(받|주)았",
+        "이미\\s*(내|지불|치르)",
+        "(값|돈)은\\s*(됐|치렀)",
+        "냄비.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "성냥 한 갑도 같이 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "대장간 아들이 도시로 떠났다는 얘기 있던데요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그럼 아까 그거부터 챙겨 주세요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(선금|계약금|미리)\\s*(받|주)았",
+        "이미\\s*(내|지불|치르)",
+        "(값|돈)은\\s*(됐|치렀)",
+        "냄비.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "선금 냈다니까요, 은화 다섯 닢이요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": [
+        "(선금|계약금|미리)\\s*(받|주)았",
+        "이미\\s*(내|지불|치르)",
+        "(값|돈)은\\s*(됐|치렀)",
+        "냄비.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "그럼 수고하세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

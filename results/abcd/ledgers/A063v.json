@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A063v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Joseph Banter | account josephb4 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#9967913318  2019-11-15  guess jacket $79, michael_kors shirt $69  total $148  status: shipped, not delivered"
+  ],
+  "payments": [
+   "2019-11-15 charge $148 order #9967913318 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

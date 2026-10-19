@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A032n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Joyce Wu | account joycewu | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#8328502052  2019-11-01  michael_kors jeans $74  total $74  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $74 order #8328502052 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

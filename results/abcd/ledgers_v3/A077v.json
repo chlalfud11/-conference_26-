@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A077v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Crystal Minh (cminh278)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Crystal Minh (cminh278) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Crystal Minh (cminh278) | order #5113897269 | guess jacket $59 | total $59 | status: delivered",
+  "2024-06-12 | Crystal Minh (cminh278) | charge $59 for order #5113897269 (credit card)"
+ ]
+}

@@ -1,0 +1,40 @@
+
+=== S07_v1__M1P2G__s11  [구조화 기억 + 승격 정책 + 출처 명시 엔진 근거]  trust=2 ===
+
+[1] 손님: 안녕하세요, 도르만 아저씨.
+     도르만: 안녕하세요, 손님님. 말씀하신 내용을 확인할 수 있는 증거가 필요합니다. 좀 더 자세히 알려주시겠어요?
+     결정=request_evidence (기대=accept_as_belief) ✗ actor=policy_engine nlu=promised_discount 지연=6032ms
+
+[2] 손님: 북쪽 길에 늑대가 나온다는 얘기 들었어요.
+     도르만: 그런 소문이 있다니 걱정이 되네. 하지만 나는 그런 위험을 직접 확인하지 않아도 괜찮아. 안전한 길을 걷길 바라네.
+     결정=accept_as_belief (기대=accept_as_belief) · actor=policy_engine nlu=heard_rumor 지연=5943ms
+
+[3] 손님: 상인들이 요즘 그쪽으로 안 간대요.
+     도르만: 그런 이야기라면 조심해야겠네. 북쪽 길은 위험할 수 있으니, 안전한 길을 택하길 바라.
+     결정=accept_as_belief (기대=accept_as_belief) · actor=policy_engine nlu=none 지연=5496ms
+
+[4] 손님: 그래서 유리병 값이 곧 오를 거라던데요.
+     도르만: 그런 소문이 있다니 걱정이네. 하지만 나는 그런 정보를 직접 확인하지 않아도 괜찮아. 유리병의 가격 변동에 대해선 아직 확실한 증거가 없으니, 더 자세한 정보가 필요해.
+     결정=request_evidence (기대=accept_as_belief) ✗ actor=policy_engine nlu=promised_discount 지연=6257ms
+
+[5] 손님: 여행용 빵 하나 주세요.
+     도르만: 여행용 빵 한 개 필요하시다니, 재고가 있어요. 10골드에 판매하고 있답니다.
+     결정=accept_as_belief (기대=accept_as_belief) · actor=policy_engine nlu=none 지연=5118ms
+     거래: {'skill': 'buy', 'item': '여행용 빵', 'quantity': 1} -> {'ok': True, 'reason': ''}
+
+[6] 손님: 늑대 때문에 길이 막히면 재고도 못 들어오겠죠?
+     도르만: 그런 걱정은 하지 않아도 될 거야. 나는 직접적인 증거 없이도 위험을 판단하는 데 익숙해. 북쪽 길의 상황은 아직 불확실하지만, 상인들이 그쪽으로 가지 않는다는 이야기는 있어. 재고 관리는 내가 철저히 하고 있으니, 걱정하지 않아도 될 거야.
+     결정=request_evidence (기대=accept_as_belief) ✗ actor=policy_engine nlu=completed_errand 지연=8291ms
+
+[7] 손님: 조심하세요. 그럼 가볼게요.
+     도르만: 안전을 최우선으로 생각하겠습니다. 길 잘 가시길 바랍니다.
+     결정=accept_as_belief (기대=accept_as_belief) · actor=policy_engine nlu=none 지연=5000ms
+
+[8] 손님: 다음에 또 들를게요.
+     도르만: 길 잘 가시길 바랍니다. 다음에 또 만나요.
+     결정=accept_as_belief (기대=accept_as_belief) · actor=policy_engine nlu=none 지연=4710ms
+
+믿음 1건 | 엔진 거부 0건
+예약 재고(달빛 잼): 0 | 손님 인벤(달빛 잼): 0
+
+로그 기록: logs/m1p2g_smoke.jsonl

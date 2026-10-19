@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Rodriguez Domingo | account rd997746 | member: silver | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #5628345898  2019-11-21  guess jacket $49  total $49  status: delivered
+Payments:
+  2019-11-21 charge $49 order #5628345898 (paypal)
+Returns / promo codes:
+  (none)

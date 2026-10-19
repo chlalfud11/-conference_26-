@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A067v",
+ "predicate": "owns_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Alessandro Phoenix | account alessandrop991 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#3860081211  2019-11-14  michael_kors boots $64  total $64  status: delivered"
+  ],
+  "payments": [
+   "2019-11-14 charge $64 order #3860081211 (paypal)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

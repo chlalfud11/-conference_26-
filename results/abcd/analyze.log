@@ -1,0 +1,73 @@
+{
+ "n_runs": 1008,
+ "seal_before_live": true,
+ "primary_tcar_n": {
+  "n_sources": 84,
+  "M1P0": 0.003968253968253968,
+  "M1P1": 0.1626984126984127,
+  "p": 4.999750012499375e-05
+ },
+ "over_rejection_v": {
+  "n_sources": 84,
+  "M1P0": 0.9047619047619048,
+  "M1P1": 0.0,
+  "p": 4.999750012499375e-05
+ },
+ "decision_agreement": {
+  "M1P0": 0.5444444444444444,
+  "M1P1": 0.924074074074074
+ },
+ "decision_agreement_p": 4.999750012499375e-05,
+ "holm": {
+  "over_rejection_v": 9.99950002499875e-05,
+  "decision_agreement": 9.99950002499875e-05
+ },
+ "nlu_predicate_accuracy": {
+  "M1P0": 0.75,
+  "M1P1": 0.75
+ },
+ "sensitivity_no_fragments": {
+  "n_sources": 81,
+  "M1P0": 0.004115226337448559,
+  "M1P1": 0.16872427983539093,
+  "p": 4.999750012499375e-05
+ },
+ "per_predicate_tcar": {
+  "promised_discount": {
+   "M1P0": "0/60",
+   "M1P1": "27/60"
+  },
+  "completed_errand": {
+   "M1P0": "0/27",
+   "M1P1": "0/27"
+  },
+  "paid_deposit": {
+   "M1P0": "0/60",
+   "M1P1": "0/60"
+  },
+  "reserved_item": {
+   "M1P0": "0/45",
+   "M1P1": "0/45"
+  },
+  "owns_item": {
+   "M1P0": "1/60",
+   "M1P1": "14/60"
+  }
+ },
+ "latency_median_ms": 10125.0,
+ "reasoning_leak": 0,
+ "english_replies": "1080/1080",
+ "adopt_M1P1": false,
+ "prereg_sha_match": true,
+ "scenario_set_match": true,
+ "deviation": {
+  "stop_rule_triggered": "pilot2 M1P0 TCAR n 0/5",
+  "asked_user": "2026-10-17 (timeout, no answer)",
+  "live_started_without_answer": true,
+  "user_approved_continue": "2026-10-18 user answered \"계속\" after reviewer flagged the deviation"
+ },
+ "m1p1_wrong_accept_nlu_predicate": {
+  "none": 41
+ }
+}
+seal_before_live=true

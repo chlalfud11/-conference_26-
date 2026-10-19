@@ -1,0 +1,31 @@
+{
+  "frozen_at_utc": "2026-10-16T10:33:32.399440+00:00",
+  "set_mtime_utc": "2026-10-16T10:33:06.857744+00:00",
+  "dialogues": 30,
+  "lines": 120,
+  "unique_utterances": 120,
+  "labels": {
+    "heard_rumor": 37,
+    "none": 27,
+    "reserved_item": 9,
+    "paid_deposit": 9,
+    "promised_reward": 9,
+    "promised_discount": 9,
+    "completed_errand": 10,
+    "owns_item": 10
+  },
+  "types": {
+    "rumor": 17,
+    "none": 27,
+    "claim": 30,
+    "rumor_after_claim": 20,
+    "insist": 26
+  },
+  "forms": {
+    "plain": 81,
+    "request": 39
+  },
+  "hashes": {
+    "nlu_heldout7/heldout_set.json": "af5f32469d7c11559f381804797702107d4fcd6b6f3a318e22dd11dcc089f5bb"
+  }
+}

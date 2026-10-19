@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Rodriguez Domingo (rodriguezdomingo) | member: guest | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Rodriguez Domingo (rodriguezdomingo) | order #6569003445 | guess jacket $69, guess boots $69 | total $138 | status: delivered
+  2024-06-12 | Rodriguez Domingo (rodriguezdomingo) | charge $138 for order #6569003445 (card)

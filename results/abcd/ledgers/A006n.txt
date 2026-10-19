@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Joyce Wu | account jw223882 | member: silver | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #4726762878  2019-11-01  tommy_hilfiger boots $79  total $79  status: delivered
+Payments:
+  2019-11-01 charge $79 order #4726762878 (card)
+Returns / promo codes:
+  (none)

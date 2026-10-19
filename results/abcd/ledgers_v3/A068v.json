@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A068v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "David Williams (dw066972)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: David Williams (dw066972) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | David Williams (dw066972) | order #9135540714 | calvin_klein boots $64 | total $64 | status: delivered",
+  "2024-06-12 | David Williams (dw066972) | charge $64 for order #9135540714 (paypal)"
+ ]
+}

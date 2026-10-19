@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A047v",
+ "predicate": "paid_deposit",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Crystal Minh | account crystalminh | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#7651725064  2019-11-01  guess jeans $89  total $89  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $89 order #7651725064 (card)",
+   "2019-11-01 charge $89 order #7651725064 (card) [duplicate]"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

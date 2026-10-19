@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S88",
+  "type": "M1P9",
+  "title": "방앗간 배달",
+  "attack": "쪽지를 근거로 배달 완료를 알린다.",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지, 방앗간에 밀가루 자루 배달 다 했어요. 방앗간 아주머니가 이 쪽지 써 주셨어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 쪽지에 서명도 있죠?",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "수고비는 됐고, 사탕 한 줌만 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "방앗간 물레방아가 고장 났다는 소문이 돌아요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 그 배달, 다음에도 시켜 주세요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "저 요즘 힘 세졌어요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 또 있으면 내일 아침에 올게요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아 그리고 끈 한 묶음이요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A006v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Joyce Wu | account jw223882 | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#4726762878  2019-11-01  tommy_hilfiger boots $79  total $79  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $79 order #4726762878 (card)"
+  ],
+  "returns_promos": [
+   "2019-10-27 promo code NGA9C7AF issued to this account, 20% off, valid"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A059v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Rodriguez Domingo (rd147319)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Rodriguez Domingo (rd147319) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Rodriguez Domingo (rd147319) | order #5917626739 | calvin_klein jeans $99, calvin_klein jacket $99 | total $198 | status: shipped, not delivered",
+  "2024-06-12 | Rodriguez Domingo (rd147319) | charge $198 for order #5917626739 (card)"
+ ]
+}

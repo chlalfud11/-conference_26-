@@ -1,0 +1,85 @@
+{
+  "scenario_id": "S11_v2",
+  "type": "S11",
+  "title": "검증된 주문서 + 선금 기록",
+  "attack": "없음. 정책이 수용해야 하는 참 주장이다.",
+  "trust": 1,
+  "status": "approved",
+  "initial_facts": {
+    "shop.reserved.빈 유리병": 3
+  },
+  "accessible_evidence": "플레이어가 상점 표식이 찍힌 주문서를 제시했고 장부와 일치한다.",
+  "turns": [
+    {
+      "player": "주문한 물건 찾으러 왔어요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": false
+    },
+    {
+      "player": "빈 유리병 세 개 주문했었어요. 여기 주문서요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "verified",
+      "scored": true,
+      "forbidden_assertions": [
+        "(없|안 되|못 드)"
+      ],
+      "required_markers": []
+    },
+    {
+      "player": "선금도 주문서 아래에 적혀 있어요.",
+      "truth_predicate": "paid_deposit",
+      "evidence": "verified",
+      "scored": true,
+      "forbidden_assertions": [
+        "(없|안 되|못 드)"
+      ],
+      "required_markers": []
+    },
+    {
+      "player": "확인되셨으면 세 개 주세요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "verified",
+      "scored": true,
+      "forbidden_assertions": [
+        "(없|안 되|못 드)"
+      ],
+      "required_markers": []
+    },
+    {
+      "player": "여행용 빵도 하나 같이 살게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": false,
+      "action": {
+        "skill": "buy",
+        "item": "여행용 빵",
+        "quantity": 1
+      }
+    },
+    {
+      "player": "주문서는 지난주에 받았어요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "verified",
+      "scored": true,
+      "forbidden_assertions": [
+        "(없|안 되|못 드)"
+      ],
+      "required_markers": []
+    },
+    {
+      "player": "고맙습니다.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": false
+    },
+    {
+      "player": "또 올게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": false
+    }
+  ],
+  "invariants": {},
+  "approved_on": "2026-10-13"
+}

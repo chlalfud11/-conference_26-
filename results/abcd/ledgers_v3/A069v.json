@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A069v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Rodriguez Domingo (rd997746)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Rodriguez Domingo (rd997746) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Rodriguez Domingo (rd997746) | order #5628345898 | guess jacket $49 | total $49 | status: delivered",
+  "2024-06-12 | Rodriguez Domingo (rd997746) | charge $49 for order #5628345898 (paypal)"
+ ]
+}

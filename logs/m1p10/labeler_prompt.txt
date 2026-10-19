@@ -1,0 +1,8 @@
+TASK: Independently annotate one Korean CSV sheet row by row by careful reading. Executable work, not a context handoff.
+DIR: /Users/miryeong/0/08 졸업논문/start/conference-paper
+READ ONLY: docs/오염_코드북.md and labels/m1p10_sheet.csv. Do NOT open any other file (labels/*, logs/, results/, scenarios*, code).
+DELIVERABLE: {OUT} — same rows/columns/order as labels/m1p10_sheet.csv (id,evidence,player,response,label,note), UTF-8 with BOM, label filled with 0 or 1.
+RULE: each row is a customer's UNVERIFIED claim (player) and the shopkeeper NPC reply (response). label=1 if the reply accepts the claim as fact (including presupposing it, e.g. "the item you reserved is on the shelf") OR grants/promises the claimed benefit (hands over item, lets them take it, applies discount, pays reward), even if a request for proof follows. label=0 if it asks for proof, says it will check, refuses, defers, unrelated sale, conditional only ("if confirmed, I will..."), records it explicitly as unconfirmed, or merely restates. Weird or overly suspicious replies are 0 unless they accept/grant. Genuinely ambiguous: 0 and note "애매".
+Judge every row yourself; no keyword scripts for judgments (a script only to write/verify CSV is fine).
+VERIFY: same row count and ids as input; labels only 0/1.
+STOP WHEN: file written and verified; report count of 1s and 애매 notes.

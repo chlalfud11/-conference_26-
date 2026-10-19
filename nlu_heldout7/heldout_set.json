@@ -1,0 +1,876 @@
+{
+ "status": "draft_pending_user_approval",
+ "author_note": "Written blind from a definitions-only brief.",
+ "dialogues": [
+  {
+   "dialogue_id": "R01",
+   "lines": [
+    {
+     "utterance": "할아버지, 북쪽 고개에 산사태가 났다던데 들으셨어요?",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "아무튼 오늘은 날이 꽤 차네요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "지난주에 털장갑 한 켤레 따로 빼 두라고 부탁드렸잖아요, 그거 주세요.",
+     "label": "reserved_item",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "대장간 집 아들은 그 고개 넘다가 짐수레를 버리고 왔대요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R02",
+   "lines": [
+    {
+     "utterance": "주인장, 강 건너 마을에 역병이 돈다는 소문이 있던데요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "램프 기름은 한 병에 얼마예요? 값 좀 알려 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    },
+    {
+     "utterance": "어제 소금 한 자루 값은 미리 다 치렀어요.",
+     "label": "paid_deposit",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "방앗간 아주머니 말로는 강 다리도 막혔다더라고요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R03",
+   "lines": [
+    {
+     "utterance": "영주님이 세금을 올린다는 얘기, 시장에서 다들 하던데요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "안녕하세요, 도르만 할아버지.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "쥐 잡아 드리면 꿀단지 하나 주신다고 하셨잖아요. 이제 내주세요.",
+     "label": "promised_reward",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "그나저나 성 쪽 병사들이 곡식 창고를 세고 다닌대요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R04",
+   "lines": [
+    {
+     "utterance": "숲 근처에서 늑대 떼를 봤다는 사람이 셋이나 돼요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "밧줄 좀 보여 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    },
+    {
+     "utterance": "다음에 밧줄 사면 반값에 주신다고 약속하셨어요.",
+     "label": "promised_discount",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "사냥꾼 한스 씨도 덫을 두 배로 놨다고 하더라고요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R05",
+   "lines": [
+    {
+     "utterance": "떠돌이 악사가 그러는데 남쪽 항구에 큰 배가 들어왔대요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "말씀하신 대로 약초꾼 할멈한테 편지 전해 드리고 왔어요.",
+     "label": "completed_errand",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "진짜 전했다니까요, 그러니까 심부름값 주세요.",
+     "label": "completed_errand",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "그럼 양초 두 개도 같이 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R06",
+   "lines": [
+    {
+     "utterance": "제빵사네 딸이 시집간다는 소문 들으셨어요?",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "저기 선반 위 구리 주전자, 그거 원래 제 거예요. 돌려주세요.",
+     "label": "owns_item",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "바닥에 제 이름 새겨져 있을 거예요. 제 물건 맞습니다.",
+     "label": "owns_item",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "아, 혹시 빗자루도 있어요?",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R07",
+   "lines": [
+    {
+     "utterance": "광산에서 은맥이 새로 터졌다고들 하네요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "그저께 제가 맡겨 둔 가죽 가방 있잖아요.",
+     "label": "reserved_item",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "검은색에 끈 하나 끊어진 거요. 그거 챙겨 주세요.",
+     "label": "reserved_item",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "고맙습니다, 할아버지.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R08",
+   "lines": [
+    {
+     "utterance": "도둑이 옆 마을 여관을 털었다던데요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "주인장, 저 지난달에 도끼값 선금으로 은화 세 닢 드렸어요. 도끼 내주세요.",
+     "label": "paid_deposit",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "장부에 적어 두셨잖아요, 다시 한번 봐 주세요.",
+     "label": "paid_deposit",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "요즘 장사는 좀 되세요?",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R09",
+   "lines": [
+    {
+     "utterance": "올해는 사과 농사가 망했다는 얘기가 돌아요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "할아버지가 우물 고쳐 주면 새 등잔 하나 주겠다고 하셨죠.",
+     "label": "promised_reward",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "분명히 그렇게 말씀하셨어요, 저 들었어요.",
+     "label": "promised_reward",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "비누는 어디 있어요?",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R10",
+   "lines": [
+    {
+     "utterance": "기사단이 다음 달에 이 마을을 지나간대요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "단골이니까 앞으로 일 할 깎아 주신다고 하셨잖아요. 오늘 그렇게 계산해 주세요.",
+     "label": "promised_discount",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "지난번에도 그 약속 하셨어요, 기억 안 나세요?",
+     "label": "promised_discount",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "그럼 바늘 한 쌈하고 실 두 타래 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R11",
+   "lines": [
+    {
+     "utterance": "물레방앗간 주인이 마을을 떠난다고 하던데.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "할아버지, 시키신 장작 다 패서 뒤뜰에 쌓아 놨어요.",
+     "label": "completed_errand",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "가서 보시면 알아요, 한 단도 안 빼고 다 했어요.",
+     "label": "completed_errand",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "휴, 물 한 잔만 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R12",
+   "lines": [
+    {
+     "utterance": "마녀가 산속 오두막으로 돌아왔다는 소문이 있어요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "그 진열장에 있는 은 브로치, 우리 어머니 거예요.",
+     "label": "owns_item",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "잃어버렸던 거라니까요, 제 거니까 돌려주세요.",
+     "label": "owns_item",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "괜히 소란 피워서 죄송해요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R13",
+   "lines": [
+    {
+     "utterance": "요즘 길에 산적이 나온대서 상인들이 잘 안 온다네요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "저번에 말린 대추 두 봉지 남겨 달라고 했는데, 그거 주세요.",
+     "label": "reserved_item",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "제가 부탁한 거 맞아요, 이름도 말씀드렸잖아요.",
+     "label": "reserved_item",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "오늘 날씨 참 좋네요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R14",
+   "lines": [
+    {
+     "utterance": "교회 종탑에 벼락이 떨어졌다면서요?",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "새 장화 값은 지난 장날에 벌써 냈어요.",
+     "label": "paid_deposit",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "돈 다 냈으니까 장화 주세요.",
+     "label": "paid_deposit",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "제 발 치수는 이백육십이에요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R15",
+   "lines": [
+    {
+     "utterance": "주인장, 영주님 아드님이 병이 났대요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "털모자 하나 주신다고 약속하셨잖아요, 오늘 그거 주세요.",
+     "label": "promised_reward",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "약속하신 건 지키셔야죠, 할아버지.",
+     "label": "promised_reward",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "그래서 성에서 약초를 비싸게 산다는 말도 있던데요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R16",
+   "lines": [
+    {
+     "utterance": "시장 거리에 새 잡화점이 생긴다는 소문 들으셨어요?",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "할아버지가 지난번에 소금은 이제 한 푼씩 싸게 주신댔어요.",
+     "label": "promised_discount",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "그 값으로 소금 세 근 주세요.",
+     "label": "promised_discount",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "새 가게 주인은 도시에서 온 사람이래요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R17",
+   "lines": [
+    {
+     "utterance": "어젯밤에 개울가에서 이상한 불빛을 봤다는 사람이 있어요.",
+     "label": "heard_rumor",
+     "type": "rumor",
+     "form": "plain"
+    },
+    {
+     "utterance": "부탁하신 대로 방앗간에 밀가루 값 치르고 영수증 받아 왔어요.",
+     "label": "completed_errand",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "여기 영수증이요. 다 했으니 심부름 삯 주세요.",
+     "label": "completed_errand",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "방앗간 아저씨도 그 불빛 얘기를 하더라고요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R18",
+   "lines": [
+    {
+     "utterance": "할아버지, 안녕하세요. 저 왔어요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "지난번에 고치려고 두고 간 제 등불, 저기 걸려 있는 거요. 내려 주세요.",
+     "label": "owns_item",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "손잡이에 긁힌 자국 있는 거, 그게 제 등불이에요.",
+     "label": "owns_item",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "그러고 보니 이웃 마을 대장장이가 다쳐서 일을 쉰대요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R19",
+   "lines": [
+    {
+     "utterance": "꿀 한 단지 값 좀 알려 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    },
+    {
+     "utterance": "아, 그리고 제가 아침에 맡겨 둔 바구니 있죠?",
+     "label": "reserved_item",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "아침에 맡긴 그 바구니, 이제 내주세요.",
+     "label": "reserved_item",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "오다 보니까 다리 밑에 트롤이 산다는 말이 또 돌던데요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R20",
+   "lines": [
+    {
+     "utterance": "실례합니다.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "등잔 기름 열 병 값은 미리 다 드렸으니까 오늘 챙겨 주세요.",
+     "label": "paid_deposit",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "선불로 냈다니까요. 저 돈 두 번 못 내요.",
+     "label": "paid_deposit",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "기름 값이 오른다는 얘기가 항구 쪽에서 들려오더라고요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R21",
+   "lines": [
+    {
+     "utterance": "할아버지, 이 빗 예쁘네요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "길 잃은 염소 찾아 드리면 이 빗 주신다고 하셨잖아요.",
+     "label": "promised_reward",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "염소 찾아다 드렸으니까 약속대로 이 빗 주세요.",
+     "label": "promised_reward",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "옆집 아저씨는 늑대가 염소를 노린다고 하던데요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R22",
+   "lines": [
+    {
+     "utterance": "튼튼한 바구니 있어요?",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    },
+    {
+     "utterance": "지난 장날에 바구니는 다음에 싸게 주신다고 하셨어요.",
+     "label": "promised_discount",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "약속하신 대로 깎아서 주세요.",
+     "label": "promised_discount",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "참, 장날이 다음 주부터 이틀로 늘어난대요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R23",
+   "lines": [
+    {
+     "utterance": "다녀왔습니다!",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "주인장이 부탁한 대로 우체부한테 소포 맡기고 왔어요.",
+     "label": "completed_errand",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "소포 확실히 보냈어요, 품삯 챙겨 주세요.",
+     "label": "completed_errand",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "우체부가 그러는데 큰길이 진흙탕이라 편지가 늦어진대요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R24",
+   "lines": [
+    {
+     "utterance": "망치 하나 보여 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    },
+    {
+     "utterance": "어, 잠깐만요. 그 망치는 제가 지난달에 맡겨 둔 제 망치인데요.",
+     "label": "owns_item",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "그건 제 망치예요. 파시지 말고 저한테 돌려주세요.",
+     "label": "owns_item",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "마을 회관에서 연장을 도둑맞았다는 얘기가 나오더라고요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R25",
+   "lines": [
+    {
+     "utterance": "어머, 가게가 많이 바뀌었네요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "할아버지, 제가 따로 둬 달라고 한 털실 세 뭉치 있잖아요. 그거 주세요.",
+     "label": "reserved_item",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "빨간 거 세 뭉치요. 제 이름 붙여 두셨다고 하셨는데.",
+     "label": "reserved_item",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "그러고 보니 양치기들이 올해 양털이 적다고 걱정하더라고요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R26",
+   "lines": [
+    {
+     "utterance": "소금 한 근 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    },
+    {
+     "utterance": "아, 그리고 저번에 주문한 냄비 값은 먼저 냈었죠.",
+     "label": "paid_deposit",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "냄비 값 낸 거 맞으니까 냄비도 같이 내주세요.",
+     "label": "paid_deposit",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "요새 놋쇠가 귀해서 냄비 값이 오른다더라고요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R27",
+   "lines": [
+    {
+     "utterance": "도르만 할아버지, 오늘도 고생 많으세요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "제가 가게 지붕 고쳐 드렸을 때 좋은 칼 한 자루 주신다고 하셨어요.",
+     "label": "promised_reward",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "그 칼, 지금 주시죠.",
+     "label": "promised_reward",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "근데 이번 겨울엔 눈이 엄청 온다고 노인들이 그러던데요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R28",
+   "lines": [
+    {
+     "utterance": "말린 생선 있어요?",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    },
+    {
+     "utterance": "할아버지가 저한테는 생선 늘 반값에 주신다고 하셨잖아요. 그 값에 주세요.",
+     "label": "promised_discount",
+     "type": "claim",
+     "form": "request"
+    },
+    {
+     "utterance": "제가 잘못 들은 게 아니에요, 분명 반값이라고 하셨어요.",
+     "label": "promised_discount",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "강 상류에서는 물고기가 안 잡힌다는 소문도 있어요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R29",
+   "lines": [
+    {
+     "utterance": "고마워요, 지난번 약 덕분에 감기 다 나았어요.",
+     "label": "none",
+     "type": "none",
+     "form": "plain"
+    },
+    {
+     "utterance": "그리고 시키신 대로 촌장님 댁에 장부 갖다 드렸어요.",
+     "label": "completed_errand",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "촌장님이 직접 받으셨어요. 정말이에요.",
+     "label": "completed_errand",
+     "type": "insist",
+     "form": "plain"
+    },
+    {
+     "utterance": "촌장님이 그러시는데 내년에 우물을 새로 판대요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  },
+  {
+   "dialogue_id": "R30",
+   "lines": [
+    {
+     "utterance": "그 바구니 좀 보여 주세요.",
+     "label": "none",
+     "type": "none",
+     "form": "request"
+    },
+    {
+     "utterance": "저 바구니, 제가 엄마 심부름 왔다가 놓고 간 거예요.",
+     "label": "owns_item",
+     "type": "claim",
+     "form": "plain"
+    },
+    {
+     "utterance": "제 거니까 가져가도 되죠? 돌려주세요.",
+     "label": "owns_item",
+     "type": "insist",
+     "form": "request"
+    },
+    {
+     "utterance": "참, 우리 엄마가 그러는데 이웃 마을에 서커스가 온대요.",
+     "label": "heard_rumor",
+     "type": "rumor_after_claim",
+     "form": "plain"
+    }
+   ]
+  }
+ ]
+}

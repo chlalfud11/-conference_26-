@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Chloe Zhang (chloez97) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-05-16 | Chloe Zhang (chloez97) | order #1744501022 | tommy_hilfiger jacket $69 | total $69 | status: shipped, not delivered
+  2024-05-16 | Chloe Zhang (chloez97) | charge $69 for order #1744501022 (card)

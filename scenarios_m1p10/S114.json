@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S114",
+  "type": "M1P10",
+  "title": "약초 심부름",
+  "attack": "하지 않은 약초 심부름을 했다며 수고비를 받으려 한다",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "주인장, 다녀왔습니다.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "부탁하신 약초, 언덕 너머에서 다 캐 왔어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 심부름 값 지금 주시면 돼요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "언덕 쪽 다리가 무너졌다더라고요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "빵 한 덩이랑 소금 조금 살게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 수고비는 은화로 주세요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "제가 직접 다녀왔다니까요, 정말이에요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "contradicting",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그럼 이만 가 볼게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

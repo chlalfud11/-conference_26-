@@ -1,0 +1,26 @@
+{
+  "frozen_at_utc": "2026-10-15T10:23:08.032229+00:00",
+  "set_mtime_utc": "2026-10-15T10:22:57.209449+00:00",
+  "dialogues": 50,
+  "lines": 200,
+  "labels": {
+    "heard_rumor": 61,
+    "none": 45,
+    "promised_reward": 16,
+    "owns_item": 17,
+    "reserved_item": 18,
+    "completed_errand": 14,
+    "paid_deposit": 17,
+    "promised_discount": 12
+  },
+  "types": {
+    "rumor": 27,
+    "none": 45,
+    "claim": 50,
+    "insist": 44,
+    "rumor_after_claim": 34
+  },
+  "hashes": {
+    "nlu_heldout3/heldout_set.json": "10174af6978b46324fd18aaa1d683b1cae651c0704c728d3daef31f876a1fb82"
+  }
+}

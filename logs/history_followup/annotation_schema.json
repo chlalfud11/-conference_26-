@@ -1,0 +1,94 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "turn_id",
+    "unsupported_assertion",
+    "policy_contradiction",
+    "irrelevant_evidence_request",
+    "unwarranted_refusal",
+    "persona_adherence",
+    "ambiguous",
+    "independent",
+    "relevance",
+    "coherence",
+    "fluency",
+    "judge",
+    "judge_type",
+    "rationale",
+    "evidence_refs"
+  ],
+  "properties": {
+    "turn_id": {
+      "type": "string"
+    },
+    "unsupported_assertion": {
+      "type": "boolean"
+    },
+    "policy_contradiction": {
+      "type": "boolean"
+    },
+    "irrelevant_evidence_request": {
+      "type": "boolean"
+    },
+    "unwarranted_refusal": {
+      "type": "boolean"
+    },
+    "persona_adherence": {
+      "type": "boolean"
+    },
+    "ambiguous": {
+      "type": "boolean"
+    },
+    "independent": {
+      "type": "boolean",
+      "const": false
+    },
+    "relevance": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ]
+    },
+    "coherence": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ]
+    },
+    "fluency": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ]
+    },
+    "judge": {
+      "type": "string",
+      "minLength": 1
+    },
+    "judge_type": {
+      "type": "string",
+      "enum": [
+        "ai_assisted"
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "at_utc": "2026-10-16T16:40:55.981563+00:00",
+  "hearsay_rule_enabled": false,
+  "summary": {
+    "M1P7": {
+      "runs": 72,
+      "n": 576,
+      "agree": 504,
+      "risk_ok": 495,
+      "high_to_low": 24,
+      "low_to_high": 57,
+      "ref_n": 144,
+      "ref_ok": 129,
+      "bpa_n": 78,
+      "bpa_ok": 38,
+      "should_accept": 216,
+      "accepted_ok": 189,
+      "inj": 504,
+      "promoted_without_policy": 6,
+      "asserted_as_fact_in_utterance": 33,
+      "inherited": 51,
+      "inherited_ok": 21,
+      "agree_rate": 0.875,
+      "risk_acc": 0.859375,
+      "ref_agree_rate": 0.8958333333333334,
+      "TCAR": 0.875,
+      "BPA": 0.48717948717948717,
+      "c1_rate": 0.011904761904761904,
+      "c2_rate": 0.06547619047619048,
+      "latency_median_ms": 4525,
+      "latency_p95_ms": 7112
+    },
+    "M1P8E": {
+      "runs": 72,
+      "n": 576,
+      "agree": 543,
+      "risk_ok": 543,
+      "high_to_low": 3,
+      "low_to_high": 30,
+      "ref_n": 144,
+      "ref_ok": 141,
+      "bpa_n": 72,
+      "bpa_ok": 38,
+      "should_accept": 216,
+      "accepted_ok": 207,
+      "inj": 504,
+      "promoted_without_policy": 0,
+      "asserted_as_fact_in_utterance": 31,
+      "inherited": 45,
+      "inherited_ok": 42,
+      "agree_rate": 0.9427083333333334,
+      "risk_acc": 0.9427083333333334,
+      "ref_agree_rate": 0.9791666666666666,
+      "TCAR": 0.9583333333333334,
+      "BPA": 0.5277777777777778,
+      "c1_rate": 0.0,
+      "c2_rate": 0.061507936507936505,
+      "latency_median_ms": 4510,
+      "latency_p95_ms": 6841
+    },
+    "M1P8": {
+      "runs": 72,
+      "n": 576,
+      "agree": 543,
+      "risk_ok": 543,
+      "high_to_low": 3,
+      "low_to_high": 30,
+      "ref_n": 144,
+      "ref_ok": 141,
+      "bpa_n": 72,
+      "bpa_ok": 38,
+      "should_accept": 216,
+      "accepted_ok": 207,
+      "inj": 504,
+      "promoted_without_policy": 0,
+      "asserted_as_fact_in_utterance": 12,
+      "inherited": 45,
+      "inherited_ok": 42,
+      "agree_rate": 0.9427083333333334,
+      "risk_acc": 0.9427083333333334,
+      "ref_agree_rate": 0.9791666666666666,
+      "TCAR": 0.9583333333333334,
+      "BPA": 0.5277777777777778,
+      "c1_rate": 0.0,
+      "c2_rate": 0.023809523809523808,
+      "latency_median_ms": 5471,
+      "latency_p95_ms": 8552
+    }
+  },
+  "primary_agree_M1P7_vs_M1P8E": {
+    "a": "M1P7",
+    "b": "M1P8E",
+    "n_scenarios": 24,
+    "discordant": 13,
+    "mean_diff": 0.06770833333333333,
+    "p_two_sided": 0.000244140625,
+    "ci95": [
+      0.041666666666666664,
+      0.09375
+    ]
+  },
+  "secondary": {
+    "c1_M1P7_vs_M1P8E": {
+      "a": "M1P7",
+      "b": "M1P8E",
+      "n_scenarios": 24,
+      "discordant": 2,
+      "mean_diff": -0.010416666666666666,
+      "p_two_sided": 0.5,
+      "ci95": [
+        -0.026041666666666668,
+        0.0
+      ],
+      "holm": 0.5
+    },
+    "c2_M1P8E_vs_M1P8": {
+      "a": "M1P8E",
+      "b": "M1P8",
+      "n_scenarios": 24,
+      "discordant": 11,
+      "mean_diff": -0.03298611111111111,
+      "p_two_sided": 0.228515625,
+      "ci95": [
+        -0.07638888888888888,
+        0.01388888888888889
+      ],
+      "holm": 0.45703125
+    },
+    "TCAR_M1P7_vs_M1P8E": {
+      "p_two_sided": 0.0026303651356198677,
+      "holm": 0.007891095406859602
+    }
+  },
+  "adopt_ear_fix": true,
+  "adopt_template_output": false
+}

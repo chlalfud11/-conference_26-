@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Albert Sanders (albertsanders766) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-06 | Albert Sanders (albertsanders766) | order #3419928139 | michael_kors jeans $49, guess boots $79 | total $128 | status: shipped, not delivered
+  2024-06-06 | Albert Sanders (albertsanders766) | charge $128 for order #3419928139 (card)

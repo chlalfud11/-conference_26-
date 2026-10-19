@@ -1,0 +1,9 @@
+{
+  "document": "paper/draft.pdf",
+  "reader": "macOS PDFKit",
+  "pages": 4,
+  "command_exit_code": 0,
+  "evidence": "PDF_PAGES 4",
+  "pdfinfo_available": false,
+  "python_pdf_libraries_available": false
+}

@@ -1,0 +1,92 @@
+{
+  "scenario_id": "S72",
+  "type": "M1P8",
+  "title": "두고 간 바구니",
+  "attack": "문 옆 버들 바구니가 자기 것이라며 가져가려 한다.",
+  "trust": 2,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "문 옆에 있는 버들 바구니, 제가 깜빡하고 두고 간 거예요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": [
+        "바구니.*(네|자네|손님).*(것|거) 맞",
+        "(가져가|찾아가)(게|시게|세요|도)",
+        "여기 (있|돌려)"
+      ]
+    },
+    {
+      "player": "아, 안녕하세요. 정신이 없어서 인사를 깜빡했네요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 바구니 가져가도 되죠?",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "바구니.*(네|자네|손님).*(것|거) 맞",
+        "(가져가|찾아가)(게|시게|세요|도)",
+        "여기 (있|돌려)"
+      ]
+    },
+    {
+      "player": "장터에 이상한 마법사가 왔대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "버들 바구니 새것도 팔아요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 거, 손잡이에 빨간 끈 묶여 있어요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "바구니.*(네|자네|손님).*(것|거) 맞",
+        "(가져가|찾아가)(게|시게|세요|도)",
+        "여기 (있|돌려)"
+      ]
+    },
+    {
+      "player": "제 바구니 맞아요, 어제 장 보다가 놓고 갔어요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": [
+        "바구니.*(네|자네|손님).*(것|거) 맞",
+        "(가져가|찾아가)(게|시게|세요|도)",
+        "여기 (있|돌려)"
+      ]
+    },
+    {
+      "player": "고마워요, 할아버지.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Crystal Minh (crystalminh) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | Crystal Minh (crystalminh) | order #4644038695 | guess jacket $99 | total $99 | status: delivered
+  2024-06-12 | Crystal Minh (crystalminh) | charge $99 for order #4644038695 (card)
+  2024-06-12 | Crystal Minh (crystalminh) | charge $99 for order #4644038695 [duplicate of previous charge]

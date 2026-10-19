@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Chloe Zhang | account chloezhang | member: guest | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #7128536157  2019-11-01  michael_kors jacket $54  total $54  status: delivered
+Payments:
+  2019-11-01 charge $54 order #7128536157 (card)
+Returns / promo codes:
+  (none)

@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Albert Sanders (as713638) | member: gold | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-03 | Albert Sanders (as713638) | order #4671916617 | guess jacket $94 | total $94 | status: delivered
+  2024-06-03 | Albert Sanders (as713638) | charge $94 for order #4671916617 (card)

@@ -1,0 +1,194 @@
+{
+  "server_pid": 77363,
+  "server_monitor": "mon_KF9505STXVPK2YWR",
+  "command": "llama-server -m models/EXAONE-3.5-2.4B-Instruct-Q4_K_M.gguf --host 127.0.0.1 --port 8080 -c 4096 -ngl 99 --jinja --log-file logs/history_followup/server.log",
+  "version": "version: 0.6.0 (build 11429, commit d81235049)\nbuilt with AppleClang 21.0.0.21000334 for Darwin arm64",
+  "props": {
+    "default_generation_settings": {
+      "params": {
+        "seed": 4294967295,
+        "temperature": 0.800000011920929,
+        "dynatemp_range": 0,
+        "dynatemp_exponent": 1,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1,
+        "xtc_probability": 0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0,
+        "dry_multiplier": 0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "mirostat": 0,
+        "mirostat_tau": 5,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1,
+        "adaptive_decay": 0.8999999761581421,
+        "max_tokens": -1,
+        "n_predict": -1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "n_probs": 0,
+        "min_keep": 0,
+        "chat_format": "Content-only",
+        "reasoning_format": "none",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": false,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "n_ctx": 4096
+    },
+    "total_slots": 4,
+    "model_alias": "models/EXAONE-3.5-2.4B-Instruct-Q4_K_M.gguf",
+    "model_ftype": "Q4_K - Medium",
+    "model_path": "models/EXAONE-3.5-2.4B-Instruct-Q4_K_M.gguf",
+    "modalities": {
+      "vision": false,
+      "video": false,
+      "audio": false
+    },
+    "media_marker": "<__media_TjEE2JSJ0JxbRqYsLK14yaxTXi22K0Pa__>",
+    "endpoint_slots": true,
+    "endpoint_props": false,
+    "endpoint_metrics": false,
+    "ui": true,
+    "ui_settings": {},
+    "chat_template": "{% for message in messages %}{% if loop.first and message['role'] != 'system' %}{{ '[|system|][|endofturn|]\n' }}{% endif %}{{ '[|' + message['role'] + '|]' + message['content'] }}{% if message['role'] == 'user' %}{{ '\n' }}{% else %}{{ '[|endofturn|]\n' }}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '[|assistant|]' }}{% endif %}",
+    "chat_template_caps": {
+      "supports_object_arguments": false,
+      "supports_parallel_tool_calls": false,
+      "supports_preserve_reasoning": false,
+      "supports_reasoning_effort": false,
+      "supports_string_content": true,
+      "supports_system_role": true,
+      "supports_tool_calls": false,
+      "supports_tools": false,
+      "supports_typed_content": false
+    },
+    "bos_token": "[BOS]",
+    "eos_token": "[|endofturn|]",
+    "build_info": "b11429-d81235049",
+    "is_sleeping": false,
+    "cors_proxy_enabled": false
+  },
+  "slots": [
+    {
+      "id": 0,
+      "n_ctx": 4096,
+      "speculative": false,
+      "is_processing": false
+    },
+    {
+      "id": 1,
+      "n_ctx": 4096,
+      "speculative": false,
+      "is_processing": false
+    },
+    {
+      "id": 2,
+      "n_ctx": 4096,
+      "speculative": false,
+      "is_processing": false
+    },
+    {
+      "id": 3,
+      "n_ctx": 4096,
+      "speculative": false,
+      "is_processing": false
+    }
+  ],
+  "models": {
+    "models": [
+      {
+        "name": "models/EXAONE-3.5-2.4B-Instruct-Q4_K_M.gguf",
+        "model": "models/EXAONE-3.5-2.4B-Instruct-Q4_K_M.gguf",
+        "modified_at": "",
+        "size": "",
+        "digest": "",
+        "type": "model",
+        "description": "",
+        "tags": [
+          ""
+        ],
+        "capabilities": [
+          "completion"
+        ],
+        "parameters": "",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "",
+          "families": [
+            ""
+          ],
+          "parameter_size": "",
+          "quantization_level": ""
+        }
+      }
+    ],
+    "object": "list",
+    "data": [
+      {
+        "id": "models/EXAONE-3.5-2.4B-Instruct-Q4_K_M.gguf",
+        "aliases": [
+          "models/EXAONE-3.5-2.4B-Instruct-Q4_K_M.gguf"
+        ],
+        "tags": [],
+        "object": "model",
+        "architecture": {
+          "input_modalities": [
+            "text"
+          ],
+          "output_modalities": [
+            "text"
+          ]
+        },
+        "created": 1791966532,
+        "owned_by": "llamacpp",
+        "meta": {
+          "vocab_type": 2,
+          "n_vocab": 102400,
+          "n_ctx": 4096,
+          "n_ctx_train": 32768,
+          "n_embd": 2560,
+          "n_params": 2667471400,
+          "size": 1640719520,
+          "ftype": "Q4_K - Medium"
+        }
+      }
+    ]
+  },
+  "official_tokenizer_source": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct/raw/main/tokenizer_config.json",
+  "template_equals_official": true,
+  "actual_generation_prompt_trace": "unconfirmed; metadata equality is not direct generation trace",
+  "power_at_start": "Battery Power,35%,discharging",
+  "power_at_midpoint": "AC Power,32%,charging; latest completed dialogue 35/60",
+  "caffeinate_monitor": "mon_2372J0HG0D4SVD8E",
+  "caffeinate_pid": 77373,
+  "batch_monitor": "mon_M5QJYJA4NQZQQCHC",
+  "batch_pid": 77386,
+  "embedding_server_required": false
+}

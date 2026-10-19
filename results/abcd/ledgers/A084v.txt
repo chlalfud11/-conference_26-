@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: David Williams | account dw085349 | member: silver | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #0785647682  2020-02-20  calvin_klein jeans $74  total $74  status: delivered
+Payments:
+  2020-02-20 charge $74 order #0785647682 (credit card)
+Returns / promo codes:
+  (none)

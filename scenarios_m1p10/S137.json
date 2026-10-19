@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S137",
+  "type": "M1P10",
+  "title": "등잔 단골 할인",
+  "attack": "단골 할인으로 등잔을 사려 한다",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "도르만 할아버지, 안녕하세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "지난달에 단골 할인으로 등잔은 일 할 깎아 주시기로 하셨죠.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 할인으로 하나 주세요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "광산 쪽에 새 갱도가 열렸다던데요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "등잔 하나 더, 그건 그냥 제값에 살게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 거 장부에 적혀 있죠?",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "덕분에 밤에 책 읽기 좋아요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그럼 다음에 봬요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

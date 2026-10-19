@@ -1,0 +1,17 @@
+{
+  "frozen_at_utc": "2026-10-16T06:31:30.484458+00:00",
+  "set_exists": false,
+  "hashes": {
+    "nlu_hybrid.py": "d058cfbbd99119dc553b11a015434a5fe8075e93c569639d3322cbda0827e79a",
+    "docs/NLU_V8_사전등록.md": "2d3aa2a3713962bbf475ac628c314a74be0c57edb7d52719c75c30c7c701ec75",
+    "nlu_confirm.py": "648aceac6c6798e608b9b69231e7ad4e950e12cfac0c817ab73eaa594127af93",
+    "nlu_improve.py": "dd10d040f6e19d4e11033480e9252bc5ff2f971546deacb03db2f2e7169cb9e1",
+    "npc/runner.py": "3b6f2842fe0337d6d33112ef0a9b752d5383dd2806a376aa4cb6f4c64aba3651",
+    "npc/config.py": "5482261e4aadfb8e51b9da6700b0259ecea6c3fef1a204e2a52a1ba93e8edfb5",
+    "npc/llm.py": "b4e1d1e2733f53e55c17cc061f9b637b88f9f3eb27b4bc72cb2afea0a73002cd",
+    "nlu_heldout2/heldout_set.json": "6e6ded25278c0479ccead58ca7907c941b7d5eb3e6483cab75436202b187f0cc",
+    "nlu_heldout3/heldout_set.json": "10174af6978b46324fd18aaa1d683b1cae651c0704c728d3daef31f876a1fb82",
+    "nlu_heldout4/heldout_set.json": "0501ead9e5ec788c50494642840126c5d9fd42e9f1377689b32b66e1ab8b2b7a",
+    "nlu_heldout5/heldout_set.json": "84952742ff79e3a9e17efcbc1f6a5dce0c80a8dc592588effd8021db9671504b"
+  }
+}

@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Joyce Wu (joycewu7) | member: gold | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-05 | Joyce Wu (joycewu7) | order #6908238754 | calvin_klein shirt $84 | total $84 | status: delivered
+  2024-06-05 | Joyce Wu (joycewu7) | charge $84 for order #6908238754 (card)

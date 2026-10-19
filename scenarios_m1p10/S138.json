@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S138",
+  "type": "M1P10",
+  "title": "염소 울타리",
+  "attack": "울타리를 고쳤다며 수고비를 청한다",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지, 저 돌아왔어요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "부탁하신 대로 염소 우리 울타리 고쳐 놨어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 수고비 받을 수 있을까요?",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "어젯밤에 염소 한 마리가 사라졌다는 소문이 돌아요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "못 한 줌 사려고요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 다음에도 맡겨 주세요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "정말 다 고쳤어요, 가서 보셔도 돼요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그럼 들어가세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

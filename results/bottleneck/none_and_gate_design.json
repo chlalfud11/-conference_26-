@@ -1,0 +1,35 @@
+{
+ "none_misread_speech_act_rule": "rejected: heldout B 296->268, V1 311->297; existing agree B 301->201, V1 318->255, V2 314->161",
+ "v4_gate_design_check_heldout": {
+  "claim": [
+   6,
+   31
+  ],
+  "insist": [
+   22,
+   30
+  ],
+  "rumor_after_claim": [
+   0,
+   15
+  ],
+  "none": [
+   0,
+   26
+  ],
+  "rumor": [
+   0,
+   18
+  ]
+ },
+ "v4_gate_design_check_existing": {
+  "high": [
+   36,
+   96
+  ],
+  "rumor": [
+   0,
+   22
+  ]
+ }
+}

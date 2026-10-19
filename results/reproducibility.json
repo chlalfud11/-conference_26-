@@ -1,0 +1,11 @@
+{
+  "runs_compared": 10,
+  "runs_identical": 8,
+  "turns_compared": 80,
+  "prompt_hash_identical": 78,
+  "decision_identical": 80,
+  "response_identical": 76,
+  "prompt_hash_rate": 0.975,
+  "decision_rate": 1.0,
+  "response_rate": 0.95
+}

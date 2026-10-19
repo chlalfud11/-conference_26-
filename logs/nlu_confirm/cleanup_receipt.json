@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-15T04:17:09.175231+00:00",
+  "stopped": [
+    "llama-server:8080 (bash_94)",
+    "caffeinate (exited with run)",
+    "monitor bash_99"
+  ],
+  "ports_8080_8081_listening": false,
+  "remaining_procs": []
+}

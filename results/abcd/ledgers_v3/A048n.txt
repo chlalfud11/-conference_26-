@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: David Williams (davidwilliams) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-12 | David Williams (davidwilliams) | order #1249613747 | tommy_hilfiger jeans $84 | total $84 | status: delivered
+  2024-06-12 | David Williams (davidwilliams) | charge $84 for order #1249613747 (card)

@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A048n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "David Williams | account davidwilliams | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#1249613747  2019-11-01  tommy_hilfiger jeans $84  total $84  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $84 order #1249613747 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

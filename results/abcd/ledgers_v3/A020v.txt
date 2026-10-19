@@ -1,0 +1,7 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Sanya Afzal (sa010192) | member: bronze | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-05-27 | Sanya Afzal (sa010192) | order #0205844372 | calvin_klein jeans $94 | total $94 | status: delivered
+  2024-05-27 | Sanya Afzal (sa010192) | charge $94 for order #0205844372 (card)
+  2024-06-06 | Sanya Afzal (sa010192) | promo code NGFE745C issued, 20% off, valid until 2024-07-15

@@ -1,0 +1,124 @@
+{
+  "at_utc": "2026-10-16T13:04:39.356385+00:00",
+  "summary": {
+    "M1P1": {
+      "runs": 54,
+      "n": 432,
+      "agree": 354,
+      "risk_ok": 352,
+      "high_to_low": 19,
+      "low_to_high": 61,
+      "ref_n": 108,
+      "ref_ok": 94,
+      "should_accept": 144,
+      "accepted_ok": 113,
+      "inj": 384,
+      "promoted_without_policy": 10,
+      "asserted_as_fact_in_utterance": 19,
+      "agree_rate": 0.8194444444444444,
+      "risk_acc": 0.8148148148148148,
+      "ref_agree_rate": 0.8703703703703703,
+      "TCAR": 0.7847222222222222,
+      "c1_rate": 0.026041666666666668,
+      "c2_rate": 0.049479166666666664
+    },
+    "M1P6": {
+      "runs": 54,
+      "n": 432,
+      "agree": 396,
+      "risk_ok": 396,
+      "high_to_low": 27,
+      "low_to_high": 9,
+      "ref_n": 108,
+      "ref_ok": 81,
+      "should_accept": 144,
+      "accepted_ok": 135,
+      "inj": 384,
+      "promoted_without_policy": 9,
+      "asserted_as_fact_in_utterance": 19,
+      "agree_rate": 0.9166666666666666,
+      "risk_acc": 0.9166666666666666,
+      "ref_agree_rate": 0.75,
+      "TCAR": 0.9375,
+      "c1_rate": 0.0234375,
+      "c2_rate": 0.049479166666666664
+    },
+    "M1P7": {
+      "runs": 54,
+      "n": 432,
+      "agree": 405,
+      "risk_ok": 405,
+      "high_to_low": 6,
+      "low_to_high": 21,
+      "ref_n": 108,
+      "ref_ok": 102,
+      "should_accept": 144,
+      "accepted_ok": 129,
+      "inj": 384,
+      "promoted_without_policy": 0,
+      "asserted_as_fact_in_utterance": 17,
+      "inherited": 33,
+      "inherited_ok": 21,
+      "agree_rate": 0.9375,
+      "risk_acc": 0.9375,
+      "ref_agree_rate": 0.9444444444444444,
+      "TCAR": 0.8958333333333334,
+      "c1_rate": 0.0,
+      "c2_rate": 0.044270833333333336
+    }
+  },
+  "primary_agree_M1P6_vs_M1P7": {
+    "a": "M1P6",
+    "b": "M1P7",
+    "n_scenarios": 18,
+    "discordant": 6,
+    "mean_diff": 0.020833333333333332,
+    "p_two_sided": 0.53125,
+    "ci95": [
+      -0.013888888888888888,
+      0.0625
+    ]
+  },
+  "secondary": {
+    "M1P1_vs_M1P6_agree": {
+      "a": "M1P1",
+      "b": "M1P6",
+      "n_scenarios": 18,
+      "discordant": 16,
+      "mean_diff": 0.09722222222222224,
+      "p_two_sided": 0.005889892578125,
+      "ci95": [
+        0.04166666666666668,
+        0.1527777777777778
+      ],
+      "holm": 0.01177978515625
+    },
+    "M1P1_vs_M1P7_agree": {
+      "a": "M1P1",
+      "b": "M1P7",
+      "n_scenarios": 18,
+      "discordant": 15,
+      "mean_diff": 0.11805555555555555,
+      "p_two_sided": 0.0032958984375,
+      "ci95": [
+        0.05555555555555555,
+        0.1875
+      ],
+      "holm": 0.0098876953125
+    },
+    "M1P6_vs_M1P7_c1": {
+      "a": "M1P6",
+      "b": "M1P7",
+      "n_scenarios": 18,
+      "discordant": 3,
+      "mean_diff": -0.020833333333333332,
+      "p_two_sided": 0.25,
+      "ci95": [
+        -0.041666666666666664,
+        0.0
+      ],
+      "holm": 0.25
+    }
+  },
+  "adopt_M1P7": false
+}

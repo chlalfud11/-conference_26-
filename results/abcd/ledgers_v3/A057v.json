@@ -1,0 +1,12 @@
+{
+ "scenario_id": "A057v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Sanya Afzal (sa485682)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Sanya Afzal (sa485682) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Sanya Afzal (sa485682) | order #1777744246 | michael_kors boots $64, calvin_klein jacket $94 | total $158 | status: shipped, not delivered",
+  "2024-06-12 | Sanya Afzal (sa485682) | charge $158 for order #1777744246 (card)"
+ ]
+}

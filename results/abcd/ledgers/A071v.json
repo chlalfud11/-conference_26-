@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A071v",
+ "predicate": "owns_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "David Williams | account davidwilliams | member: gold | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#8262364914  2019-11-01  tommy_hilfiger jacket $84  total $84  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $84 order #8262364914 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

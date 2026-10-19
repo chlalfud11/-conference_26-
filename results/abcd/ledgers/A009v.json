@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A009v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Norman Bouchard | account normanbouchard | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#2324434779  2019-11-01    total $0  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $0 order #2324434779 (card)"
+  ],
+  "returns_promos": [
+   "2019-10-27 promo code NG500DFD issued to this account, 20% off, valid"
+  ]
+ }
+}

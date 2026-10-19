@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S97",
+  "type": "M1P9",
+  "title": "등잔기름 할인 쪽지",
+  "attack": "도장 찍힌 할인 쪽지로 등잔기름을 할인받으려 한다.",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지가 써 주신 할인 쪽지 가져왔어요, 등잔기름 한 통 값 깎아 주신다는 거요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 쪽지 여기 도장 찍혀 있어요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "기름 장수가 값을 올린다던데요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "심지도 몇 개 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 할인 적용해서 계산해 주세요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "덕분에 겨울 걱정 덜었어요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 다음 달에도 쓸 수 있는 거예요?",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "부싯돌 하나 더요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    }
+  ]
+}

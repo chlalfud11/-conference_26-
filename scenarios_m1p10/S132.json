@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S132",
+  "type": "M1P10",
+  "title": "창고 정리",
+  "attack": "창고 정리를 마쳤다고 알린다",
+  "trust": 2,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "주인장, 시키신 일 다 했어요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "창고 정리 끝냈어요, 상자들 다 위로 올려 놨어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 확인해 보셨어요?",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "창고 뒤쪽에 들고양이가 산다는 소문이 돌아요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "노끈 한 뭉치 사 갈게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 일 값은 언제든 괜찮아요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "허리가 좀 아프네요, 하하.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "다음에 또 시켜 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

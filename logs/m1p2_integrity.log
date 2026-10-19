@@ -1,0 +1,14 @@
+시나리오 18개 / 금지표현 보유 턴 63개 / 고유 정귀식 15개
+TRUST_ACCEPT_THRESHOLD   d4735e3a265e16ee
+HIGH_RISK_PREDICATES     6e77a5a5db7a69e1
+expected_decision_src    cd67e1fafbb6c506
+scenario_trust           dd8dcb486817615a
+forbidden_assertions     6de98a1ddd80b1fa
+scenario_turn_specs      11d070769de6a346
+_ALL                     0556248ac540c699
+
+기록: /Users/miryeong/0/00 졸업논문/start/conference-paper/logs/c6_fingerprint_after_m1p2.json
+D5 criteria fingerprint PASS 0556248ac540c699
+D5 all columns in original 5 conditions PASS
+D5 source unchanged since resumption; original 270-line prefix unchanged PASS
+Scope: no historical pre-first-inference source snapshot; no proof of all historical edits.

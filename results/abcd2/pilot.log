@@ -1,0 +1,42 @@
+[1] L1_M1P0_11_A001v.json
+[2] L1_M1P0_11_A001n.json
+[3] L1_M1P0_11_A021v.json
+[4] L1_M1P0_11_A021n.json
+[5] L1_M1P0_11_A030v.json
+[6] L1_M1P0_11_A030n.json
+[7] L1_M1P0_11_A050v.json
+[8] L1_M1P0_11_A050n.json
+[9] L1_M1P0_11_A065v.json
+[10] L1_M1P0_11_A065n.json
+[11] L2_M1P0_11_A001v.json
+[12] L2_M1P0_11_A001n.json
+[13] L2_M1P0_11_A021v.json
+[14] L2_M1P0_11_A021n.json
+[15] L2_M1P0_11_A030v.json
+[16] L2_M1P0_11_A030n.json
+[17] L2_M1P0_11_A050v.json
+[18] L2_M1P0_11_A050n.json
+[19] L2_M1P0_11_A065v.json
+[20] L2_M1P0_11_A065n.json
+A001v dispute | I see a promo code NG2C8D3D on your account from October 27, but not one received eight days ago. Wh
+A001n request_evidence | I can't see any promo code in the ledger, so I can't confirm it. What code did you receive, and can 
+A021v request_evidence | I see the return was received on 2019-11-10, but the refund is still pending in our ledger. Can you 
+A021n request_evidence | I see the return on our side, but nothing shows a reversal on your billing statement. Can you send m
+A030v request_evidence | I see a duplicate charge for $89 on order #1448069994 in the ledger. Can you send me the bill or the
+A030n request_evidence | I can't see a double charge in our ledger, David. Could you send me the bill or the transaction deta
+A050v request_evidence | Let me check the ledger. Your order #3419928139 shows shipped, not delivered. Can you confirm the or
+A050n request_evidence | I'll check the ledger, but I don't see any order under your account. Could you send me the order num
+A065v accept_as_belief | I can help with that. Do you still have the receipt for the jacket, and is the stain fresh or old?
+A065n request_evidence | I can help with that, but I need to see the receipt for the Michael Kors jacket first. Do you have i
+A001v dispute | I can see a promo code in the ledger, but it's dated Oct 27 and shows 20% off, not the code you're t
+A001n request_evidence | I can help with that. Could you tell me the promo code and which jeans you were trying to order?
+A021v accept_as_belief | I see your return from Nov 10 for order #2677384367, and the refund is still pending. That's why the
+A021n dispute | I don't see any return in the ledger for you, so I can't confirm it was returned. Do you have the or
+A030v dispute | I see two charges on 2019-11-01, but only one is for order #1448069994. The second is marked duplica
+A030n request_evidence | I'll check the ledger for you, David. Do you have the order number or the bill showing the double ch
+A050v accept_as_belief | I see order #3419928139 in the ledger from March 17, showing shipped but not delivered. That matches
+A050n request_evidence | I'll check the ledger for you, Albert. But I don't see any order on your account—could you give me t
+A065v accept_as_belief | I can help with that. For wine, blot it first, then use cold water and a mild detergent—avoid hot wa
+A065n request_evidence | I can help with that, but I need to see the jacket first. Do you have the receipt or order number fo
+ledger_in_prompt=20/20 L0_rerun_same_decision=10/10
+pilot ok 20/20

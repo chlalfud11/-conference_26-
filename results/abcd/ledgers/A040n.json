@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A040n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Alessandro Phoenix | account alessandrophoenix | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#7439615758  2019-11-01  michael_kors jacket $49  total $49  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $49 order #7439615758 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

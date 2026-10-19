@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: David Williams | account davidw23 | member: guest | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #4319256134  2019-11-01  calvin_klein boots $89  total $89  status: delivered
+Payments:
+  2019-11-01 charge $89 order #4319256134 (card)
+Returns / promo codes:
+  (none)

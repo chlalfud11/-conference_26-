@@ -1,0 +1,9 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Norman Bouchard | account normanbouchard | member: silver | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #3779118928  2019-11-01  tommy_hilfiger boots $49  total $49  status: delivered
+Payments:
+  2019-11-01 charge $49 order #3779118928 (card)
+  2019-11-01 charge $49 order #3779118928 (card) [duplicate]
+Returns / promo codes:
+  (none)

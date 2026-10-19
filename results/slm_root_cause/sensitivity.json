@@ -1,0 +1,107 @@
+{
+  "sealed_annotations_sha256": "c7e4d52f7a8815750c9b2019b652c9a217f3345b7d6309b281d9470576f175cd",
+  "method": "For each error category, lower bound counts positive non-ambiguous rows; upper bound additionally treats every ambiguous row as positive. This is interpretation sensitivity, NOT a confidence interval. Primary flags remain unchanged after unblinding.",
+  "conditions": {
+    "B": {
+      "unsupported_assertion": {
+        "primary": 9,
+        "unambiguous_positive": 6,
+        "conservative_interval": [
+          6,
+          14
+        ],
+        "n": 36
+      },
+      "policy_contradiction": {
+        "primary": 8,
+        "unambiguous_positive": 4,
+        "conservative_interval": [
+          4,
+          12
+        ],
+        "n": 36
+      }
+    },
+    "E": {
+      "unsupported_assertion": {
+        "primary": 11,
+        "unambiguous_positive": 9,
+        "conservative_interval": [
+          9,
+          13
+        ],
+        "n": 36
+      },
+      "policy_contradiction": {
+        "primary": 10,
+        "unambiguous_positive": 9,
+        "conservative_interval": [
+          9,
+          13
+        ],
+        "n": 36
+      }
+    },
+    "H": {
+      "unsupported_assertion": {
+        "primary": 8,
+        "unambiguous_positive": 5,
+        "conservative_interval": [
+          5,
+          10
+        ],
+        "n": 36
+      },
+      "policy_contradiction": {
+        "primary": 2,
+        "unambiguous_positive": 1,
+        "conservative_interval": [
+          1,
+          6
+        ],
+        "n": 36
+      }
+    },
+    "C": {
+      "unsupported_assertion": {
+        "primary": 15,
+        "unambiguous_positive": 5,
+        "conservative_interval": [
+          5,
+          18
+        ],
+        "n": 36
+      },
+      "policy_contradiction": {
+        "primary": 13,
+        "unambiguous_positive": 3,
+        "conservative_interval": [
+          3,
+          16
+        ],
+        "n": 36
+      }
+    },
+    "I": {
+      "unsupported_assertion": {
+        "primary": 12,
+        "unambiguous_positive": 9,
+        "conservative_interval": [
+          9,
+          15
+        ],
+        "n": 36
+      },
+      "policy_contradiction": {
+        "primary": 8,
+        "unambiguous_positive": 5,
+        "conservative_interval": [
+          5,
+          11
+        ],
+        "n": 36
+      }
+    }
+  },
+  "warning": "Intervals overlap. H passes fixed primary-count selection only; robust or general improvement is not established."
+}

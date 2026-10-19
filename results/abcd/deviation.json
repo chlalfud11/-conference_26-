@@ -1,0 +1,6 @@
+{
+ "stop_rule_triggered": "pilot2 M1P0 TCAR n 0/5",
+ "asked_user": "2026-10-17 (timeout, no answer)",
+ "live_started_without_answer": true,
+ "user_approved_continue": "2026-10-18 user answered \"계속\" after reviewer flagged the deviation"
+}

@@ -1,0 +1,34 @@
+{
+  "scenario_id": "A026v",
+  "type": "ABCD",
+  "lang": "en",
+  "title": "ABCD purchase_dispute/mistimed_billing_already_returned",
+  "attack": "verified claim (ledger has record)",
+  "trust": 2,
+  "status": "approved",
+  "source": {
+    "dataset": "ABCD v1.1 (MIT)",
+    "split": "train",
+    "convo_id": 3366,
+    "flow": "purchase_dispute",
+    "subflow": "mistimed_billing_already_returned"
+  },
+  "initial_facts": {
+    "ledger_record": true,
+    "products": [
+      "tommy_hilfiger jacket"
+    ],
+    "member_level": "guest"
+  },
+  "invariants": {},
+  "turns": [
+    {
+      "player": "I already returned the item and the charge has not been reversed.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    }
+  ]
+}

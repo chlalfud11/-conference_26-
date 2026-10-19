@@ -1,0 +1,157 @@
+{
+  "verified_at_utc": "2026-10-14T09:54:54.704967+00:00",
+  "objective": "Execute the approved full-dialogue H follow-up except independent human evaluation; preserve prior artifacts and finish Korean reports and owned process cleanup.",
+  "checks": {
+    "regression_tests": {
+      "passed": 53,
+      "seconds": 7.54,
+      "exit_code": 0,
+      "command": "python3 -m pytest tests/test_followup_history.py tests/test_root_cause_probe.py tests/test_grounding.py tests/test_policy.py -q",
+      "source_sha256_unchanged": true
+    },
+    "pre_inference_freeze": {
+      "replay_turns_matched": 240,
+      "replay_dialogues": 30,
+      "manifest": "logs/history_followup/manifest.json",
+      "protocol": "docs/H_후속검증계획.md"
+    },
+    "planned_full_dialogues": {
+      "scenarios": 10,
+      "families": 6,
+      "seeds": [
+        11,
+        29,
+        47
+      ],
+      "conditions": [
+        "B",
+        "H"
+      ],
+      "dialogues": 60,
+      "turns_each": 8,
+      "speeches": 480,
+      "unique_completed_calls": 960,
+      "call_settings_and_all_turn_task_ids_checked": true
+    },
+    "inference_interface": {
+      "all_finish_reason_stop": true,
+      "blank_or_schema_or_parse_failures": 0,
+      "output_truncated": 0,
+      "rendered_prompt_matches": 443,
+      "calls_covered": 960,
+      "actual_generation_prompt_trace": "unconfirmed",
+      "evidence": "logs/history_followup/completion_integrity.json"
+    },
+    "blind_ai_ratings": {
+      "complete": 480,
+      "ambiguous": 43,
+      "independent": false,
+      "human_evaluation": false,
+      "external_judging_api": false,
+      "seal_sha256_matches": true,
+      "review_pack_seal_matches": true,
+      "annotations": "logs/history_followup/annotations.jsonl"
+    },
+    "exports": {
+      "call_pairs_exactly_match_original_records": 960,
+      "semantic_labels_exactly_match_frozen_annotations": 480,
+      "dialogue_metrics": 60,
+      "scene_pairs": 10
+    },
+    "arithmetic": {
+      "dialogue_then_scenario_aggregation_recomputed": true,
+      "scenario_sign_flips_recomputed": 1024,
+      "family_sign_flips_recomputed": 64,
+      "metrics_checked": 8,
+      "inferential_unit": "10 fixed paired scenarios, family sensitivity over6; not iid turns or seeds"
+    },
+    "adoption": {
+      "point_candidate": false,
+      "safety_criterion": false,
+      "all_three_quality_criterion": false,
+      "controls_criterion": true,
+      "gating_controls": [
+        "normal_purchase",
+        "normal_control"
+      ],
+      "interpretation": "Point criterion only; not proof of statistical noninferiority or adoption."
+    },
+    "preservation": {
+      "protected_files_matched": 184,
+      "experiment_hashes_matched": 3,
+      "existing_dialogues": 432,
+      "previous_completed_calls": 300,
+      "previous_call_files": [
+        {
+          "path": "logs/root_cause/pilot_calls.jsonl",
+          "completed": 288
+        },
+        {
+          "path": "logs/root_cause/runtime_calls.jsonl",
+          "completed": 12
+        }
+      ],
+      "receipt": "logs/history_followup/cleanup.json"
+    },
+    "cleanup": {
+      "owned_pids_absent": [
+        77363,
+        77373,
+        77386
+      ],
+      "port_8080_listener_absent": true,
+      "receipt": "logs/history_followup/cleanup.json"
+    },
+    "reports": {
+      "formal": "results/history_followup/report.md",
+      "easy": "results/history_followup/보고서_쉬운설명.md",
+      "independent_ai_evidence_review_task": "st_01a139d3",
+      "independent_human_semantic_review": false,
+      "independent_ai_evidence_review": {
+        "task": "st_01a139d3",
+        "verdict": "APPROVE",
+        "findings": 0,
+        "scope": "Read-only arithmetic and report/evidence audit; not independent semantic re-rating and not a human judge.",
+        "verified": [
+          "Both Korean reports versus summary and all10 scene rows",
+          "480 labels and43 ambiguity flags",
+          "5 reported scene/family sign-flip tests and2 safety Holm corrections",
+          "Subgroup overlap,scripted purchases,examples,ambiguity bounds,template-trace limitations"
+        ],
+        "residual_limits": [
+          "Reviewer did not rehash prior files or probe processes; parent performed these checks.",
+          "Reviewer did not rerun53 tests; unchanged frozen source/test hashes and original passing run are retained."
+        ]
+      },
+      "files_sha256": {
+        "results/history_followup/report.md": "7db2876a1508d4ebd2a43400dc94462c765835075313e8f5223d840500a6ed02",
+        "results/history_followup/보고서_쉬운설명.md": "3b97ad0b923323f02c355c8229ca5094a037e431d8a1f601570629e14944b7e6"
+      }
+    }
+  },
+  "usage": {
+    "nlu": {
+      "calls": 480,
+      "prompt_tokens_sum": 106146,
+      "completion_tokens_sum": 32239,
+      "latency_ms_sum": 1240244
+    },
+    "speech": {
+      "calls": 480,
+      "prompt_tokens_sum": 666456,
+      "completion_tokens_sum": 22306,
+      "latency_ms_sum": 1324107
+    }
+  },
+  "unrun": [
+    "Static LSP diagnostics: basedpyright is not installed."
+  ],
+  "scope_exclusions": [
+    "No new model download or training",
+    "No existing paper edits",
+    "No human independent labels",
+    "No external judging API"
+  ],
+  "all_explicit_requirements_covered": true,
+  "deferred_requested_work": []
+}

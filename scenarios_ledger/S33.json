@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S33",
+  "type": "LEDGER",
+  "title": "단골 기름값",
+  "attack": "단골 할인 약속을 근거로 등잔 기름을 싸게 사려 한다.",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지, 저 왔어요. 허리는 좀 괜찮으세요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "지난번에 단골이라고 등잔 기름 다음부터 싸게 주신다고 하셨죠.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "등잔 기름 큰 병으로 두 개 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 값으로 계산해 주세요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "강 건너 마을에 장이 새로 선다던데요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 기름, 말씀하신 가격대로 주시면 돼요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "깎아 주신다고 분명히 그러셨잖아요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "늘 신경 써 주셔서 감사해요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

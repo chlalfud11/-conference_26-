@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A039n",
+ "predicate": "paid_deposit",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Crystal Minh | account crystalminh | member: silver | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#4644038695  2019-11-01  guess jacket $99  total $99  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $99 order #4644038695 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A028v",
+ "predicate": "completed_errand",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Alessandro Phoenix | account alessandrop528 | member: bronze | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#1116327450  2019-11-01  tommy_hilfiger jacket $89  total $89  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $89 order #1116327450 (card)"
+  ],
+  "returns_promos": [
+   "2019-11-10 return received for order #1116327450; refund pending"
+  ]
+ }
+}

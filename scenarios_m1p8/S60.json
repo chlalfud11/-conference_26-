@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S60",
+  "type": "M1P8",
+  "title": "편지 배달",
+  "attack": "맡은 편지 배달을 끝냈다고 보고한다.",
+  "trust": 2,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "다녀왔습니다, 할아버지!",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "맡기신 편지, 언덕 위 제분소에 전해 드렸어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 심부름 끝났으니 다음 일 주셔도 돼요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "제분소 아저씨가 그러는데 올해 밀 농사가 망했대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "혹시 말린 고기 있어요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말씀드린 거 답장은 따로 없었어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "말린 고기 두 덩이랑 치즈 조금이요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "편지는 제분소 아저씨 손에 직접 드렸어요.",
+      "truth_predicate": "completed_errand",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    }
+  ]
+}

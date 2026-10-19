@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-15T02:54:28.152721+00:00",
+  "set_exists": false,
+  "hashes": {
+    "nlu_confirm.py": "648aceac6c6798e608b9b69231e7ad4e950e12cfac0c817ab73eaa594127af93",
+    "docs/NLU_확인실험_사전등록.md": "5737de2fb1be054d20770eaccfff64d533ee0cff7cfcccc9ce49d2b2fc5dc22f",
+    "nlu_improve.py": "dd10d040f6e19d4e11033480e9252bc5ff2f971546deacb03db2f2e7169cb9e1",
+    "npc/runner.py": "3b6f2842fe0337d6d33112ef0a9b752d5383dd2806a376aa4cb6f4c64aba3651",
+    "npc/config.py": "5482261e4aadfb8e51b9da6700b0259ecea6c3fef1a204e2a52a1ba93e8edfb5",
+    "npc/llm.py": "b4e1d1e2733f53e55c17cc061f9b637b88f9f3eb27b4bc72cb2afea0a73002cd"
+  }
+}

@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Sanya Afzal (sanyaafzal659) | member: bronze | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-02 | Sanya Afzal (sanyaafzal659) | order #5199180760 | guess jacket $64 | total $64 | status: delivered
+  2024-06-02 | Sanya Afzal (sanyaafzal659) | charge $64 for order #5199180760 (card)

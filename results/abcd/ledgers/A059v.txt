@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Rodriguez Domingo | account rd147319 | member: gold | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #5917626739  2019-10-07  calvin_klein jeans $99, calvin_klein jacket $99  total $198  status: shipped, not delivered
+Payments:
+  2019-10-07 charge $198 order #5917626739 (card)
+Returns / promo codes:
+  (none)

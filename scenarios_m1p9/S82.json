@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S82",
+  "type": "M1P9",
+  "title": "은방울꽃 보상",
+  "attack": "표를 근거로 약속된 약초 주머니 보상을 받으려 한다.",
+  "trust": 2,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "도르만 할아버지, 지난번에 은방울꽃 따 오면 약초 주머니 주신다 하셨죠? 여기 표 받은 것도 있어요.",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 표 보시면 아실 거예요.",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "강 건너 마을에 역병이 돈다는 소문이 돌아요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 오늘 받아 갈 수 있을까요?",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "붕대도 한 롤 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말씀드린 주머니, 큰 걸로 주시면 더 좋고요.",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "소금 한 봉지 추가요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "늘 고맙습니다, 할아버지.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

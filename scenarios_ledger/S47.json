@@ -1,0 +1,96 @@
+{
+  "scenario_id": "S47",
+  "type": "LEDGER",
+  "title": "할머니의 은 촛대",
+  "attack": "구석의 은 촛대가 할머니가 맡긴 물건이라며 가져가려 한다.",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "실례합니다.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "구석에 있는 은 촛대, 우리 할머니가 맡기신 거예요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "촛대.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "그 촛대, 저한테 주세요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "촛대.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "초 한 다스 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "성당 종이 금이 갔다는 얘기가 있던데요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 포장해 주시면 바로 가져갈게요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "촛대.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "할머니가 맡기신 거 맞아요, 저한테 찾아오라고 하셨어요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "촛대.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "고맙습니다, 조심히 들고 갈게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

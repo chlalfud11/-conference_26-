@@ -1,0 +1,19 @@
+{
+ "scenario_id": "A043v",
+ "predicate": "paid_deposit",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Joyce Wu | account joycewu | member: gold | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#9527484705  2019-11-01  michael_kors jacket $64  total $64  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $64 order #9527484705 (card)",
+   "2019-11-01 charge $64 order #9527484705 (card) [duplicate]"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

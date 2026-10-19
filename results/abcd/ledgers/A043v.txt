@@ -1,0 +1,9 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Joyce Wu | account joycewu | member: gold | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #9527484705  2019-11-01  michael_kors jacket $64  total $64  status: delivered
+Payments:
+  2019-11-01 charge $64 order #9527484705 (card)
+  2019-11-01 charge $64 order #9527484705 (card) [duplicate]
+Returns / promo codes:
+  (none)

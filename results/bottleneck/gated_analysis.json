@@ -1,0 +1,135 @@
+{
+  "at_utc": "2026-10-16T01:26:29.005561+00:00",
+  "summary": {
+    "B": {
+      "n": 600,
+      "schema_ok": 600,
+      "risk_ok": 484,
+      "pred_ok": 383,
+      "high_to_low": 5,
+      "low_to_high": 111,
+      "stage2_calls": 0,
+      "gate_on": 0,
+      "risk_acc": 0.8066666666666666,
+      "pred_acc": 0.6383333333333333,
+      "latency_median_ms": 2862,
+      "by_type": {
+        "claim": {
+          "ok": 150,
+          "n": 150
+        },
+        "insist": {
+          "ok": 127,
+          "n": 132
+        },
+        "none": {
+          "ok": 71,
+          "n": 135
+        },
+        "rumor": {
+          "ok": 52,
+          "n": 81
+        },
+        "rumor_after_claim": {
+          "ok": 84,
+          "n": 102
+        }
+      }
+    },
+    "V5": {
+      "n": 600,
+      "schema_ok": 600,
+      "risk_ok": 524,
+      "pred_ok": 446,
+      "high_to_low": 70,
+      "low_to_high": 6,
+      "stage2_calls": 218,
+      "gate_on": 0,
+      "risk_acc": 0.8733333333333333,
+      "pred_acc": 0.7433333333333333,
+      "latency_median_ms": 656,
+      "by_type": {
+        "claim": {
+          "ok": 126,
+          "n": 150
+        },
+        "insist": {
+          "ok": 86,
+          "n": 132
+        },
+        "none": {
+          "ok": 129,
+          "n": 135
+        },
+        "rumor": {
+          "ok": 81,
+          "n": 81
+        },
+        "rumor_after_claim": {
+          "ok": 102,
+          "n": 102
+        }
+      }
+    },
+    "V6": {
+      "n": 600,
+      "schema_ok": 600,
+      "risk_ok": 523,
+      "pred_ok": 442,
+      "high_to_low": 71,
+      "low_to_high": 6,
+      "stage2_calls": 219,
+      "gate_on": 111,
+      "risk_acc": 0.8716666666666667,
+      "pred_acc": 0.7366666666666667,
+      "latency_median_ms": 573,
+      "by_type": {
+        "claim": {
+          "ok": 109,
+          "n": 150
+        },
+        "insist": {
+          "ok": 102,
+          "n": 132
+        },
+        "none": {
+          "ok": 129,
+          "n": 135
+        },
+        "rumor": {
+          "ok": 81,
+          "n": 81
+        },
+        "rumor_after_claim": {
+          "ok": 102,
+          "n": 102
+        }
+      }
+    }
+  },
+  "primary_B_vs_V6": {
+    "a": "B",
+    "b": "V6",
+    "n_dialogues": 50,
+    "discordant": 33,
+    "mean_diff": 0.065,
+    "p_two_sided": 0.07049,
+    "ci95": [
+      -0.0016666666666666674,
+      0.13166666666666665
+    ]
+  },
+  "secondary_V5_vs_V6": {
+    "a": "V5",
+    "b": "V6",
+    "n_dialogues": 50,
+    "discordant": 11,
+    "mean_diff": -0.0016666666666666685,
+    "p_two_sided": 1.0,
+    "ci95": [
+      -0.03333333333333333,
+      0.029999999999999995
+    ]
+  },
+  "adopt_V6": false
+}

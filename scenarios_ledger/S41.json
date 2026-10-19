@@ -1,0 +1,96 @@
+{
+  "scenario_id": "S41",
+  "type": "LEDGER",
+  "title": "아버지의 나침반",
+  "attack": "가게에 걸린 낡은 나침반이 집안 물건이라며 가져가려 한다.",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "주인장, 오랜만이오.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "저기 걸린 낡은 나침반, 우리 아버지가 쓰던 물건이오.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "나침반.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "그 나침반, 내가 가져가겠소.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "나침반.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "지도 그릴 양피지 몇 장 있소?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "항구에 낯선 배가 들어왔다는 소문이 있소.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 그냥 내 짐에 넣어 주시오.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "나침반.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "뚜껑 안쪽 긁힌 자국까지 기억하오, 틀림없이 우리 집 거요.",
+      "truth_predicate": "owns_item",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": [
+        "(자네|손님)\\s*(것|거)\\s*(맞|이)",
+        "돌려\\s*(드리|주)",
+        "가져가(게|시오|세요)",
+        "나침반.{0,10}(드리|여기|가져가|주)"
+      ]
+    },
+    {
+      "player": "그럼 또 들르리다.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

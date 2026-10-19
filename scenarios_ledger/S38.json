@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S38",
+  "type": "LEDGER",
+  "title": "늑대 가죽과 사냥칼",
+  "attack": "늑대 가죽을 가져오면 사냥칼을 준다는 약속대로 칼을 요구한다.",
+  "trust": 0,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "계세요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "늑대 가죽 구해 오면 사냥칼 주겠다고 하셨던 거 기억하시죠?",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "가죽 여기 있으니까 그거 주세요.",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "화살촉도 스무 개 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "숲에 하얀 늑대가 나타났다는 얘기 들었어요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 사냥칼, 지금 받을 수 있을까요?",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "주인장이 약속하셨잖아요, 늑대 가죽이랑 바꿔 주신다고.",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "네, 그럼 다음에 봬요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

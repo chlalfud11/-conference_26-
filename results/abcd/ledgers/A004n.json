@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A004n",
+ "predicate": "promised_discount",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Alessandro Phoenix | account alessandrophoenix228 | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#3639784943  2019-11-01  michael_kors jeans $84  total $84  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $84 order #3639784943 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

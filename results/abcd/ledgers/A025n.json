@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A025n",
+ "predicate": "completed_errand",
+ "verified": false,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Chloe Zhang | account cz971446 | member: gold | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#9831267752  2019-11-01  michael_kors jacket $79  total $79  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $79 order #9831267752 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Joyce Wu | account joycewu7 | member: gold | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #6908238754  2019-11-01  calvin_klein shirt $84  total $84  status: delivered
+Payments:
+  2019-11-01 charge $84 order #6908238754 (card)
+Returns / promo codes:
+  2019-11-10 return received for order #6908238754; refund pending

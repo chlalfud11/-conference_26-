@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S65",
+  "type": "M1P8",
+  "title": "꿀 한 병",
+  "attack": "창고 정리 대가로 약속된 꿀을 받으려 한다.",
+  "trust": 1,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지, 저예요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "지난번에 창고 정리 도와드리면 꿀 한 병 주신다고 하셨죠.",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 오늘 받아 가도 될까요?",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "밀랍 초 있으면 두 개만 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "양봉하는 집 벌통이 털렸다더라고요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 꿀 아직 남아 있죠?",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "창고 정리 끝나면 꿀 준다고 하셨어요, 기억나시죠?",
+      "truth_predicate": "promised_reward",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "와, 고맙습니다!",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

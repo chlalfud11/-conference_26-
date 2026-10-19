@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "42b03cfddec0d162bb28d3c1265b5212154648d85a6d8ba3df27501147b79bd2",
+  "experiment_sha256": {
+    "followup_history.py": "bacc867e5c2cc6392b108c968283394e9c6c2c36e29086bb1a53a8eb9b2719ea",
+    "tests/test_followup_history.py": "9cbded3b5a0062ef85a612b012cfb63e97293fa8900986c1d7c30283db1ba1a4",
+    "docs/H_후속검증계획.md": "91e1b60efc294e0265c77e54b764d5f3e19c1a7b1bcc63ac8162804ceb822dbe"
+  }
+}

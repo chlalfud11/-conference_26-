@@ -1,0 +1,122 @@
+{
+  "at_utc": "2026-10-16T08:32:16.836863+00:00",
+  "summary": {
+    "M1P1": {
+      "runs": 81,
+      "n": 354,
+      "agree": 300,
+      "risk_ok": 297,
+      "high_to_low": 25,
+      "low_to_high": 32,
+      "should_accept": 99,
+      "accepted_ok": 64,
+      "inj": 318,
+      "promoted_without_policy": 7,
+      "asserted_as_fact_in_utterance": 73,
+      "agree_rate": 0.847457627118644,
+      "risk_acc": 0.8389830508474576,
+      "TCAR": 0.6464646464646465,
+      "c1_rate": 0.0220125786163522,
+      "c2_rate": 0.22955974842767296,
+      "turn_latency_median_ms": 4758,
+      "turn_latency_p95_ms": 7936
+    },
+    "M1P5": {
+      "runs": 81,
+      "n": 354,
+      "agree": 314,
+      "risk_ok": 314,
+      "high_to_low": 1,
+      "low_to_high": 39,
+      "should_accept": 99,
+      "accepted_ok": 63,
+      "inj": 318,
+      "promoted_without_policy": 1,
+      "asserted_as_fact_in_utterance": 82,
+      "agree_rate": 0.8870056497175142,
+      "risk_acc": 0.8870056497175142,
+      "TCAR": 0.6363636363636364,
+      "c1_rate": 0.0031446540880503146,
+      "c2_rate": 0.2578616352201258,
+      "turn_latency_median_ms": 4814,
+      "turn_latency_p95_ms": 6517
+    },
+    "M1P6": {
+      "runs": 81,
+      "n": 354,
+      "agree": 324,
+      "risk_ok": 324,
+      "high_to_low": 18,
+      "low_to_high": 12,
+      "should_accept": 99,
+      "accepted_ok": 81,
+      "inj": 318,
+      "promoted_without_policy": 3,
+      "asserted_as_fact_in_utterance": 79,
+      "agree_rate": 0.9152542372881356,
+      "risk_acc": 0.9152542372881356,
+      "TCAR": 0.8181818181818182,
+      "c1_rate": 0.009433962264150943,
+      "c2_rate": 0.24842767295597484,
+      "turn_latency_median_ms": 4587,
+      "turn_latency_p95_ms": 6022
+    }
+  },
+  "primary_agree_M1P1_vs_M1P6": {
+    "a": "M1P1",
+    "b": "M1P6",
+    "n_scenarios": 27,
+    "discordant": 15,
+    "mean_diff": 0.07407407407407407,
+    "p_two_sided": 0.0692138671875,
+    "ci95": [
+      0.0018518518518518556,
+      0.15
+    ]
+  },
+  "secondary": {
+    "c1": {
+      "a": "M1P1",
+      "b": "M1P6",
+      "n_scenarios": 24,
+      "discordant": 2,
+      "mean_diff": -0.011111111111111112,
+      "p_two_sided": 0.5,
+      "ci95": [
+        -0.030555555555555558,
+        0.0
+      ],
+      "holm": 1.0
+    },
+    "c2": {
+      "a": "M1P1",
+      "b": "M1P6",
+      "n_scenarios": 24,
+      "discordant": 12,
+      "mean_diff": 0.014814814814814814,
+      "p_two_sided": 0.59033203125,
+      "ci95": [
+        -0.031481481481481485,
+        0.06666666666666667
+      ],
+      "holm": 1.0
+    },
+    "TCAR_fisher": {
+      "p_two_sided": 0.00984390551338159,
+      "holm": 0.029531716540144772
+    }
+  },
+  "descriptive_agree_M1P5_vs_M1P6": {
+    "a": "M1P5",
+    "b": "M1P6",
+    "n_scenarios": 27,
+    "discordant": 16,
+    "mean_diff": 0.01419753086419752,
+    "p_two_sided": 0.663665771484375,
+    "ci95": [
+      -0.05123456790123457,
+      0.0765432098765432
+    ]
+  },
+  "adopt_M1P6": false
+}

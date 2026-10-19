@@ -1,0 +1,18 @@
+{
+ "scenario_id": "A083v",
+ "predicate": "owns_item",
+ "verified": true,
+ "item_mismatch_fixed": false,
+ "rows": {
+  "customer": "Albert Sanders | account albertsanders | member: guest | identity: VERIFIED at chat start (name + zip)",
+  "orders": [
+   "#5621987477  2019-11-01    total $0  status: delivered"
+  ],
+  "payments": [
+   "2019-11-01 charge $0 order #5621987477 (card)"
+  ],
+  "returns_promos": [
+   "(none)"
+  ]
+ }
+}

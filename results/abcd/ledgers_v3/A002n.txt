@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Alessandro Phoenix (alessandrophoenix) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-06-02 | Alessandro Phoenix (alessandrophoenix) | order #7742652858 |  | total $0 | status: delivered
+  2024-06-02 | Alessandro Phoenix (alessandrophoenix) | charge $0 for order #7742652858 (card)

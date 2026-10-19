@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Albert Sanders | account albertsanders284 | member: guest | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #9051381325  2019-11-28  michael_kors shirt $69, calvin_klein shirt $79, tommy_hilfiger shirt $99  total $247  status: shipped, not delivered
+Payments:
+  2019-11-28 charge $247 order #9051381325 (card)
+Returns / promo codes:
+  (none)

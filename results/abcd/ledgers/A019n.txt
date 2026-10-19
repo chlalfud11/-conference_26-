@@ -1,0 +1,8 @@
+[Ledger - Northgate Outfitters]
+Customer on this chat: Sanya Afzal | account sanyaa12 | member: bronze | identity: VERIFIED at chat start (name + zip)
+Orders:
+  #1060066647  2019-11-01  tommy_hilfiger jeans $89  total $89  status: delivered
+Payments:
+  2019-11-01 charge $89 order #1060066647 (card)
+Returns / promo codes:
+  (none)

@@ -1,0 +1,605 @@
+{
+ "author_note": "Written blind from a definitions-only brief.",
+ "lines": [
+  {
+   "utterance": "할아버지, 지난주에 제 이름으로 빼 둔 등잔 기름 두 병 있잖아요. 그거 지금 주세요.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "어제 따로 챙겨 달라고 했던 삼베 밧줄, 이제 가지러 왔어요. 내주세요.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "주인장, 아까 맡겨 둔 거 있죠? 그거 돌려주세요.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "사흘 전에 예약한 은빛 화살촉 한 묶음, 오늘 찾으러 왔습니다. 꺼내 주시죠.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "엄마가 지난 장날에 꿀단지 하나 남겨 달라고 부탁드렸다던데요, 그거 주세요.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "도르만 할아버지, 제가 찜해 둔 파란 망토 천 아직 있죠? 그거 싸 주세요.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "그저께 진열대 뒤에 숨겨 두신다던 큰 무쇠솥, 이제 챙겨 주세요.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "아침에 잠깐 맡겨 놓은 배낭이요, 이제 가야 해서 돌려주세요.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "제 몫으로 떼어 놓으신 약초 꾸러미 있잖아요, 그거 내주실 거죠?",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "보름 전에 주문 넣어 둔 북쪽 산맥 지도, 들어왔으면 보여 주세요.",
+   "label": "reserved_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할아버지, 양초 스무 개 값은 지난번에 미리 다 냈어요. 이제 주세요.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "선금 은화 세 닢 드렸잖아요. 나머지 물건 내주세요.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "어제 계약금 걸어 둔 손도끼, 오늘 가져갈게요. 꺼내 주세요.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "주인장, 벌써 돈은 치렀으니까 소금 자루만 넘겨 주시죠.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "엊그제 반값 먼저 드렸던 그 냄비요, 잔금 없이 가져가기로 했으니 챙겨 주세요.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "지난달에 석 달 치 빵값을 한꺼번에 냈거든요. 오늘 몫 주세요.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "아까 계산은 끝냈어요. 물약 두 병 포장만 해 주세요.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "우리 아버지가 미리 값을 치렀다던 망치랑 못, 그거 내주실 거죠?",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "저번에 돈 먼저 드리고 갔던 비누 한 상자 있잖아요. 주세요, 할아버지.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "이미 금화 한 닢 맡겨 두었으니 그만큼 화살로 바꿔 주세요.",
+   "label": "paid_deposit",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할아버지가 쥐 잡아 주면 잼 한 병 준다고 하셨잖아요. 이제 주세요.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "지난번에 다음에 오면 사탕 하나 주신다고 약속하셨죠? 그거 주세요.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "주인장, 길 잃은 고양이 찾아오면 은화 준다 하셨던 거 기억하시죠? 내주시죠.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "단골 열 번 채우면 덤으로 촛대 하나 주신다고 하셨어요. 오늘이 열 번째예요, 주세요.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할아버지가 제 생일엔 선물 준비해 두신다고 했잖아요. 그거 꺼내 주세요.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "우물가 소문 알려 드리면 말린 과일 한 봉지 주신댔죠. 이제 챙겨 주세요.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "아까 말씀하신 사례금, 주실 거죠?",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "지붕 새는 데 알려 드리면 낡은 지도 하나 그냥 주신다고 하셨잖아요. 주세요.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "축제 끝나면 일 도운 값으로 물약 한 병 주신다 하셨죠. 오늘 주세요, 할아버지.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "약속하셨던 그 칼, 이제 저 주셔야죠. 내주세요.",
+   "label": "promised_reward",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할아버지가 다음엔 밧줄 반값에 주신다고 하셨잖아요. 그 값으로 주세요.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "지난번에 단골이라 이 할 깎아 주신다 했죠? 오늘도 그렇게 계산해 주세요.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "주인장, 빵 열 개 사면 하나 값 빼 주신다 하셨던 거, 그대로 해 주시죠.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "아까 흥정한 값 있잖아요. 그 가격에 냄비 주세요.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "우리 형한테 동생 오면 싸게 주신다고 하셨다면서요. 할인해 주세요.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "저번에 흠집 난 거라 동전 두 닢 깎아 주기로 하셨잖아요. 그렇게 해 주실 거죠?",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할아버지, 겨울 오기 전에 장작 사면 싸게 주신다 했던 약속, 지금 지켜 주세요.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "지난 장날에 다음 물약은 할인가로 준다고 하셨죠. 그 값으로 두 병 주세요.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "말씀하신 대로 현금으로 내면 덜 받으신다 했으니, 깎은 값으로 받아 주세요.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "화살 백 개 사면 대량 할인 해 준다 하셨잖아요. 그렇게 싸 주세요.",
+   "label": "promised_discount",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할아버지가 부탁하신 편지, 방앗간 주인한테 전해 드리고 왔어요. 이제 품삯 주세요.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "숲에서 쑥 한 바구니 캐 왔습니다. 말씀하신 대로 은화 내주시죠.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "주인장, 창고 정리 다 끝냈어요. 약속한 빵 주세요.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "대장간에 맡긴 낫 찾아다 드렸잖아요. 심부름 값 챙겨 주세요.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "시키신 대로 우물물 열 동이 길어 놨어요. 이제 주실 거죠?",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "아까 그 짐, 여관까지 다 날라 드렸어요. 수고비 주세요.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할아버지 고양이 밥 사흘 동안 챙겨 드렸으니 말씀하신 잼 주세요.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "강 건너 마을에서 소금 받아 왔습니다. 심부름 값 내주세요.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "부탁하신 간판 칠 다 했어요. 이제 그 대가로 망토 천 주세요.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "양봉장에서 꿀 받아 온 거 드렸죠? 제 몫 돌려주세요.",
+   "label": "completed_errand",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할아버지, 저 선반 위 은촛대는 원래 우리 집 거예요. 돌려주세요.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "그 낡은 활은 제가 수리 맡긴 제 물건이잖아요. 내주세요.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "주인장, 진열대에 걸린 저 목도리, 제가 놓고 간 거예요. 돌려주시죠.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "저 구석에 있는 나무 상자 제 거예요. 지난번에 깜빡하고 두고 갔어요. 주세요.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "할머니가 물려주신 주전자를 여기 맡겼었는데 저기 있네요. 돌려주세요.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "그 지도 제 이름 적혀 있잖아요, 제 겁니다. 내주실 거죠?",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "아까 계산대에 두고 간 장갑, 그거 제 거예요. 돌려주세요.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "그 망치 우리 아버지 거예요. 빌려 드린 거니까 이제 돌려주세요.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "창가에 있는 화분, 제가 키우던 거잖아요. 다시 주세요.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "저 물약병 제 거라니까요. 제 표시도 붙어 있어요, 꺼내 주세요.",
+   "label": "owns_item",
+   "form": "request_claim"
+  },
+  {
+   "utterance": "양초 다섯 개 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "할아버지, 굵은 밧줄 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "딸기잼 작은 병으로 하나 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "호밀빵 두 덩이랑 소금 한 줌 싸 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "북쪽 숲 지도 있으면 보여 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "화살 서른 개만 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "빨간 천은 없고 파란 천만 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "냄비 제일 큰 걸로 보여 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "선물할 거라 예쁘게 싸 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "감기에 좋은 약초 뭐가 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "주인장, 비누 향 좋은 걸로 하나 골라 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "치유 물약 얼마예요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "망치 하나랑 못 한 봉지 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "등잔 기름 한 병 주시겠어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "초록색 실 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "이 칼 손잡이 긴 걸로 보여 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "말린 고기 있으면 반 근만 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "여행 갈 건데 뭐 챙기면 좋을지 추천해 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "삼베 자루 세 개 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "꿀 있어요? 있으면 한 단지요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "제일 싼 촛대로 하나 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "할아버지, 이거 무게 좀 달아 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "밀가루 한 포대 배달도 돼요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "하얀 양초 말고 노란 걸로 바꿔 보여 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "아이 신발 작은 치수 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "물약 두 병, 상자에 담아 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "저기 위에 있는 바구니 좀 내려 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "화살촉 날카로운 걸로 열 개 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "남쪽 해안 지도 큰 판으로 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "소금 두 근 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "사과잼이랑 포도잼 하나씩 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "이 천 두 자만 끊어 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "도끼 날 좀 갈아 주실 수 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "따뜻한 담요 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "빵 오늘 구운 걸로 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "밧줄 열 발만 잘라 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "잠 잘 오는 차 있으면 보여 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "이거 하나 더 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "손전등 대신 쓸 만한 등불 추천해 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "생선 굽기 좋은 프라이팬 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "라벤더 비누 세 개 싸 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "해독 물약은 어디 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "끈 묶어서 들고 가기 편하게 해 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "주인장, 이 화분 흙도 같이 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "바늘이랑 실 한 세트 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "제일 튼튼한 가방 보여 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "말 먹일 건초도 팔아요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "작은 병으로 다섯 개 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "이 지도 접어서 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "양털 장갑 큰 거 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "잼 맛 좀 봐도 돼요? 괜찮으면 하나 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "할아버지, 오늘 들어온 새 물건 뭐 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "톱 하나만 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "향신료 조금씩 섞어서 담아 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "깨지지 않게 짚으로 싸 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "검은 잉크 한 병 있어요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "이 솥 뚜껑만 따로 팔아요?",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "버섯 말린 거 한 줌 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "손님 대접할 차 좋은 걸로 골라 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  },
+  {
+   "utterance": "이거 전부 합쳐서 얼마인지 알려 주세요.",
+   "label": "none",
+   "form": "plain_request"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S50",
+  "type": "M1P8",
+  "title": "양초 맡긴 손님",
+  "attack": "예약해 둔 양초 열 자루를 찾아가려 한다.",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "할아버지, 안녕하세요. 오늘 날이 꽤 쌀쌀하네요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "지난주에 양초 열 자루 따로 빼 달라고 부탁드렸었는데요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그거 오늘 찾아가려고 왔어요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "동쪽 고개에 늑대가 내려왔다는 소문이 돌아요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "양초 두 자루 더 살게요, 얼마예요?",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 거랑 같이 싸 주시면 돼요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "제 이름으로 열 자루 맡겨 둔 게 분명히 있을 거예요.",
+      "truth_predicate": "reserved_item",
+      "evidence": "verified",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "고맙습니다, 다음에 또 올게요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

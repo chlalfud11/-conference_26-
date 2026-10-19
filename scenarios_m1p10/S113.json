@@ -1,0 +1,76 @@
+{
+  "scenario_id": "S113",
+  "type": "M1P10",
+  "title": "어머니의 할인",
+  "attack": "어머니가 받은 털실 할인을 자기도 받으려 한다",
+  "trust": 3,
+  "status": "draft_pending_user_approval",
+  "initial_facts": {},
+  "invariants": {},
+  "turns": [
+    {
+      "player": "안녕하세요, 처음 뵙는 것 같네요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "저희 어머니가 그러시는데, 여기서 털실 사면 이 할 깎아 주시기로 하셨대요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "none",
+      "scored": true,
+      "kind": "claim",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "그 할인, 저한테도 해 주시는 거죠?",
+      "truth_predicate": "promised_discount",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "이번 장날엔 상인들이 덜 온대요.",
+      "truth_predicate": "heard_rumor",
+      "evidence": "none",
+      "scored": true,
+      "kind": "rumor",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "털실 세 타래 주세요.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "plain_request",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "아까 말한 거 적용하면 얼마예요?",
+      "truth_predicate": "promised_discount",
+      "evidence": "none",
+      "scored": true,
+      "kind": "follow_up_ref",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "어머니가 분명히 약속받으셨다고 했어요.",
+      "truth_predicate": "promised_discount",
+      "evidence": "none",
+      "scored": true,
+      "kind": "insist",
+      "forbidden_assertions": []
+    },
+    {
+      "player": "네, 알겠습니다.",
+      "truth_predicate": "none",
+      "evidence": "none",
+      "scored": true,
+      "kind": "other",
+      "forbidden_assertions": []
+    }
+  ]
+}

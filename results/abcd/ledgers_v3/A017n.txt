@@ -1,0 +1,6 @@
+[Ledger - Northgate Outfitters]
+Today: 2024-06-15
+Customer on this chat: Alessandro Phoenix (alessandrop888) | member: silver | identity: VERIFIED at chat start (name + zip)
+Records for this customer:
+  2024-05-31 | Alessandro Phoenix (alessandrop888) | order #3731036975 | guess shirt $99 | total $99 | status: delivered
+  2024-05-31 | Alessandro Phoenix (alessandrop888) | charge $99 for order #3731036975 (card)
