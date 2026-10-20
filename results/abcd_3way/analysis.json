@@ -1,0 +1,105 @@
+{
+ "note": "post-hoc exploratory; preregistered results unchanged",
+ "v4": {
+  "set": "dev",
+  "sources": 84,
+  "table": {
+   "F-M1P0": {
+    "wrong_accept_nd": 0.22023809523809523,
+    "wrong_reject_v": 0.27380952380952384,
+    "hold_v": 0.19841269841269843,
+    "accept_v": 0.5277777777777778,
+    "dispute_d": 0.2777777777777778
+   },
+   "S-M1P0": {
+    "wrong_accept_nd": 0.12896825396825398,
+    "wrong_reject_v": 0.13492063492063494,
+    "hold_v": 0.5357142857142857,
+    "accept_v": 0.32936507936507936,
+    "dispute_d": 0.12301587301587302
+   },
+   "F-M1P1": {
+    "wrong_accept_nd": 0.1626984126984127,
+    "wrong_reject_v": 0.0,
+    "hold_v": 0.0873015873015873,
+    "accept_v": 0.9126984126984128,
+    "dispute_d": 0.75
+   },
+   "FC": {
+    "wrong_accept_nd": 0.0,
+    "wrong_reject_v": 0.0,
+    "hold_v": 0.25,
+    "accept_v": 0.75,
+    "dispute_d": 0.75
+   },
+   "RV": {
+    "wrong_accept_nd": 0.0,
+    "wrong_reject_v": 0.0,
+    "hold_v": 0.22222222222222224,
+    "accept_v": 0.7777777777777777,
+    "dispute_d": 0.7777777777777777
+   }
+  },
+  "RV_vs_P1": {
+   "wrong_accept_nd": {
+    "diff_RV_minus_P1": -0.1626984126984127,
+    "p": 4.999750012499375e-05,
+    "n": 84
+   },
+   "wrong_reject_v": {
+    "diff_RV_minus_P1": 0.0,
+    "p": 1.0,
+    "n": 84
+   },
+   "hold_v": {
+    "diff_RV_minus_P1": 0.13492063492063494,
+    "p": 0.000199990000499975,
+    "n": 84
+   }
+  }
+ },
+ "v5_heldout": {
+  "set": "heldout",
+  "sources": 59,
+  "table": {
+   "F-M1P1": {
+    "wrong_accept_nd": 0.2485875706214689,
+    "wrong_reject_v": 0.0,
+    "hold_v": 0.12994350282485875,
+    "accept_v": 0.8700564971751413,
+    "dispute_d": 0.6271186440677966
+   },
+   "FC": {
+    "wrong_accept_nd": 0.03389830508474576,
+    "wrong_reject_v": 0.0,
+    "hold_v": 0.3389830508474576,
+    "accept_v": 0.6610169491525424,
+    "dispute_d": 0.6271186440677966
+   },
+   "RV": {
+    "wrong_accept_nd": 0.03389830508474576,
+    "wrong_reject_v": 0.0,
+    "hold_v": 0.33333333333333337,
+    "accept_v": 0.6666666666666667,
+    "dispute_d": 0.632768361581921
+   }
+  },
+  "RV_vs_P1": {
+   "wrong_accept_nd": {
+    "diff_RV_minus_P1": -0.21468926553672316,
+    "p": 4.999750012499375e-05,
+    "n": 59
+   },
+   "wrong_reject_v": {
+    "diff_RV_minus_P1": 0.0,
+    "p": 1.0,
+    "n": 59
+   },
+   "hold_v": {
+    "diff_RV_minus_P1": 0.2033898305084746,
+    "p": 4.999750012499375e-05,
+    "n": 59
+   }
+  }
+ }
+}
