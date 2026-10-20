@@ -6,6 +6,7 @@ ledger lookup, and the memory block carries no verification flag.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import abcd4_ledger as LG
@@ -18,6 +19,8 @@ from npc.engine import GameEngine
 ROOT = Path(__file__).parent
 SCEN = ROOT / "scenarios_abcd4"
 CONDITIONS = {"F-M1P0": ("full", "M1P0"), "S-M1P0": ("search", "M1P0"), "F-M1P1": ("full", "M1P1")}
+FOLLOW_UP = {"F-M1P1FC": ("full", "M1P1")}
+TRANSACTION_CUE = re.compile(r"\b(promo|code|coupon|discount|order(ed)?|return(ed)?|refund(ed)?|charg(e|ed)|bill(ed)?|bought|purchas(e|ed)|receipt|deliver(y|ed)|shipp(ed|ing)|paid|pay)\b", re.I)
 
 
 def install():
@@ -53,7 +56,8 @@ def memory_context(memory) -> str:
 
 
 def run_dialogue4(scenario: dict, condition: str, seed: int, rows: list, today: str) -> runner.RunRecord:
-    view, base_condition = CONDITIONS[condition]
+    view, base_condition = {**CONDITIONS, **FOLLOW_UP}[condition]
+    fail_closed = condition in FOLLOW_UP
     spec = config.CONDITIONS[base_condition]
     engine = GameEngine(":memory:")
     engine.reset()
@@ -81,7 +85,10 @@ def run_dialogue4(scenario: dict, condition: str, seed: int, rows: list, today: 
                 f"[Memory]\n{memory_context(memory)}")
         version_before = engine.version()
         if spec["decider"] == "decision_table":
-            decision = config.expected_decision(config.risk_of(predicate), evidence, trust)
+            risk = config.risk_of(predicate)
+            if fail_closed and predicate == "none" and TRANSACTION_CUE.search(player):
+                risk = "high_risk"
+            decision = config.expected_decision(risk, evidence, trust)
             messages = [{"role": "system", "content":
                          f"{base}\n\n[Policy decision] {decision} ({npc_en.DECISION_EN[decision]})\n"
                          "Answer as Morgan in 1-2 sentences, consistent with this decision. "

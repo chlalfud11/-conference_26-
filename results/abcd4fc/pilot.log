@@ -1,0 +1,26 @@
+[1] F-M1P1FC_11_A001v.json
+[2] F-M1P1FC_11_A001n.json
+[3] F-M1P1FC_11_A001d.json
+[4] F-M1P1FC_11_A019v.json
+[5] F-M1P1FC_11_A019n.json
+[6] F-M1P1FC_11_A019d.json
+[7] F-M1P1FC_11_A021v.json
+[8] F-M1P1FC_11_A021n.json
+[9] F-M1P1FC_11_A021d.json
+[10] F-M1P1FC_11_A074v.json
+[11] F-M1P1FC_11_A074n.json
+[12] F-M1P1FC_11_A074d.json
+A001v promised_discount verified accept_as_belief | I see a promo code issued to you on Nov 23, valid until Dec 31. Which jeans are 
+A001n promised_discount none request_evidence | I don't see any promo code in the ledger for you, so I can't confirm it. What's 
+A001d promised_discount contradicting dispute | {
+  "utterance": "Let me check the ledger. I see a promo code issued to you on O
+A019v none none request_evidence | Let me check the ledger. I see a promo code NG796EF7 issued to you on Nov 28, va
+A019n none none request_evidence | I'm sorry, but I can't see any promo code in our system. Could you tell me the c
+A019d none none request_evidence | Let me check the ledger. I see a promo code NGEEA00D issued to you on Oct 31, va
+A021v completed_errand verified accept_as_belief | I see your return received on Nov 28 for order #2677384367, and the refund is st
+A021n completed_errand none request_evidence | I see the charge for your calvin_klein shirt on 2019-11-21, but no return or ref
+A021d completed_errand contradicting dispute | I see the return received for order #1719544736 in the ledger, but the refund is
+A074v paid_deposit none request_evidence | I see the charge for the Calvin Klein shirt on 2019-11-28 in the ledger, so it d
+A074n paid_deposit none request_evidence | I don't see any Calvin Klein shirt purchase for you in the ledger, so I can't co
+A074d paid_deposit none request_evidence | I see a charge for a Calvin Klein shirt on Nov 8 in the ledger, but I can't conf
+pilot ok 12/12

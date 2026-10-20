@@ -101,6 +101,25 @@ def fake_chat(messages, seed, max_tokens=0, json_schema=None):
     return llm.Completion(json.dumps(parsed), 0, 0, 0, True, parsed)
 
 
+@pytest.mark.parametrize("condition, expected", [("F-M1P1", "accept_as_belief"), ("F-M1P1FC", "request_evidence")])
+def test_fail_closed_on_missed_claim(monkeypatch, condition, expected):
+    for name in ("PERSONA", "PRICES", "INITIAL_STOCK"):
+        monkeypatch.setattr(config, name, getattr(config, name))
+    labels = dict(KIND_LABELS)
+    missed = lambda messages, seed, max_tokens=0, json_schema=None: llm.Completion(
+        "{}", 0, 0, 0, True, {"claim_predicate": "none", "claim_object": ""} if json_schema is runner.NLU_SCHEMA
+        else {"utterance": "ok"})
+    monkeypatch.setattr(llm, "chat", missed)
+    R.install()
+    try:
+        sc, (rows, today) = R.scenarios(), LG.load()
+        record = json.loads(R.run_dialogue4(sc["A001n"], condition, 11, rows, today).to_json())
+    finally:
+        KIND_LABELS.clear()
+        KIND_LABELS.update(labels)
+    assert record["turns"][-1]["decision"] == expected
+
+
 @pytest.mark.parametrize("condition", list(R.CONDITIONS))
 def test_runner_isolated_and_prompt(monkeypatch, condition):
     for module in ("abcd4_runner.py", "abcd_live4.py", "abcd4_ledger.py", "ledger_vdb.py"):
