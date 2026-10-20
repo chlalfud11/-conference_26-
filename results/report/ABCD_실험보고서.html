@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>ABCD 실험 보고서</title>
+<style>
+@page { size: A4; margin: 18mm 16mm; }
+body { font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; font-size: 10.5pt; line-height: 1.6; color: #1d1d1f; }
+h1 { font-size: 20pt; margin: 0 0 4px; }
+h2 { font-size: 14pt; border-bottom: 2px solid #1d1d1f; padding-bottom: 3px; margin-top: 26px; page-break-after: avoid; }
+h3 { font-size: 11.5pt; margin: 16px 0 6px; page-break-after: avoid; }
+.sub { color: #555; margin-bottom: 14px; }
+table { border-collapse: collapse; width: 100%; margin: 8px 0 10px; font-size: 9.5pt; page-break-inside: avoid; }
+th, td { border: 1px solid #c7c7cc; padding: 4px 6px; text-align: center; }
+th { background: #f2f2f7; }
+td:first-child, th:first-child { text-align: left; }
+.hl { background: #e8f3ea; font-weight: 600; }
+.box { border: 1px solid #c7c7cc; border-left: 4px solid #2c7a3f; background: #f7faf7; padding: 8px 12px; margin: 10px 0; page-break-inside: avoid; }
+.warn { border-left-color: #b26b00; background: #fffaf2; }
+.small { font-size: 9pt; color: #555; }
+ul, ol { margin: 4px 0 8px; padding-left: 20px; }
+.pb { page-break-before: always; }
+code { font-size: 9pt; background: #f2f2f7; padding: 0 3px; }
+</style></head><body>
+
+<h1>SLM 기반 NPC는 손님의 거짓 주장에 속지 않을 수 있는가</h1>
+<div class="sub">ABCD 실험 종합 보고서 (v4 ~ v6) · 2026-10-21 · 저장소 <code>conference-paper</code> (최종 커밋 123e08a)</div>
+
+<div class="box">
+<b>한 줄 결론</b> — 판단은 SLM이 아니라 <b>결정표(코드)</b>가 해야 한다. SLM에게는 "손님이 무슨 주장을 했는지 알아듣기"만 맡기는 것이 가장 정확했다.<br>
+결정표 정확도 <b>83.3%</b>는 다른 방식보다 높았다: SLM 직접 판단 45.6%, SLM+검색 40.6%, SLM+도구 호출 63.4% (v4). 처음 보는 데이터(검증 세트)에서도 결정표 74.8%로 가장 높았다(SLM 직접 판단 41.8%, 도구 호출 64.6%). 결정표는 진짜 손님을 거부한 적이 한 번도 없었다(0%).
+</div>
+
+<h2>1. 무엇을 알고 싶었나</h2>
+<p>게임 속 상점 NPC에게 손님이 "8일 전에 할인 코드를 받았어요", "물건을 이미 반품했어요" 같은 말을 한다. 이 말은 사실일 수도, 거짓일 수도 있다. NPC는 가게 장부를 보고 다음 중 하나를 골라야 한다.</p>
+<ul>
+<li><b>믿기</b>: 장부에 그 기록이 있고 날짜도 맞다</li>
+<li><b>증거 요구</b>: 장부에 기록이 없다</li>
+<li><b>반박</b>: 기록은 있지만 날짜가 다르다</li>
+</ul>
+<p><b>연구 질문:</b> 이 판단을 작은 언어 모델(SLM)에게 맡겨야 하는가, 아니면 코드로 된 규칙(결정표)에 맡겨야 하는가?</p>
+
+<h2>2. 실험 설계</h2>
+<h3>2.1 데이터</h3>
+<ul>
+<li><b>손님 문장</b>: 실제 고객센터 대화 데이터셋 ABCD(Action-Based Conversations Dataset, NAACL 2021)에서 가져왔다. 손님이 첫 세 마디 안에 거래 관련 주장을 한 대화를 규칙으로 골랐다.
+ <ul><li>주장 종류는 5가지: 할인 약속, 반품 완료, 이중 청구, 주문 미수령, 구매(소유)</li></ul></li>
+<li><b>장부</b>: ABCD에는 대화만 있고 거래 기록이 없어서, 장부는 규칙으로 <b>합성</b>했다.</li>
+<li><b>같은 문장으로 세 판을 만들었다.</b> 손님 문장은 그대로 두고 장부만 바꾼다. 그래서 장부의 영향만 비교할 수 있다.</li>
+</ul>
+<table>
+<tr><th>판</th><th>장부 상태</th><th>정답</th></tr>
+<tr><td>v (기록 있음)</td><td>주장과 같은 종류·같은 날짜의 기록이 있다</td><td>믿기</td></tr>
+<tr><td>n (기록 없음)</td><td>그 종류의 기록이 없다</td><td>증거 요구</td></tr>
+<tr><td>d (날짜 불일치)</td><td>기록은 있지만 날짜가 다르다</td><td>반박</td></tr>
+</table>
+<table>
+<tr><th>데이터 세트</th><th>출처</th><th>원천(대화) 수</th><th>시나리오 수</th><th>용도</th></tr>
+<tr><td>v4 세트</td><td>ABCD train 분할</td><td>84</td><td>252</td><td>본 실험</td></tr>
+<tr><td>검증 세트</td><td>ABCD dev+test 분할 (v4와 겹침 0)</td><td>59</td><td>177</td><td>처음 보는 데이터에서 다시 확인</td></tr>
+</table>
+
+<h3>2.2 공정성 장치</h3>
+<ul>
+<li><b>정답 분리</b>: 정답표는 실행 코드와 다른 파일에 두었다. 실행 중에는 읽지 않으며, 테스트로 확인했다.</li>
+<li><b>사전등록과 봉인</b>: 실험마다 가설·지표·채택 규칙을 먼저 문서로 쓰고, 해시로 봉인한 뒤 실행했다.</li>
+<li><b>반복</b>: 모든 조건을 seed 3개(11, 29, 47)로 돌렸다.</li>
+<li><b>검정</b>: 대화 원천 단위로 짝지은 sign-flip 검정(20,000회)을 했다. 여러 비교에는 Holm 보정을 적용했고, 신뢰구간은 bootstrap 95%로 구했다.</li>
+<li><b>모델</b>: Ornith 1.5 9B(4비트 양자화)를 노트북의 llama-server에서 돌렸다. 모든 조건이 같은 모델을 쓴다.</li>
+</ul>
+
+<h3>2.3 비교한 방식 (판단을 어디에 맡기느냐)</h3>
+<table>
+<tr><th>조건</th><th>장부 전달 방식</th><th>판단 주체</th></tr>
+<tr><td>F-M1P0: SLM 직접 판단</td><td>그 손님의 장부 전체를 프롬프트에 넣음</td><td>SLM</td></tr>
+<tr><td>S-M1P0: SLM + 검색(RAG)</td><td>벡터 검색으로 고른 장부 5줄</td><td>SLM</td></tr>
+<tr><td>T-M1P0: SLM + 도구 호출</td><td>SLM이 <code>lookup(주장 종류)</code>을 호출하면 해당 기록을 돌려줌 (τ-bench가 평가하는 방식)</td><td>SLM</td></tr>
+<tr class="hl"><td>F-M1P1: 결정표</td><td>SLM은 주장 종류만 분류하고, 엔진이 장부를 조회함</td><td><b>결정표(코드)</b></td></tr>
+</table>
+<p class="small">결정표 조건에서 SLM은 두 가지만 한다. 손님 문장이 어떤 주장인지 분류하는 일(이하 "귀", NLU)과 결정에 맞는 대사를 쓰는 일이다.</p>
+
+<h2 class="pb">3. 결과</h2>
+<h3>3.1 본 실험 v4: 누가 판단해야 하나 (각 조건 756회)</h3>
+<table>
+<tr><th>조건</th><th>v 정답</th><th>n 정답</th><th>d 정답</th><th>전체 정확도</th></tr>
+<tr><td>SLM 직접 판단</td><td>52.8%</td><td>56.3%</td><td>27.8%</td><td>45.6%</td></tr>
+<tr><td>SLM + 검색</td><td>32.9%</td><td>76.6%</td><td>12.3%</td><td>40.6%</td></tr>
+<tr><td>SLM + 도구 호출 (v6)</td><td>63.9%</td><td>98.0%</td><td>28.2%</td><td>63.4%</td></tr>
+<tr class="hl"><td>결정표</td><td>91.3%</td><td>83.7%</td><td>75.0%</td><td>83.3%</td></tr>
+</table>
+<ul>
+<li>결정표가 SLM 직접 판단보다 <b>+37.7%p</b> 높았다. v4의 사전등록 채택 규칙을 충족했다.</li>
+<li>결정표의 오류는 <b>모두 SLM이 주장을 잘못 알아들은 경우</b>였다. 장부 조회와 결정 규칙은 한 번도 틀리지 않았다.</li>
+<li>약점도 있었다. 기록 없는 주장을 믿은 비율이 결정표 16.3%로, SLM 직접 판단(2.0%)보다 높았다. 귀가 주장을 놓치면 결정표가 그 말을 "주장 없음"으로 보고 넘어가기 때문이다.</li>
+</ul>
+<p class="small">도구 호출 줄의 v·n 정답률은 v6 결정 분포에서 계산했다(v 161/252, n 247/252).</p>
+
+<h3>3.2 수용 / 보류 / 거부로 다시 본 결과 (사후 분석)</h3>
+<p>"증거를 보여 주세요"는 거절이 아니라 확인 질문이다. 그래서 결정을 세 갈래로 묶어 다시 셌다. 기준은 계산 전에 문서로 고정했다(커밋 e2791a9). 다만 결과를 본 뒤 만든 기준이므로 <b>사후 탐색 분석</b>이다.</p>
+<table>
+<tr><th>조건 (v4)</th><th>속음<br>(n·d에서 믿음)</th><th>진짜 손님 거부<br>(v에서 반박·거절)</th><th>확인 질문<br>(v에서 보류)</th><th>진짜 손님 수용</th></tr>
+<tr><td>SLM 직접 판단</td><td>22.0%</td><td>27.4%</td><td>19.8%</td><td>52.8%</td></tr>
+<tr><td>SLM + 검색</td><td>12.9%</td><td>13.5%</td><td>53.6%</td><td>32.9%</td></tr>
+<tr><td>SLM + 도구 호출</td><td>24.4%</td><td>11.9%</td><td>24.2%</td><td>63.9%</td></tr>
+<tr class="hl"><td>결정표</td><td>16.3%</td><td><b>0%</b></td><td>8.7%</td><td>91.3%</td></tr>
+</table>
+<p>결정표는 <b>진짜 손님을 반박하거나 거절한 적이 없다.</b> 결정표의 오류는 "속음"이나 "확인 질문"뿐이었다.</p>
+
+<h3>3.3 v6: 표준 도구 호출 방식과의 비교 (사전등록, 1,287회)</h3>
+<table>
+<tr><th>데이터</th><th>결정표</th><th>도구 호출</th><th>차이 [95% CI]</th><th>Holm p</th></tr>
+<tr><td>v4 세트</td><td>83.3%</td><td>63.4%</td><td><b>+20.0%p</b> [14.3, 25.7]</td><td>0.0001</td></tr>
+<tr><td>검증 세트</td><td>74.8%</td><td>64.6%</td><td><b>+10.2%p</b> [1.7, 18.5]</td><td>0.022</td></tr>
+</table>
+<ul>
+<li><b>SLM은 찾기는 잘했다.</b> 도구를 호출한 비율이 96~100%, 맞는 종류를 고른 비율이 94%, 형식 실패는 0회였다.</li>
+<li><b>판단은 못했다.</b>
+ <ul><li>날짜가 어긋난 주장을 반박한 비율이 결정표보다 36~47%p 낮았다(Holm p = 0.0002).</li>
+ <li>날짜가 다른데도 기록을 보고 믿은 경우가 39~48%였다.</li>
+ <li>진짜 손님을 반박한 경우가 12~19%였다.</li></ul></li>
+<li>도구가 있으면 SLM 직접 판단보다는 낫다(+17.7%p, v4). 그래도 결정표에는 못 미쳤다.</li>
+</ul>
+
+<h3>3.4 남은 오류를 줄이려는 시도</h3>
+<p>결정표의 남은 약점은 귀가 주장을 놓치는 것이다. 예를 들면 "제 할인 코드가 안 돼요"처럼 <b>주장이 전제로 깔린 문장</b>이다. 이를 보완하려고 두 가지를 시험했다.</p>
+<table>
+<tr><th>시도</th><th>방법</th><th>결과</th></tr>
+<tr><td>fail-closed (v4 후속)</td><td>귀가 "주장 없음"이라 했는데 거래 단어(코드, 주문, 환불 등)가 있으면 무조건 증거 요구</td><td>속음 16.3% → 0%. 대신 진짜 손님에게 확인 질문을 하는 비율이 같은 만큼 증가. 233/756회에서 사용자 판단으로 중단했고, 끝난 실행은 오프라인 예측과 100% 일치</td></tr>
+<tr><td>재확인 RV (v5)</td><td>같은 SLM에게 "할인 코드를 받았다고 주장하나요? 예/아니오"로 다시 물음</td><td>113건 중 110건이 "아니오". 정확도 +0.8%p(p = 0.51)로 <b>채택 안 됨</b></td></tr>
+</table>
+<p><b>검증 세트의 3분류 결과 (사후 분석)</b></p>
+<table>
+<tr><th>조건 (검증 세트)</th><th>속음</th><th>진짜 손님 거부</th><th>확인 질문</th><th>진짜 손님 수용</th></tr>
+<tr><td>결정표</td><td>24.9%</td><td>0%</td><td>13.0%</td><td>87.0%</td></tr>
+<tr><td>결정표 + fail-closed</td><td>3.4%</td><td>0%</td><td>33.9%</td><td>66.1%</td></tr>
+<tr><td>결정표 + 재확인</td><td>3.4%</td><td>0%</td><td>33.3%</td><td>66.7%</td></tr>
+</table>
+<p>fail-closed를 더하면 <b>"속기"가 "한 번 더 묻기"로 바뀐다.</b> 진짜 손님을 거부하는 일은 여전히 없다. 그 대가로 진짜 손님의 약 3분의 1이 확인 질문을 한 번 더 받는다.</p>
+
+<h3>3.5 처음 보는 데이터(검증 세트)에서 다시 확인 (사전등록, 각 조건 531회)</h3>
+<table>
+<tr><th>조건 (검증 세트, 59원천)</th><th>v 정답</th><th>n 정답</th><th>d 정답</th><th>전체 정확도</th><th>속음</th><th>진짜 손님 거부</th></tr>
+<tr><td>SLM 직접 판단</td><td>42.4%</td><td>62.7%</td><td>20.3%</td><td>41.8%</td><td>18.4%</td><td>24.9%</td></tr>
+<tr><td>SLM + 도구 호출</td><td>68.9%</td><td>98.3%</td><td>26.6%</td><td>64.6%</td><td>27.7%</td><td>18.6%</td></tr>
+<tr class="hl"><td>결정표</td><td>87.0%</td><td>74.6%</td><td>62.7%</td><td>74.8%</td><td>24.9%</td><td><b>0%</b></td></tr>
+</table>
+<ul>
+<li>결정표가 SLM 직접 판단보다 <b>+33.0%p</b> 높았다(95% CI [24.1, 41.6], p &lt; .0001). v4의 +37.7%p와 거의 같은 차이가 처음 보는 데이터에서도 재현되었다.</li>
+<li>부 지표(Holm 보정)도 모두 유의했다(Holm p &lt; .001).
+ <ul><li>도구 호출이 SLM 직접 판단보다 +22.8%p 높았다.</li>
+ <li>날짜 불일치 반박률은 결정표가 +42.4%p 높았다.</li>
+ <li>진짜 손님 거부율은 SLM 직접 판단이 +24.9%p 높았다.</li></ul></li>
+<li>순위는 두 세트 모두 같다: <b>결정표 &gt; 도구 호출 &gt; SLM 직접 판단</b>.</li>
+<li>처음 보는 문장에서는 귀가 주장을 더 자주 놓쳐서 결정표의 정확도가 83.3%에서 74.8%로 떨어졌다. 그래도 진짜 손님 거부는 두 세트 모두 0%였다.</li>
+</ul>
+
+<h2 class="pb">4. 결론</h2>
+<div class="box">
+<ol>
+<li><b>판단은 SLM이 아니라 결정표가 해야 한다.</b> 장부를 통째로 주든(45.6%), 검색해서 주든(40.6%), 도구로 찾게 하든(63.4%), SLM이 판단하면 결정표(83.3%)보다 정확도가 낮았다. 처음 보는 데이터에서도 순위는 같았다(결정표 74.8% &gt; 도구 호출 64.6% &gt; SLM 직접 판단 41.8%).</li>
+<li><b>SLM은 장부를 "찾는" 일은 잘하지만, 찾은 기록으로 "판단하는" 일, 특히 날짜 대조는 잘하지 못한다.</b></li>
+<li><b>결정표의 남은 오류는 모두 "알아듣기" 단계에서 생긴다.</b> 특히 전제로 깔린 주장에서 생긴다. 같은 SLM에게 다시 물어도 회복되지 않았다.</li>
+<li><b>fail-closed를 더하면 속는 것을 확인 질문으로 바꿀 수 있다.</b> 진짜 손님을 거부하지 않는 성질은 그대로 유지된다.</li>
+</ol>
+</div>
+<p><b>논문용 요약.</b> SLM 기반 NPC가 손님 주장을 장부와 대조하는 과제에서 판단을 SLM에 맡기는 방식(직접 판단, RAG, tool-calling)은 모두 결정표보다 정확도가 낮았다. SLM은 장부를 정확히 검색했지만, 검색 결과로 판단하는 단계, 특히 날짜 대조에서 실패했다. 판단을 결정표로 옮기자 정당한 손님을 거부하는 오류가 사라졌다. 남은 오류는 SLM이 주장을 알아듣는 단계에 집중되었다.</p>
+
+<h2>5. 한계</h2>
+<ul>
+<li><b>합성 장부.</b> 장부가 실제보다 깨끗하다. 또 "믿기"는 종류와 날짜가 모두 맞을 때만 나와서 구조적으로 안전하다. 실제 가게 장부에서는 이 안전성이 약해질 수 있다.</li>
+<li><b>모델 하나, 작은 표본.</b> 9B 모델 하나로만 실험했고, 원천은 84개와 59개다.</li>
+<li><b>도구 호출을 흉내 냈다.</b> 실제 function calling API가 아니라 JSON 출력으로 흉내 냈다. 또 τ-bench 자체를 재현한 것이 아니다.</li>
+<li><b>검증 세트의 비교 범위.</b> 검증 세트에서는 SLM + 검색(RAG) 조건을 돌리지 않았다.</li>
+<li><b>사후 분석.</b> 3분류 결과는 사후 탐색 분석이다.</li>
+<li><b>라벨 모호성.</b> 귀가 놓친 문장 중 일부("할인 코드 언제 써요?")는 주장인지 사람마다 판단이 갈릴 수 있다.</li>
+<li><b>대사 품질은 평가하지 않았다.</b></li>
+</ul>
+
+<h2>6. 후속 연구</h2>
+<ul>
+<li>확인 질문 이후의 대화. 손님이 코드나 주문번호를 대면 엔진이 다시 대조한다.</li>
+<li>귀(NLU) 개선: 다른 SLM, 전제된 주장의 예시 추가. 결정이 귀의 출력만으로 정해지므로 저비용으로 비교할 수 있다.</li>
+<li>명시적 주장과 전제된 주장을 나눈 라벨링과 결과 보고</li>
+<li>실제 거래 데이터와 실제 function calling으로 재검증</li>
+</ul>
+
+<h2>부록. 실험 기록</h2>
+<table class="small">
+<tr><th>실험</th><th>실행 수</th><th>사전등록</th><th>결과 위치</th><th>커밋</th></tr>
+<tr><td>v4 본 실험</td><td>2,268</td><td>docs/ABCD_v4_사전등록.md</td><td>results/abcd4/</td><td>55fa34d, 741c7a0</td></tr>
+<tr><td>fail-closed</td><td>233 (중단)</td><td>docs/ABCD_v4_failclosed_사전등록.md</td><td>results/abcd4fc/</td><td>3fabff7</td></tr>
+<tr><td>v5 재확인</td><td>1,407</td><td>docs/ABCD_v5_reverify_사전등록.md</td><td>results/abcd5/</td><td>362e0de</td></tr>
+<tr><td>3분류 사후 분석</td><td>(재집계)</td><td>docs/ABCD_3way_사후분석.md</td><td>results/abcd_3way/</td><td>e2791a9, 1a006c7</td></tr>
+<tr><td>검증 세트 SLM 직접 판단</td><td>531</td><td>docs/ABCD_v5_P0추가_사전등록.md</td><td>results/abcd5p0/</td><td>(이번 커밋)</td></tr>
+<tr><td>v6 도구 호출</td><td>1,287</td><td>docs/ABCD_v6_toolcall_사전등록.md</td><td>results/abcd6/</td><td>123e08a</td></tr>
+</table>
+<p class="small">v4, v5, v6은 별도의 게이트 리뷰에서 승인을 받았다. 리뷰어가 독립적으로 다시 계산한 수치도 보고서와 일치했다.</p>
+</body></html>
