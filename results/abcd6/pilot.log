@@ -1,0 +1,14 @@
+A001v True promised_discount 1 accept_as_belief
+A001n True promised_discount 0 request_evidence
+A001d True promised_discount 1 dispute
+A021v True completed_errand 1 accept_as_belief
+A021n True completed_errand 0 request_evidence
+A021d True completed_errand 1 accept_as_belief
+A041v True paid_deposit 1 accept_as_belief
+A041n True paid_deposit 0 request_evidence
+A041d True paid_deposit 1 request_evidence
+A061v True reserved_item 1 accept_as_belief
+A061n True reserved_item 0 request_evidence
+A061d True reserved_item 1 accept_as_belief
+{"no_leak": true, "english": true, "tool_format_failures": 0, "rows_only_this_customer": true, "no_verdict_in_prompt": true}
+pilot ok 12/12

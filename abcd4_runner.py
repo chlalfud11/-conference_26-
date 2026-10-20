@@ -20,6 +20,15 @@ ROOT = Path(__file__).parent
 SCEN = ROOT / ("scenarios_abcd5h" if LG.HELDOUT else "scenarios_abcd4")
 CONDITIONS = {"F-M1P0": ("full", "M1P0"), "S-M1P0": ("search", "M1P0"), "F-M1P1": ("full", "M1P1")}
 FOLLOW_UP = {"F-M1P1FC": ("full", "M1P1"), "F-M1P1RV": ("full", "M1P1")}
+TOOL_CONDITION = {"T-M1P0": ("tool", "M1P0")}
+TOOL_SCHEMA = {"type": "object", "properties": {
+    "call": {"type": "boolean"},
+    "claim_type": {"type": "string", "enum": [*config.CLAIM_PREDICATES, "none"]}},
+    "required": ["call", "claim_type"], "additionalProperties": False}
+TOOL_INSTRUCTION = ("You have one tool: lookup(claim_type). It returns this customer's ledger records of that type, "
+                    "with their dates. claim_type is one of: "
+                    + "; ".join(f"{p} = the customer {npc_en.PREDICATE_EN[p]}" for p in config.CLAIM_PREDICATES)
+                    + ". Decide whether to call the tool for the customer's message. Output only JSON.")
 CUE_CANDIDATES = (
     ("promised_discount", re.compile(r"\b(promo|code|coupon|discount)\b", re.I)),
     ("completed_errand", re.compile(r"\b(return(ed)?|refund(ed)?)\b", re.I)),
@@ -48,7 +57,9 @@ def ledger_block(engine, scenario, view, player, rows, today):
     header = (f"[Ledger - Northgate Outfitters]\nToday: {today}\n"
               f"Customer on this chat: {scenario['customer']} | member: {scenario['member_level']} | "
               "identity: VERIFIED at chat start (name + zip)")
-    if view == "full":
+    if view == "tool":
+        body = "Records for this customer: not shown; use the lookup tool."
+    elif view == "full":
         account = LG.split_who(scenario["customer"])[1]
         own = [LG.render(r) for r in rows if r["account"] == account]
         body = "Records for this customer:\n" + ("\n".join("  " + t for t in own) or "  (none)")
@@ -67,7 +78,7 @@ def memory_context(memory) -> str:
 
 
 def run_dialogue4(scenario: dict, condition: str, seed: int, rows: list, today: str) -> runner.RunRecord:
-    view, base_condition = {**CONDITIONS, **FOLLOW_UP}[condition]
+    view, base_condition = {**CONDITIONS, **FOLLOW_UP, **TOOL_CONDITION}[condition]
     fail_closed = condition in FOLLOW_UP
     spec = config.CONDITIONS[base_condition]
     engine = GameEngine(":memory:")
@@ -81,6 +92,7 @@ def run_dialogue4(scenario: dict, condition: str, seed: int, rows: list, today: 
     )
     for index, turn in enumerate(scenario["turns"], start=1):
         player, stated = turn["player"], turn.get("date")
+        tool = None
         memory.remember(index, "Customer", player)
         nlu = llm.chat([{"role": "system", "content": npc_en.NLU_INSTRUCTION}, {"role": "user", "content": player}],
                        seed=seed, max_tokens=config.MAX_TOKENS_NLU, json_schema=runner.NLU_SCHEMA)
@@ -121,6 +133,16 @@ def run_dialogue4(scenario: dict, condition: str, seed: int, rows: list, today: 
             completion = llm.chat(messages, seed=seed, json_schema=runner.SPEAK_SCHEMA)
             actor = "policy_engine"
         else:
+            if view == "tool":
+                call = llm.chat([{"role": "system", "content": f"{base}\n\n{TOOL_INSTRUCTION}"},
+                                 {"role": "user", "content": player}],
+                                seed=seed, max_tokens=config.MAX_TOKENS_NLU, json_schema=TOOL_SCHEMA)
+                kind = (call.parsed or {}).get("claim_type", "none")
+                called = bool((call.parsed or {}).get("call")) and kind in config.CLAIM_PREDICATES
+                found = [LG.render(r) for r in rows if r["account"] == account and LG.matches(kind, r)] if called else []
+                tool = {"call": called, "claim_type": kind, "result_rows": found, "schema_ok": call.schema_ok}
+                if called:
+                    base += f"\n\n[Tool result] lookup({kind}):\n" + ("\n".join("  " + t for t in found) or "  (no records)")
             messages = [{"role": "system", "content": f"{base}\n\n{npc_en.decide_instruction()}"},
                         {"role": "user", "content": player}]
             completion = llm.chat(messages, seed=seed, json_schema=runner.DECIDE_SCHEMA)
@@ -134,7 +156,7 @@ def run_dialogue4(scenario: dict, condition: str, seed: int, rows: list, today: 
         memory.remember(index, "Morgan", utterance)
         record.turns.append(runner.TurnRecord(
             turn=index, player=player, expected_decision="", evidence=evidence, risk_truth="",
-            nlu={**(nlu.parsed or {}), "reverify": reverify} if reverify else nlu.parsed, nlu_predicate=predicate, nlu_schema_ok=nlu.schema_ok, nlu_latency_ms=nlu.latency_ms,
+            nlu={**(nlu.parsed or {}), "reverify": reverify} if reverify else {**(nlu.parsed or {}), "tool": tool} if tool else nlu.parsed, nlu_predicate=predicate, nlu_schema_ok=nlu.schema_ok, nlu_latency_ms=nlu.latency_ms,
             decision=decision, decision_actor=actor, response=utterance, response_schema_ok=completion.schema_ok,
             response_latency_ms=completion.latency_ms, prompt=json.dumps(messages, ensure_ascii=False),
             prompt_hash=runner._hash(messages), world_version_before=version_before,
