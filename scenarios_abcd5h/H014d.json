@@ -1,0 +1,22 @@
+{
+ "scenario_id": "H014d",
+ "customer": "Jules Okonkwo (julesokonkwo)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 8396,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "Hi"
+  },
+  {
+   "player": "My promo code is invalid or something",
+   "date": "2019-11-28"
+  }
+ ]
+}

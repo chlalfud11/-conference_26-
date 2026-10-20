@@ -1,0 +1,29 @@
+{
+ "scenario_id": "H034v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 2255,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hi",
+   "truth_predicate": "none",
+   "evidence": "none",
+   "scored": true,
+   "kind": "other",
+   "forbidden_assertions": []
+  },
+  {
+   "player": "I placed an order 5 days ago, but I still have not received my package.",
+   "truth_predicate": "reserved_item",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

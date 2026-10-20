@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H023v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 7168,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "pretty sur eyou guys double charged me",
+   "truth_predicate": "paid_deposit",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

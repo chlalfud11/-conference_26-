@@ -24,15 +24,23 @@ import abcd4_ledger as LG
 from npc import config
 
 ROOT = Path(__file__).parent
-SRC_SC = ROOT / "scenarios_abcd"
-SRC_LG = ROOT / "results" / "abcd" / "ledgers_v3"
-SCEN = ROOT / "scenarios_abcd4"
-KEY = ROOT / "answer_key_abcd4" / "answer_key.csv"
-OUT = ROOT / "results" / "abcd4"
-PREREG = ROOT / "docs" / "ABCD_v4_사전등록.md"
+if LG.HELDOUT:
+    SRC_SC = ROOT / "results" / "abcd5" / "heldout_src" / "scenarios"
+    SRC_LG = ROOT / "results" / "abcd5" / "heldout_src" / "ledgers"
+    SCEN = ROOT / "scenarios_abcd5h"
+    KEY = ROOT / "answer_key_abcd5h" / "answer_key.csv"
+    OUT = ROOT / "results" / "abcd5" / "heldout"
+    PREREG = ROOT / "docs" / "ABCD_v5_reverify_사전등록.md"
+else:
+    SRC_SC = ROOT / "scenarios_abcd"
+    SRC_LG = ROOT / "results" / "abcd" / "ledgers_v3"
+    SCEN = ROOT / "scenarios_abcd4"
+    KEY = ROOT / "answer_key_abcd4" / "answer_key.csv"
+    OUT = ROOT / "results" / "abcd4"
+    PREREG = ROOT / "docs" / "ABCD_v4_사전등록.md"
 OLD_TODAY, TODAY = date(2024, 6, 15), date(2019, 12, 1)
 DAYS_FIX = {"A040": 30}  # v3 read "today" in "got my bill today ... bought last month"; the purchase was ~30 days ago
-REVIEW_SOURCES = ("A001", "A021", "A030", "A050", "A065")
+REVIEW_SOURCES = ("H001", "H021", "H041", "H061", "H081") if LG.HELDOUT else ("A001", "A021", "A030", "A050", "A065")
 FIRST = ("Avery", "Blair", "Cameron", "Dakota", "Emerson", "Finley", "Gray", "Hayden", "Indira", "Jules", "Kai",
          "Lennox", "Marlow", "Noor", "Oakley", "Parker", "Quinn", "Reese", "Sasha", "Tatum", "Umar", "Vida", "Wren", "Yuki")
 LAST = ("Abernathy", "Bellweather", "Castellano", "Delacroix", "Easterbrook", "Fairbanks", "Galloway", "Hargrove",
@@ -145,7 +153,7 @@ def build():
 def write_review(scenarios, ledger, key):
     lines = ["# ABCD v4 검토표", "", f"오늘 날짜: {TODAY}. 원천 {len(REVIEW_SOURCES)}개 x 3판. "
              "모델은 '시나리오'와 '장부' 부분만 본다. '정답'은 채점표에만 있다.", ""]
-    for s in REVIEW_SOURCES:
+    for s in [x for x in REVIEW_SOURCES if f"{x}v" in scenarios]:
         lines += [f"## {s}", ""]
         for ver in "vnd":
             sc = scenarios[f"{s}{ver}"]

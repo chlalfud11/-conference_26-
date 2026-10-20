@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H032d",
+ "customer": "Parker Hargrove (parkerhargrove)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 4078,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Hello, I got charged twice for a singular purchase.",
+   "date": "2019-11-28"
+  }
+ ]
+}

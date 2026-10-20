@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H007d",
+ "customer": "Dakota Jaworski (dakotajaworski)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 4702,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Not so good. I'm trying to use my promo code to place an order and it's telling me that it's invalid",
+   "date": "2019-11-28"
+  }
+ ]
+}

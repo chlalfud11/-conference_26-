@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H008v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Albert Sanders (asanders152)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Albert Sanders (asanders152) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Albert Sanders (asanders152) | order #9083032690 | tommy_hilfiger boots $69 | total $69 | status: delivered",
+  "2024-06-02 | Albert Sanders (asanders152) | charge $69 for order #9083032690 (card)",
+  "2024-06-12 | Albert Sanders (asanders152) | promo code NG32B850 issued, 20% off, valid until 2024-07-15"
+ ]
+}

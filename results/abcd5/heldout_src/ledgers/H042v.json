@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H042v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Sanya Afzal (sanyaafzal183)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Sanya Afzal (sanyaafzal183) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Sanya Afzal (sanyaafzal183) | order #8100081473 | michael_kors shirt $74 | total $74 | status: delivered",
+  "2024-06-12 | Sanya Afzal (sanyaafzal183) | charge $74 for order #8100081473 (paypal)"
+ ]
+}

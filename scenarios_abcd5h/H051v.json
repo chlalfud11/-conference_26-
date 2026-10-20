@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H051v",
+ "customer": "Finley Hargrove (finleyhargrove)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 129,
+  "flow": "product_defect",
+  "subflow": "return_size"
+ },
+ "turns": [
+  {
+   "player": "Hello I purchased this jacket for my wife but it turns out she's a little to hefty to fit in it so i'd like to return it.",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H019v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Crystal Minh (cm945290)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Crystal Minh (cm945290) | member: guest | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Crystal Minh (cm945290) | order #9720176004 | calvin_klein jacket $54 | total $54 | status: delivered",
+  "2024-06-02 | Crystal Minh (cm945290) | charge $54 for order #9720176004 (card)",
+  "2024-06-12 | Crystal Minh (cm945290) | promo code NG694681 issued, 20% off, valid until 2024-07-15"
+ ]
+}

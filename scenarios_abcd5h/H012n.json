@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H012n",
+ "customer": "Umar Abernathy (umarabernathy)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 6681,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Hi! My promo code is coming up as invalid, can you help?",
+   "date": "2019-11-28"
+  }
+ ]
+}

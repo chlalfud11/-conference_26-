@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H006n",
+ "customer": "Sasha Jaworski (sashajaworski)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 8137,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "I got a promo code two days ago, it doesnt seem to be working though",
+   "date": "2019-11-29"
+  }
+ ]
+}

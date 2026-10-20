@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H058v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Alessandro Phoenix (alessandrophoenix847)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Alessandro Phoenix (alessandrophoenix847) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Alessandro Phoenix (alessandrophoenix847) | order #1920844697 | tommy_hilfiger jeans $79 | total $79 | status: delivered",
+  "2024-06-12 | Alessandro Phoenix (alessandrophoenix847) | charge $79 for order #1920844697 (debit card)"
+ ]
+}

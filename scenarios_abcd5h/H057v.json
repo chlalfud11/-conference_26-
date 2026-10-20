@@ -1,0 +1,22 @@
+{
+ "scenario_id": "H057v",
+ "customer": "Finley Lindqvist (finleylindqvist)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 167,
+  "flow": "single_item_query",
+  "subflow": "shirt_other_1"
+ },
+ "turns": [
+  {
+   "player": "Hi im joyce"
+  },
+  {
+   "player": "I bought a shirt",
+   "date": "2019-11-28"
+  }
+ ]
+}

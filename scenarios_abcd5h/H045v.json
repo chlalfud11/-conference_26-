@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H045v",
+ "customer": "Hayden Abernathy (haydenabernathy)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 1170,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "Hello, I bought a pair of Michael Kors Jeans and when I went to use the promo code I have. I was told it was invalid.",
+   "date": "2019-11-28"
+  }
+ ]
+}

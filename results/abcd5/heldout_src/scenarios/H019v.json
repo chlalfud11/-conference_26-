@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H019v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 907,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Hello, I am complaining about my promo code that is invlaid",
+   "truth_predicate": "promised_discount",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

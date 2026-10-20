@@ -1,0 +1,22 @@
+{
+ "scenario_id": "H022d",
+ "customer": "Quinn Ingersoll (quinningersoll)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 10059,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_extension"
+ },
+ "turns": [
+  {
+   "player": "Hi there...."
+  },
+  {
+   "player": "I looked at my billing statement yesterday and noticed that I was double charged.",
+   "date": "2019-11-30"
+  }
+ ]
+}

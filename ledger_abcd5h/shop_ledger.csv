@@ -1,0 +1,365 @@
+date,customer,account,event,order_id,items,amount,note
+2019-10-21,Jules Okonkwo,julesokonkwo,charge,4958835749,,79,card
+2019-10-21,Jules Okonkwo,julesokonkwo,order,4958835749,tommy_hilfiger jacket $79,79,delivered
+2019-10-21,Kai Fairbanks,kaifairbanks,charge,8427406491,,0,card
+2019-10-21,Kai Fairbanks,kaifairbanks,order,8427406491,,0,delivered
+2019-10-21,Noor Okonkwo,noorokonkwo,charge,8204663627,,54,card
+2019-10-21,Noor Okonkwo,noorokonkwo,order,8204663627,calvin_klein jacket $54,54,delivered
+2019-10-22,Emerson Northcott,emersonnorthcott,charge,7856922412,,0,card
+2019-10-22,Emerson Northcott,emersonnorthcott,order,7856922412,,0,delivered
+2019-10-23,Cameron Easterbrook,cameroneasterbrook,charge,6923461692,,69,card
+2019-10-23,Cameron Easterbrook,cameroneasterbrook,order,6923461692,tommy_hilfiger boots $69,69,delivered
+2019-10-23,Lennox Galloway,lennoxgalloway,charge,1560783085,,69,card
+2019-10-23,Lennox Galloway,lennoxgalloway,order,1560783085,calvin_klein jeans $69,69,delivered
+2019-10-23,Reese Castellano,reesecastellano,charge,2001531508,,59,card
+2019-10-23,Reese Castellano,reesecastellano,order,2001531508,tommy_hilfiger boots $59,59,delivered
+2019-10-23,Reese Ingersoll,reeseingersoll,charge,2191103323,,0,card
+2019-10-23,Reese Ingersoll,reeseingersoll,order,2191103323,,0,delivered
+2019-10-24,Blair Abernathy,blairabernathy,charge,1455516253,,0,card
+2019-10-24,Blair Abernathy,blairabernathy,order,1455516253,,0,delivered
+2019-10-24,Vida Bellweather,vidabellweather,charge,8593554268,,64,card
+2019-10-24,Vida Bellweather,vidabellweather,order,8593554268,calvin_klein jeans $64,64,delivered
+2019-10-26,Dakota Jaworski,dakotajaworski,charge,5189501207,,74,card
+2019-10-26,Dakota Jaworski,dakotajaworski,order,5189501207,guess jacket $74,74,delivered
+2019-10-27,Kai Northcott,kainorthcott,charge,0536452433,,94,card
+2019-10-27,Kai Northcott,kainorthcott,order,0536452433,calvin_klein boots $94,94,delivered
+2019-10-27,Lennox Castellano,lennoxcastellano,charge,3847614418,,0,card
+2019-10-27,Lennox Castellano,lennoxcastellano,order,3847614418,,0,delivered
+2019-10-27,Reese Northcott,reesenorthcott,charge,0380944251,,89,card
+2019-10-27,Reese Northcott,reesenorthcott,order,0380944251,guess jeans $89,89,"shipped, not delivered"
+2019-10-28,Noor Montague,noormontague,charge,6029651616,,49,card
+2019-10-28,Noor Montague,noormontague,order,6029651616,calvin_klein shirt $49,49,delivered
+2019-10-29,Hayden Ingersoll,haydeningersoll,charge,9840781478,,79,card
+2019-10-29,Hayden Ingersoll,haydeningersoll,order,9840781478,guess boots $79,79,delivered
+2019-10-29,Indira Montague,indiramontague,charge,0315614266,,59,card
+2019-10-29,Indira Montague,indiramontague,order,0315614266,michael_kors boots $59,59,delivered
+2019-10-29,Quinn Abernathy,quinnabernathy,charge,6244275461,,108,card
+2019-10-29,Quinn Abernathy,quinnabernathy,order,6244275461,"guess jacket $54, calvin_klein jeans $54",108,"shipped, not delivered"
+2019-10-29,Reese Fairbanks,reesefairbanks,charge,8964309282,,89,card
+2019-10-29,Reese Fairbanks,reesefairbanks,order,8964309282,tommy_hilfiger shirt $89,89,"shipped, not delivered"
+2019-10-30,Kai Delacroix,kaidelacroix,charge,6848278783,,0,card
+2019-10-30,Kai Delacroix,kaidelacroix,order,6848278783,,0,delivered
+2019-10-30,Lennox Galloway,lennoxgalloway,return,1560783085,,,refund pending
+2019-10-31,Hayden Galloway,haydengalloway,charge,7397458805,,54,card
+2019-10-31,Hayden Galloway,haydengalloway,duplicate_charge,7397458805,,54,
+2019-10-31,Hayden Galloway,haydengalloway,order,7397458805,tommy_hilfiger boots $54,54,delivered
+2019-10-31,Jules Okonkwo,julesokonkwo,promo,,NG90A407,,"20% off, valid until 2019-12-03"
+2019-10-31,Kai Fairbanks,kaifairbanks,promo,,NGB7A78B,,"20% off, valid until 2019-12-03"
+2019-10-31,Lennox Fairbanks,lennoxfairbanks,charge,3712863684,,69,card
+2019-10-31,Lennox Fairbanks,lennoxfairbanks,order,3712863684,tommy_hilfiger jacket $69,69,delivered
+2019-10-31,Lennox Hargrove,lennoxhargrove,charge,4630455037,,148,card
+2019-10-31,Lennox Hargrove,lennoxhargrove,order,4630455037,"michael_kors jeans $79, tommy_hilfiger jacket $69",148,delivered
+2019-10-31,Noor Okonkwo,noorokonkwo,promo,,NG428E5D,,"20% off, valid until 2019-12-03"
+2019-10-31,Tatum Northcott,tatumnorthcott,charge,7252218683,,94,card
+2019-10-31,Tatum Northcott,tatumnorthcott,duplicate_charge,7252218683,,94,
+2019-10-31,Tatum Northcott,tatumnorthcott,order,7252218683,michael_kors boots $94,94,delivered
+2019-10-31,Yuki Kingsley,yukikingsley,charge,6386611408,,94,paypal
+2019-10-31,Yuki Kingsley,yukikingsley,order,6386611408,tommy_hilfiger boots $94,94,delivered
+2019-11-01,Avery Okonkwo,averyokonkwo,charge,0422920485,,64,card
+2019-11-01,Avery Okonkwo,averyokonkwo,order,0422920485,michael_kors jeans $64,64,delivered
+2019-11-01,Emerson Abernathy,emersonabernathy,charge,4430475927,,0,card
+2019-11-01,Emerson Abernathy,emersonabernathy,order,4430475927,,0,delivered
+2019-11-01,Emerson Northcott,emersonnorthcott,promo,,NGCC2719,,"20% off, valid until 2019-12-04"
+2019-11-01,Noor Ingersoll,nooringersoll,charge,0605701263,,54,credit card
+2019-11-01,Noor Ingersoll,nooringersoll,order,0605701263,tommy_hilfiger boots $54,54,delivered
+2019-11-01,Umar Kingsley,umarkingsley,charge,4853642613,,247,card
+2019-11-01,Umar Kingsley,umarkingsley,order,4853642613,"michael_kors boots $69, guess jacket $99, calvin_klein shirt $79",247,"shipped, not delivered"
+2019-11-01,Yuki Galloway,yukigalloway,charge,7412964010,,49,card
+2019-11-01,Yuki Galloway,yukigalloway,order,7412964010,calvin_klein jacket $49,49,delivered
+2019-11-02,Cameron Easterbrook,cameroneasterbrook,promo,,NG7A2DE0,,"20% off, valid until 2019-12-05"
+2019-11-02,Finley Easterbrook,finleyeasterbrook,charge,5601630702,,74,debit card
+2019-11-02,Finley Easterbrook,finleyeasterbrook,order,5601630702,tommy_hilfiger boots $74,74,delivered
+2019-11-02,Finley Jaworski,finleyjaworski,charge,9364476920,,89,card
+2019-11-02,Finley Jaworski,finleyjaworski,order,9364476920,tommy_hilfiger jacket $89,89,"shipped, not delivered"
+2019-11-02,Noor Castellano,noorcastellano,charge,9357875065,,89,paypal
+2019-11-02,Noor Castellano,noorcastellano,order,9357875065,calvin_klein shirt $89,89,delivered
+2019-11-02,Reese Castellano,reesecastellano,promo,,NGBD3435,,"20% off, valid until 2019-12-05"
+2019-11-02,Reese Ingersoll,reeseingersoll,promo,,NG233E0C,,"20% off, valid until 2019-12-05"
+2019-11-03,Blair Abernathy,blairabernathy,promo,,NGAA855D,,"20% off, valid until 2019-12-06"
+2019-11-03,Indira Jaworski,indirajaworski,charge,1033978748,,59,card
+2019-11-03,Indira Jaworski,indirajaworski,order,1033978748,tommy_hilfiger boots $59,59,delivered
+2019-11-03,Parker Okonkwo,parkerokonkwo,charge,6463331678,,64,paypal
+2019-11-03,Parker Okonkwo,parkerokonkwo,order,6463331678,tommy_hilfiger jacket $64,64,delivered
+2019-11-03,Vida Bellweather,vidabellweather,promo,,NG095A4C,,"20% off, valid until 2019-12-06"
+2019-11-03,Wren Easterbrook,wreneasterbrook,charge,8142462902,,242,card
+2019-11-03,Wren Easterbrook,wreneasterbrook,order,8142462902,"michael_kors jeans $94, tommy_hilfiger jeans $84, michael_kors jacket $64",242,"shipped, not delivered"
+2019-11-03,Yuki Okonkwo,yukiokonkwo,charge,9470787160,,84,paypal
+2019-11-03,Yuki Okonkwo,yukiokonkwo,order,9470787160,guess shirt $84,84,delivered
+2019-11-04,Dakota Ingersoll,dakotaingersoll,charge,9614006108,,99,debit card
+2019-11-04,Dakota Ingersoll,dakotaingersoll,order,9614006108,michael_kors boots $99,99,delivered
+2019-11-04,Hayden Pemberton,haydenpemberton,charge,7400882535,,74,debit card
+2019-11-04,Hayden Pemberton,haydenpemberton,order,7400882535,michael_kors boots $74,74,delivered
+2019-11-04,Vida Galloway,vidagalloway,charge,7682043888,,89,card
+2019-11-04,Vida Galloway,vidagalloway,duplicate_charge,7682043888,,89,
+2019-11-04,Vida Galloway,vidagalloway,order,7682043888,calvin_klein shirt $89,89,delivered
+2019-11-05,Dakota Jaworski,dakotajaworski,promo,,NGA06113,,"20% off, valid until 2019-12-08"
+2019-11-05,Parker Hargrove,parkerhargrove,charge,4762703039,,64,card
+2019-11-05,Parker Hargrove,parkerhargrove,duplicate_charge,4762703039,,64,
+2019-11-05,Parker Hargrove,parkerhargrove,order,4762703039,tommy_hilfiger boots $64,64,delivered
+2019-11-06,Emerson Okonkwo,emersonokonkwo,charge,8243684235,,74,debit card
+2019-11-06,Emerson Okonkwo,emersonokonkwo,order,8243684235,guess jeans $74,74,"shipped, not delivered"
+2019-11-06,Kai Northcott,kainorthcott,promo,,NG1D9280,,"20% off, valid until 2019-12-09"
+2019-11-06,Lennox Castellano,lennoxcastellano,promo,,NGEFDE57,,"20% off, valid until 2019-12-09"
+2019-11-06,Reese Bellweather,reesebellweather,charge,3480084952,,99,card
+2019-11-06,Reese Bellweather,reesebellweather,duplicate_charge,3480084952,,99,
+2019-11-06,Reese Bellweather,reesebellweather,order,3480084952,tommy_hilfiger boots $99,99,delivered
+2019-11-06,Reese Lindqvist,reeselindqvist,charge,7453949238,,79,debit card
+2019-11-06,Reese Lindqvist,reeselindqvist,order,7453949238,tommy_hilfiger jeans $79,79,delivered
+2019-11-07,Noor Montague,noormontague,promo,,NG626E29,,"20% off, valid until 2019-12-09"
+2019-11-07,Reese Abernathy,reeseabernathy,charge,2506187785,,59,card
+2019-11-07,Reese Abernathy,reeseabernathy,duplicate_charge,2506187785,,59,
+2019-11-07,Reese Abernathy,reeseabernathy,order,2506187785,michael_kors boots $59,59,delivered
+2019-11-07,Sasha Galloway,sashagalloway,charge,9690198041,,89,card
+2019-11-07,Sasha Galloway,sashagalloway,duplicate_charge,9690198041,,89,
+2019-11-07,Sasha Galloway,sashagalloway,order,9690198041,michael_kors shirt $89,89,delivered
+2019-11-08,Gray Pemberton,graypemberton,charge,4828044739,,64,card
+2019-11-08,Gray Pemberton,graypemberton,duplicate_charge,4828044739,,64,
+2019-11-08,Gray Pemberton,graypemberton,order,4828044739,calvin_klein shirt $64,64,delivered
+2019-11-08,Hayden Ingersoll,haydeningersoll,promo,,NGB71480,,"20% off, valid until 2019-12-11"
+2019-11-08,Indira Montague,indiramontague,promo,,NG8188DA,,"20% off, valid until 2019-12-11"
+2019-11-08,Reese Pemberton,reesepemberton,charge,1379427457,,242,card
+2019-11-08,Reese Pemberton,reesepemberton,order,1379427457,"tommy_hilfiger jeans $89, guess jacket $89, calvin_klein jacket $64",242,delivered
+2019-11-08,Yuki Galloway,yukigalloway,return,7412964010,,,refund pending
+2019-11-09,Emerson Fairbanks,emersonfairbanks,charge,6630571228,,74,credit card
+2019-11-09,Emerson Fairbanks,emersonfairbanks,order,6630571228,guess boots $74,74,delivered
+2019-11-09,Kai Delacroix,kaidelacroix,promo,,NG3CA88E,,"20% off, valid until 2019-12-12"
+2019-11-10,Lennox Fairbanks,lennoxfairbanks,promo,,NG3D59EA,,"20% off, valid until 2019-12-15"
+2019-11-10,Quinn Castellano,quinncastellano,charge,0455349516,,64,card
+2019-11-10,Quinn Castellano,quinncastellano,order,0455349516,tommy_hilfiger shirt $64,64,delivered
+2019-11-11,Emerson Abernathy,emersonabernathy,promo,,NG842CE8,,"20% off, valid until 2019-12-14"
+2019-11-11,Finley Ingersoll,finleyingersoll,charge,8052803518,,74,paypal
+2019-11-11,Finley Ingersoll,finleyingersoll,order,8052803518,michael_kors shirt $74,74,delivered
+2019-11-11,Lennox Pemberton,lennoxpemberton,charge,7373618999,,74,credit card
+2019-11-11,Lennox Pemberton,lennoxpemberton,order,7373618999,guess shirt $74,74,delivered
+2019-11-11,Oakley Pemberton,oakleypemberton,charge,0882974156,,79,card
+2019-11-11,Oakley Pemberton,oakleypemberton,order,0882974156,michael_kors shirt $79,79,delivered
+2019-11-11,Reese Jaworski,reesejaworski,charge,5472126873,,64,card
+2019-11-11,Reese Jaworski,reesejaworski,duplicate_charge,5472126873,,64,
+2019-11-11,Reese Jaworski,reesejaworski,order,5472126873,guess shirt $64,64,delivered
+2019-11-13,Dakota Bellweather,dakotabellweather,charge,2153644389,,64,debit card
+2019-11-13,Dakota Bellweather,dakotabellweather,order,2153644389,guess boots $64,64,delivered
+2019-11-13,Indira Jaworski,indirajaworski,promo,,NG5BAF88,,"20% off, valid until 2019-12-16"
+2019-11-13,Lennox Bellweather,lennoxbellweather,charge,9048371391,,54,debit card
+2019-11-13,Lennox Bellweather,lennoxbellweather,order,9048371391,guess jacket $54,54,delivered
+2019-11-13,Oakley Jaworski,oakleyjaworski,charge,7895945469,,54,debit card
+2019-11-13,Oakley Jaworski,oakleyjaworski,order,7895945469,michael_kors shirt $54,54,delivered
+2019-11-14,Quinn Ingersoll,quinningersoll,charge,4348466022,,0,card
+2019-11-14,Quinn Ingersoll,quinningersoll,duplicate_charge,4348466022,,0,
+2019-11-14,Quinn Ingersoll,quinningersoll,order,4348466022,,0,delivered
+2019-11-14,Quinn Lindqvist,quinnlindqvist,charge,4191054344,,94,card
+2019-11-14,Quinn Lindqvist,quinnlindqvist,duplicate_charge,4191054344,,94,
+2019-11-14,Quinn Lindqvist,quinnlindqvist,order,4191054344,michael_kors jeans $94,94,delivered
+2019-11-16,Finley Delacroix,finleydelacroix,charge,3110957152,,69,card
+2019-11-16,Finley Delacroix,finleydelacroix,order,3110957152,tommy_hilfiger jacket $69,69,delivered
+2019-11-16,Lennox Kingsley,lennoxkingsley,charge,8200032169,,69,card
+2019-11-16,Lennox Kingsley,lennoxkingsley,order,8200032169,tommy_hilfiger jacket $69,69,delivered
+2019-11-17,Blair Ingersoll,blairingersoll,charge,6686848916,,69,card
+2019-11-17,Blair Ingersoll,blairingersoll,order,6686848916,calvin_klein jeans $69,69,delivered
+2019-11-17,Gray Okonkwo,grayokonkwo,charge,2269137343,,69,card
+2019-11-17,Gray Okonkwo,grayokonkwo,order,2269137343,calvin_klein jeans $69,69,delivered
+2019-11-17,Indira Bellweather,indirabellweather,charge,9126379156,,89,card
+2019-11-17,Indira Bellweather,indirabellweather,order,9126379156,guess jeans $89,89,"shipped, not delivered"
+2019-11-18,Albert Sanders,asanders365,charge,4625310928,,94,card
+2019-11-18,Albert Sanders,asanders365,order,4625310928,calvin_klein boots $94,94,delivered
+2019-11-18,Avery Galloway,averygalloway,charge,0437507687,,64,card
+2019-11-18,Avery Galloway,averygalloway,order,0437507687,calvin_klein jeans $64,64,delivered
+2019-11-18,Blair Galloway,blairgalloway,charge,3228599952,,0,card
+2019-11-18,Blair Galloway,blairgalloway,order,3228599952,,0,delivered
+2019-11-18,Blair Pemberton,blairpemberton,charge,0906107137,,54,card
+2019-11-18,Blair Pemberton,blairpemberton,order,0906107137,calvin_klein jacket $54,54,delivered
+2019-11-18,Chloe Zhang,chloezhang,charge,1768643314,,0,card
+2019-11-18,Chloe Zhang,chloezhang,order,1768643314,,0,delivered
+2019-11-18,Crystal Minh,crystalminh,charge,8616840026,,0,card
+2019-11-18,Crystal Minh,crystalminh,order,8616840026,,0,delivered
+2019-11-18,Emerson Jaworski,emersonjaworski,charge,7333710443,,79,card
+2019-11-18,Emerson Jaworski,emersonjaworski,order,7333710443,tommy_hilfiger jacket $79,79,delivered
+2019-11-18,Finley Castellano,finleycastellano,charge,9720176004,,54,card
+2019-11-18,Finley Castellano,finleycastellano,order,9720176004,calvin_klein jacket $54,54,delivered
+2019-11-18,Gray Galloway,graygalloway,charge,7724886507,,69,card
+2019-11-18,Gray Galloway,graygalloway,order,7724886507,tommy_hilfiger boots $69,69,delivered
+2019-11-18,Gray Hargrove,grayhargrove,charge,5566450127,,0,card
+2019-11-18,Gray Hargrove,grayhargrove,order,5566450127,,0,delivered
+2019-11-18,Gray Ingersoll,grayingersoll,charge,6670177749,,0,card
+2019-11-18,Gray Ingersoll,grayingersoll,order,6670177749,,0,delivered
+2019-11-18,Indira Ingersoll,indiraingersoll,charge,2810097755,,0,card
+2019-11-18,Indira Ingersoll,indiraingersoll,order,2810097755,,0,delivered
+2019-11-18,Joyce Wu,joycewu,charge,9671635828,,0,card
+2019-11-18,Joyce Wu,joycewu,order,9671635828,,0,delivered
+2019-11-18,Jules Abernathy,julesabernathy,charge,2876497435,,94,card
+2019-11-18,Jules Abernathy,julesabernathy,order,2876497435,calvin_klein boots $94,94,delivered
+2019-11-18,Jules Bellweather,julesbellweather,charge,8713490603,,0,card
+2019-11-18,Jules Bellweather,julesbellweather,order,8713490603,,0,delivered
+2019-11-18,Lennox Lindqvist,lennoxlindqvist,charge,8874321385,,59,card
+2019-11-18,Lennox Lindqvist,lennoxlindqvist,order,8874321385,tommy_hilfiger boots $59,59,delivered
+2019-11-18,Marlow Okonkwo,marlowokonkwo,charge,6082968430,,74,card
+2019-11-18,Marlow Okonkwo,marlowokonkwo,order,6082968430,guess jacket $74,74,delivered
+2019-11-18,Noor Delacroix,noordelacroix,charge,3993263948,,0,card
+2019-11-18,Noor Delacroix,noordelacroix,order,3993263948,,0,delivered
+2019-11-18,Noor Lindqvist,noorlindqvist,charge,6072492997,,0,card
+2019-11-18,Noor Lindqvist,noorlindqvist,order,6072492997,,0,delivered
+2019-11-18,Norman Bouchard,normanbouchard,charge,8148440664,,0,card
+2019-11-18,Norman Bouchard,normanbouchard,order,8148440664,,0,delivered
+2019-11-18,Oakley Montague,oakleymontague,charge,0782319208,,0,card
+2019-11-18,Oakley Montague,oakleymontague,order,0782319208,,0,delivered
+2019-11-18,Parker Fairbanks,parkerfairbanks,charge,7885424867,,74,card
+2019-11-18,Parker Fairbanks,parkerfairbanks,order,7885424867,guess jacket $74,74,delivered
+2019-11-18,Quinn Bellweather,quinnbellweather,charge,9083032690,,69,card
+2019-11-18,Quinn Bellweather,quinnbellweather,order,9083032690,tommy_hilfiger boots $69,69,delivered
+2019-11-18,Quinn Hargrove,quinnhargrove,charge,3724599663,,59,card
+2019-11-18,Quinn Hargrove,quinnhargrove,order,3724599663,michael_kors boots $59,59,delivered
+2019-11-18,Quinn Montague,quinnmontague,charge,3383225140,,0,card
+2019-11-18,Quinn Montague,quinnmontague,order,3383225140,,0,delivered
+2019-11-18,Reese Montague,reesemontague,charge,9106856504,,79,card
+2019-11-18,Reese Montague,reesemontague,order,9106856504,tommy_hilfiger jacket $79,79,delivered
+2019-11-18,Rodriguez Domingo,rodriguezdomingo615,charge,2774174556,,64,card
+2019-11-18,Rodriguez Domingo,rodriguezdomingo615,order,2774174556,calvin_klein jeans $64,64,delivered
+2019-11-18,Sanya Afzal,sa759367,charge,0382454549,,59,card
+2019-11-18,Sanya Afzal,sa759367,order,0382454549,tommy_hilfiger boots $59,59,delivered
+2019-11-18,Tatum Montague,tatummontague,charge,7811860129,,0,card
+2019-11-18,Tatum Montague,tatummontague,order,7811860129,,0,delivered
+2019-11-18,Tatum Okonkwo,tatumokonkwo,charge,2670015345,,79,card
+2019-11-18,Tatum Okonkwo,tatumokonkwo,order,2670015345,guess boots $79,79,delivered
+2019-11-18,Umar Abernathy,umarabernathy,charge,1859220111,,59,card
+2019-11-18,Umar Abernathy,umarabernathy,order,1859220111,tommy_hilfiger boots $59,59,delivered
+2019-11-18,Vida Castellano,vidacastellano,charge,4722687533,,59,card
+2019-11-18,Vida Castellano,vidacastellano,order,4722687533,michael_kors boots $59,59,delivered
+2019-11-18,Vida Fairbanks,vidafairbanks,charge,4695210503,,79,card
+2019-11-18,Vida Fairbanks,vidafairbanks,order,4695210503,guess boots $79,79,delivered
+2019-11-18,Vida Ingersoll,vidaingersoll,charge,2789654689,,59,card
+2019-11-18,Vida Ingersoll,vidaingersoll,order,2789654689,tommy_hilfiger boots $59,59,delivered
+2019-11-19,David Williams,davidwilliams306,charge,7202403177,,49,card
+2019-11-19,David Williams,davidwilliams306,order,7202403177,calvin_klein shirt $49,49,delivered
+2019-11-19,Sasha Jaworski,sashajaworski,charge,6796086905,,49,card
+2019-11-19,Sasha Jaworski,sashajaworski,order,6796086905,calvin_klein shirt $49,49,delivered
+2019-11-21,Avery Northcott,averynorthcott,charge,5762927474,,49,card
+2019-11-21,Avery Northcott,averynorthcott,order,5762927474,calvin_klein jacket $49,49,delivered
+2019-11-21,Marlow Bellweather,marlowbellweather,charge,7314038296,,49,card
+2019-11-21,Marlow Bellweather,marlowbellweather,order,7314038296,calvin_klein jacket $49,49,delivered
+2019-11-22,Finley Galloway,finleygalloway,charge,0994140952,,108,card
+2019-11-22,Finley Galloway,finleygalloway,order,0994140952,"guess jacket $54, calvin_klein jeans $54",108,"shipped, not delivered"
+2019-11-22,Sasha Easterbrook,sashaeasterbrook,charge,4332478486,,242,card
+2019-11-22,Sasha Easterbrook,sashaeasterbrook,order,4332478486,"michael_kors jeans $94, tommy_hilfiger jeans $84, michael_kors jacket $64",242,"shipped, not delivered"
+2019-11-24,Gray Okonkwo,grayokonkwo,return,2269137343,,,refund pending
+2019-11-26,Cameron Pemberton,cameronpemberton,charge,0880496690,,89,card
+2019-11-26,Cameron Pemberton,cameronpemberton,order,0880496690,tommy_hilfiger shirt $89,89,"shipped, not delivered"
+2019-11-26,Finley Delacroix,finleydelacroix,promo,,NG07B181,,"20% off, valid until 2019-12-31"
+2019-11-28,Alessandro Phoenix,alessandrophoenix,charge,4999350902,,54,card
+2019-11-28,Alessandro Phoenix,alessandrophoenix,duplicate_charge,4999350902,,54,
+2019-11-28,Alessandro Phoenix,alessandrophoenix,order,4999350902,tommy_hilfiger boots $54,54,delivered
+2019-11-28,Albert Sanders,asanders365,promo,,NGADFB97,,"20% off, valid until 2019-12-31"
+2019-11-28,Avery Northcott,averynorthcott,return,5762927474,,,refund pending
+2019-11-28,Blair Jaworski,blairjaworski,charge,1259137635,,64,card
+2019-11-28,Blair Jaworski,blairjaworski,order,1259137635,tommy_hilfiger boots $64,64,delivered
+2019-11-28,Blair Montague,blairmontague,charge,2671108186,,54,card
+2019-11-28,Blair Montague,blairmontague,order,2671108186,tommy_hilfiger boots $54,54,delivered
+2019-11-28,Blair Northcott,blairnorthcott,charge,8517512910,,247,card
+2019-11-28,Blair Northcott,blairnorthcott,order,8517512910,"michael_kors boots $69, guess jacket $99, calvin_klein shirt $79",247,"shipped, not delivered"
+2019-11-28,Cameron Jaworski,cameronjaworski,charge,2933620693,,64,card
+2019-11-28,Cameron Jaworski,cameronjaworski,duplicate_charge,2933620693,,64,
+2019-11-28,Cameron Jaworski,cameronjaworski,order,2933620693,calvin_klein shirt $64,64,delivered
+2019-11-28,Chloe Zhang,chloezhang,promo,,NGBBCA8B,,"20% off, valid until 2019-12-31"
+2019-11-28,Crystal Minh,crystalminh,promo,,NG976B8E,,"20% off, valid until 2019-12-31"
+2019-11-28,Emerson Castellano,emersoncastellano,charge,4800317848,,74,credit card
+2019-11-28,Emerson Castellano,emersoncastellano,order,4800317848,guess boots $74,74,delivered
+2019-11-28,Emerson Jaworski,emersonjaworski,promo,,NG11A0C9,,"20% off, valid until 2019-12-31"
+2019-11-28,Finley Bellweather,finleybellweather,charge,2800434862,,148,card
+2019-11-28,Finley Bellweather,finleybellweather,order,2800434862,"michael_kors jeans $79, tommy_hilfiger jacket $69",148,delivered
+2019-11-28,Finley Castellano,finleycastellano,promo,,NG694681,,"20% off, valid until 2019-12-31"
+2019-11-28,Finley Fairbanks,finleyfairbanks,charge,1621782001,,94,card
+2019-11-28,Finley Fairbanks,finleyfairbanks,duplicate_charge,1621782001,,94,
+2019-11-28,Finley Fairbanks,finleyfairbanks,order,1621782001,michael_kors jeans $94,94,delivered
+2019-11-28,Finley Hargrove,finleyhargrove,charge,7793529334,,54,debit card
+2019-11-28,Finley Hargrove,finleyhargrove,order,7793529334,guess jacket $54,54,delivered
+2019-11-28,Finley Lindqvist,finleylindqvist,charge,5853872458,,64,card
+2019-11-28,Finley Lindqvist,finleylindqvist,order,5853872458,tommy_hilfiger shirt $64,64,delivered
+2019-11-28,Hayden Abernathy,haydenabernathy,charge,9663591935,,64,card
+2019-11-28,Hayden Abernathy,haydenabernathy,order,9663591935,michael_kors jeans $64,64,delivered
+2019-11-28,Hayden Bellweather,haydenbellweather,charge,8800242058,,99,card
+2019-11-28,Hayden Bellweather,haydenbellweather,duplicate_charge,8800242058,,99,
+2019-11-28,Hayden Bellweather,haydenbellweather,order,8800242058,tommy_hilfiger boots $99,99,delivered
+2019-11-28,Indira Ingersoll,indiraingersoll,promo,,NGD092B0,,"20% off, valid until 2019-12-31"
+2019-11-28,Joseph Banter,josephbanter985,charge,9773642882,,64,debit card
+2019-11-28,Joseph Banter,josephbanter985,order,9773642882,guess boots $64,64,delivered
+2019-11-28,Joyce Wu,joycewu,promo,,NG52F6DC,,"20% off, valid until 2019-12-31"
+2019-11-28,Jules Bellweather,julesbellweather,promo,,NG3CFD54,,"20% off, valid until 2019-12-31"
+2019-11-28,Kai Easterbrook,kaieasterbrook,charge,6950414472,,54,credit card
+2019-11-28,Kai Easterbrook,kaieasterbrook,order,6950414472,tommy_hilfiger boots $54,54,delivered
+2019-11-28,Kai Jaworski,kaijaworski,charge,1915934854,,94,card
+2019-11-28,Kai Jaworski,kaijaworski,order,1915934854,michael_kors jeans $94,94,delivered
+2019-11-28,Kai Okonkwo,kaiokonkwo,charge,4224791391,,74,credit card
+2019-11-28,Kai Okonkwo,kaiokonkwo,order,4224791391,guess shirt $74,74,delivered
+2019-11-28,Lennox Abernathy,lennoxabernathy,charge,7098444809,,59,card
+2019-11-28,Lennox Abernathy,lennoxabernathy,order,7098444809,michael_kors boots $59,59,delivered
+2019-11-28,Lennox Delacroix,lennoxdelacroix,charge,9798987635,,89,card
+2019-11-28,Lennox Delacroix,lennoxdelacroix,order,9798987635,tommy_hilfiger jacket $89,89,"shipped, not delivered"
+2019-11-28,Lennox Lindqvist,lennoxlindqvist,promo,,NGD2A9C9,,"20% off, valid until 2019-12-31"
+2019-11-28,Marlow Castellano,marlowcastellano,charge,8100081473,,74,paypal
+2019-11-28,Marlow Castellano,marlowcastellano,order,8100081473,michael_kors shirt $74,74,delivered
+2019-11-28,Marlow Galloway,marlowgalloway,charge,5487184494,,64,card
+2019-11-28,Marlow Galloway,marlowgalloway,duplicate_charge,5487184494,,64,
+2019-11-28,Marlow Galloway,marlowgalloway,order,5487184494,guess shirt $64,64,delivered
+2019-11-28,Marlow Ingersoll,marlowingersoll,charge,4263379304,,94,card
+2019-11-28,Marlow Ingersoll,marlowingersoll,order,4263379304,michael_kors boots $94,94,delivered
+2019-11-28,Marlow Okonkwo,marlowokonkwo,promo,,NGC4F91A,,"20% off, valid until 2019-12-31"
+2019-11-28,Noor Easterbrook,nooreasterbrook,charge,6633041077,,94,card
+2019-11-28,Noor Easterbrook,nooreasterbrook,duplicate_charge,6633041077,,94,
+2019-11-28,Noor Easterbrook,nooreasterbrook,order,6633041077,michael_kors boots $94,94,delivered
+2019-11-28,Noor Jaworski,noorjaworski,charge,2084854224,,79,card
+2019-11-28,Noor Jaworski,noorjaworski,order,2084854224,michael_kors shirt $79,79,delivered
+2019-11-28,Noor Kingsley,noorkingsley,charge,4524915900,,242,card
+2019-11-28,Noor Kingsley,noorkingsley,order,4524915900,"tommy_hilfiger jeans $89, guess jacket $89, calvin_klein jacket $64",242,delivered
+2019-11-28,Norman Bouchard,normanbouchard,promo,,NG09951E,,"20% off, valid until 2019-12-31"
+2019-11-28,Oakley Delacroix,oakleydelacroix,charge,2541183942,,89,card
+2019-11-28,Oakley Delacroix,oakleydelacroix,duplicate_charge,2541183942,,89,
+2019-11-28,Oakley Delacroix,oakleydelacroix,order,2541183942,michael_kors shirt $89,89,delivered
+2019-11-28,Oakley Lindqvist,oakleylindqvist,charge,2006200765,,59,card
+2019-11-28,Oakley Lindqvist,oakleylindqvist,duplicate_charge,2006200765,,59,
+2019-11-28,Oakley Lindqvist,oakleylindqvist,order,2006200765,michael_kors boots $59,59,delivered
+2019-11-28,Parker Bellweather,parkerbellweather,charge,5892260206,,89,card
+2019-11-28,Parker Bellweather,parkerbellweather,order,5892260206,calvin_klein shirt $89,89,delivered
+2019-11-28,Parker Galloway,parkergalloway,charge,9090034923,,84,paypal
+2019-11-28,Parker Galloway,parkergalloway,order,9090034923,guess shirt $84,84,delivered
+2019-11-28,Parker Lindqvist,parkerlindqvist,charge,3814612607,,74,debit card
+2019-11-28,Parker Lindqvist,parkerlindqvist,order,3814612607,guess jeans $74,74,"shipped, not delivered"
+2019-11-28,Parker Montague,parkermontague,charge,1970956910,,89,card
+2019-11-28,Parker Montague,parkermontague,duplicate_charge,1970956910,,89,
+2019-11-28,Parker Montague,parkermontague,order,1970956910,calvin_klein shirt $89,89,delivered
+2019-11-28,Parker Northcott,parkernorthcott,charge,7460371957,,74,debit card
+2019-11-28,Parker Northcott,parkernorthcott,order,7460371957,tommy_hilfiger boots $74,74,delivered
+2019-11-28,Quinn Bellweather,quinnbellweather,promo,,NG32B850,,"20% off, valid until 2019-12-31"
+2019-11-28,Quinn Montague,quinnmontague,promo,,NGFAE4C3,,"20% off, valid until 2019-12-31"
+2019-11-28,Rodriguez Domingo,rodriguezdomingo615,promo,,NGEB8378,,"20% off, valid until 2019-12-31"
+2019-11-28,Sanya Afzal,sa759367,promo,,NG2EB32E,,"20% off, valid until 2019-12-31"
+2019-11-28,Sasha Castellano,sashacastellano,charge,7868114043,,54,debit card
+2019-11-28,Sasha Castellano,sashacastellano,order,7868114043,michael_kors shirt $54,54,delivered
+2019-11-28,Sasha Ingersoll,sashaingersoll,charge,8328555099,,94,paypal
+2019-11-28,Sasha Ingersoll,sashaingersoll,order,8328555099,tommy_hilfiger boots $94,94,delivered
+2019-11-28,Sasha Pemberton,sashapemberton,charge,2453853391,,64,card
+2019-11-28,Sasha Pemberton,sashapemberton,order,2453853391,calvin_klein shirt $64,64,delivered
+2019-11-28,Tatum Castellano,tatumcastellano,charge,0492999808,,99,debit card
+2019-11-28,Tatum Castellano,tatumcastellano,order,0492999808,michael_kors boots $99,99,delivered
+2019-11-28,Tatum Easterbrook,tatumeasterbrook,charge,9058366338,,89,paypal
+2019-11-28,Tatum Easterbrook,tatumeasterbrook,order,9058366338,calvin_klein shirt $89,89,delivered
+2019-11-28,Tatum Jaworski,tatumjaworski,charge,1920844697,,79,debit card
+2019-11-28,Tatum Jaworski,tatumjaworski,order,1920844697,tommy_hilfiger jeans $79,79,delivered
+2019-11-28,Tatum Okonkwo,tatumokonkwo,promo,,NGDB6DF7,,"20% off, valid until 2019-12-31"
+2019-11-28,Umar Fairbanks,umarfairbanks,charge,4114793273,,89,card
+2019-11-28,Umar Fairbanks,umarfairbanks,order,4114793273,michael_kors shirt $89,89,delivered
+2019-11-28,Umar Ingersoll,umaringersoll,charge,4223520702,,64,paypal
+2019-11-28,Umar Ingersoll,umaringersoll,order,4223520702,tommy_hilfiger jacket $64,64,delivered
+2019-11-28,Umar Jaworski,umarjaworski,charge,0075758907,,74,debit card
+2019-11-28,Umar Jaworski,umarjaworski,order,0075758907,michael_kors boots $74,74,delivered
+2019-11-28,Umar Northcott,umarnorthcott,charge,6388839059,,99,card
+2019-11-28,Umar Northcott,umarnorthcott,order,6388839059,tommy_hilfiger boots $99,99,delivered
+2019-11-28,Vida Castellano,vidacastellano,promo,,NGE1F7B8,,"20% off, valid until 2019-12-31"
+2019-11-28,Wren Montague,wrenmontague,charge,6763816722,,64,card
+2019-11-28,Wren Montague,wrenmontague,order,6763816722,guess shirt $64,64,delivered
+2019-11-28,Wren Northcott,wrennorthcott,charge,9164287457,,64,card
+2019-11-28,Wren Northcott,wrennorthcott,duplicate_charge,9164287457,,64,
+2019-11-28,Wren Northcott,wrennorthcott,order,9164287457,tommy_hilfiger boots $64,64,delivered
+2019-11-29,David Williams,davidwilliams306,promo,,NGAA0DF9,,"20% off, valid until 2019-12-31"
+2019-11-30,Emerson Galloway,emersongalloway,charge,2471080431,,0,card
+2019-11-30,Emerson Galloway,emersongalloway,duplicate_charge,2471080431,,0,
+2019-11-30,Emerson Galloway,emersongalloway,order,2471080431,,0,delivered
+2019-11-30,Indira Galloway,indiragalloway,charge,8714206964,,0,card
+2019-11-30,Indira Galloway,indiragalloway,order,8714206964,,0,delivered

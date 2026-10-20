@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H043v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Joseph Banter (josephbanter985)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Joseph Banter (josephbanter985) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Joseph Banter (josephbanter985) | order #9773642882 | guess boots $64 | total $64 | status: delivered",
+  "2024-06-12 | Joseph Banter (josephbanter985) | charge $64 for order #9773642882 (debit card)"
+ ]
+}

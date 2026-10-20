@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H056v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Crystal Minh (cm803069)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Crystal Minh (cm803069) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Crystal Minh (cm803069) | order #7868114043 | michael_kors shirt $54 | total $54 | status: delivered",
+  "2024-06-12 | Crystal Minh (cm803069) | charge $54 for order #7868114043 (debit card)"
+ ]
+}

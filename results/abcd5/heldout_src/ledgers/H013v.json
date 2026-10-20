@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H013v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Rodriguez Domingo (rodriguezdomingo615)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Rodriguez Domingo (rodriguezdomingo615) | member: guest | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Rodriguez Domingo (rodriguezdomingo615) | order #2774174556 | calvin_klein jeans $64 | total $64 | status: delivered",
+  "2024-06-02 | Rodriguez Domingo (rodriguezdomingo615) | charge $64 for order #2774174556 (card)",
+  "2024-06-12 | Rodriguez Domingo (rodriguezdomingo615) | promo code NGEB8378 issued, 20% off, valid until 2024-07-15"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "scenario_id": "H014v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 8396,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "Hi",
+   "truth_predicate": "none",
+   "evidence": "none",
+   "scored": true,
+   "kind": "other",
+   "forbidden_assertions": []
+  },
+  {
+   "player": "My promo code is invalid or something",
+   "truth_predicate": "promised_discount",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

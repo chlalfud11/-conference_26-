@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H003v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Albert Sanders (asanders365)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Albert Sanders (asanders365) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Albert Sanders (asanders365) | order #4625310928 | calvin_klein boots $94 | total $94 | status: delivered",
+  "2024-06-02 | Albert Sanders (asanders365) | charge $94 for order #4625310928 (card)",
+  "2024-06-12 | Albert Sanders (asanders365) | promo code NGADFB97 issued, 20% off, valid until 2024-07-15"
+ ]
+}

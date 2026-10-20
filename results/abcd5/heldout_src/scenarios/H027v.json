@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H027v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 1913,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "I was charged twice for my premium shopping service and would like my money back",
+   "truth_predicate": "paid_deposit",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

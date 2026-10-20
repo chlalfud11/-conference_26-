@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H005n",
+ "customer": "Oakley Montague (oakleymontague)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 1839,
+  "flow": "storewide_query",
+  "subflow": "timing_4"
+ },
+ "turns": [
+  {
+   "player": "hi i was wondering when my promo code expires",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H049v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 9340,
+  "flow": "product_defect",
+  "subflow": "return_color"
+ },
+ "turns": [
+  {
+   "player": "I bought some boots but they are the wrong colour.",
+   "truth_predicate": "owns_item",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

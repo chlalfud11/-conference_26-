@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H054v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 1400,
+  "flow": "order_issue",
+  "subflow": "manage_cancel"
+ },
+ "turns": [
+  {
+   "player": "I only meant to buy one item, but I bought a second one as well by mistake, I was only thinking about buying it but hit purchase in error.",
+   "truth_predicate": "owns_item",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

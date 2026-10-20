@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H038v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 9,
+ "customer": "Alessandro Phoenix (alessandrop198)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Alessandro Phoenix (alessandrop198) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-06 | Alessandro Phoenix (alessandrop198) | order #4332478486 | michael_kors jeans $94, tommy_hilfiger jeans $84, michael_kors jacket $64 | total $242 | status: shipped, not delivered",
+  "2024-06-06 | Alessandro Phoenix (alessandrop198) | charge $242 for order #4332478486 (card)"
+ ]
+}

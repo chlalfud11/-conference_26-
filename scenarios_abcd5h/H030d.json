@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H030d",
+ "customer": "Gray Pemberton (graypemberton)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 1371,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "The shirt was double charged.",
+   "date": "2019-11-28"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H017v",
+ "customer": "Tatum Okonkwo (tatumokonkwo)",
+ "member_level": "silver",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 8273,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "I have a promo code, but it says it's invalid.",
+   "date": "2019-11-28"
+  }
+ ]
+}

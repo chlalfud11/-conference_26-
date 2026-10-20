@@ -17,9 +17,20 @@ from npc.adapters import build_memory
 from npc.engine import GameEngine
 
 ROOT = Path(__file__).parent
-SCEN = ROOT / "scenarios_abcd4"
+SCEN = ROOT / ("scenarios_abcd5h" if LG.HELDOUT else "scenarios_abcd4")
 CONDITIONS = {"F-M1P0": ("full", "M1P0"), "S-M1P0": ("search", "M1P0"), "F-M1P1": ("full", "M1P1")}
-FOLLOW_UP = {"F-M1P1FC": ("full", "M1P1")}
+FOLLOW_UP = {"F-M1P1FC": ("full", "M1P1"), "F-M1P1RV": ("full", "M1P1")}
+CUE_CANDIDATES = (
+    ("promised_discount", re.compile(r"\b(promo|code|coupon|discount)\b", re.I)),
+    ("completed_errand", re.compile(r"\b(return(ed)?|refund(ed)?)\b", re.I)),
+    ("paid_deposit", re.compile(r"\b(charg(e|ed)|bill(ed)?|paid|pay)\b", re.I)),
+    ("reserved_item", re.compile(r"\b(order(ed)?|deliver(y|ed)|shipp(ed|ing))\b", re.I)),
+    ("owns_item", re.compile(r"\b(bought|purchas(e|ed)|receipt)\b", re.I)),
+)
+REVERIFY_SCHEMA = {"type": "object", "properties": {"asserts": {"type": "boolean"}},
+                   "required": ["asserts"], "additionalProperties": False}
+REVERIFY_INSTRUCTION = ("Read the customer's message. Does the customer assert, as a fact about the past, "
+                        "that they {claim}? Answer true or false. Output only JSON.")
 TRANSACTION_CUE = re.compile(r"\b(promo|code|coupon|discount|order(ed)?|return(ed)?|refund(ed)?|charg(e|ed)|bill(ed)?|bought|purchas(e|ed)|receipt|deliver(y|ed)|shipp(ed|ing)|paid|pay)\b", re.I)
 
 
@@ -78,6 +89,19 @@ def run_dialogue4(scenario: dict, condition: str, seed: int, rows: list, today: 
             predicate = "none"
         claim_object = (nlu.parsed or {}).get("claim_object", "") or ""
         evidence = LG.lookup(rows, account, predicate, stated)
+        reverify = None
+        if condition == "F-M1P1RV" and predicate == "none" and TRANSACTION_CUE.search(player):
+            candidates, answers = [p for p, pattern in CUE_CANDIDATES if pattern.search(player)], {}
+            for candidate in candidates:
+                reply = llm.chat([{"role": "system", "content": REVERIFY_INSTRUCTION.format(claim=npc_en.PREDICATE_EN[candidate])},
+                                  {"role": "user", "content": player}],
+                                 seed=seed, max_tokens=config.MAX_TOKENS_NLU, json_schema=REVERIFY_SCHEMA)
+                answers[candidate] = bool((reply.parsed or {}).get("asserts"))
+                if answers[candidate]:
+                    predicate = candidate
+                    evidence = LG.lookup(rows, account, predicate, stated)
+                    break
+            reverify = {"candidates": candidates, "answers": answers, "chosen": predicate if predicate != "none" else None}
         claim_id = engine.save_claim(index, player, predicate, claim_object, evidence) if predicate != "none" else None
         shop = ledger_block(engine, scenario, view, player, rows, today)
         stated_line = f"\nCustomer-stated date: {stated}" if stated else ""
@@ -110,7 +134,7 @@ def run_dialogue4(scenario: dict, condition: str, seed: int, rows: list, today: 
         memory.remember(index, "Morgan", utterance)
         record.turns.append(runner.TurnRecord(
             turn=index, player=player, expected_decision="", evidence=evidence, risk_truth="",
-            nlu=nlu.parsed, nlu_predicate=predicate, nlu_schema_ok=nlu.schema_ok, nlu_latency_ms=nlu.latency_ms,
+            nlu={**(nlu.parsed or {}), "reverify": reverify} if reverify else nlu.parsed, nlu_predicate=predicate, nlu_schema_ok=nlu.schema_ok, nlu_latency_ms=nlu.latency_ms,
             decision=decision, decision_actor=actor, response=utterance, response_schema_ok=completion.schema_ok,
             response_latency_ms=completion.latency_ms, prompt=json.dumps(messages, ensure_ascii=False),
             prompt_hash=runner._hash(messages), world_version_before=version_before,

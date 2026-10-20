@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H055v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 5731,
+  "flow": "shipping_issue",
+  "subflow": "status"
+ },
+ "turns": [
+  {
+   "player": "Hi! I bought a pair of jeans but apparently in the receipt, there was no shipping cost. I requested the expedite shipping.",
+   "truth_predicate": "owns_item",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

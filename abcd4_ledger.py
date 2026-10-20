@@ -4,11 +4,13 @@ The lookup is what the game engine knows: it reads the shop ledger only, never t
 """
 import csv
 import json
+import os
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-DIR = ROOT / "ledger_abcd4"
+HELDOUT = os.environ.get("ABCD4_SET") == "heldout"
+DIR = ROOT / ("ledger_abcd5h" if HELDOUT else "ledger_abcd4")
 FIELDS = ("date", "customer", "account", "event", "order_id", "items", "amount", "note")
 CLAIM_EVENT = {"reserved_item": "order", "owns_item": "order", "paid_deposit": "duplicate_charge",
                "completed_errand": "return", "promised_discount": "promo"}

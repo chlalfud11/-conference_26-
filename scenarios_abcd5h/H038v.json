@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H038v",
+ "customer": "Sasha Easterbrook (sashaeasterbrook)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 4198,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hi, I wanted to check on my shipping status.  I ordered it 9 days ago, and haven't gotten it yet",
+   "date": "2019-11-22"
+  }
+ ]
+}

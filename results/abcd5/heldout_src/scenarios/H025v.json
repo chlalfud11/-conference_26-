@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H025v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 882,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "Hi, I placed an order to buy a shirt but I was charged twice. I want my money returned",
+   "truth_predicate": "paid_deposit",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

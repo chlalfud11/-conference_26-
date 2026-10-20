@@ -1,0 +1,42 @@
+[
+ {
+  "scenario_id": "H004n",
+  "original": "HI.  My name is Norman Bouchard.  I was wondering when my promo code can be used.",
+  "edited": "HI.  My name is Tatum Montague.  I was wondering when my promo code can be used."
+ },
+ {
+  "scenario_id": "H004d",
+  "original": "HI.  My name is Norman Bouchard.  I was wondering when my promo code can be used.",
+  "edited": "HI.  My name is Blair Abernathy.  I was wondering when my promo code can be used."
+ },
+ {
+  "scenario_id": "H015v",
+  "original": "Hi.  My name is Chloe Zhang.  I am curious as to when my promo code expires.",
+  "edited": "Hi.  My name is Indira Ingersoll.  I am curious as to when my promo code expires."
+ },
+ {
+  "scenario_id": "H015n",
+  "original": "Hi.  My name is Chloe Zhang.  I am curious as to when my promo code expires.",
+  "edited": "Hi.  My name is Blair Galloway.  I am curious as to when my promo code expires."
+ },
+ {
+  "scenario_id": "H015d",
+  "original": "Hi.  My name is Chloe Zhang.  I am curious as to when my promo code expires.",
+  "edited": "Hi.  My name is Emerson Abernathy.  I am curious as to when my promo code expires."
+ },
+ {
+  "scenario_id": "H037v",
+  "original": "Hey, Rodriguez Domingo here. I placed an order waaaaaaaaay back in October and never received it. WTF?",
+  "edited": "Hey, Blair Northcott here. I placed an order waaaaaaaaay back in October and never received it. WTF?"
+ },
+ {
+  "scenario_id": "H037n",
+  "original": "Hey, Rodriguez Domingo here. I placed an order waaaaaaaaay back in October and never received it. WTF?",
+  "edited": "Hey, Wren Galloway here. I placed an order waaaaaaaaay back in October and never received it. WTF?"
+ },
+ {
+  "scenario_id": "H037d",
+  "original": "Hey, Rodriguez Domingo here. I placed an order waaaaaaaaay back in October and never received it. WTF?",
+  "edited": "Hey, Umar Kingsley here. I placed an order waaaaaaaaay back in October and never received it. WTF?"
+ }
+]

@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H037v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Rodriguez Domingo (rdomingo377)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Rodriguez Domingo (rdomingo377) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Rodriguez Domingo (rdomingo377) | order #8517512910 | michael_kors boots $69, guess jacket $99, calvin_klein shirt $79 | total $247 | status: shipped, not delivered",
+  "2024-06-12 | Rodriguez Domingo (rdomingo377) | charge $247 for order #8517512910 (card)"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H009v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 10489,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "I have a promo code that I got five days ago, anytime I try and use it i get an invalid message",
+   "truth_predicate": "promised_discount",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

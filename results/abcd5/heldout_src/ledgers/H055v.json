@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H055v",
+ "predicate": "owns_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Joyce Wu (jw715886)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Joyce Wu (jw715886) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Joyce Wu (jw715886) | order #4524915900 | tommy_hilfiger jeans $89, guess jacket $89, calvin_klein jacket $64 | total $242 | status: delivered",
+  "2024-06-12 | Joyce Wu (jw715886) | charge $242 for order #4524915900 (card)"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H055v",
+ "customer": "Noor Kingsley (noorkingsley)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 5731,
+  "flow": "shipping_issue",
+  "subflow": "status"
+ },
+ "turns": [
+  {
+   "player": "Hi! I bought a pair of jeans but apparently in the receipt, there was no shipping cost. I requested the expedite shipping.",
+   "date": "2019-11-28"
+  }
+ ]
+}

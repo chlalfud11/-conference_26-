@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H013n",
+ "customer": "Avery Galloway (averygalloway)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 4793,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_invalid"
+ },
+ "turns": [
+  {
+   "player": "I got a promo code a few days ago, but when I try to use it, it's telling me that it's invalid.",
+   "date": "2019-11-28"
+  }
+ ]
+}

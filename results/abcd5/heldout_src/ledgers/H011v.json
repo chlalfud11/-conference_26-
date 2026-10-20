@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H011v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "David Williams (davidwilliams)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: David Williams (davidwilliams) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | David Williams (davidwilliams) | order #3383225140 |  | total $0 | status: delivered",
+  "2024-06-02 | David Williams (davidwilliams) | charge $0 for order #3383225140 (card)",
+  "2024-06-12 | David Williams (davidwilliams) | promo code NGFAE4C3 issued, 20% off, valid until 2024-07-15"
+ ]
+}

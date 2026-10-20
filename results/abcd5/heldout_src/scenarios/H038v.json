@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H038v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 4198,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hi, I wanted to check on my shipping status.  I ordered it 9 days ago, and haven't gotten it yet",
+   "truth_predicate": "reserved_item",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

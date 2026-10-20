@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H043v",
+ "customer": "Joseph Banter (josephbanter985)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 4630,
+  "flow": "product_defect",
+  "subflow": "return_size"
+ },
+ "turns": [
+  {
+   "player": "Hi, I would like to return an item i purchased. I bought the wrong size",
+   "date": "2019-11-28"
+  }
+ ]
+}

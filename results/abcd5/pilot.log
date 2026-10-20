@@ -1,0 +1,14 @@
+H001v none accept_as_belief -> request_evidence {'candidates': ['promised_discount'], 'answers': {'promised_discount': False}, 'chosen': None}
+H001n none accept_as_belief -> request_evidence {'candidates': ['promised_discount'], 'answers': {'promised_discount': False}, 'chosen': None}
+H001d none accept_as_belief -> request_evidence {'candidates': ['promised_discount'], 'answers': {'promised_discount': False}, 'chosen': None}
+H021v completed_errand accept_as_belief -> accept_as_belief None
+H021n completed_errand request_evidence -> request_evidence None
+H021d completed_errand dispute -> dispute None
+H041v owns_item accept_as_belief -> accept_as_belief None
+H041n owns_item request_evidence -> request_evidence None
+H041d owns_item dispute -> dispute None
+H051v completed_errand request_evidence -> request_evidence None
+H051n completed_errand request_evidence -> request_evidence None
+H051d completed_errand request_evidence -> request_evidence None
+{"no_leak": true, "english": true, "date_line": true, "determinism_non_triggered": true, "non_triggered_checked": 9}
+pilot ok 24/24

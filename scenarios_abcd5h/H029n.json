@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H029n",
+ "customer": "Kai Jaworski (kaijaworski)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 1829,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "In my bank statement, the jeans I bought got charged twice.",
+   "date": "2019-11-28"
+  }
+ ]
+}

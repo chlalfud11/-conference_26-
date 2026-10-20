@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H041d",
+ "customer": "Dakota Ingersoll (dakotaingersoll)",
+ "member_level": "guest",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 7221,
+  "flow": "product_defect",
+  "subflow": "return_size"
+ },
+ "turns": [
+  {
+   "player": "I bought some boots a couple weeks ago. When they got here I realized I bought the wrong size",
+   "date": "2019-11-28"
+  }
+ ]
+}

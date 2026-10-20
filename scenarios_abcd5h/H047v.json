@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H047v",
+ "customer": "Tatum Easterbrook (tatumeasterbrook)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 6015,
+  "flow": "product_defect",
+  "subflow": "return_color"
+ },
+ "turns": [
+  {
+   "player": "Hello. I bought a Calvin Klein shirt from you. I wanted a blue shirt but I bought the white one by mistake.",
+   "date": "2019-11-28"
+  }
+ ]
+}

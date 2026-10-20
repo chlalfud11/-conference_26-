@@ -1,0 +1,206 @@
+{
+ "prereg_sha_match": true,
+ "seal_before_live": true,
+ "heldout": {
+  "set": "heldout",
+  "runs_base": 531,
+  "runs_rv_live": 122,
+  "rv_missing": 0,
+  "rv_first_stage_nlu_same": 1.0,
+  "sources": 59,
+  "primary_accuracy_RV_vs_P1": {
+   "n": 59,
+   "RV": 0.7551789077212806,
+   "P1": 0.7476459510357816,
+   "diff": 0.007532956685499059,
+   "ci95": [
+    0.0,
+    0.018832391713747648
+   ],
+   "p": 0.5051747412629368
+  },
+  "secondary": {
+   "a_n_acceptance_RV_vs_P1": {
+    "n": 59,
+    "RV": 0.03389830508474576,
+    "P1": 0.2542372881355932,
+    "diff": -0.22033898305084745,
+    "ci95": [
+     -0.3220338983050847,
+     -0.12429378531073446
+    ],
+    "p": 4.999750012499375e-05
+   },
+   "b_v_over_rejection_RV_vs_FC": {
+    "n": 59,
+    "RV": 0.33333333333333337,
+    "FC": 0.3389830508474576,
+    "diff": -0.005649717514124295,
+    "ci95": [
+     -0.01694915254237288,
+     0.0
+    ],
+    "p": 1.0
+   },
+   "c_d_dispute_RV_vs_P1": {
+    "n": 59,
+    "RV": 0.632768361581921,
+    "P1": 0.6271186440677966,
+    "diff": 0.005649717514124294,
+    "ci95": [
+     0.0,
+     0.01694915254237288
+    ],
+    "p": 1.0
+   }
+  },
+  "holm": {
+   "a_n_acceptance_RV_vs_P1": 0.00014999250037498125,
+   "b_v_over_rejection_RV_vs_FC": 1.0,
+   "c_d_dispute_RV_vs_P1": 1.0
+  },
+  "safety_ok": true,
+  "adopt": false,
+  "accuracy_by_version": {
+   "P1": {
+    "v": 0.8700564971751412,
+    "n": 0.7457627118644068,
+    "d": 0.6271186440677966
+   },
+   "FC": {
+    "v": 0.6610169491525424,
+    "n": 0.9661016949152542,
+    "d": 0.6271186440677966
+   },
+   "RV": {
+    "v": 0.6666666666666666,
+    "n": 0.9661016949152542,
+    "d": 0.632768361581921
+   }
+  },
+  "triggered": {
+   "d": 37,
+   "n": 39,
+   "v": 37
+  },
+  "reverify_chosen": 3,
+  "reverify_all_no": 110,
+  "reverify_chosen_correct": 3,
+  "new_errors_vs_P1": 36,
+  "fixed_vs_P1": 40,
+  "rv_decisions_triggered": {
+   "v": {
+    "request_evidence": 36,
+    "accept_as_belief": 1
+   },
+   "n": {
+    "request_evidence": 39
+   },
+   "d": {
+    "request_evidence": 36,
+    "dispute": 1
+   }
+  }
+ },
+ "dev_exploratory": {
+  "set": "dev",
+  "runs_base": 756,
+  "runs_rv_live": 123,
+  "rv_missing": 0,
+  "rv_first_stage_nlu_same": 1.0,
+  "sources": 84,
+  "primary_accuracy_RV_vs_P1": {
+   "n": 84,
+   "RV": 0.8518518518518519,
+   "P1": 0.8333333333333334,
+   "diff": 0.01851851851851852,
+   "ci95": [
+    0.0026455026455026462,
+    0.04232804232804233
+   ],
+   "p": 0.12609369531523423
+  },
+  "secondary": {
+   "a_n_acceptance_RV_vs_P1": {
+    "n": 84,
+    "RV": 0.0,
+    "P1": 0.1626984126984127,
+    "diff": -0.1626984126984127,
+    "ci95": [
+     -0.23809523809523808,
+     -0.09126984126984126
+    ],
+    "p": 4.999750012499375e-05
+   },
+   "b_v_over_rejection_RV_vs_FC": {
+    "n": 84,
+    "RV": 0.22222222222222224,
+    "FC": 0.25,
+    "diff": -0.02777777777777778,
+    "ci95": [
+     -0.0634920634920635,
+     -0.003968253968253969
+    ],
+    "p": 0.12609369531523423
+   },
+   "c_d_dispute_RV_vs_P1": {
+    "n": 84,
+    "RV": 0.7777777777777777,
+    "P1": 0.75,
+    "diff": 0.027777777777777773,
+    "ci95": [
+     0.003968253968253968,
+     0.06349206349206349
+    ],
+    "p": 0.12609369531523423
+   }
+  },
+  "holm": {
+   "a_n_acceptance_RV_vs_P1": 0.00014999250037498125,
+   "b_v_over_rejection_RV_vs_FC": 0.25218739063046847,
+   "c_d_dispute_RV_vs_P1": 0.25218739063046847
+  },
+  "safety_ok": true,
+  "adopt": false,
+  "accuracy_by_version": {
+   "P1": {
+    "v": 0.9126984126984127,
+    "n": 0.8373015873015873,
+    "d": 0.75
+   },
+   "FC": {
+    "v": 0.75,
+    "n": 1.0,
+    "d": 0.75
+   },
+   "RV": {
+    "v": 0.7777777777777778,
+    "n": 1.0,
+    "d": 0.7777777777777778
+   }
+  },
+  "triggered": {
+   "d": 41,
+   "n": 41,
+   "v": 41
+  },
+  "reverify_chosen": 21,
+  "reverify_all_no": 102,
+  "reverify_chosen_correct": 21,
+  "new_errors_vs_P1": 34,
+  "fixed_vs_P1": 48,
+  "rv_decisions_triggered": {
+   "v": {
+    "request_evidence": 34,
+    "accept_as_belief": 7
+   },
+   "n": {
+    "request_evidence": 41
+   },
+   "d": {
+    "request_evidence": 34,
+    "dispute": 7
+   }
+  }
+ }
+}

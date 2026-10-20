@@ -1,0 +1,29 @@
+{
+ "scenario_id": "H052v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 5462,
+  "flow": "product_defect",
+  "subflow": "refund_initiate"
+ },
+ "turns": [
+  {
+   "player": "hello",
+   "truth_predicate": "none",
+   "evidence": "none",
+   "scored": true,
+   "kind": "other",
+   "forbidden_assertions": []
+  },
+  {
+   "player": "I bought this shirt but in the wrong color. Can I get a refund",
+   "truth_predicate": "owns_item",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

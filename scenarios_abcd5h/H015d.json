@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H015d",
+ "customer": "Emerson Abernathy (emersonabernathy)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 4989,
+  "flow": "storewide_query",
+  "subflow": "timing_4"
+ },
+ "turns": [
+  {
+   "player": "Hi.  My name is Emerson Abernathy.  I am curious as to when my promo code expires.",
+   "date": "2019-11-28"
+  }
+ ]
+}

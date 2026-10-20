@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H010v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Albert Sanders (alberts8)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Albert Sanders (alberts8) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Albert Sanders (alberts8) | order #4722687533 | michael_kors boots $59 | total $59 | status: delivered",
+  "2024-06-02 | Albert Sanders (alberts8) | charge $59 for order #4722687533 (card)",
+  "2024-06-12 | Albert Sanders (alberts8) | promo code NGE1F7B8 issued, 20% off, valid until 2024-07-15"
+ ]
+}

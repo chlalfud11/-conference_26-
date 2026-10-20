@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H008v",
+ "customer": "Quinn Bellweather (quinnbellweather)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 8025,
+  "flow": "purchase_dispute",
+  "subflow": "promo_code_out_of_date"
+ },
+ "turns": [
+  {
+   "player": "Hi, i got a promo code but it keeps saying invalid as i use it",
+   "date": "2019-11-28"
+  }
+ ]
+}

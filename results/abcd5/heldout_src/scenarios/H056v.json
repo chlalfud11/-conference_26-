@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H056v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 9297,
+  "flow": "product_defect",
+  "subflow": "return_color"
+ },
+ "turns": [
+  {
+   "player": "I bought this MK shirt from you, but I'm afraid it came in the wrong color, so I need to return it",
+   "truth_predicate": "owns_item",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

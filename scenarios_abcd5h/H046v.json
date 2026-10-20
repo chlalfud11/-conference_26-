@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H046v",
+ "customer": "Kai Easterbrook (kaieasterbrook)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 1349,
+  "flow": "product_defect",
+  "subflow": "return_size"
+ },
+ "turns": [
+  {
+   "player": "I bought an item and want to return it, I bought the wrong size",
+   "date": "2019-11-28"
+  }
+ ]
+}

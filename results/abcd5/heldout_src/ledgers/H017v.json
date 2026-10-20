@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H017v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "David Williams (dwilliams885)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: David Williams (dwilliams885) | member: silver | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | David Williams (dwilliams885) | order #2670015345 | guess boots $79 | total $79 | status: delivered",
+  "2024-06-02 | David Williams (dwilliams885) | charge $79 for order #2670015345 (card)",
+  "2024-06-12 | David Williams (dwilliams885) | promo code NGDB6DF7 issued, 20% off, valid until 2024-07-15"
+ ]
+}

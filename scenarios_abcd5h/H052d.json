@@ -1,0 +1,22 @@
+{
+ "scenario_id": "H052d",
+ "customer": "Lennox Pemberton (lennoxpemberton)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 5462,
+  "flow": "product_defect",
+  "subflow": "refund_initiate"
+ },
+ "turns": [
+  {
+   "player": "hello"
+  },
+  {
+   "player": "I bought this shirt but in the wrong color. Can I get a refund",
+   "date": "2019-11-28"
+  }
+ ]
+}

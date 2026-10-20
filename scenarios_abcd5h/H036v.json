@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H036v",
+ "customer": "Lennox Delacroix (lennoxdelacroix)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 7589,
+  "flow": "shipping_issue",
+  "subflow": "missing"
+ },
+ "turns": [
+  {
+   "player": "Hi there. I need to check on a package i ordered but never received. It's been 5 days.",
+   "date": "2019-11-28"
+  }
+ ]
+}

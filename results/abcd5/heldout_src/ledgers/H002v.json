@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H002v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Joyce Wu (joycewu)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Joyce Wu (joycewu) | member: guest | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Joyce Wu (joycewu) | order #9671635828 |  | total $0 | status: delivered",
+  "2024-06-02 | Joyce Wu (joycewu) | charge $0 for order #9671635828 (card)",
+  "2024-06-12 | Joyce Wu (joycewu) | promo code NG52F6DC issued, 20% off, valid until 2024-07-15"
+ ]
+}

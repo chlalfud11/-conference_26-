@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H039v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 14,
+ "customer": "Chloe Zhang (chloez94)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Chloe Zhang (chloez94) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-01 | Chloe Zhang (chloez94) | order #9126379156 | guess jeans $89 | total $89 | status: shipped, not delivered",
+  "2024-06-01 | Chloe Zhang (chloez94) | charge $89 for order #9126379156 (card)"
+ ]
+}

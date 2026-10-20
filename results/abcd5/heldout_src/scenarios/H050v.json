@@ -1,0 +1,21 @@
+{
+ "scenario_id": "H050v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 6406,
+  "flow": "product_defect",
+  "subflow": "return_stain"
+ },
+ "turns": [
+  {
+   "player": "Hi there, I bought a t-shirt and it has a stain, so I'd like to return it.  Can you tell me how to go about doing that?",
+   "truth_predicate": "owns_item",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

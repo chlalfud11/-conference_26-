@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H059d",
+ "customer": "Finley Easterbrook (finleyeasterbrook)",
+ "member_level": "bronze",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 7958,
+  "flow": "product_defect",
+  "subflow": "refund_initiate"
+ },
+ "turns": [
+  {
+   "player": "Hi! I purchased a pair of Tommy Hilfiger boots but I do not need them anymore",
+   "date": "2019-11-28"
+  }
+ ]
+}

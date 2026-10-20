@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H020v",
+ "predicate": "completed_errand",
+ "verified": true,
+ "days_ago": 7,
+ "customer": "Chloe Zhang (czhang28)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Chloe Zhang (czhang28) | member: guest | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-01 | Chloe Zhang (czhang28) | order #2269137343 | calvin_klein jeans $69 | total $69 | status: delivered",
+  "2024-06-01 | Chloe Zhang (czhang28) | charge $69 for order #2269137343 (card)",
+  "2024-06-08 | Chloe Zhang (czhang28) | return received for order #2269137343; refund pending"
+ ]
+}

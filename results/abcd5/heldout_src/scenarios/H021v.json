@@ -1,0 +1,29 @@
+{
+ "scenario_id": "H021v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 8428,
+  "flow": "purchase_dispute",
+  "subflow": "mistimed_billing_already_returned"
+ },
+ "turns": [
+  {
+   "player": "hello",
+   "truth_predicate": "none",
+   "evidence": "none",
+   "scored": true,
+   "kind": "other",
+   "forbidden_assertions": []
+  },
+  {
+   "player": "I already returned my item but how come you guys still haven't refunded me?",
+   "truth_predicate": "completed_errand",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

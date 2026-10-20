@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H001v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Crystal Minh (crystalminh)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Crystal Minh (crystalminh) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Crystal Minh (crystalminh) | order #8616840026 |  | total $0 | status: delivered",
+  "2024-06-02 | Crystal Minh (crystalminh) | charge $0 for order #8616840026 (card)",
+  "2024-06-12 | Crystal Minh (crystalminh) | promo code NG976B8E issued, 20% off, valid until 2024-07-15"
+ ]
+}

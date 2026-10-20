@@ -1,0 +1,14 @@
+{
+ "candidates": {
+  "owns_item": 30,
+  "completed_errand": 2,
+  "promised_discount": 19,
+  "reserved_item": 7,
+  "paid_deposit": 11
+ },
+ "dropped": {
+  "overlap": 0,
+  "full_date_or_denial": 1
+ },
+ "sources": 59
+}

@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H036v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Norman Bouchard (normanb7)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Norman Bouchard (normanb7) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-12 | Norman Bouchard (normanb7) | order #9798987635 | tommy_hilfiger jacket $89 | total $89 | status: shipped, not delivered",
+  "2024-06-12 | Norman Bouchard (normanb7) | charge $89 for order #9798987635 (card)"
+ ]
+}

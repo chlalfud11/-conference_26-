@@ -1,0 +1,13 @@
+{
+ "scenario_id": "H012v",
+ "predicate": "promised_discount",
+ "verified": true,
+ "days_ago": 3,
+ "customer": "Sanya Afzal (sa759367)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Sanya Afzal (sa759367) | member: gold | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-02 | Sanya Afzal (sa759367) | order #0382454549 | tommy_hilfiger boots $59 | total $59 | status: delivered",
+  "2024-06-02 | Sanya Afzal (sa759367) | charge $59 for order #0382454549 (card)",
+  "2024-06-12 | Sanya Afzal (sa759367) | promo code NG2EB32E issued, 20% off, valid until 2024-07-15"
+ ]
+}

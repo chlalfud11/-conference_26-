@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H023n",
+ "customer": "Umar Fairbanks (umarfairbanks)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "dev",
+  "convo_id": 7168,
+  "flow": "subscription_inquiry",
+  "subflow": "manage_dispute_bill"
+ },
+ "turns": [
+  {
+   "player": "pretty sur eyou guys double charged me",
+   "date": "2019-11-28"
+  }
+ ]
+}

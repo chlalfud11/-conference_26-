@@ -1,0 +1,29 @@
+{
+ "scenario_id": "H020v",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 5492,
+  "flow": "purchase_dispute",
+  "subflow": "mistimed_billing_already_returned"
+ },
+ "turns": [
+  {
+   "player": "Hi",
+   "truth_predicate": "none",
+   "evidence": "none",
+   "scored": true,
+   "kind": "other",
+   "forbidden_assertions": []
+  },
+  {
+   "player": "even though I already returned my order last week",
+   "truth_predicate": "completed_errand",
+   "evidence": "verified",
+   "scored": true,
+   "kind": "claim",
+   "forbidden_assertions": []
+  }
+ ]
+}

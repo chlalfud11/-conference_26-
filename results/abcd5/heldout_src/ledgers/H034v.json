@@ -1,0 +1,12 @@
+{
+ "scenario_id": "H034v",
+ "predicate": "reserved_item",
+ "verified": true,
+ "days_ago": 5,
+ "customer": "Sanya Afzal (sa871972)",
+ "header": "[Ledger - Northgate Outfitters]\nToday: 2024-06-15\nCustomer on this chat: Sanya Afzal (sa871972) | member: bronze | identity: VERIFIED at chat start (name + zip)",
+ "rows": [
+  "2024-06-10 | Sanya Afzal (sa871972) | order #0880496690 | tommy_hilfiger shirt $89 | total $89 | status: shipped, not delivered",
+  "2024-06-10 | Sanya Afzal (sa871972) | charge $89 for order #0880496690 (card)"
+ ]
+}

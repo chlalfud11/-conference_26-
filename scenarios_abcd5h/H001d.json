@@ -1,0 +1,19 @@
+{
+ "scenario_id": "H001d",
+ "customer": "Reese Ingersoll (reeseingersoll)",
+ "member_level": "gold",
+ "trust": 2,
+ "source": {
+  "dataset": "ABCD v1.1 (MIT)",
+  "split": "test",
+  "convo_id": 5353,
+  "flow": "storewide_query",
+  "subflow": "timing_4"
+ },
+ "turns": [
+  {
+   "player": "Hi, I have a promo code but I don't know when it is active.",
+   "date": "2019-11-28"
+  }
+ ]
+}
